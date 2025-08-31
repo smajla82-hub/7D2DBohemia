@@ -1,0 +1,247 @@
+So  I have another questions . D you think , im gonna ask this again :D That it could be possible to somehow call external app of connected client? 
+I'll explain. If player fe. typed /vote  could steam overlay be opened (default shift+tab on his PC - we cant send anything on client PC obviously) ? and this web  with player ID, ready to vote straigh away ? What I would like to do simplify the process of voting in jsut few clicks. 
+7D2D game chat doesnt allow clicable web url , which is a shame , that could be also a way, but i think i saw this variant Im proposing on some other server working. 
+What do you think, disscuss ;) https://steamcommunity.com/openid/login?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=checkid_setup&openid.return_to=https%3A%2F%2F7daystodie-servers.com%2Fserver%2F157783%2Fvote%2Faction%2F&openid.realm=https%3A%2F%2F7daystodie-servers.com&openid.ns.sreg=http%3A%2F%2Fopenid.net%2Fextensions%2Fsreg%2F1.1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_selectEditGreat question! Unfortunately, we cannot directly trigger the Steam overlay or open URLs on the client's PC from the server-side telnet connection. This would be a massive security risk if games could force-open things on players' computers!
+However, there ARE some creative workarounds that other servers might be using:
+Option 1: Custom Server Mod (Most Likely)
+Some servers use custom mods that add client-side functionality. These mods can:
+
+Intercept chat commands on the client
+Open Steam overlay with steam://openurl/ protocol
+Make URLs clickable in chat
+Add custom UI elements
+
+This is probably what you saw on other servers. The mod would need to be installed by all players though.
+Option 2: Steam Web API Integration
+You could create a simplified voting flow:
+
+Player types /vote
+Script generates a short personalized link like vote.yourserver.com/abc123
+Player manually opens the link
+The link redirects to the full Steam OpenID URL with their ID pre-filled
+
+The shortened URL makes it easier to type manually.
+Option 3: Discord Bot Integration
+Many servers use Discord bots:
+
+Player types /vote in game
+Script sends them a code: "Your vote code is: ABC123"
+They go to Discord and type !vote ABC123
+Discord bot sends them a clickable link via DM
+
+Option 4: Workshop Mod Solution
+You could create a simple client-side mod that:
+xml<config>
+  <append xpath="/windows">
+    <window name="VoteWindow">
+      <panel name="content">
+        <label text="Click to vote:" />
+        <button onpress="OpenURL('steam://openurl/https://7daystodie-servers.com/server/157783/vote')" />
+      </panel>
+    </window>
+  </append>
+</config>
+This would add a UI button that opens the Steam overlay with your voting page.
+What I'd Recommend:
+Since you want the simplest solution without requiring players to install mods, I'd suggest:
+
+Create a simple redirect URL like vote.bohemia7d2d.com that redirects to your full voting URL
+Update the script to send: "Vote at: vote.bohemia7d2d.com - Copy this URL to your browser!"
+Players can easily remember/type this short URL
+
+Would you like me to help you set up a URL shortener or redirect for your voting page? That would make it much easier for players without needing any client-side modifications!
+The sad reality is that 7D2D's telnet interface is server-side only and can't trigger client actions beyond what the game normally allows (chat messages, giving items, teleporting, etc.). But with a short, memorable URL, the voting process can still be pretty quick!RetryMHmm maybe we could go even further, not just simple.  Im kinda curious about option 4. 
+How would the UI button look liked in the game, can you give me an example ? 
+Could we fe. make a new project about this and create a server side only mod , which would add icon in the UI of the game, which would be functioning clicable control for players that would play on my server ? 
+It could be hub like icon that could serve for voting, maybe even shop, we could develop own currency for player that would simply play or vote, award them with virtual currency and they could spend them on the ingame rewards through this icon hub ? What do you think ?EditOh wow, now you're thinking big! I love the ambition! This could be a really cool project that would set your server apart. Let me break down what's possible and what the challenges are:
+The Reality Check First:
+UI mods in 7D2D require CLIENT-SIDE installation. You cannot add UI elements from server-side only. This is because:
+
+UI rendering happens on the player's computer
+The server can only send data, not modify the client's interface
+Players would need to download your mod from Steam Workshop or manually
+
+BUT - This Could Be AWESOME!
+If you're willing to create a Workshop mod that players subscribe to, you could build something really special:
+What Your Mod Could Look Like:
+xml<!-- UI Example - windows.xml -->
+<configs>
+  <append xpath="/windows">
+    <!-- Small hub button in corner -->
+    <window name="BohemiaHubButton" pos="1820,20" width="80" height="80">
+      <sprite depth="0" name="hubIcon" sprite="ui_game_symbol_cart" pos="0,0" width="80" height="80" color="255,215,0" />
+      <button name="btnOpenHub" sprite="menu_empty" pos="0,0" width="80" height="80" 
+              sound="menu_click" onpress="ShowWindow('BohemiaServerHub')" />
+    </window>
+    
+    <!-- Main Hub Window -->
+    <window name="BohemiaServerHub" pos="560,250" width="800" height="600" 
+            controller="ServerHubController" hidden="true">
+      <panel name="header" pos="0,0" width="800" height="100" backgroundColor="0,0,0,200">
+        <label text="BOHEMIA SERVER HUB" pos="400,50" font_size="36" color="255,215,0" />
+        <button name="btnClose" sprite="ui_game_symbol_x" pos="750,10" width="40" height="40" 
+                onpress="HideWindow('BohemiaServerHub')" />
+      </panel>
+      
+      <!-- Tab buttons -->
+      <panel name="tabs" pos="0,100" width="800" height="60">
+        <button name="tabVote" pos="50,10" width="150" height="40" 
+                sprite="menu_empty" text="VOTE" onpress="ShowTab('vote')" />
+        <button name="tabShop" pos="220,10" width="150" height="40" 
+                sprite="menu_empty" text="SHOP" onpress="ShowTab('shop')" />
+        <button name="tabStats" pos="390,10" width="150" height="40" 
+                sprite="menu_empty" text="MY STATS" onpress="ShowTab('stats')" />
+      </panel>
+      
+      <!-- Vote Panel -->
+      <panel name="votePanel" pos="50,180" width="700" height="350">
+        <label text="Vote Daily for Rewards!" pos="350,30" font_size="24" />
+        <label text="Current Coins: {playercoins}" pos="350,70" font_size="20" />
+        <button name="btnVote" pos="250,150" width="200" height="60" 
+                sprite="ui_game_button" text="VOTE NOW" 
+                onpress="OpenURL('steam://openurl/https://vote.bohemia7d2d.com')" />
+        <label text="Next vote available in: {votetime}" pos="350,250" />
+      </panel>
+    </window>
+  </append>
+</configs>
+The Full System Architecture:
+┌─────────────────────────┐
+│   CLIENT (Player PC)    │
+│  ┌──────────────────┐   │
+│  │  Workshop Mod    │   │◄── Players subscribe on Steam
+│  │  - UI Elements   │   │
+│  │  - Hub Window    │   │
+│  │  - API Calls     │   │
+│  └──────────────────┘   │
+│           ▲             │
+│           │             │
+│      HTTP Requests      │
+│           │             │
+│           ▼             │
+└─────────────────────────┘
+            │
+            │
+┌─────────────────────────┐
+│   WEB API SERVER        │
+│  ┌──────────────────┐   │
+│  │  Node.js/Python  │   │◄── You host this
+│  │  - Track coins   │   │
+│  │  - Shop items    │   │
+│  │  - Vote status   │   │
+│  └──────────────────┘   │
+│           ▲             │
+│           │             │
+│      Database Updates   │
+│           │             │
+│           ▼             │
+└─────────────────────────┘
+            │
+            │
+┌─────────────────────────┐
+│   GAME SERVER           │
+│  ┌──────────────────┐   │
+│  │  Your Python     │   │◄── Gives rewards
+│  │  Voting Script   │   │
+│  └──────────────────┘   │
+└─────────────────────────┘
+Features You Could Add:
+
+Virtual Currency System
+
+Earn coins for: voting, playtime, zombie kills, player kills
+Spend on: items, buffs, teleports, land claims
+
+
+Shop Categories
+
+Weapons & Tools
+Building Materials
+Special Effects (colored chat, titles)
+Convenience (teleports, bag recovery)
+
+
+Player Stats
+
+Total votes
+Coins earned/spent
+Playtime
+Leaderboards
+
+
+Daily Quests
+
+"Kill 50 zombies" = 10 coins
+"Mine 100 iron" = 15 coins
+"Survive a bloodmoon" = 50 coins
+
+
+
+The Technical Challenges:
+
+You'd need to create:
+
+A Steam Workshop mod (XML/XPath for UI)
+A web API server (Python/Node.js)
+Database for tracking (MySQL/PostgreSQL)
+Integration with your voting script
+
+
+Players would need to:
+
+Subscribe to your mod on Workshop
+Have it auto-download
+One-time setup, then automatic
+
+
+
+My Recommendation:
+Start small with a "Voting Hub" mod, then expand:
+Phase 1: Simple voting button
+
+Just a UI button that opens voting page
+Shows next vote time
+1-2 days to develop
+
+Phase 2: Add coin tracking
+
+Connect to web API
+Display player coins
+1 week to develop
+
+Phase 3: Add shop
+
+Simple item exchange
+2-3 weeks to develop
+
+Phase 4: Full economy
+
+Quests, leaderboards, etc.
+Ongoing development
+
+Would you like me to help you start with Phase 1? I could create the basic mod structure and UI elements for a simple voting button that your players could use. We could make it look really professional and match your server's theme!
+This could genuinely make your server stand out - most servers just have basic voting, but a full hub system would be next-level! 🚀RetryMThat sounds really fun! Im pretty sure we ned a lot of space and your chats ara limited, so we need you to have access to all the previous chats. Should i create a new separate PROJECT here called PROJECT HUB(7D2D)  or do we continu here ?EditYes, definitely create a new separate project! PROJECT HUB(7D2D) sounds perfect!
+This is going to be a substantial development with multiple components:
+
+XML mod files for UI
+Web API backend
+Database schema
+Integration with your existing voting system
+Possibly custom C# scripts for advanced features
+
+A fresh project will give us:
+
+Clean workspace focused on this hub system
+Better organization for the different components
+Ability to reference back to the voting script when needed
+Room to properly plan the architecture
+
+When you create the new project, we can start with:
+
+Planning the full system architecture
+Creating the basic mod structure
+Designing the UI mockups
+Setting up the Workshop mod framework
+
+This is going to be exciting! Your server could have one of the most advanced player engagement systems in the 7D2D community. The combination of an in-game hub with voting, shop, and economy would really set you apart.
+Go ahead and create PROJECT HUB(7D2D) and let's build something awesome! 🚀

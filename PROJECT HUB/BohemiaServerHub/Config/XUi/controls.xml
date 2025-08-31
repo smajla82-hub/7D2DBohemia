@@ -1,0 +1,15 @@
+<configs>
+    <!-- Add a custom vote button control -->
+    <append xpath="/controls">
+        <bohemia_vote_button>
+            <rect controller="XUiC_SimpleButton" style="press, hover" sound="menu_click"
+                  on_press="true" width="200" height="50">
+                <sprite sprite="ui_game_button" color="[white]" type="sliced" />
+                <label text="VOTE NOW" pos="100,25" 
+                       font_size="20" color="0,255,0" 
+                       justify="center" pivot="center" 
+                       effect="outline" />
+            </rect>
+        </bohemia_vote_button>
+    </append>
+</configs>

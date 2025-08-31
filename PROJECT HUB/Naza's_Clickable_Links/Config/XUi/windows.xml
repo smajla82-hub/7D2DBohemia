@@ -1,0 +1,34 @@
+<N.S.S>
+	
+	<!-- Clickable Link -->
+	<InsertBefore xpath="/windows/window[@name='chatoutput']">
+	
+	<window name="btnTest" controller="NewsScreen" anchor="CenterTop" pos="610,-450" justify="center" disableautobackground="true">
+		
+		
+		<panel name="header" pos="0,0" height="46" depth="3" bordercolor="[black]" borderthickness="50" >
+			
+			<!-- IMPORTANT This is where the link to the file to read from goes. It MUST link to the CONTENTS of the file not simply the file itself --> <!-- also note link does not require @https  -->
+			<rect name="btnTest" depth="10" pos="385,0" width="385" height="47" enabled_font_color="[labelColor]" controller="NewsWindow" sources="https://raw.githubusercontent.com/smajla82-hub/7D2DBohemia/refs/heads/main/Naza_links.xml">
+					
+					<!-- Line for the actual button you can change the color of it here -->
+					<button depth="10" name="btnLink" pos="-385,0" style="hover,scroll,press" sprite="menu_empty" hoverscale="1" defaultcolor="100,100,100,255" disabledcolor="0,0,0,1" hovercolor="100,100,100,100" type="sliced" enabled="{has_link}" gamepad_selectable="{has_news}" />
+					
+					<!-- Just adds a border behind the button -->
+					<sprite depth="9" color="156,136,103,255" type="sliced" pos="-387,2" width="391" height="52" fillcenter="false" />
+						
+						<!-- Required line -->
+						<label depth="1" name="continueButtonLabelController" spacing_x="5" font_size="1" overflow="resizefreely" text_key="xuiNewsContinueController" color="[white]" pivot="center" parse_actions="true" visible="{is_controller_input}" />
+						
+						<!-- Required line -->
+						<label depth="1" name="continueButtonLabelKeyboard" spacing_x="5" font_size="1" overflow="resizefreely" text_key="xuiNewsContinueKeyboard" color="[white]" upper_case="true" pivot="center" parse_actions="true" visible="{# !is_controller_input}" />				
+						
+						<!-- Text You Want On The Button -->
+						<label name="btntext" pos="-385,-5" color="[green]" depth="99" height="47" width="385" font_size="40" justify="center" text="Click To Visit" />
+			</rect>		
+		</panel>     
+	</window>
+	
+	</InsertBefore>
+
+</N.S.S>

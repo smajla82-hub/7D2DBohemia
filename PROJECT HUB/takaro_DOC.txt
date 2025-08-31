@@ -1,0 +1,844 @@
+Modules
+
+The core of Takaro is built around Modules. Modules are a very powerful and flexible way of creating features..
+
+Takaro comes with a set of built-in modules. When you enable these on a Gameserver, you will be able to change the configuration of the module to customize it but you cannot edit the code. This allows Takaro to automatically keep the built-in modules up-to-date.
+
+Each module consists of one or more of the following components:
+
+    Hooks
+    Cronjobs
+    Commands
+
+Hooks
+
+Hooks are triggered when a certain event happens on a Gameserver. Think of it as a callback function that is executed when a certain event happens. For example, when a player joins a server, a Hook can be triggered that will send a message to the player.
+
+You can optionally add a string filter to hooks, allowing you more control over when it fires exactly. For advanced users, regex filtering is also supported.
+Cronjobs
+
+Cronjobs are triggered based on time. This can be a simple repeating pattern like "Every 5 minutes" or "Every day" or you can use raw Cron syntax to define more complex patterns like "Every Monday, Wednesday and Friday at 2 PM";
+Commands
+
+Commands are triggered by a user. They are triggered when a player sends a chat message starting with the configured command prefix. Note that this means that commands are a manual action, unlike Hooks and Cronjobs which are triggered with any user-intervention.
+Arguments
+
+Commands support arguments, allowing you to pass data to the Function. For example, you can create a command that allows players to teleport to a specific location. The command could look like /teleport homeBase.
+
+Arguments can have different types, such as string, number, boolean and player. Each of these types gets validated before the command is executed. If the validation fails, the user will get an error message. So if you set an argument to be a number, but the user passes a string like test, the command will not be executed, and the user will get an error message.
+
+The player type is a special type that allows you to pass a player as an argument. This is useful for commands that require a player to be passed, such as /kick John Doe. The player type can be a partial name, so /kick John would also work. It also supports case insensitivity, so /kick john would also work. You can also pass IDs to be most precise. If multiple players match the name, the user will get an error message.
+Command Permissions
+
+Commands can require specific permissions to be executed. This allows you to restrict powerful commands to trusted players or roles.
+
+When a player tries to execute a command without the required permissions:
+
+    They receive a permission denied message
+    The command is not executed
+    A COMMAND_EXECUTION_DENIED event is logged
+
+Example of a command with required permissions:
+
+{
+  name: 'grantCurrency',
+  trigger: 'grantcurrency',
+  helpText: 'Grant money to a player',
+  requiredPermissions: ['ECONOMY_UTILS_MANAGE_CURRENCY'],
+  arguments: [
+    // ... arguments
+  ]
+}
+
+Players with the ROOT permission bypass all command permission checks.
+Configuration
+
+Takaro modules have two types of configuration:
+User Configuration
+
+User configuration (userConfig) is what you define for your module. These are settings that server owners can adjust through the Takaro dashboard. Examples might include:
+
+    Welcome messages
+    Maximum allowed items
+    Feature toggles
+    Custom thresholds
+
+Access user configuration like this:
+
+import { takaro, data } from '@takaro/helpers';
+
+async function main() {
+  const { module: mod } = data;
+
+  // Access your custom config values
+  const welcomeMessage = mod.userConfig.welcomeMessage;
+  const maxItems = mod.userConfig.maxItems;
+  const isFeatureEnabled = mod.userConfig.enableAdvancedFeatures;
+}
+
+await main();
+
+System Configuration
+
+System configuration (systemConfig) is automatically managed by Takaro and includes settings that apply to all module components. You don't need to handle these in your code - Takaro takes care of applying them automatically. Examples include:
+
+    Command costs
+    Command cooldowns
+    Hook filters
+    Channel IDs for Discord integrations
+
+The key difference is that you control userConfig through your module's configuration schema, while systemConfig is managed by Takaro itself.
+User Config
+
+When create a module you can do that in two ways:
+
+    Builder Mode: provides an interactive interface where you can generate config fields by selecting predefined options from dropdown menus.
+
+    Manual Mode: offers full control, allowing you to manually describe the config fields. This is useful if you need advanced features not yet supported in the schema builder like nested objects.
+
+Manual Mode
+
+Both userConfig and systemConfig are built on the react-jsonschema-form library. Each of the configs consists outs of two schemas that define which inputs fields are included and how they are displayed:
+
+    JSON Schema: specifies the structure of the form data, including which input fields are present.
+    UI Schema: controls the presentation of those fields, determining how they are rendered.
+
+Custom Rendering Fields (UiSchema)
+
+Explore the uiSchema object documentation for more information about the structure of the uiSchemas. Takaro currently supports the following custom field types in the UI schema.
+
+    item: A dropdown field listing all items of a specific game (depending on the type of game server it is installed on)
+    duration: A field allowing the user to select a duration which is then converted to milliseconds
+    country: A dropdown listing all countries
+
+Module Versioning
+
+Takaro's module versioning system helps you manage changes to your modules while maintaining compatibility with existing installations. This section explains how versioning works and best practices for managing module versions.
+Version Types
+Latest Version
+
+Every module has a special latest version that represents the current development state. When you create or modify module components (hooks, cronjobs, or commands), these changes are always made to the latest version. Think of this as your development or staging environment.
+Tagged Versions
+
+Once you're satisfied with your module's state, you can create a tagged version (e.g., 1.0.0). Tagged versions are immutable - they cannot be modified after creation. This immutability ensures consistency and reliability for server owners using your module.
+Version Tagging
+Semantic Versioning
+
+Takaro requires all version tags to follow Semantic Versioning (SemVer). The format is MAJOR.MINOR.PATCH, where:
+
+    MAJOR version changes indicate incompatible API changes
+    MINOR version changes add functionality in a backward-compatible manner
+    PATCH version changes include backward-compatible bug fixes
+
+For example:
+
+    1.0.0 - Initial stable release
+    1.1.0 - Added new features
+    1.1.1 - Bug fixes
+    2.0.0 - Breaking changes
+
+note
+
+While Takaro enforces the SemVer format for tags, it's your responsibility as a module developer to:
+
+    Choose appropriate version numbers based on the nature of your changes
+    Maintain backward compatibility when appropriate
+    Clearly communicate breaking changes to users
+
+Best Practices
+
+    Start with 0.x.x: For modules in initial development, use 0.x.x versions to indicate that the module might change
+    Test Before Tagging: Thoroughly test your module in the latest version before creating a tagged release
+    Migration Guide: Provide migration instructions when releasing versions with breaking changes
+
+
+
+
+
+
+
+
+
+
+Variables
+
+What if you want to keep track of some data in different executions? For example, you want to keep track of how many times a player has joined the server. You can use Variables for this.
+
+Variables are key-value pairs stored in the database. Each variable can be linked to a specific GameServer, Player, and/or Module. This flexibility allows you to store data relevant to a specific player, server, or module.
+
+Variable keys must be unique per combination of GameServer, Player, and Module. This means you can have a variable with the key playerJoinedCount for each unique combination of a player, a game server, and a module, but you cannot have two variables with the same key for the same combination.
+Usage
+Creating a variable
+
+Creating a variable is as simple as calling the variableControllerCreate function.
+
+await takaro.variable.variableControllerCreate({
+  key: 'my_teleport',
+  value: JSON.stringify({
+    x: data.player.positionX,
+    y: data.player.positionY,
+    z: data.player.positionZ,
+  }),
+  gameServerId: data.gameServerId,
+  moduleId: mod.moduleId,
+  playerId: player.playerId,
+});
+
+Notice that we define gameServerId, moduleId AND playerId here. This is because we want to store the position of the player, so we need to store it for the specific player, on the specific server, and for the specific module. Doing it this way allows another player to also create a teleport called 'my_teleport' without overwriting the first player's teleport.
+
+Note that in these examples, we often use moduleId: mod.moduleId. This limits the results to only Variables in the current Module. This is good practice, as it will prevent key collisions with other Modules.
+Retrieving a variable
+
+Retrieving a variable uses the variableControllerSearch function. This function allows you to search for variables based on a set of filters. In this case, we want to retrieve the teleport we created earlier.
+
+const ownedTeleports = await takaro.variable.variableControllerSearch({
+  filters: {
+    key: ['my_teleport'],
+    gameServerId: [gameServerId],
+    playerId: [player.playerId],
+    moduleId: [mod.moduleId],
+  },
+});
+
+Notice we are using the same IDs as we used when creating the variable. Let's say we omitted the playerId in this example, this search could return the 'my_teleport' variable for playerX AND playerY.
+
+Let's say that we are interested in retrieving all teleports for a specific player. We can do this by omitting the key filter.
+
+const ownedTeleports = await takaro.variable.variableControllerSearch({
+  filters: {
+    gameServerId: [gameServerId],
+    playerId: [player.playerId],
+    moduleId: [mod.moduleId],
+  },
+});
+
+Or if we want to get a list of all teleports on a specific server
+
+const ownedTeleports = await takaro.variable.variableControllerSearch({
+  filters: {
+    gameServerId: [gameServerId],
+  },
+});
+
+There are many more filters and combinations available, check out the API reference for more information.
+Updating a variable
+
+Updating a variable is done with the variableControllerUpdate.
+
+Notice that updating a variable uses the ID of the database record, not the key.
+
+await takaro.variable.variableControllerUpdate(variableId, {
+  value: new Date().toISOString(),
+});
+
+Deleting a variable
+
+Deleting a variable is done with the variableControllerDelete.
+
+await takaro.variable.variableControllerDelete(variableId);
+
+
+
+
+
+
+API
+
+For a hands-on experience and quick start with the Takaro API, please visit the interactive API documentation. This page allows you to explore the API's endpoints, make test requests, and view responses in real-time. It's a great resource for both learning and debugging.
+Authentication
+
+If you are logged in to the Takaro dashboard, you can automatically use the endpoints on the interactive API documentation.
+
+If you dont have login credentials, ask your server administrator to create these.
+Querying Data
+
+Takaro API provides powerful querying capabilities through its various POST /search endpoints. You can use these endpoints to retrieve data based on specific criteria. The querying features include filters for exact matches, searches for partial matches, and pagination for handling large data sets.
+Filters
+
+Filters allow you to specify exact match criteria for the data you are querying. When you use filters, the API will return only the records that exactly match the specified criteria.
+
+{
+  "filters": {
+    "name": ["John Doe"],
+    "email": ["john.doe@example.com"]
+  }
+}
+
+In the above example, the API will return records where the name is exactly "John Doe" and the email is exactly "john.doe@example.com".
+Searches
+
+Searches, on the other hand, allow for partial matches. This is useful when you are looking for records that contain a specific substring.
+
+{
+  "search": {
+    "name": ["John"]
+  }
+}
+
+In the above example, the API will return all records where the name contains the substring "John".
+Pagination
+
+When querying large data sets, it's often useful to retrieve the data in smaller chunks or pages. You can use the page and limit parameters to achieve this.
+
+{
+  "page": 2,
+  "limit": 10
+}
+
+In the above example, the API will return the second page of results, with a limit of 10 records per page.
+Extend
+
+The extend parameter allows you to include related entities in the response. This reduces the need for multiple API calls and improves performance when you need associated data.
+
+{
+  "extend": ["roles", "gameServers"]
+}
+
+When using extend, the related data will be included in the response object under the property name specified in the extend array. This makes it easy to access all necessary information in a single request.
+Nested Extends
+
+Some endpoints support nested extends using dot notation:
+
+{
+  "extend": ["listing.items.item"]
+}
+
+This will include the listing, its items, and the full item details for each item in the shop order response.
+Putting it all together
+
+You can combine filters, searches, pagination, and extend in a single query. Here is an example that combines all features:
+
+{
+  "filters": {
+    "email": ["john@example.com"]
+  },
+  "search": {
+    "name": ["John"]
+  },
+  "page": 1,
+  "limit": 5,
+  "extend": ["roles", "gameServers"]
+}
+
+This query will return the first page of records where the email field exactly matches "john@example.com", and the name field contains the substring "John", with a maximum of 5 records in the response, including the related roles and gameServers data for each record.
+Error Codes and Handling
+
+The Takaro API returns error information within the response data. In case an error occurs, you should inspect the meta.error property in the response data for details about the error.
+
+If there is an error in the API response, it might look like this:
+
+{
+  "meta": {
+    "error": {
+      "code": "ValidationError",
+      "details": {// ...}
+    }
+  },
+  "data": null
+}
+
+In this example, the meta.error property will contain a description of the error.
+SDKs and Libraries
+
+    ⚠️ Coming soon The package already exists but is not yet published on npm.
+
+To interact with the Takaro API programmatically, you can use the @takaro/apiclient library. This is included in the Takaro monorepo and can simplify making API requests and handling responses.
+
+To use the @takaro/apiclient library, you need to install it via npm:
+
+npm install @takaro/apiclient
+
+Then, you can import it into your project and use it to make API requests:
+
+import { Client } from '@takaro/apiclient';
+
+const client = new Client({
+  url: 'https://api.takaro.io',
+  auth: {
+    username: 'username',
+    password: 'password,
+  }
+});
+
+Technical Reference
+
+Takaro uses Ory Kratos for identity management.
+
+Takaro is a multi-tenant application. Each tenant (domain) has its own isolated set of data. Some API routes are domain-scoped while others (think of domain management routes) use admin authentication.
+Admin authentication
+
+Since admin authentication is used mostly for automation, it uses a shared secret set as environment variable. The lib-apiclient library automatically handles this. (See lib-apiclient)
+
+You can create a domain with the following command:
+
+curl -X POST localhost:13000/domain -H "Content-Type: application/json" -H "X-Takaro-Admin-Token: xxx" --data '{"name": "test-domain"}' | jq
+
+
+
+
+
+
+Self hosting
+
+Takaro is designed to be a cloud-first, highly available, and scalable platform. We recommend using our hosted solution to ensure the best experience for you and your players. This self hosting guide is provided as a reference for advanced users who wish to run Takaro on their own infrastructure.
+
+This guide will set up a basic Takaro instance on a single server. This guide assumes you have a basic understanding of Docker and general server administration. We make a lot of assumptions about the environment in which Takaro is running, you will need to adapt this guide to your specific environment.
+
+For simplicity, we will not cover certain aspects of running a production service in this guide, such as reverse proxy, backups, monitoring, security hardening, scaling, etc.
+Prerequisites
+
+    A server running Ubuntu 24.04
+        Other Linux distributions may work, but this guide is written for and tested on Ubuntu 24.04
+    Docker and Docker Compose installed
+    A domain name pointing to your server
+        You will need 2 A records, one to the top level domain (takaro.example.com) and one to the wildcard domain (*.takaro.example.com)
+    Basic unix command line utilities like git, vim, and curl will be useful
+
+Installation
+
+Clone the Takaro repository to your server:
+
+git clone https://github.com/gettakaro/takaro.git
+
+The compose file will store a bunch of persistent data. Different containers need different permissions on these folders
+
+./scripts/setup-data-folders.sh
+
+There is a reference Docker compose file at deploy/compose/docker-compose.yml. Take a look at this file to see what we'll be deploying.
+
+cd deploy/compose
+cat docker-compose.yml
+
+Go back to the root of the repo and copy the example .env file from the repo and edit it as needed
+
+cp .env.example .env
+
+Now we can start the services with Docker Compose:
+
+docker compose -f deploy/compose/docker-compose.yml up -d
+
+You should be able to access the Takaro web interface at https://takaro.your-domain.com.
+Troubleshooting
+
+If you encounter any issues, you should always check the logs of the services you are running. You can do this with the following command:
+
+docker compose -f deploy/compose/docker-compose.yml logs -f
+
+If you know the error is with a specific service, you can filter the logs to only show that service:
+
+docker compose -f deploy/compose/docker-compose.yml logs -f <service-name>
+docker compose -f deploy/compose/docker-compose.yml logs -f api
+
+You can also use grep to filter the logs:
+
+docker compose -f deploy/compose/docker-compose.yml logs -f | grep error
+docker compose -f deploy/compose/docker-compose.yml logs -f | grep 123-some-id-456
+
+
+
+
+
+
+
+Writing Takaro Modules
+Introduction
+
+Welcome to the Takaro module development guide! Whether you're looking to create simple commands or complex automated systems, this guide will walk you through everything you need to know. We'll start with the basics and gradually move to more advanced topics.
+What are Modules?
+
+At their core, Takaro modules are collections of features that add functionality to your game server. A module might be as simple as a single command that welcomes players, or as complex as a complete economy system with multiple commands, scheduled tasks, and persistent data storage.
+
+Every module can contain:
+
+    Commands: Features that players can trigger with chat messages
+    Hooks: Code that runs in response to events
+    Cronjobs: Tasks that run on a schedule
+    Functions: Reusable code that can be shared between different parts of your module
+    Permissions: Rules about who can use your module's features
+    Configuration: Settings that server owners can adjust
+
+Your First Module: Hello World
+
+Let's start with something simple - a module that greets players when they type a command. Through this basic example, we'll learn the fundamental concepts of module development.
+
+Here's what the command implementation looks like:
+
+import { takaro, data } from '@takaro/helpers';
+
+async function main() {
+  const { player } = data;
+  await player.pm('Hello, world!');
+}
+
+await main();
+
+When a player types the command (let's say /hello), this code sends them a private message saying "Hello, world!". Simple, right? Let's break down what's happening:
+
+    import { takaro, data } - This gives us access to Takaro's helper functions and the data about who ran the command
+    const { player } - This extracts the player information from the data
+    player.pm() - This sends a private message to the player
+
+Working with Commands
+
+Now that we have our feet wet, let's look at some practical command features. Commands are the primary way players will interact with your module, so it's important to make them user-friendly and robust.
+Executing Game Commands
+
+When you need to execute a game command, use the gameServerControllerExecuteCommand function:
+
+import { takaro, data } from '@takaro/helpers';
+
+async function main() {
+  const { gameServerId, player, pog } = data;
+
+  await takaro.gameserver.gameServerControllerExecuteCommand(gameServerId, {
+    command: `teleportplayer EOS_${pog.gameId} 489 57 -241`,
+  });
+
+  await player.pm('Teleported to lobby!');
+}
+
+await main();
+
+This function allows you to execute any game command remotely. The command string should match exactly what you would type in the game console.
+Handling Arguments
+
+Most commands need to accept input from players. Let's modify our greeting to use the player's name:
+
+import { takaro, data } from '@takaro/helpers';
+
+async function main() {
+  const { player, arguments: args } = data;
+  await player.pm(`Hello, ${args.name}!`);
+}
+
+await main();
+
+Error Handling
+
+Players don't always use commands correctly. It's important to handle errors gracefully:
+
+import { takaro, data, TakaroUserError } from '@takaro/helpers';
+
+async function main() {
+  const { player, arguments: args } = data;
+
+  if (!args.name) {
+    throw new TakaroUserError('Please provide a name!');
+    return;
+  }
+
+  await player.pm(`Hello, ${args.name}!`);
+}
+
+await main();
+
+Using TakaroUserError ensures the error message is displayed nicely to the player.
+Command Permissions
+
+You can restrict commands to players with specific permissions by setting the requiredPermissions field when defining your command:
+
+// In your module definition
+{
+  name: 'adminTeleport',
+  trigger: 'admintp',
+  helpText: 'Teleport any player to any location',
+  requiredPermissions: ['ADMIN_TELEPORT'],
+  arguments: [
+    {
+      name: 'player',
+      type: 'player',
+      helpText: 'Player to teleport',
+      position: 0
+    },
+    {
+      name: 'location',
+      type: 'string',
+      helpText: 'Location name',
+      position: 1
+    }
+  ]
+}
+
+When a player without the required permission tries to use the command:
+
+    They receive an automatic permission denied message
+    The command function is never executed
+    A COMMAND_EXECUTION_DENIED event is logged
+
+This is more secure than checking permissions inside your command function, as it prevents the code from running at all.
+Responding to Events with Hooks
+
+Sometimes you want your module to react to things that happen in the game automatically. That's where hooks come in. Let's look at a hook that welcomes players when they join the server:
+
+import { takaro, data } from '@takaro/helpers';
+
+async function main() {
+  const { player, gameServerId } = data;
+
+  await takaro.gameserver.gameServerControllerSendMessage(gameServerId, {
+    message: `Welcome to the server, ${player.name}!`,
+  });
+}
+
+await main();
+
+Storing Data with Variables
+
+Most modules need to remember information between player sessions or commands. Takaro provides a variable system for this purpose. Let's create a command that counts how many times a player has used it:
+
+import { takaro, data } from '@takaro/helpers';
+
+async function main() {
+  const { player, gameServerId, module: mod } = data;
+
+  // Try to find existing count
+  const countVar = await takaro.variable.variableControllerSearch({
+    filters: {
+      key: ['command_count'],
+      gameServerId: [gameServerId],
+      playerId: [player.id],
+      moduleId: [mod.moduleId],
+    },
+  });
+
+  let count = 1;
+  if (countVar.data.data.length > 0) {
+    // Existing count found, increment it
+    count = parseInt(countVar.data.data[0].value) + 1;
+    await takaro.variable.variableControllerUpdate(countVar.data.data[0].id, {
+      value: count.toString(),
+    });
+  } else {
+    // No existing count, create new variable
+    await takaro.variable.variableControllerCreate({
+      key: 'command_count',
+      value: '1',
+      gameServerId,
+      moduleId: mod.moduleId,
+      playerId: player.id,
+    });
+  }
+
+  await player.pm(`You've used this command ${count} times!`);
+}
+
+await main();
+
+Variables with an expiration date
+
+Sometimes you want to add an expiration date to a variable.
+
+// Create a variable with expiration
+const expiresAt = new Date(Date.now() + data.module.userConfig.expirationTime);
+await takaro.variable.variableControllerCreate({
+    key: 'variableName',
+    value: 'value',
+    playerId: player.id,        // Optional: Link to player
+    gameServerId: gameServerId, // Optional: Link to server
+    moduleId: mod.moduleId,     // Optional: Link to module
+    expiresAt: expiresAt
+});
+
+// Search for variable
+const existingVariable = await takaro.variable.variableControllerSearch({
+    filters: {
+        key: ['variableName'],
+        playerId: [player.id],
+        gameServerId: [gameServerId],
+        moduleId: [mod.moduleId]
+    }
+});
+
+// Update variable with new expiration, this will be in milliseconds
+const newExpiresAt = new Date(Date.now() + data.module.userConfig.expirationTime);
+await takaro.variable.variableControllerUpdate(existingVariable.data.data[0].id, {
+    value: 'newValue',
+    expiresAt: newExpiresAt
+});
+
+// Delete variable
+await takaro.variable.variableControllerDelete(existingVariable.data.data[0].id);
+
+await main();
+Permissions
+
+As your module grows more complex, you'll want to control who can use certain features. Takaro has a robust permissions system that integrates with the server's role system.
+Checking Permissions
+
+Here's how to check if a player has permission to use a feature:
+
+import { takaro, data, checkPermission, TakaroUserError } from '@takaro/helpers';
+
+async function main() {
+  const { pog, player } = data;
+
+  if (!checkPermission(pog, 'MY_FEATURE_USE')) {
+    throw new TakaroUserError('You do not have permission to use this feature!');
+  }
+
+  await player.pm('Access granted!');
+}
+
+await main();
+
+Permission with Count
+
+Some permissions can have a count attached. This is useful for features like limiting how many teleport locations a player can set:
+
+import { takaro, data, checkPermission, TakaroUserError } from '@takaro/helpers';
+
+async function main() {
+  const { pog, player } = data;
+
+  const teleportPermission = checkPermission(pog, 'TELEPORTS_USE');
+  if (!teleportPermission) {
+    throw new TakaroUserError('You do not have permission to use teleports!');
+  }
+
+  // teleportPermission.count contains the maximum number of teleports allowed
+  if (currentTeleports >= teleportPermission.count) {
+    throw new TakaroUserError(`You can only have ${teleportPermission.count} teleports!`);
+  }
+
+  await player.pm('Teleport created!');
+}
+
+await main();
+
+Scheduled Tasks with Cronjobs
+
+Cronjobs allow your module to perform tasks on a schedule. Let's look at an example that sends a server-wide message every hour:
+
+import { data, takaro } from '@takaro/helpers';
+
+async function main() {
+  const { gameServerId } = data;
+
+  await takaro.gameserver.gameServerControllerSendMessage(gameServerId, {
+    message: "Don't forget to check out our shop!",
+  });
+}
+
+await main();
+
+Sharing Code with Functions
+
+As your module grows, you'll often find yourself repeating similar code in different commands or hooks. Functions let you share this code. Place shared code in your module's functions directory, and it becomes available to all your module's components.
+
+Common uses for functions include:
+
+    Utility functions for data formatting
+    Shared business logic
+
+Working with Configuration
+
+User configuration (userConfig) is what you define for your module. These are settings that server owners can adjust through the Takaro dashboard. Examples might include:
+
+    Welcome messages
+    Maximum allowed items
+    Feature toggles
+    Custom thresholds
+
+Access user configuration like this:
+
+import { takaro, data } from '@takaro/helpers';
+
+async function main() {
+  const { module: mod } = data;
+
+  // Access your custom config values
+  const welcomeMessage = mod.userConfig.welcomeMessage;
+  const maxItems = mod.userConfig.maxItems;
+  const isFeatureEnabled = mod.userConfig.enableAdvancedFeatures;
+}
+
+await main();
+
+Advanced Patterns and Best Practices
+1. Parallelizing API Calls
+
+When making multiple calls to Takaro's API, use Promise.all or Promise.allSettled to run them in parallel:
+
+import { takaro, data } from '@takaro/helpers';
+
+async function main() {
+  const { gameServerId } = data;
+
+  // Bad: Sequential calls
+  const playerA = await takaro.player.playerControllerGetOne(playerAId);
+  const playerB = await takaro.player.playerControllerGetOne(playerBId);
+  const playerC = await takaro.player.playerControllerGetOne(playerCId);
+
+  // Good: Parallel calls
+  const [playerA, playerB, playerC] = await Promise.all([
+    takaro.player.playerControllerGetOne(playerAId),
+    takaro.player.playerControllerGetOne(playerBId),
+    takaro.player.playerControllerGetOne(playerCId),
+  ]);
+
+  // When some calls might fail
+  const results = await Promise.allSettled([
+    takaro.player.playerControllerGetOne(playerAId),
+    takaro.player.playerControllerGetOne(playerBId),
+    takaro.player.playerControllerGetOne(playerCId),
+  ]);
+
+  // Handle results
+  results.forEach((result) => {
+    if (result.status === 'fulfilled') {
+      // Handle success
+      console.log(result.value);
+    } else {
+      // Handle failure
+      console.error(result.reason);
+    }
+  });
+}
+
+await main();
+
+2. Consistent Error Handling
+
+Always use TakaroUserError when returning errors to users. This ensures errors are displayed properly in the game:
+
+import { takaro, data, TakaroUserError } from '@takaro/helpers';
+
+async function main() {
+  const { player } = data;
+
+  if (!checkPermission(data.pog, 'REQUIRED_PERMISSION')) {
+    throw new TakaroUserError('You do not have permission to use this command');
+  }
+
+  await data.player.pm('Action completed successfully!');
+}
+
+await main();
+
+Recurring Code snippets
+Checking for online players
+
+Query online players and exit if none found - prevents running unnecessary code on empty servers
+
+    // Get online players through PlayerOnGameServer search
+    const currentPlayers = (await takaro.playerOnGameserver.playerOnGameServerControllerSearch({
+        filters: {
+            gameServerId: [gameServerId],
+            online: [true]
+        }
+    })).data.meta;
+
+    // If no players online, exit early
+    if (currentPlayers.total === 0) {
+        return;
+    }
+
+Conclusion
+
+Throughout this guide, you've seen various uses of the Takaro API via the takaro helper - from sending messages to managing variables. All these functions come from our comprehensive API, which offers many more features than we could cover here. You can explore the full API and try it out in our interactive playground.
+
+Want to see how to put all these concepts together? Check out our built-in modules! They're real-world examples of how to build robust modules and are a great source of patterns and best practices. You can find them in your Takaro dashboard or our Github repository.
+
+Ready to build your first module? Join our Discord community if you have questions or want to share what you're working on!
+
+

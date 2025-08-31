@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+		<Name value="Nazas_Clickable_Links" />
+		<DisplayName value="Nazas Clickable Links" />
+		<Version value="1.0.0" />
+		<Description value="Adds a clickable link button to the server info esc screen" />
+		<Author value="Naz" />
+		<Website value="" />
+</xml>
+

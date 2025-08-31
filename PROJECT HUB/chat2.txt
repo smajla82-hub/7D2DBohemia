@@ -1,0 +1,204 @@
+Perfect! I've read through our previous conversation and I'm excited to continue with the HUB project! 🚀
+You're absolutely right about the testing setup - yes, we can definitely use your Windows dedicated server for testing. Since we're developing a client-side mod, it doesn't matter what OS the server runs on. The mod runs on the player's PC and communicates with whatever server they connect to.
+Let's start with Phase 1: Simple Voting Button as planned!
+First, let's understand 7D2D Workshop mods:
+How Steam Workshop works for 7D2D:
+
+Players subscribe to your mod on Steam Workshop
+7D2D automatically downloads it to: %APPDATA%/7DaysToDie/Mods/YourModName/
+The game loads XML files that modify UI, items, recipes, etc.
+No manual installation needed for players!
+
+Phase 1 Development Plan:Bohemia Hub - Phase 1: Simple Voting ButtonDocument # Bohemia Hub - Phase 1: Simple Voting Button
+
+## What We'll Build
+A simple, elegant voting button that appears in-game for your server players.
+
+## Features for Phase 1:
+- ✅ Small hub icon in corner of screen (always visible)
+- ✅ Opens voting windowLet's Start Building!
+Question 1: Do you have access to your Windows test server files right now? We'll need to create the mod folder structure there first.
+Question 2: What would you like the voting button to look like?
+
+A small icon in the corner (like a vote/star symbol)?
+Text that says "VOTE"?
+Your server logo/emblem?
+What color scheme matches your server theme?
+
+Question 3: For the voting URL, should we use:
+
+Direct link to: https://7daystodie-servers.com/server/157783/vote/
+Or create a shorter redirect like vote.bohemia7d2d.com first?
+
+Once you answer these, I'll create the basic mod files and we can test the button immediately! The beauty of XML mods is they're hot-reloadable - we can edit and test without restarting the server.
+Are you ready to create your first 7D2D mod? This is going to be awesome! 😄RetryMyes I have the access to windows server files right nowsmall icon, we can start in the marked (red circle) possition on top of the game screen as I marked in: button possition_propose.png
+icon will be big/bald B letter for starters, we might change it to fiitting icon later(or maybe the Diablo_icon_Bohemian.jpg i attached
+server logo/ emblem ...i sent you icon we could use that
+colour scheme - we could go to something like black/blue , something similiar to clours i used to create banner for server(i sent you picture of it ,made on canva.com)for voting link, we want it as easy as possible for player , so if we make it this : https://7daystodie-servers.com/server/157783/    it will take him to WEB with server, good, but he will still have to click many times to actually vote
+Next step is this link : https://steamcommunity.com/openid/login?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=checkid_setup&openid.return_to=https%3A%2F%2F7daystodie-servers.com%2Fserver%2F157783%2Fvote%2Faction%2F&openid.realm=https%3A%2F%2F7daystodie-servers.com&openid.ns.sreg=http%3A%2F%2Fopenid.net%2Fextensions%2Fsreg%2F1.1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select
+where he has to sign in steam , after he clicks "Sign-in"it will redirect him to successful or in our example case to unsuccessul "already voted for this server today" page.
+So I think best woould be to take him to  steamcommunity.com.EditPerfect! I can see exactly what you want to achieve. Looking at your screenshots, I understand:
+
+Button Position: Top-right area where you circled (near the other UI elements)
+Icon: Bold "B" letter for now, with your Diablo-style Bohemian icon as future upgrade
+Colors: Black/blue theme matching your banner
+Direct Steam Login: Skip the server page, go straight to Steam authentication
+
+The voting flow you described is perfect - it takes them directly to Steam login, then redirects to the vote confirmation. Much more streamlined!
+Let's create the basic mod structure now:ModInfo.xml - Bohemia Hub ModCode <?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Bohemia Server Hub" />
+		<Description value="Voting and server hub system for [EU/CZ] Bohemia server. Vote daily for rewards and access server features!" />
+		<Author value="BoheConfig/windows.xml - UI DefinitionCode <configs>
+  <append xpath="/windows">
+    <!-- Bohemia Hub Button - positioned in top-right area -->
+    <window name="BohemiaHubButton" pos="1750,20" width="60" height="60" cursor_area="true">
+      <!-- Background circle with blue/black theme -->
+ Now let's create the folder structure guide:Installation & Testing GuideDocument # Bohemia Hub - Installation & Testing
+
+## Step 1: Create Mod Folder Structure
+
+On your **Windows test server**, create this folder structure:
+
+```
+[7DaysToDie Server]/Mods/BohemiaServerHub/
+├── ModInfo.xml
+└── Config/
+    └── windows.xml
+```
+
+**FullReady to Test! 🚀
+I've created the basic mod with:
+✅ Blue circular button with bold "B" in top-right corner
+✅ Professional voting window with your server branding
+✅ Direct Steam login link (skips the server page)
+✅ Proper 7D2D styling matching the game's UI
+The button is positioned at 1750,20 which should be near where you circled. The Steam URL goes directly to the authentication page you showed me.
+Create the folders and files now, then let's test it!
+Questions for after testing:
+
+Is the button in the right position?
+Does the voting window look good?
+Does the Steam overlay open correctly?
+Any styling adjustments needed?
+
+Once this basic version works, we can immediately upgrade it with:
+
+Your Diablo Bohemian icon instead of "B"
+Vote countdown timer
+Better colors/styling
+Preparation for Phase 2 (coin system)
+
+Are you ready to create the mod files and test it? This should work immediately! 😄RetryMFirst issue when loading server :2025-08-08T14:22:53 1.854 ERR [MODS]     BohemiaServerHub/ModInfo.xml in legacy format. V2 required to load mod
+2025-08-08T14:22:53 1.854 ERR [MODS]     Could not parse BohemiaServerHub/ModInfo.xml, ignoringwhich is wierd, because if I look into another MODs they look very similiar. FE. this one :
+<xml>
+    <Name value="Z_HUD"/>
+    <DisplayName value="New HUD and Heals"/>
+    <Description value="New HUD and Heals"/>
+    <Author value="BlackRabbit"/>
+    <Version value="1.3"/>
+    <Website value="https://7dtdprojectz.com/"/>
+</xml>Also you said this will be client mod, so do I really have to put the mod on the server ? Path to client MODs folder is ofc different. Just asking if this is OK.EditAh, great catch! Two issues to fix:
+1. ModInfo.xml Format Issue
+The error shows 7D2D wants the newer format without the <ModInfo> wrapper. Let me fix that:ModInfo.xml - Bohemia Hub ModCode ∙ Version 2 <?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Bohemia Server Hub" />
+	<Description value="Voting and server hub system for [EU/CZ] Bohemia server. Vote daily for rewards and access server features!" />
+	<Author value="BohemianBrewer" />2. Client vs Server Installation
+You're absolutely right to question this! Here's the clarification:
+For UI mods like ours, you have 3 options:
+Option A: Client-Only (Recommended for testing)
+Install in your local client:
+%APPDATA%\7DaysToDie\Mods\BohemiaServerHub\
+This will work on ANY server you connect to.
+Option B: Server-Side (Forces all players to download)
+Install on server:
+[ServerFolder]\Mods\BohemiaServerHub\
+All players connecting will auto-download the mod.
+Option C: Both (Best for production)
+Install on both client AND server.
+For testing right now: Install it in your client first! This way you can test it immediately without affecting other players.
+Client Path:
+C:\Users\[YourName]\AppData\Roaming\7DaysToDie\Mods\BohemiaServerHub\
+Quick Test Steps:
+
+Remove the mod from your server for now
+Install the corrected ModInfo.xml in your client Mods folder
+Start your client and connect to any server
+Look for the button - it should appear on any server!
+
+Once it works in your client, then we can decide if you want it server-side (so all players get it automatically) or keep it client-only.
+Try the client installation now - it should load without errors! The UI mods work perfectly as client-only mods.RetryMNo icon anywhere. Removed mod from server. Installed mod with propper file structure and naming on game client.EditI can see the mod is properly installed in your client, but the button isn't showing up. This is likely a positioning or visibility issue. Let me fix this:Config/windows.xml - UI DefinitionCode ∙ Version 2     <!-- Bohemia Hub Button - positioned in top-right area -->
+    <window name="BohemiaHubButton" pos="1650,50" width="80" height="80" cursor_area="true" depth="100">
+      <!-- Background with visible border -->
+      <sprite depth="0" name="buttonThe issue might be:
+
+Position too far right - moved it to 1650,50
+Sprite not existing - changed to standard ui_game_panel
+Depth issue - added depth="100" to bring it to front
+Made it bigger and more visible - 80x80 instead of 60x60
+
+Let's also create a simpler test version to debug:Debug Version - Simple Test ButtonCode <configs>
+  <append xpath="/windows">
+    <!-- SIMPLE TEST BUTTON - Very visible -->
+    <window name="BohemiaTestButton" pos="500,100" width="200" height="100" cursor_area="true" depth="100">
+      <!-- Bright background for testing -->
+      <spritTry this debug version first:
+
+Replace your windows.xml with the debug version above
+This creates a big red button in the middle-left area saying "BOHEMIA VOTE"
+It should be impossible to miss
+
+If the debug button appears:
+
+The mod system works
+We just need to fix positioning/styling
+
+If NO button appears:
+
+There might be an XML syntax error
+Check the game console for mod loading errors
+Try restarting the client
+
+Quick test:
+Replace the windows.xml file, restart your client, and look for a big red "BOHEMIA VOTE" button on the left side of your screen.
+Let me know what happens! If you see the red button, we know the mod loading works and we just need to fine-tune the positioning. If you don't see it, we need to debug the XML loading.RetryMStill nothing , in logs i can see only msg about other mod that is running on the system - will delete it now, s we can have completly clean system.Also one more thing Claude, can you please switch yourself from Sonnet 4 model to Opus 4.1 now  without me closing this chat and opening a new window?EditI can't switch models within this conversation - that's controlled by the interface settings and would require you to change it in the model selector. I'll continue as Claude Sonnet 4.
+But let's focus on the mod issue first! I notice in your logs there's no mention of our mod at all - not even an error. This suggests the mod isn't being loaded.
+Possible issues:
+
+Folder location - Let's double-check the exact path
+File permissions - Windows might be blocking the files
+Mod format - 7D2D might be very picky about XML structure
+
+Let me create an ultra-simple test version that should definitely work:Minimal Test - Just Text LabelCode <configs>
+  <append xpath="/windows">
+    <window name="TestWindow" pos="400,300" width="300" height="100">
+      <label text="BOHEMIA MOD LOADED!" pos="150,50" font_size="24" color="255,0,0" 
+             justify="center" pivot="center" />
+    </winLet's verify the setup step by step:
+
+Exact folder path should be:
+C:\Users\[YourUsername]\AppData\Roaming\7DaysToDie\Mods\BohemiaServerHub\
+
+Files in that folder:
+ModInfo.xml
+Config\
+  └── windows.xml
+
+Replace windows.xml with the minimal test above - just a red text label
+
+If this minimal test doesn't show "BOHEMIA MOD LOADED!" in red text, then:
+
+The mod folder structure is wrong, OR
+7D2D isn't loading mods from the AppData folder, OR
+There's a file permission issue
+
+Can you verify:
+
+What's your exact Windows username?
+Does the AppData\Roaming\7DaysToDie\Mods\ folder exist?
+Are there other working mods in that folder?
+
+Also, try restarting 7D2D completely after placing the minimal test files. Sometimes mods only load on game startup, not when connecting to servers.
+Once we see the red "BOHEMIA MOD LOADED!" text, we know the mod system works and can build from there!
