@@ -1,0 +1,1620 @@
+/home/steam/voting_rewards.py:7: DeprecationWarning: 'telnetlib' is deprecated and slated for removal in Python 3.13
+  import telnetlib
+2025-08-29 22:28:19,424 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2025-08-29 22:28:19,424 - INFO - =================================================
+2025-08-29 22:28:19,424 - INFO - Connecting to 91.99.236.133:8081
+2025-08-29 22:28:19,424 - INFO - Server ID: 157783
+2025-08-29 22:28:19,424 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2025-08-29 22:28:19,424 - INFO - Daily reset time: 6:00 AM CEST
+2025-08-29 22:28:19,425 - INFO - Connecting to 91.99.236.133:8081
+2025-08-29 22:28:19,925 - INFO - Sending password
+2025-08-29 22:28:21,433 - INFO - Successfully connected to 91.99.236.133:8081
+2025-08-29 22:28:21,434 - INFO - Starting periodic message thread (60 minute interval)
+2025-08-29 22:28:21,434 - INFO - Starting automatic vote checker thread
+2025-08-29 22:28:21,434 - INFO - Starting chat monitoring for /vote commands...
+2025-08-29 22:29:26,345 - INFO - Player BohemianBrewer spawned, warming up connection
+2025-08-29 22:29:29,058 - INFO - Connection warmed up
+2025-08-29 22:31:07,328 - INFO - Player TheEgg spawned, warming up connection
+2025-08-29 22:31:10,039 - INFO - Connection warmed up
+2025-08-29 23:28:21,434 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-29 23:28:22,135 - INFO - Sent periodic vote message
+2025-08-30 00:05:27,417 - ERROR - Monitor error: telnet connection closed
+2025-08-30 00:05:27,417 - INFO - Waiting 30 seconds before reconnection attempt...
+2025-08-30 00:05:57,417 - INFO - Connecting to 91.99.236.133:8081
+2025-08-30 00:05:57,418 - ERROR - Connection failed: [Errno 111] Connection refused
+2025-08-30 00:05:57,418 - INFO - Connection still down, waiting 30 seconds before retry...
+2025-08-30 00:06:27,418 - INFO - Connecting to 91.99.236.133:8081
+2025-08-30 00:06:27,918 - INFO - Sending password
+2025-08-30 00:06:29,443 - INFO - Successfully connected to 91.99.236.133:8081
+2025-08-30 00:06:29,444 - INFO - Starting periodic message thread (60 minute interval)
+2025-08-30 00:06:29,444 - INFO - Starting automatic vote checker thread
+2025-08-30 00:06:29,444 - INFO - Starting chat monitoring for /vote commands...
+2025-08-30 00:10:00,510 - INFO - Player BohemianBrewer spawned, warming up connection
+2025-08-30 00:10:03,221 - INFO - Connection warmed up
+2025-08-30 00:13:48,306 - INFO - Player TheEgg spawned, warming up connection
+2025-08-30 00:13:51,018 - INFO - Connection warmed up
+2025-08-30 00:24:16,739 - INFO - Player TheEgg spawned, warming up connection
+2025-08-30 00:24:19,451 - INFO - Connection warmed up
+2025-08-30 00:28:22,135 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 00:28:22,136 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 00:28:22,136 - INFO - Sent periodic vote message
+2025-08-30 01:06:29,444 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 01:06:30,145 - INFO - Sent periodic vote message
+2025-08-30 01:11:26,923 - INFO - Player TheEgg spawned, warming up connection
+2025-08-30 01:11:29,633 - INFO - Connection warmed up
+2025-08-30 01:28:22,137 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 01:28:22,137 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 01:28:22,137 - INFO - Sent periodic vote message
+2025-08-30 01:32:14,971 - INFO - Vote command detected from Player_856 (Steam ID: 76561198093609245)
+2025-08-30 01:32:14,971 - INFO - Handling /vote command from Player_856 (Steam ID: 76561198093609245)
+2025-08-30 01:32:15,442 - INFO - Vote status for 76561198093609245: 0
+2025-08-30 01:32:15,443 - INFO - Player_856 has not voted yet
+2025-08-30 01:32:15,443 - INFO - Sending PM to Player_856: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting!
+2025-08-30 01:32:16,145 - INFO - Added Player_856 to automatic check list
+2025-08-30 01:32:16,145 - INFO - Vote command detected from TheEgg (Steam ID: 76561198093609245)
+2025-08-30 01:32:16,145 - INFO - Handling /vote command from TheEgg (Steam ID: 76561198093609245)
+2025-08-30 01:32:16,574 - INFO - Vote status for 76561198093609245: 0
+2025-08-30 01:32:16,575 - INFO - TheEgg has not voted yet
+2025-08-30 01:32:16,575 - INFO - Sending PM to TheEgg: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting!
+2025-08-30 01:32:17,277 - INFO - Added TheEgg to automatic check list
+2025-08-30 01:32:29,595 - INFO - Vote status for 76561198093609245: 0
+2025-08-30 01:32:57,546 - INFO - Player BohemianBrewer spawned, warming up connection
+2025-08-30 01:32:59,728 - INFO - Vote status for 76561198093609245: 1
+2025-08-30 01:32:59,730 - INFO - Automatic check: TheEgg has voted! Delivering rewards...
+2025-08-30 01:32:59,730 - INFO - Giving rewards to TheEgg
+2025-08-30 01:33:00,248 - INFO - Connection warmed up
+2025-08-30 01:33:05,754 - INFO - Gave TheEgg: Fixed rewards + books: riflesSkillMagazine, handgunsSkillMagazine, electricianSkillMagazine
+2025-08-30 01:33:05,883 - INFO - Successfully claimed vote for 76561198093609245
+2025-08-30 01:33:05,884 - INFO - Updated vote time for 76561198093609245 to current time
+2025-08-30 01:33:06,384 - INFO - Sending PM to TheEgg: Thanks for voting TheEgg! Your rewards have been automatically delivered! Look, goodies are at your feet :D
+2025-08-30 01:33:07,585 - INFO - Sending global message: TheEgg just received his well deserved reward!
+2025-08-30 01:34:59,046 - INFO - Vote command detected from Player_171 (Steam ID: 76561198039589588)
+2025-08-30 01:34:59,047 - INFO - Handling /vote command from Player_171 (Steam ID: 76561198039589588)
+2025-08-30 01:34:59,485 - INFO - Vote status for 76561198039589588: 2
+2025-08-30 01:34:59,668 - INFO - Found vote time for 76561198039589588: 2025-08-29 19:08:24+02:00 (API says: August 29th, 2025 07:08 PM CEST, claimed: 1)
+2025-08-30 01:34:59,670 - INFO - Player_171 has already voted and claimed
+2025-08-30 01:34:59,671 - INFO - Sending PM to Player_171: You already voted today and claimed your reward! You can vote again in approximately 4h 25m.
+2025-08-30 01:35:00,373 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2025-08-30 01:35:00,373 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2025-08-30 01:35:00,802 - INFO - Vote status for 76561198039589588: 2
+2025-08-30 01:35:00,803 - INFO - BohemianBrewer has already voted and claimed
+2025-08-30 01:35:00,803 - INFO - Sending PM to BohemianBrewer: You already voted today and claimed your reward! You can vote again in approximately 4h 24m.
+2025-08-30 02:06:30,145 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 02:06:30,846 - INFO - Sent periodic vote message
+2025-08-30 02:28:22,137 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 02:28:22,138 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 02:28:22,138 - INFO - Sent periodic vote message
+2025-08-30 03:06:30,846 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 03:06:31,546 - INFO - Sent periodic vote message
+2025-08-30 03:28:22,138 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 03:28:22,138 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 03:28:22,138 - INFO - Sent periodic vote message
+2025-08-30 04:06:31,547 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 04:06:32,247 - INFO - Sent periodic vote message
+2025-08-30 04:28:22,139 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 04:28:22,139 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 04:28:22,139 - INFO - Sent periodic vote message
+2025-08-30 05:06:32,248 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 05:06:32,948 - INFO - Sent periodic vote message
+2025-08-30 05:28:22,139 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 05:28:22,139 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 05:28:22,139 - INFO - Sent periodic vote message
+2025-08-30 06:05:26,783 - ERROR - Monitor error: telnet connection closed
+2025-08-30 06:05:26,783 - INFO - Waiting 30 seconds before reconnection attempt...
+2025-08-30 06:05:56,784 - INFO - Connecting to 91.99.236.133:8081
+2025-08-30 06:05:56,784 - ERROR - Connection failed: [Errno 111] Connection refused
+2025-08-30 06:05:56,784 - INFO - Connection still down, waiting 30 seconds before retry...
+2025-08-30 06:06:26,784 - INFO - Connecting to 91.99.236.133:8081
+2025-08-30 06:06:27,285 - INFO - Sending password
+2025-08-30 06:06:28,802 - INFO - Successfully connected to 91.99.236.133:8081
+2025-08-30 06:06:28,803 - INFO - Starting periodic message thread (60 minute interval)
+2025-08-30 06:06:28,803 - INFO - Starting automatic vote checker thread
+2025-08-30 06:06:28,803 - INFO - Starting chat monitoring for /vote commands...
+2025-08-30 06:06:32,949 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 06:06:32,949 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 06:06:32,949 - INFO - Sent periodic vote message
+2025-08-30 06:28:22,140 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 06:28:22,140 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 06:28:22,140 - INFO - Sent periodic vote message
+2025-08-30 07:06:28,803 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 07:06:29,504 - INFO - Sent periodic vote message
+2025-08-30 07:06:32,949 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 07:06:32,949 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 07:06:32,949 - INFO - Sent periodic vote message
+2025-08-30 07:28:22,140 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 07:28:22,140 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 07:28:22,140 - INFO - Sent periodic vote message
+2025-08-30 08:06:29,504 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 08:06:30,205 - INFO - Sent periodic vote message
+2025-08-30 08:06:32,950 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 08:06:32,950 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 08:06:32,950 - INFO - Sent periodic vote message
+2025-08-30 08:28:22,141 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 08:28:22,141 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 08:28:22,141 - INFO - Sent periodic vote message
+2025-08-30 09:06:30,205 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 09:06:30,906 - INFO - Sent periodic vote message
+2025-08-30 09:06:32,951 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 09:06:32,951 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 09:06:32,951 - INFO - Sent periodic vote message
+2025-08-30 09:28:22,141 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 09:28:22,141 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 09:28:22,141 - INFO - Sent periodic vote message
+2025-08-30 10:06:30,906 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 10:06:31,607 - INFO - Sent periodic vote message
+2025-08-30 10:06:32,951 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 10:06:32,951 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 10:06:32,951 - INFO - Sent periodic vote message
+2025-08-30 10:28:22,141 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 10:28:22,142 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 10:28:22,142 - INFO - Sent periodic vote message
+2025-08-30 10:57:05,512 - INFO - Player TheEgg spawned, warming up connection
+2025-08-30 10:57:08,236 - INFO - Connection warmed up
+2025-08-30 11:06:31,607 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 11:06:32,308 - INFO - Sent periodic vote message
+2025-08-30 11:06:32,952 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 11:06:32,952 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 11:06:32,952 - INFO - Sent periodic vote message
+2025-08-30 11:28:22,142 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 11:28:22,142 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 11:28:22,142 - INFO - Sent periodic vote message
+2025-08-30 12:05:27,223 - ERROR - Monitor error: telnet connection closed
+2025-08-30 12:05:27,224 - INFO - Waiting 30 seconds before reconnection attempt...
+2025-08-30 12:05:57,224 - INFO - Connecting to 91.99.236.133:8081
+2025-08-30 12:05:57,224 - ERROR - Connection failed: [Errno 111] Connection refused
+2025-08-30 12:05:57,224 - INFO - Connection still down, waiting 30 seconds before retry...
+2025-08-30 12:06:27,224 - INFO - Connecting to 91.99.236.133:8081
+2025-08-30 12:06:27,725 - INFO - Sending password
+2025-08-30 12:06:29,235 - INFO - Successfully connected to 91.99.236.133:8081
+2025-08-30 12:06:29,235 - INFO - Starting periodic message thread (60 minute interval)
+2025-08-30 12:06:29,236 - INFO - Starting automatic vote checker thread
+2025-08-30 12:06:29,236 - INFO - Starting chat monitoring for /vote commands...
+2025-08-30 12:06:32,308 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 12:06:32,308 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 12:06:32,308 - INFO - Sent periodic vote message
+2025-08-30 12:06:32,952 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 12:06:32,952 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 12:06:32,952 - INFO - Sent periodic vote message
+2025-08-30 12:28:22,142 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 12:28:22,143 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 12:28:22,143 - INFO - Sent periodic vote message
+2025-08-30 13:06:29,236 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 13:06:29,936 - INFO - Sent periodic vote message
+2025-08-30 13:06:32,309 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 13:06:32,309 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 13:06:32,309 - INFO - Sent periodic vote message
+2025-08-30 13:06:32,953 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 13:06:32,953 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 13:06:32,953 - INFO - Sent periodic vote message
+2025-08-30 13:28:22,143 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 13:28:22,144 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 13:28:22,144 - INFO - Sent periodic vote message
+2025-08-30 13:34:18,907 - INFO - Player TheEgg spawned, warming up connection
+2025-08-30 13:34:21,618 - INFO - Connection warmed up
+2025-08-30 14:06:29,937 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 14:06:30,637 - INFO - Sent periodic vote message
+2025-08-30 14:06:32,309 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 14:06:32,309 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 14:06:32,309 - INFO - Sent periodic vote message
+2025-08-30 14:06:32,953 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 14:06:32,953 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 14:06:32,953 - INFO - Sent periodic vote message
+2025-08-30 14:28:22,144 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 14:28:22,144 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 14:28:22,144 - INFO - Sent periodic vote message
+2025-08-30 15:06:30,638 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 15:06:32,310 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 15:06:32,310 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 15:06:32,310 - INFO - Sent periodic vote message
+2025-08-30 15:06:32,953 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 15:06:32,954 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 15:06:32,954 - INFO - Sent periodic vote message
+2025-08-30 15:06:41,349 - INFO - Sent periodic vote message
+2025-08-30 15:28:22,145 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 15:28:22,145 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 15:28:22,145 - INFO - Sent periodic vote message
+2025-08-30 16:06:32,310 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 16:06:32,310 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 16:06:32,310 - INFO - Sent periodic vote message
+2025-08-30 16:06:32,954 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 16:06:32,954 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 16:06:32,954 - INFO - Sent periodic vote message
+2025-08-30 16:06:41,350 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 16:06:42,051 - INFO - Sent periodic vote message
+2025-08-30 16:28:22,145 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 16:28:22,145 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 16:28:22,146 - INFO - Sent periodic vote message
+2025-08-30 17:06:32,311 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 17:06:32,311 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 17:06:32,311 - INFO - Sent periodic vote message
+2025-08-30 17:06:32,954 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 17:06:32,954 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 17:06:32,954 - INFO - Sent periodic vote message
+2025-08-30 17:06:42,052 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 17:06:42,753 - INFO - Sent periodic vote message
+2025-08-30 17:28:22,146 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 17:28:22,146 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 17:28:22,146 - INFO - Sent periodic vote message
+2025-08-30 18:05:26,347 - ERROR - Monitor error: telnet connection closed
+2025-08-30 18:05:26,348 - INFO - Waiting 30 seconds before reconnection attempt...
+2025-08-30 18:05:56,348 - INFO - Connecting to 91.99.236.133:8081
+2025-08-30 18:05:56,348 - ERROR - Connection failed: [Errno 111] Connection refused
+2025-08-30 18:05:56,348 - INFO - Connection still down, waiting 30 seconds before retry...
+2025-08-30 18:06:26,349 - INFO - Connecting to 91.99.236.133:8081
+2025-08-30 18:06:26,849 - INFO - Sending password
+2025-08-30 18:06:28,359 - INFO - Successfully connected to 91.99.236.133:8081
+2025-08-30 18:06:28,359 - INFO - Starting periodic message thread (60 minute interval)
+2025-08-30 18:06:28,360 - INFO - Starting automatic vote checker thread
+2025-08-30 18:06:28,360 - INFO - Starting chat monitoring for /vote commands...
+2025-08-30 18:06:32,311 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 18:06:32,311 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 18:06:32,311 - INFO - Sent periodic vote message
+2025-08-30 18:06:32,955 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 18:06:32,955 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 18:06:32,955 - INFO - Sent periodic vote message
+2025-08-30 18:06:42,753 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 18:06:42,754 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 18:06:42,754 - INFO - Sent periodic vote message
+2025-08-30 18:28:22,146 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 18:28:22,146 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 18:28:22,147 - INFO - Sent periodic vote message
+2025-08-30 19:06:28,360 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 19:06:29,061 - INFO - Sent periodic vote message
+2025-08-30 19:06:32,311 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 19:06:32,312 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 19:06:32,312 - INFO - Sent periodic vote message
+2025-08-30 19:06:32,955 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 19:06:32,955 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 19:06:32,955 - INFO - Sent periodic vote message
+2025-08-30 19:06:42,754 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 19:06:42,754 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 19:06:42,754 - INFO - Sent periodic vote message
+2025-08-30 19:28:22,147 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 19:28:22,147 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 19:28:22,147 - INFO - Sent periodic vote message
+2025-08-30 20:06:29,061 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 20:06:29,762 - INFO - Sent periodic vote message
+2025-08-30 20:06:32,312 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 20:06:32,312 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 20:06:32,312 - INFO - Sent periodic vote message
+2025-08-30 20:06:32,956 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 20:06:32,956 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 20:06:32,956 - INFO - Sent periodic vote message
+2025-08-30 20:06:42,755 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 20:06:42,755 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 20:06:42,755 - INFO - Sent periodic vote message
+2025-08-30 20:28:22,148 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 20:28:22,148 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 20:28:22,148 - INFO - Sent periodic vote message
+2025-08-30 21:06:29,762 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 21:06:30,463 - INFO - Sent periodic vote message
+2025-08-30 21:06:32,312 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 21:06:32,312 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 21:06:32,312 - INFO - Sent periodic vote message
+2025-08-30 21:06:32,956 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 21:06:32,956 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 21:06:32,956 - INFO - Sent periodic vote message
+2025-08-30 21:06:42,755 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 21:06:42,755 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 21:06:42,755 - INFO - Sent periodic vote message
+2025-08-30 21:28:22,148 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 21:28:22,148 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 21:28:22,148 - INFO - Sent periodic vote message
+2025-08-30 22:00:13,560 - INFO - Player BohemianBrewer spawned, warming up connection
+2025-08-30 22:00:16,270 - INFO - Connection warmed up
+2025-08-30 22:03:00,539 - INFO - Vote command detected from Player_171 (Steam ID: 76561198039589588)
+2025-08-30 22:03:00,539 - INFO - Handling /vote command from Player_171 (Steam ID: 76561198039589588)
+2025-08-30 22:03:01,015 - INFO - Vote status for 76561198039589588: 0
+2025-08-30 22:03:01,017 - INFO - Player_171 has not voted yet
+2025-08-30 22:03:01,017 - INFO - Sending PM to Player_171: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting!
+2025-08-30 22:03:01,719 - INFO - Added Player_171 to automatic check list
+2025-08-30 22:03:01,719 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2025-08-30 22:03:01,719 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2025-08-30 22:03:02,152 - INFO - Vote status for 76561198039589588: 0
+2025-08-30 22:03:02,154 - INFO - BohemianBrewer has not voted yet
+2025-08-30 22:03:02,154 - INFO - Sending PM to BohemianBrewer: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting!
+2025-08-30 22:03:02,855 - INFO - Added BohemianBrewer to automatic check list
+2025-08-30 22:03:28,551 - INFO - Vote status for 76561198039589588: 0
+2025-08-30 22:03:58,696 - INFO - Vote status for 76561198039589588: 1
+2025-08-30 22:03:58,697 - INFO - Automatic check: BohemianBrewer has voted! Delivering rewards...
+2025-08-30 22:03:58,698 - INFO - Giving rewards to BohemianBrewer
+2025-08-30 22:04:04,701 - INFO - Gave BohemianBrewer: Fixed rewards + books: seedSkillMagazine, electricianSkillMagazine, sledgehammersSkillMagazine
+2025-08-30 22:04:04,864 - INFO - Successfully claimed vote for 76561198039589588
+2025-08-30 22:04:04,866 - INFO - Updated vote time for 76561198039589588 to current time
+2025-08-30 22:04:05,366 - INFO - Sending PM to BohemianBrewer: Thanks for voting BohemianBrewer! Your rewards have been automatically delivered! Look, goodies are at your feet :D
+2025-08-30 22:04:06,567 - INFO - Sending global message: BohemianBrewer just received his well deserved reward!
+2025-08-30 22:06:30,463 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 22:06:31,164 - INFO - Sent periodic vote message
+2025-08-30 22:06:32,313 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 22:06:32,313 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 22:06:32,313 - INFO - Sent periodic vote message
+2025-08-30 22:06:32,957 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 22:06:32,957 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 22:06:32,957 - INFO - Sent periodic vote message
+2025-08-30 22:06:42,755 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 22:06:42,756 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 22:06:42,756 - INFO - Sent periodic vote message
+2025-08-30 22:28:22,148 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 22:28:22,149 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 22:28:22,149 - INFO - Sent periodic vote message
+2025-08-30 23:06:31,164 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 23:06:31,865 - INFO - Sent periodic vote message
+2025-08-30 23:06:32,313 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 23:06:32,313 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 23:06:32,313 - INFO - Sent periodic vote message
+2025-08-30 23:06:32,957 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 23:06:32,957 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 23:06:32,957 - INFO - Sent periodic vote message
+2025-08-30 23:06:42,756 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 23:06:42,756 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 23:06:42,756 - INFO - Sent periodic vote message
+2025-08-30 23:28:22,149 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-30 23:28:22,149 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-30 23:28:22,149 - INFO - Sent periodic vote message
+2025-08-31 00:05:26,970 - ERROR - Monitor error: telnet connection closed
+2025-08-31 00:05:26,970 - INFO - Waiting 30 seconds before reconnection attempt...
+2025-08-31 00:05:56,971 - INFO - Connecting to 91.99.236.133:8081
+2025-08-31 00:05:56,971 - ERROR - Connection failed: [Errno 111] Connection refused
+2025-08-31 00:05:56,971 - INFO - Connection still down, waiting 30 seconds before retry...
+2025-08-31 00:06:26,971 - INFO - Connecting to 91.99.236.133:8081
+2025-08-31 00:06:27,472 - INFO - Sending password
+2025-08-31 00:06:28,982 - INFO - Successfully connected to 91.99.236.133:8081
+2025-08-31 00:06:28,983 - INFO - Starting periodic message thread (60 minute interval)
+2025-08-31 00:06:28,983 - INFO - Starting automatic vote checker thread
+2025-08-31 00:06:28,983 - INFO - Starting chat monitoring for /vote commands...
+2025-08-31 00:06:31,865 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 00:06:31,865 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 00:06:31,865 - INFO - Sent periodic vote message
+2025-08-31 00:06:32,313 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 00:06:32,314 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 00:06:32,314 - INFO - Sent periodic vote message
+2025-08-31 00:06:32,957 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 00:06:32,958 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 00:06:32,958 - INFO - Sent periodic vote message
+2025-08-31 00:06:42,756 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 00:06:42,757 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 00:06:42,757 - INFO - Sent periodic vote message
+2025-08-31 00:28:22,149 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 00:28:22,150 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 00:28:22,150 - INFO - Sent periodic vote message
+2025-08-31 01:06:28,983 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 01:06:29,683 - INFO - Sent periodic vote message
+2025-08-31 01:06:31,865 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 01:06:31,866 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 01:06:31,866 - INFO - Sent periodic vote message
+2025-08-31 01:06:32,314 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 01:06:32,314 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 01:06:32,314 - INFO - Sent periodic vote message
+2025-08-31 01:06:32,958 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 01:06:32,958 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 01:06:32,958 - INFO - Sent periodic vote message
+2025-08-31 01:06:42,757 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 01:06:42,757 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 01:06:42,757 - INFO - Sent periodic vote message
+2025-08-31 01:28:22,150 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 01:28:22,150 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 01:28:22,150 - INFO - Sent periodic vote message
+2025-08-31 02:06:29,684 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 02:06:30,384 - INFO - Sent periodic vote message
+2025-08-31 02:06:31,866 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 02:06:31,866 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 02:06:31,866 - INFO - Sent periodic vote message
+2025-08-31 02:06:32,314 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 02:06:32,315 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 02:06:32,315 - INFO - Sent periodic vote message
+2025-08-31 02:06:32,959 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 02:06:32,959 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 02:06:32,959 - INFO - Sent periodic vote message
+2025-08-31 02:06:42,757 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 02:06:42,757 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 02:06:42,757 - INFO - Sent periodic vote message
+2025-08-31 02:28:22,151 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 02:28:22,151 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 02:28:22,151 - INFO - Sent periodic vote message
+2025-08-31 03:06:30,385 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 03:06:31,085 - INFO - Sent periodic vote message
+2025-08-31 03:06:31,867 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 03:06:31,867 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 03:06:31,867 - INFO - Sent periodic vote message
+2025-08-31 03:06:32,315 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 03:06:32,315 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 03:06:32,315 - INFO - Sent periodic vote message
+2025-08-31 03:06:32,959 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 03:06:32,959 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 03:06:32,959 - INFO - Sent periodic vote message
+2025-08-31 03:06:42,758 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 03:06:42,758 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 03:06:42,758 - INFO - Sent periodic vote message
+2025-08-31 03:28:22,151 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 03:28:22,151 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 03:28:22,151 - INFO - Sent periodic vote message
+2025-08-31 04:06:31,086 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 04:06:31,786 - INFO - Sent periodic vote message
+2025-08-31 04:06:31,867 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 04:06:31,867 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 04:06:31,868 - INFO - Sent periodic vote message
+2025-08-31 04:06:32,315 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 04:06:32,316 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 04:06:32,316 - INFO - Sent periodic vote message
+2025-08-31 04:06:32,960 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 04:06:32,960 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 04:06:32,960 - INFO - Sent periodic vote message
+2025-08-31 04:06:42,758 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 04:06:42,758 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 04:06:42,758 - INFO - Sent periodic vote message
+2025-08-31 04:28:22,152 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 04:28:22,152 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 04:28:22,152 - INFO - Sent periodic vote message
+2025-08-31 05:06:31,786 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 05:06:31,868 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 05:06:31,868 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 05:06:31,868 - INFO - Sent periodic vote message
+2025-08-31 05:06:32,316 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 05:06:32,316 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 05:06:32,316 - INFO - Sent periodic vote message
+2025-08-31 05:06:32,487 - INFO - Sent periodic vote message
+2025-08-31 05:06:32,960 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 05:06:32,960 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 05:06:32,960 - INFO - Sent periodic vote message
+2025-08-31 05:06:42,759 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 05:06:42,759 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 05:06:42,759 - INFO - Sent periodic vote message
+2025-08-31 05:28:22,152 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 05:28:22,152 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 05:28:22,152 - INFO - Sent periodic vote message
+2025-08-31 06:05:26,586 - ERROR - Monitor error: telnet connection closed
+2025-08-31 06:05:26,586 - INFO - Waiting 30 seconds before reconnection attempt...
+2025-08-31 06:05:56,586 - INFO - Connecting to 91.99.236.133:8081
+2025-08-31 06:05:56,587 - ERROR - Connection failed: [Errno 111] Connection refused
+2025-08-31 06:05:56,587 - INFO - Connection still down, waiting 30 seconds before retry...
+2025-08-31 06:06:26,587 - INFO - Connecting to 91.99.236.133:8081
+2025-08-31 06:06:27,087 - INFO - Sending password
+2025-08-31 06:06:28,604 - INFO - Successfully connected to 91.99.236.133:8081
+2025-08-31 06:06:28,605 - INFO - Starting periodic message thread (60 minute interval)
+2025-08-31 06:06:28,605 - INFO - Starting automatic vote checker thread
+2025-08-31 06:06:28,605 - INFO - Starting chat monitoring for /vote commands...
+2025-08-31 06:06:31,868 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 06:06:31,868 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 06:06:31,869 - INFO - Sent periodic vote message
+2025-08-31 06:06:32,316 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 06:06:32,316 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 06:06:32,316 - INFO - Sent periodic vote message
+2025-08-31 06:06:32,487 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 06:06:32,488 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 06:06:32,488 - INFO - Sent periodic vote message
+2025-08-31 06:06:32,961 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 06:06:32,961 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 06:06:32,961 - INFO - Sent periodic vote message
+2025-08-31 06:06:42,759 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 06:06:42,759 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 06:06:42,760 - INFO - Sent periodic vote message
+2025-08-31 06:28:22,152 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 06:28:22,153 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 06:28:22,153 - INFO - Sent periodic vote message
+2025-08-31 07:06:28,605 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 07:06:29,305 - INFO - Sent periodic vote message
+2025-08-31 07:06:31,869 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 07:06:31,869 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 07:06:31,869 - INFO - Sent periodic vote message
+2025-08-31 07:06:32,317 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 07:06:32,317 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 07:06:32,317 - INFO - Sent periodic vote message
+2025-08-31 07:06:32,488 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 07:06:32,488 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 07:06:32,488 - INFO - Sent periodic vote message
+2025-08-31 07:06:32,961 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 07:06:32,961 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 07:06:32,961 - INFO - Sent periodic vote message
+2025-08-31 07:06:42,760 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 07:06:42,760 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 07:06:42,760 - INFO - Sent periodic vote message
+2025-08-31 07:28:22,153 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 07:28:22,153 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 07:28:22,153 - INFO - Sent periodic vote message
+2025-08-31 08:06:29,306 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 08:06:30,006 - INFO - Sent periodic vote message
+2025-08-31 08:06:31,869 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 08:06:31,869 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 08:06:31,869 - INFO - Sent periodic vote message
+2025-08-31 08:06:32,317 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 08:06:32,317 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 08:06:32,318 - INFO - Sent periodic vote message
+2025-08-31 08:06:32,488 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 08:06:32,488 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 08:06:32,488 - INFO - Sent periodic vote message
+2025-08-31 08:06:32,961 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 08:06:32,961 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 08:06:32,961 - INFO - Sent periodic vote message
+2025-08-31 08:06:42,760 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 08:06:42,760 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 08:06:42,760 - INFO - Sent periodic vote message
+2025-08-31 08:28:22,153 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 08:28:22,154 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 08:28:22,154 - INFO - Sent periodic vote message
+2025-08-31 09:06:30,007 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 09:06:30,707 - INFO - Sent periodic vote message
+2025-08-31 09:06:31,869 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 09:06:31,870 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 09:06:31,870 - INFO - Sent periodic vote message
+2025-08-31 09:06:32,318 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 09:06:32,318 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 09:06:32,318 - INFO - Sent periodic vote message
+2025-08-31 09:06:32,489 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 09:06:32,489 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 09:06:32,489 - INFO - Sent periodic vote message
+2025-08-31 09:06:32,962 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 09:06:32,962 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 09:06:32,962 - INFO - Sent periodic vote message
+2025-08-31 09:06:42,761 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 09:06:42,761 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 09:06:42,761 - INFO - Sent periodic vote message
+2025-08-31 09:28:22,154 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 09:28:22,154 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 09:28:22,154 - INFO - Sent periodic vote message
+2025-08-31 10:06:30,708 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 10:06:31,408 - INFO - Sent periodic vote message
+2025-08-31 10:06:31,870 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 10:06:31,870 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 10:06:31,870 - INFO - Sent periodic vote message
+2025-08-31 10:06:32,318 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 10:06:32,318 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 10:06:32,318 - INFO - Sent periodic vote message
+2025-08-31 10:06:32,489 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 10:06:32,489 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 10:06:32,489 - INFO - Sent periodic vote message
+2025-08-31 10:06:32,962 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 10:06:32,962 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 10:06:32,962 - INFO - Sent periodic vote message
+2025-08-31 10:06:42,761 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 10:06:42,761 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 10:06:42,761 - INFO - Sent periodic vote message
+2025-08-31 10:28:22,154 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 10:28:22,155 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 10:28:22,155 - INFO - Sent periodic vote message
+2025-08-31 11:06:31,409 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 11:06:31,870 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 11:06:31,870 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 11:06:31,871 - INFO - Sent periodic vote message
+2025-08-31 11:06:32,109 - INFO - Sent periodic vote message
+2025-08-31 11:06:32,319 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 11:06:32,319 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 11:06:32,319 - INFO - Sent periodic vote message
+2025-08-31 11:06:32,489 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 11:06:32,490 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 11:06:32,490 - INFO - Sent periodic vote message
+2025-08-31 11:06:32,963 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 11:06:32,963 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 11:06:32,963 - INFO - Sent periodic vote message
+2025-08-31 11:06:42,761 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 11:06:42,762 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 11:06:42,762 - INFO - Sent periodic vote message
+2025-08-31 11:28:22,155 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 11:28:22,155 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 11:28:22,155 - INFO - Sent periodic vote message
+2025-08-31 12:05:27,265 - ERROR - Monitor error: telnet connection closed
+2025-08-31 12:05:27,265 - INFO - Waiting 30 seconds before reconnection attempt...
+2025-08-31 12:05:57,265 - INFO - Connecting to 91.99.236.133:8081
+2025-08-31 12:05:57,266 - ERROR - Connection failed: [Errno 111] Connection refused
+2025-08-31 12:05:57,266 - INFO - Connection still down, waiting 30 seconds before retry...
+2025-08-31 12:06:27,266 - INFO - Connecting to 91.99.236.133:8081
+2025-08-31 12:06:27,766 - INFO - Sending password
+2025-08-31 12:06:29,276 - INFO - Successfully connected to 91.99.236.133:8081
+2025-08-31 12:06:29,277 - INFO - Starting periodic message thread (60 minute interval)
+2025-08-31 12:06:29,277 - INFO - Starting automatic vote checker thread
+2025-08-31 12:06:29,277 - INFO - Starting chat monitoring for /vote commands...
+2025-08-31 12:06:31,871 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 12:06:31,871 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 12:06:31,871 - INFO - Sent periodic vote message
+2025-08-31 12:06:32,109 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 12:06:32,110 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 12:06:32,110 - INFO - Sent periodic vote message
+2025-08-31 12:06:32,319 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 12:06:32,319 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 12:06:32,319 - INFO - Sent periodic vote message
+2025-08-31 12:06:32,490 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 12:06:32,490 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 12:06:32,490 - INFO - Sent periodic vote message
+2025-08-31 12:06:32,963 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 12:06:32,963 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 12:06:32,963 - INFO - Sent periodic vote message
+2025-08-31 12:06:42,762 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 12:06:42,762 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 12:06:42,762 - INFO - Sent periodic vote message
+2025-08-31 12:28:22,155 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 12:28:22,156 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 12:28:22,156 - INFO - Sent periodic vote message
+2025-08-31 13:06:29,277 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 13:06:29,978 - INFO - Sent periodic vote message
+2025-08-31 13:06:31,871 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 13:06:31,871 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 13:06:31,872 - INFO - Sent periodic vote message
+2025-08-31 13:06:32,110 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 13:06:32,110 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 13:06:32,110 - INFO - Sent periodic vote message
+2025-08-31 13:06:32,319 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 13:06:32,320 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 13:06:32,320 - INFO - Sent periodic vote message
+2025-08-31 13:06:32,490 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 13:06:32,490 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 13:06:32,490 - INFO - Sent periodic vote message
+2025-08-31 13:06:32,963 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 13:06:32,963 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 13:06:32,964 - INFO - Sent periodic vote message
+2025-08-31 13:06:42,762 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 13:06:42,763 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 13:06:42,763 - INFO - Sent periodic vote message
+2025-08-31 13:28:22,156 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 13:28:22,156 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 13:28:22,156 - INFO - Sent periodic vote message
+2025-08-31 14:06:29,978 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 14:06:30,679 - INFO - Sent periodic vote message
+2025-08-31 14:06:31,872 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 14:06:31,872 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 14:06:31,872 - INFO - Sent periodic vote message
+2025-08-31 14:06:32,110 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 14:06:32,110 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 14:06:32,111 - INFO - Sent periodic vote message
+2025-08-31 14:06:32,320 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 14:06:32,320 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 14:06:32,320 - INFO - Sent periodic vote message
+2025-08-31 14:06:32,491 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 14:06:32,491 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 14:06:32,491 - INFO - Sent periodic vote message
+2025-08-31 14:06:32,964 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 14:06:32,964 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 14:06:32,964 - INFO - Sent periodic vote message
+2025-08-31 14:06:42,763 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 14:06:42,763 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 14:06:42,763 - INFO - Sent periodic vote message
+2025-08-31 14:28:22,156 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 14:28:22,156 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 14:28:22,156 - INFO - Sent periodic vote message
+2025-08-31 15:06:30,680 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 15:06:31,380 - INFO - Sent periodic vote message
+2025-08-31 15:06:31,872 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 15:06:31,873 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 15:06:31,873 - INFO - Sent periodic vote message
+2025-08-31 15:06:32,111 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 15:06:32,111 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 15:06:32,111 - INFO - Sent periodic vote message
+2025-08-31 15:06:32,320 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 15:06:32,321 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 15:06:32,321 - INFO - Sent periodic vote message
+2025-08-31 15:06:32,491 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 15:06:32,491 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 15:06:32,491 - INFO - Sent periodic vote message
+2025-08-31 15:06:32,965 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 15:06:32,965 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 15:06:32,965 - INFO - Sent periodic vote message
+2025-08-31 15:06:42,764 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 15:06:42,764 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 15:06:42,764 - INFO - Sent periodic vote message
+2025-08-31 15:28:22,157 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 15:28:22,157 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 15:28:22,157 - INFO - Sent periodic vote message
+2025-08-31 16:06:31,381 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 16:06:31,873 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 16:06:31,873 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 16:06:31,873 - INFO - Sent periodic vote message
+2025-08-31 16:06:32,082 - INFO - Sent periodic vote message
+2025-08-31 16:06:32,112 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 16:06:32,112 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 16:06:32,112 - INFO - Sent periodic vote message
+2025-08-31 16:06:32,321 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 16:06:32,321 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 16:06:32,321 - INFO - Sent periodic vote message
+2025-08-31 16:06:32,492 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 16:06:32,492 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 16:06:32,492 - INFO - Sent periodic vote message
+2025-08-31 16:06:32,965 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 16:06:32,965 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 16:06:32,965 - INFO - Sent periodic vote message
+2025-08-31 16:06:42,764 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 16:06:42,764 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 16:06:42,764 - INFO - Sent periodic vote message
+2025-08-31 16:28:22,157 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 16:28:22,157 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 16:28:22,157 - INFO - Sent periodic vote message
+2025-08-31 17:06:31,874 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 17:06:31,874 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 17:06:31,874 - INFO - Sent periodic vote message
+2025-08-31 17:06:32,082 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 17:06:32,112 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 17:06:32,112 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 17:06:32,112 - INFO - Sent periodic vote message
+2025-08-31 17:06:32,321 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 17:06:32,322 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 17:06:32,322 - INFO - Sent periodic vote message
+2025-08-31 17:06:32,492 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 17:06:32,492 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 17:06:32,492 - INFO - Sent periodic vote message
+2025-08-31 17:06:32,782 - INFO - Sent periodic vote message
+2025-08-31 17:06:32,966 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 17:06:32,966 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 17:06:32,966 - INFO - Sent periodic vote message
+2025-08-31 17:06:42,765 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 17:06:42,765 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 17:06:42,765 - INFO - Sent periodic vote message
+2025-08-31 17:28:22,157 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 17:28:22,158 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 17:28:22,158 - INFO - Sent periodic vote message
+2025-08-31 18:05:26,207 - ERROR - Monitor error: telnet connection closed
+2025-08-31 18:05:26,207 - INFO - Waiting 30 seconds before reconnection attempt...
+2025-08-31 18:05:56,208 - INFO - Connecting to 91.99.236.133:8081
+2025-08-31 18:05:56,208 - ERROR - Connection failed: [Errno 111] Connection refused
+2025-08-31 18:05:56,208 - INFO - Connection still down, waiting 30 seconds before retry...
+2025-08-31 18:06:26,208 - INFO - Connecting to 91.99.236.133:8081
+2025-08-31 18:06:26,709 - INFO - Sending password
+2025-08-31 18:06:28,218 - INFO - Successfully connected to 91.99.236.133:8081
+2025-08-31 18:06:28,219 - INFO - Starting periodic message thread (60 minute interval)
+2025-08-31 18:06:28,219 - INFO - Starting automatic vote checker thread
+2025-08-31 18:06:28,219 - INFO - Starting chat monitoring for /vote commands...
+2025-08-31 18:06:31,874 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 18:06:31,874 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 18:06:31,874 - INFO - Sent periodic vote message
+2025-08-31 18:06:32,112 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 18:06:32,113 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 18:06:32,113 - INFO - Sent periodic vote message
+2025-08-31 18:06:32,322 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 18:06:32,322 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 18:06:32,322 - INFO - Sent periodic vote message
+2025-08-31 18:06:32,493 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 18:06:32,493 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 18:06:32,493 - INFO - Sent periodic vote message
+2025-08-31 18:06:32,783 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 18:06:32,783 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 18:06:32,783 - INFO - Sent periodic vote message
+2025-08-31 18:06:32,966 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 18:06:32,966 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 18:06:32,966 - INFO - Sent periodic vote message
+2025-08-31 18:06:42,765 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 18:06:42,765 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 18:06:42,765 - INFO - Sent periodic vote message
+2025-08-31 18:28:22,158 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 18:28:22,158 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 18:28:22,158 - INFO - Sent periodic vote message
+2025-08-31 19:06:28,219 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 19:06:28,920 - INFO - Sent periodic vote message
+2025-08-31 19:06:31,874 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 19:06:31,874 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 19:06:31,874 - INFO - Sent periodic vote message
+2025-08-31 19:06:32,113 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 19:06:32,113 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 19:06:32,113 - INFO - Sent periodic vote message
+2025-08-31 19:06:32,322 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 19:06:32,322 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 19:06:32,322 - INFO - Sent periodic vote message
+2025-08-31 19:06:32,493 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 19:06:32,493 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 19:06:32,493 - INFO - Sent periodic vote message
+2025-08-31 19:06:32,783 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 19:06:32,783 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 19:06:32,783 - INFO - Sent periodic vote message
+2025-08-31 19:06:32,967 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 19:06:32,967 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 19:06:32,967 - INFO - Sent periodic vote message
+2025-08-31 19:06:42,766 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 19:06:42,766 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 19:06:42,766 - INFO - Sent periodic vote message
+2025-08-31 19:28:22,158 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 19:28:22,159 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 19:28:22,159 - INFO - Sent periodic vote message
+2025-08-31 19:31:11,866 - INFO - Player TheEgg spawned, warming up connection
+2025-08-31 19:31:14,577 - INFO - Connection warmed up
+2025-08-31 19:35:39,307 - INFO - Vote command detected from Player_856 (Steam ID: 76561198093609245)
+2025-08-31 19:35:39,308 - INFO - Handling /vote command from Player_856 (Steam ID: 76561198093609245)
+2025-08-31 19:35:39,822 - INFO - Vote status for 76561198093609245: 0
+2025-08-31 19:35:39,824 - INFO - Player_856 has not voted yet
+2025-08-31 19:35:39,824 - INFO - Sending PM to Player_856: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting!
+2025-08-31 19:35:40,525 - INFO - Added Player_856 to automatic check list
+2025-08-31 19:35:40,526 - INFO - Vote command detected from TheEgg (Steam ID: 76561198093609245)
+2025-08-31 19:35:40,526 - INFO - Handling /vote command from TheEgg (Steam ID: 76561198093609245)
+2025-08-31 19:35:40,964 - INFO - Vote status for 76561198093609245: 0
+2025-08-31 19:35:40,965 - INFO - TheEgg has not voted yet
+2025-08-31 19:35:40,966 - INFO - Sending PM to TheEgg: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting!
+2025-08-31 19:35:41,671 - INFO - Added TheEgg to automatic check list
+2025-08-31 19:35:58,369 - INFO - Vote status for 76561198093609245: 0
+2025-08-31 19:36:28,508 - INFO - Vote status for 76561198093609245: 1
+2025-08-31 19:36:28,509 - INFO - Automatic check: TheEgg has voted! Delivering rewards...
+2025-08-31 19:36:28,509 - INFO - Giving rewards to TheEgg
+2025-08-31 19:36:34,513 - INFO - Gave TheEgg: Fixed rewards + books: seedSkillMagazine, spearsSkillMagazine, electricianSkillMagazine
+2025-08-31 19:36:34,652 - INFO - Successfully claimed vote for 76561198093609245
+2025-08-31 19:36:34,653 - INFO - Updated vote time for 76561198093609245 to current time
+2025-08-31 19:36:35,154 - INFO - Sending PM to TheEgg: Thanks for voting TheEgg! Your rewards have been automatically delivered! Look, goodies are at your feet :D
+2025-08-31 19:36:36,355 - INFO - Sending global message: TheEgg just received his well deserved reward!
+2025-08-31 19:37:00,311 - INFO - Player BohemianBrewer spawned, warming up connection
+2025-08-31 19:37:03,024 - INFO - Connection warmed up
+2025-08-31 19:38:07,731 - INFO - Vote command detected from Player_171 (Steam ID: 76561198039589588)
+2025-08-31 19:38:07,731 - INFO - Handling /vote command from Player_171 (Steam ID: 76561198039589588)
+2025-08-31 19:38:08,166 - INFO - Vote status for 76561198039589588: 2
+2025-08-31 19:38:08,296 - INFO - Found vote time for 76561198039589588: 2025-08-30 22:03:32+02:00 (API says: August 30th, 2025 10:03 PM CEST, claimed: 1)
+2025-08-31 19:38:08,298 - INFO - Vote status is 2 but from before daily reset - treating as 0
+2025-08-31 19:38:08,299 - INFO - Player_171 has not voted yet
+2025-08-31 19:38:08,299 - INFO - Sending PM to Player_171: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting!
+2025-08-31 19:38:09,000 - INFO - Added Player_171 to automatic check list
+2025-08-31 19:38:09,001 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2025-08-31 19:38:09,001 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2025-08-31 19:38:09,512 - INFO - Vote status for 76561198039589588: 2
+2025-08-31 19:38:09,512 - INFO - Vote status is 2 but from before daily reset - treating as 0
+2025-08-31 19:38:09,513 - INFO - BohemianBrewer has not voted yet
+2025-08-31 19:38:09,514 - INFO - Sending PM to BohemianBrewer: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting!
+2025-08-31 19:38:10,215 - INFO - Added BohemianBrewer to automatic check list
+2025-08-31 19:38:37,216 - INFO - Vote status for 76561198039589588: 1
+2025-08-31 19:38:37,218 - INFO - Automatic check: BohemianBrewer has voted! Delivering rewards...
+2025-08-31 19:38:37,219 - INFO - Giving rewards to BohemianBrewer
+2025-08-31 19:38:43,222 - INFO - Gave BohemianBrewer: Fixed rewards + books: salvageToolsSkillMagazine, roboticsSkillMagazine, vehiclesSkillMagazine
+2025-08-31 19:38:43,338 - INFO - Successfully claimed vote for 76561198039589588
+2025-08-31 19:38:43,339 - INFO - Updated vote time for 76561198039589588 to current time
+2025-08-31 19:38:43,840 - INFO - Sending PM to BohemianBrewer: Thanks for voting BohemianBrewer! Your rewards have been automatically delivered! Look, goodies are at your feet :D
+2025-08-31 19:38:45,041 - INFO - Sending global message: BohemianBrewer just received his well deserved reward!
+2025-08-31 20:06:28,920 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 20:06:29,620 - INFO - Sent periodic vote message
+2025-08-31 20:06:31,875 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 20:06:31,875 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 20:06:31,875 - INFO - Sent periodic vote message
+2025-08-31 20:06:32,113 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 20:06:32,113 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 20:06:32,113 - INFO - Sent periodic vote message
+2025-08-31 20:06:32,323 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 20:06:32,323 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 20:06:32,323 - INFO - Sent periodic vote message
+2025-08-31 20:06:32,493 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 20:06:32,494 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 20:06:32,494 - INFO - Sent periodic vote message
+2025-08-31 20:06:32,784 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 20:06:32,784 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 20:06:32,784 - INFO - Sent periodic vote message
+2025-08-31 20:06:32,967 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 20:06:32,967 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 20:06:32,967 - INFO - Sent periodic vote message
+2025-08-31 20:06:42,766 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 20:06:42,766 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 20:06:42,766 - INFO - Sent periodic vote message
+2025-08-31 20:28:22,159 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 20:28:22,159 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 20:28:22,159 - INFO - Sent periodic vote message
+2025-08-31 20:31:33,158 - INFO - Player BohemianBrewer spawned, warming up connection
+2025-08-31 20:31:35,870 - INFO - Connection warmed up
+2025-08-31 20:31:35,871 - INFO - Re-adding BohemianBrewer to vote check list (returning player)
+2025-08-31 20:31:45,929 - INFO - Vote status for 76561198039589588: 2
+2025-08-31 20:31:45,931 - INFO - Automatic check: BohemianBrewer already claimed
+2025-08-31 21:06:29,621 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 21:06:30,321 - INFO - Sent periodic vote message
+2025-08-31 21:06:31,876 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 21:06:31,876 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 21:06:31,876 - INFO - Sent periodic vote message
+2025-08-31 21:06:32,114 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 21:06:32,114 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 21:06:32,114 - INFO - Sent periodic vote message
+2025-08-31 21:06:32,323 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 21:06:32,323 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 21:06:32,323 - INFO - Sent periodic vote message
+2025-08-31 21:06:32,494 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 21:06:32,494 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 21:06:32,494 - INFO - Sent periodic vote message
+2025-08-31 21:06:32,784 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 21:06:32,784 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 21:06:32,785 - INFO - Sent periodic vote message
+2025-08-31 21:06:32,968 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 21:06:32,968 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 21:06:32,968 - INFO - Sent periodic vote message
+2025-08-31 21:06:42,766 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 21:06:42,767 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 21:06:42,767 - INFO - Sent periodic vote message
+2025-08-31 21:28:22,159 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 21:28:22,159 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 21:28:22,160 - INFO - Sent periodic vote message
+2025-08-31 22:06:30,322 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 22:06:31,022 - INFO - Sent periodic vote message
+2025-08-31 22:06:31,876 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 22:06:31,877 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 22:06:31,877 - INFO - Sent periodic vote message
+2025-08-31 22:06:32,114 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 22:06:32,114 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 22:06:32,114 - INFO - Sent periodic vote message
+2025-08-31 22:06:32,324 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 22:06:32,324 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 22:06:32,324 - INFO - Sent periodic vote message
+2025-08-31 22:06:32,494 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 22:06:32,495 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 22:06:32,495 - INFO - Sent periodic vote message
+2025-08-31 22:06:32,785 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 22:06:32,785 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 22:06:32,785 - INFO - Sent periodic vote message
+2025-08-31 22:06:32,968 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 22:06:32,968 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 22:06:32,968 - INFO - Sent periodic vote message
+2025-08-31 22:06:42,767 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 22:06:42,767 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 22:06:42,767 - INFO - Sent periodic vote message
+2025-08-31 22:11:11,706 - INFO - Player BohemianBrewer spawned, warming up connection
+2025-08-31 22:11:14,416 - INFO - Connection warmed up
+2025-08-31 22:11:14,417 - INFO - Re-adding BohemianBrewer to vote check list (returning player)
+2025-08-31 22:11:16,153 - INFO - Vote status for 76561198039589588: 2
+2025-08-31 22:11:16,154 - INFO - Automatic check: BohemianBrewer already claimed
+2025-08-31 22:12:33,252 - INFO - Player TheEgg spawned, warming up connection
+2025-08-31 22:12:35,963 - INFO - Connection warmed up
+2025-08-31 22:12:35,964 - INFO - Re-adding TheEgg to vote check list (returning player)
+2025-08-31 22:12:46,278 - INFO - Vote status for 76561198093609245: 2
+2025-08-31 22:12:46,279 - INFO - Automatic check: TheEgg already claimed
+2025-08-31 22:28:22,160 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 22:28:22,160 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 22:28:22,160 - INFO - Sent periodic vote message
+2025-08-31 23:06:31,023 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 23:06:31,724 - INFO - Sent periodic vote message
+2025-08-31 23:06:31,877 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 23:06:31,878 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 23:06:31,878 - INFO - Sent periodic vote message
+2025-08-31 23:06:32,114 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 23:06:32,115 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 23:06:32,115 - INFO - Sent periodic vote message
+2025-08-31 23:06:32,324 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 23:06:32,324 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 23:06:32,324 - INFO - Sent periodic vote message
+2025-08-31 23:06:32,495 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 23:06:32,495 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 23:06:32,495 - INFO - Sent periodic vote message
+2025-08-31 23:06:32,785 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 23:06:32,785 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 23:06:32,785 - INFO - Sent periodic vote message
+2025-08-31 23:06:32,969 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 23:06:32,969 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 23:06:32,969 - INFO - Sent periodic vote message
+2025-08-31 23:06:42,767 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 23:06:42,767 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 23:06:42,768 - INFO - Sent periodic vote message
+2025-08-31 23:28:22,161 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 23:28:22,161 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-08-31 23:28:22,161 - INFO - Sent periodic vote message
+2025-09-01 00:05:27,991 - ERROR - Monitor error: telnet connection closed
+2025-09-01 00:05:27,992 - INFO - Waiting 30 seconds before reconnection attempt...
+2025-09-01 00:05:57,993 - INFO - Connecting to 91.99.236.133:8081
+2025-09-01 00:05:57,993 - ERROR - Connection failed: [Errno 111] Connection refused
+2025-09-01 00:05:57,993 - INFO - Connection still down, waiting 30 seconds before retry...
+2025-09-01 00:06:27,993 - INFO - Connecting to 91.99.236.133:8081
+2025-09-01 00:06:28,495 - INFO - Sending password
+2025-09-01 00:06:30,007 - INFO - Successfully connected to 91.99.236.133:8081
+2025-09-01 00:06:30,009 - INFO - Starting periodic message thread (60 minute interval)
+2025-09-01 00:06:30,009 - INFO - Starting automatic vote checker thread
+2025-09-01 00:06:30,009 - INFO - Starting chat monitoring for /vote commands...
+2025-09-01 00:06:31,725 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 00:06:31,725 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 00:06:31,725 - INFO - Sent periodic vote message
+2025-09-01 00:06:31,878 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 00:06:31,878 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 00:06:31,878 - INFO - Sent periodic vote message
+2025-09-01 00:06:32,115 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 00:06:32,115 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 00:06:32,115 - INFO - Sent periodic vote message
+2025-09-01 00:06:32,325 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 00:06:32,325 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 00:06:32,325 - INFO - Sent periodic vote message
+2025-09-01 00:06:32,495 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 00:06:32,495 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 00:06:32,495 - INFO - Sent periodic vote message
+2025-09-01 00:06:32,786 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 00:06:32,786 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 00:06:32,786 - INFO - Sent periodic vote message
+2025-09-01 00:06:32,969 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 00:06:32,969 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 00:06:32,969 - INFO - Sent periodic vote message
+2025-09-01 00:06:42,768 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 00:06:42,768 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 00:06:42,768 - INFO - Sent periodic vote message
+2025-09-01 00:08:35,342 - INFO - Player BohemianBrewer spawned, warming up connection
+2025-09-01 00:08:38,052 - INFO - Connection warmed up
+2025-09-01 00:28:22,161 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 00:28:22,161 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 00:28:22,161 - INFO - Sent periodic vote message
+2025-09-01 01:06:30,009 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 01:06:30,710 - INFO - Sent periodic vote message
+2025-09-01 01:06:31,725 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 01:06:31,725 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 01:06:31,725 - INFO - Sent periodic vote message
+2025-09-01 01:06:31,878 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 01:06:31,879 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 01:06:31,879 - INFO - Sent periodic vote message
+2025-09-01 01:06:32,115 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 01:06:32,115 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 01:06:32,116 - INFO - Sent periodic vote message
+2025-09-01 01:06:32,325 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 01:06:32,325 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 01:06:32,325 - INFO - Sent periodic vote message
+2025-09-01 01:06:32,496 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 01:06:32,496 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 01:06:32,496 - INFO - Sent periodic vote message
+2025-09-01 01:06:32,786 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 01:06:32,786 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 01:06:32,786 - INFO - Sent periodic vote message
+2025-09-01 01:06:32,969 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 01:06:32,970 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 01:06:32,970 - INFO - Sent periodic vote message
+2025-09-01 01:06:42,768 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 01:06:42,768 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 01:06:42,768 - INFO - Sent periodic vote message
+2025-09-01 01:28:22,161 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 01:28:22,162 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 01:28:22,162 - INFO - Sent periodic vote message
+2025-09-01 02:06:30,710 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 02:06:31,411 - INFO - Sent periodic vote message
+2025-09-01 02:06:31,725 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 02:06:31,726 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 02:06:31,726 - INFO - Sent periodic vote message
+2025-09-01 02:06:31,879 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 02:06:31,879 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 02:06:31,879 - INFO - Sent periodic vote message
+2025-09-01 02:06:32,116 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 02:06:32,116 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 02:06:32,116 - INFO - Sent periodic vote message
+2025-09-01 02:06:32,325 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 02:06:32,326 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 02:06:32,326 - INFO - Sent periodic vote message
+2025-09-01 02:06:32,496 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 02:06:32,496 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 02:06:32,496 - INFO - Sent periodic vote message
+2025-09-01 02:06:32,786 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 02:06:32,787 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 02:06:32,787 - INFO - Sent periodic vote message
+2025-09-01 02:06:32,970 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 02:06:32,970 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 02:06:32,970 - INFO - Sent periodic vote message
+2025-09-01 02:06:42,769 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 02:06:42,769 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 02:06:42,769 - INFO - Sent periodic vote message
+2025-09-01 02:28:22,162 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 02:28:22,162 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 02:28:22,162 - INFO - Sent periodic vote message
+2025-09-01 03:06:31,411 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 03:06:31,726 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 03:06:31,726 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 03:06:31,726 - INFO - Sent periodic vote message
+2025-09-01 03:06:31,879 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 03:06:31,879 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 03:06:31,880 - INFO - Sent periodic vote message
+2025-09-01 03:06:32,112 - INFO - Sent periodic vote message
+2025-09-01 03:06:32,116 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 03:06:32,116 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 03:06:32,116 - INFO - Sent periodic vote message
+2025-09-01 03:06:32,326 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 03:06:32,326 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 03:06:32,326 - INFO - Sent periodic vote message
+2025-09-01 03:06:32,496 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 03:06:32,497 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 03:06:32,497 - INFO - Sent periodic vote message
+2025-09-01 03:06:32,787 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 03:06:32,787 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 03:06:32,787 - INFO - Sent periodic vote message
+2025-09-01 03:06:32,970 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 03:06:32,971 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 03:06:32,971 - INFO - Sent periodic vote message
+2025-09-01 03:06:42,769 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 03:06:42,769 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 03:06:42,770 - INFO - Sent periodic vote message
+2025-09-01 03:28:22,162 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 03:28:22,163 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 03:28:22,163 - INFO - Sent periodic vote message
+2025-09-01 04:06:31,726 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 04:06:31,727 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 04:06:31,727 - INFO - Sent periodic vote message
+2025-09-01 04:06:31,880 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 04:06:31,880 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 04:06:31,880 - INFO - Sent periodic vote message
+2025-09-01 04:06:32,112 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 04:06:32,117 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 04:06:32,117 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 04:06:32,117 - INFO - Sent periodic vote message
+2025-09-01 04:06:32,326 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 04:06:32,327 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 04:06:32,327 - INFO - Sent periodic vote message
+2025-09-01 04:06:32,497 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 04:06:32,497 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 04:06:32,497 - INFO - Sent periodic vote message
+2025-09-01 04:06:32,788 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 04:06:32,788 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 04:06:32,788 - INFO - Sent periodic vote message
+2025-09-01 04:06:32,813 - INFO - Sent periodic vote message
+2025-09-01 04:06:32,971 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 04:06:32,971 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 04:06:32,971 - INFO - Sent periodic vote message
+2025-09-01 04:06:42,770 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 04:06:42,770 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 04:06:42,770 - INFO - Sent periodic vote message
+2025-09-01 04:28:22,163 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 04:28:22,163 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 04:28:22,163 - INFO - Sent periodic vote message
+2025-09-01 05:06:31,727 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 05:06:31,727 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 05:06:31,727 - INFO - Sent periodic vote message
+2025-09-01 05:06:31,880 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 05:06:31,880 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 05:06:31,880 - INFO - Sent periodic vote message
+2025-09-01 05:06:32,117 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 05:06:32,117 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 05:06:32,117 - INFO - Sent periodic vote message
+2025-09-01 05:06:32,327 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 05:06:32,327 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 05:06:32,327 - INFO - Sent periodic vote message
+2025-09-01 05:06:32,497 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 05:06:32,498 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 05:06:32,498 - INFO - Sent periodic vote message
+2025-09-01 05:06:32,788 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 05:06:32,788 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 05:06:32,788 - INFO - Sent periodic vote message
+2025-09-01 05:06:32,813 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 05:06:32,971 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 05:06:32,971 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 05:06:32,971 - INFO - Sent periodic vote message
+2025-09-01 05:06:33,513 - INFO - Sent periodic vote message
+2025-09-01 05:06:42,770 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 05:06:42,770 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 05:06:42,771 - INFO - Sent periodic vote message
+2025-09-01 05:28:22,163 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 05:28:22,163 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 05:28:22,163 - INFO - Sent periodic vote message
+2025-09-01 06:05:27,090 - ERROR - Monitor error: telnet connection closed
+2025-09-01 06:05:27,090 - INFO - Waiting 30 seconds before reconnection attempt...
+2025-09-01 06:05:57,090 - INFO - Connecting to 91.99.236.133:8081
+2025-09-01 06:05:57,090 - ERROR - Connection failed: [Errno 111] Connection refused
+2025-09-01 06:05:57,090 - INFO - Connection still down, waiting 30 seconds before retry...
+2025-09-01 06:06:27,091 - INFO - Connecting to 91.99.236.133:8081
+2025-09-01 06:06:27,591 - INFO - Sending password
+2025-09-01 06:06:29,101 - INFO - Successfully connected to 91.99.236.133:8081
+2025-09-01 06:06:29,101 - INFO - Starting periodic message thread (60 minute interval)
+2025-09-01 06:06:29,102 - INFO - Starting automatic vote checker thread
+2025-09-01 06:06:29,102 - INFO - Starting chat monitoring for /vote commands...
+2025-09-01 06:06:31,727 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 06:06:31,728 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 06:06:31,728 - INFO - Sent periodic vote message
+2025-09-01 06:06:31,881 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 06:06:31,881 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 06:06:31,881 - INFO - Sent periodic vote message
+2025-09-01 06:06:32,118 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 06:06:32,118 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 06:06:32,118 - INFO - Sent periodic vote message
+2025-09-01 06:06:32,327 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 06:06:32,328 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 06:06:32,328 - INFO - Sent periodic vote message
+2025-09-01 06:06:32,498 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 06:06:32,498 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 06:06:32,498 - INFO - Sent periodic vote message
+2025-09-01 06:06:32,788 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 06:06:32,789 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 06:06:32,789 - INFO - Sent periodic vote message
+2025-09-01 06:06:32,972 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 06:06:32,972 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 06:06:32,972 - INFO - Sent periodic vote message
+2025-09-01 06:06:33,514 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 06:06:33,514 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 06:06:33,514 - INFO - Sent periodic vote message
+2025-09-01 06:06:42,771 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 06:06:42,771 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 06:06:42,771 - INFO - Sent periodic vote message
+2025-09-01 06:28:22,164 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 06:28:22,164 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 06:28:22,164 - INFO - Sent periodic vote message
+2025-09-01 07:06:29,102 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 07:06:29,802 - INFO - Sent periodic vote message
+2025-09-01 07:06:31,728 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 07:06:31,728 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 07:06:31,728 - INFO - Sent periodic vote message
+2025-09-01 07:06:31,881 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 07:06:31,881 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 07:06:31,881 - INFO - Sent periodic vote message
+2025-09-01 07:06:32,118 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 07:06:32,118 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 07:06:32,118 - INFO - Sent periodic vote message
+2025-09-01 07:06:32,328 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 07:06:32,328 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 07:06:32,328 - INFO - Sent periodic vote message
+2025-09-01 07:06:32,498 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 07:06:32,498 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 07:06:32,499 - INFO - Sent periodic vote message
+2025-09-01 07:06:32,789 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 07:06:32,789 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 07:06:32,789 - INFO - Sent periodic vote message
+2025-09-01 07:06:32,972 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 07:06:32,972 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 07:06:32,972 - INFO - Sent periodic vote message
+2025-09-01 07:06:33,514 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 07:06:33,514 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 07:06:33,515 - INFO - Sent periodic vote message
+2025-09-01 07:06:42,772 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 07:06:42,772 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 07:06:42,772 - INFO - Sent periodic vote message
+2025-09-01 07:28:22,164 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 07:28:22,164 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 07:28:22,164 - INFO - Sent periodic vote message
+2025-09-01 08:06:29,803 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 08:06:30,503 - INFO - Sent periodic vote message
+2025-09-01 08:06:31,728 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 08:06:31,728 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 08:06:31,728 - INFO - Sent periodic vote message
+2025-09-01 08:06:31,882 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 08:06:31,882 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 08:06:31,882 - INFO - Sent periodic vote message
+2025-09-01 08:06:32,118 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 08:06:32,119 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 08:06:32,119 - INFO - Sent periodic vote message
+2025-09-01 08:06:32,328 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 08:06:32,329 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 08:06:32,329 - INFO - Sent periodic vote message
+2025-09-01 08:06:32,499 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 08:06:32,499 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 08:06:32,499 - INFO - Sent periodic vote message
+2025-09-01 08:06:32,789 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 08:06:32,789 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 08:06:32,789 - INFO - Sent periodic vote message
+2025-09-01 08:06:32,972 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 08:06:32,973 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 08:06:32,973 - INFO - Sent periodic vote message
+2025-09-01 08:06:33,515 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 08:06:33,515 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 08:06:33,515 - INFO - Sent periodic vote message
+2025-09-01 08:06:42,772 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 08:06:42,772 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 08:06:42,772 - INFO - Sent periodic vote message
+2025-09-01 08:28:22,165 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 08:28:22,165 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 08:28:22,165 - INFO - Sent periodic vote message
+2025-09-01 09:06:30,504 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 09:06:31,205 - INFO - Sent periodic vote message
+2025-09-01 09:06:31,729 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 09:06:31,729 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 09:06:31,729 - INFO - Sent periodic vote message
+2025-09-01 09:06:31,882 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 09:06:31,882 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 09:06:31,882 - INFO - Sent periodic vote message
+2025-09-01 09:06:32,119 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 09:06:32,119 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 09:06:32,119 - INFO - Sent periodic vote message
+2025-09-01 09:06:32,329 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 09:06:32,329 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 09:06:32,329 - INFO - Sent periodic vote message
+2025-09-01 09:06:32,499 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 09:06:32,499 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 09:06:32,499 - INFO - Sent periodic vote message
+2025-09-01 09:06:32,790 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 09:06:32,790 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 09:06:32,790 - INFO - Sent periodic vote message
+2025-09-01 09:06:32,973 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 09:06:32,973 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 09:06:32,973 - INFO - Sent periodic vote message
+2025-09-01 09:06:33,515 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 09:06:33,515 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 09:06:33,515 - INFO - Sent periodic vote message
+2025-09-01 09:06:42,772 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 09:06:42,773 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 09:06:42,773 - INFO - Sent periodic vote message
+2025-09-01 09:28:22,165 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 09:28:22,165 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 09:28:22,165 - INFO - Sent periodic vote message
+2025-09-01 10:06:31,205 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 10:06:31,729 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 10:06:31,729 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 10:06:31,729 - INFO - Sent periodic vote message
+2025-09-01 10:06:31,883 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 10:06:31,883 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 10:06:31,883 - INFO - Sent periodic vote message
+2025-09-01 10:06:31,906 - INFO - Sent periodic vote message
+2025-09-01 10:06:32,119 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 10:06:32,120 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 10:06:32,120 - INFO - Sent periodic vote message
+2025-09-01 10:06:32,329 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 10:06:32,330 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 10:06:32,330 - INFO - Sent periodic vote message
+2025-09-01 10:06:32,500 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 10:06:32,500 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 10:06:32,500 - INFO - Sent periodic vote message
+2025-09-01 10:06:32,790 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 10:06:32,790 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 10:06:32,791 - INFO - Sent periodic vote message
+2025-09-01 10:06:32,973 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 10:06:32,973 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 10:06:32,973 - INFO - Sent periodic vote message
+2025-09-01 10:06:33,515 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 10:06:33,516 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 10:06:33,516 - INFO - Sent periodic vote message
+2025-09-01 10:06:42,773 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 10:06:42,773 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 10:06:42,773 - INFO - Sent periodic vote message
+2025-09-01 10:28:22,166 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 10:28:22,166 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 10:28:22,166 - INFO - Sent periodic vote message
+2025-09-01 11:06:31,729 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 11:06:31,730 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 11:06:31,730 - INFO - Sent periodic vote message
+2025-09-01 11:06:31,883 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 11:06:31,883 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 11:06:31,883 - INFO - Sent periodic vote message
+2025-09-01 11:06:31,906 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 11:06:32,120 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 11:06:32,120 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 11:06:32,120 - INFO - Sent periodic vote message
+2025-09-01 11:06:32,330 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 11:06:32,330 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 11:06:32,330 - INFO - Sent periodic vote message
+2025-09-01 11:06:32,500 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 11:06:32,500 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 11:06:32,500 - INFO - Sent periodic vote message
+2025-09-01 11:06:32,607 - INFO - Sent periodic vote message
+2025-09-01 11:06:32,791 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 11:06:32,791 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 11:06:32,791 - INFO - Sent periodic vote message
+2025-09-01 11:06:32,974 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 11:06:32,974 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 11:06:32,974 - INFO - Sent periodic vote message
+2025-09-01 11:06:33,516 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 11:06:33,516 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 11:06:33,516 - INFO - Sent periodic vote message
+2025-09-01 11:06:42,774 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 11:06:42,774 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 11:06:42,774 - INFO - Sent periodic vote message
+2025-09-01 11:28:22,166 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 11:28:22,166 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 11:28:22,167 - INFO - Sent periodic vote message
+2025-09-01 12:05:26,626 - ERROR - Monitor error: telnet connection closed
+2025-09-01 12:05:26,626 - INFO - Waiting 30 seconds before reconnection attempt...
+2025-09-01 12:05:56,626 - INFO - Connecting to 91.99.236.133:8081
+2025-09-01 12:05:56,626 - ERROR - Connection failed: [Errno 111] Connection refused
+2025-09-01 12:05:56,627 - INFO - Connection still down, waiting 30 seconds before retry...
+2025-09-01 12:06:26,627 - INFO - Connecting to 91.99.236.133:8081
+2025-09-01 12:06:27,127 - INFO - Sending password
+2025-09-01 12:06:28,646 - INFO - Successfully connected to 91.99.236.133:8081
+2025-09-01 12:06:28,647 - INFO - Starting periodic message thread (60 minute interval)
+2025-09-01 12:06:28,647 - INFO - Starting automatic vote checker thread
+2025-09-01 12:06:28,647 - INFO - Starting chat monitoring for /vote commands...
+2025-09-01 12:06:31,730 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 12:06:31,730 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 12:06:31,730 - INFO - Sent periodic vote message
+2025-09-01 12:06:31,884 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 12:06:31,884 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 12:06:31,884 - INFO - Sent periodic vote message
+2025-09-01 12:06:32,121 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 12:06:32,121 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 12:06:32,121 - INFO - Sent periodic vote message
+2025-09-01 12:06:32,330 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 12:06:32,330 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 12:06:32,331 - INFO - Sent periodic vote message
+2025-09-01 12:06:32,500 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 12:06:32,501 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 12:06:32,501 - INFO - Sent periodic vote message
+2025-09-01 12:06:32,607 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 12:06:32,607 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 12:06:32,607 - INFO - Sent periodic vote message
+2025-09-01 12:06:32,791 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 12:06:32,791 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 12:06:32,791 - INFO - Sent periodic vote message
+2025-09-01 12:06:32,974 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 12:06:32,974 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 12:06:32,974 - INFO - Sent periodic vote message
+2025-09-01 12:06:33,516 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 12:06:33,517 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 12:06:33,517 - INFO - Sent periodic vote message
+2025-09-01 12:06:42,774 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 12:06:42,774 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 12:06:42,774 - INFO - Sent periodic vote message
+2025-09-01 12:28:22,167 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 12:28:22,167 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 12:28:22,167 - INFO - Sent periodic vote message
+2025-09-01 13:06:28,647 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 13:06:29,347 - INFO - Sent periodic vote message
+2025-09-01 13:06:31,730 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 13:06:31,731 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 13:06:31,731 - INFO - Sent periodic vote message
+2025-09-01 13:06:31,884 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 13:06:31,884 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 13:06:31,884 - INFO - Sent periodic vote message
+2025-09-01 13:06:32,121 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 13:06:32,121 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 13:06:32,121 - INFO - Sent periodic vote message
+2025-09-01 13:06:32,331 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 13:06:32,331 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 13:06:32,331 - INFO - Sent periodic vote message
+2025-09-01 13:06:32,501 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 13:06:32,501 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 13:06:32,501 - INFO - Sent periodic vote message
+2025-09-01 13:06:32,608 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 13:06:32,608 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 13:06:32,608 - INFO - Sent periodic vote message
+2025-09-01 13:06:32,792 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 13:06:32,792 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 13:06:32,792 - INFO - Sent periodic vote message
+2025-09-01 13:06:32,975 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 13:06:32,975 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 13:06:32,975 - INFO - Sent periodic vote message
+2025-09-01 13:06:33,517 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 13:06:33,517 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 13:06:33,517 - INFO - Sent periodic vote message
+2025-09-01 13:06:42,774 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 13:06:42,775 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 13:06:42,775 - INFO - Sent periodic vote message
+2025-09-01 13:28:22,167 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 13:28:22,167 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 13:28:22,167 - INFO - Sent periodic vote message
+2025-09-01 14:06:29,348 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 14:06:30,048 - INFO - Sent periodic vote message
+2025-09-01 14:06:31,731 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 14:06:31,731 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 14:06:31,731 - INFO - Sent periodic vote message
+2025-09-01 14:06:31,885 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 14:06:31,885 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 14:06:31,885 - INFO - Sent periodic vote message
+2025-09-01 14:06:32,122 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 14:06:32,122 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 14:06:32,122 - INFO - Sent periodic vote message
+2025-09-01 14:06:32,331 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 14:06:32,331 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 14:06:32,331 - INFO - Sent periodic vote message
+2025-09-01 14:06:32,501 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 14:06:32,501 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 14:06:32,502 - INFO - Sent periodic vote message
+2025-09-01 14:06:32,608 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 14:06:32,608 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 14:06:32,608 - INFO - Sent periodic vote message
+2025-09-01 14:06:32,792 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 14:06:32,792 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 14:06:32,792 - INFO - Sent periodic vote message
+2025-09-01 14:06:32,975 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 14:06:32,975 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 14:06:32,975 - INFO - Sent periodic vote message
+2025-09-01 14:06:33,517 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 14:06:33,517 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 14:06:33,518 - INFO - Sent periodic vote message
+2025-09-01 14:06:42,775 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 14:06:42,775 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 14:06:42,775 - INFO - Sent periodic vote message
+2025-09-01 14:28:22,168 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 14:28:22,168 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 14:28:22,168 - INFO - Sent periodic vote message
+2025-09-01 15:06:30,049 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 15:06:30,749 - INFO - Sent periodic vote message
+2025-09-01 15:06:31,731 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 15:06:31,731 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 15:06:31,731 - INFO - Sent periodic vote message
+2025-09-01 15:06:31,885 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 15:06:31,885 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 15:06:31,885 - INFO - Sent periodic vote message
+2025-09-01 15:06:32,122 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 15:06:32,122 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 15:06:32,122 - INFO - Sent periodic vote message
+2025-09-01 15:06:32,332 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 15:06:32,332 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 15:06:32,332 - INFO - Sent periodic vote message
+2025-09-01 15:06:32,502 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 15:06:32,502 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 15:06:32,502 - INFO - Sent periodic vote message
+2025-09-01 15:06:32,608 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 15:06:32,609 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 15:06:32,609 - INFO - Sent periodic vote message
+2025-09-01 15:06:32,793 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 15:06:32,793 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 15:06:32,793 - INFO - Sent periodic vote message
+2025-09-01 15:06:32,975 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 15:06:32,976 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 15:06:32,976 - INFO - Sent periodic vote message
+2025-09-01 15:06:33,518 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 15:06:33,518 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 15:06:33,518 - INFO - Sent periodic vote message
+2025-09-01 15:06:42,775 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 15:06:42,775 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 15:06:42,776 - INFO - Sent periodic vote message
+2025-09-01 15:28:22,168 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 15:28:22,168 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 15:28:22,168 - INFO - Sent periodic vote message
+2025-09-01 16:06:30,750 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 16:06:31,450 - INFO - Sent periodic vote message
+2025-09-01 16:06:31,732 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 16:06:31,732 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 16:06:31,732 - INFO - Sent periodic vote message
+2025-09-01 16:06:31,885 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 16:06:31,886 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 16:06:31,886 - INFO - Sent periodic vote message
+2025-09-01 16:06:32,122 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 16:06:32,122 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 16:06:32,123 - INFO - Sent periodic vote message
+2025-09-01 16:06:32,332 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 16:06:32,332 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 16:06:32,332 - INFO - Sent periodic vote message
+2025-09-01 16:06:32,502 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 16:06:32,502 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 16:06:32,503 - INFO - Sent periodic vote message
+2025-09-01 16:06:32,609 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 16:06:32,609 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 16:06:32,609 - INFO - Sent periodic vote message
+2025-09-01 16:06:32,793 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 16:06:32,793 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 16:06:32,793 - INFO - Sent periodic vote message
+2025-09-01 16:06:32,976 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 16:06:32,976 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 16:06:32,976 - INFO - Sent periodic vote message
+2025-09-01 16:06:33,518 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 16:06:33,518 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 16:06:33,519 - INFO - Sent periodic vote message
+2025-09-01 16:06:42,776 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 16:06:42,776 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 16:06:42,776 - INFO - Sent periodic vote message
+2025-09-01 16:28:22,169 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 16:28:22,169 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 16:28:22,169 - INFO - Sent periodic vote message
+2025-09-01 17:06:31,451 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 17:06:31,732 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 17:06:31,732 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 17:06:31,732 - INFO - Sent periodic vote message
+2025-09-01 17:06:31,886 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 17:06:31,886 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 17:06:31,886 - INFO - Sent periodic vote message
+2025-09-01 17:06:32,123 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 17:06:32,123 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 17:06:32,123 - INFO - Sent periodic vote message
+2025-09-01 17:06:32,151 - INFO - Sent periodic vote message
+2025-09-01 17:06:32,332 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 17:06:32,333 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 17:06:32,333 - INFO - Sent periodic vote message
+2025-09-01 17:06:32,503 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 17:06:32,503 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 17:06:32,503 - INFO - Sent periodic vote message
+2025-09-01 17:06:32,609 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 17:06:32,609 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 17:06:32,609 - INFO - Sent periodic vote message
+2025-09-01 17:06:32,794 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 17:06:32,794 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 17:06:32,794 - INFO - Sent periodic vote message
+2025-09-01 17:06:32,977 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 17:06:32,977 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 17:06:32,977 - INFO - Sent periodic vote message
+2025-09-01 17:06:33,519 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 17:06:33,519 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 17:06:33,519 - INFO - Sent periodic vote message
+2025-09-01 17:06:42,776 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 17:06:42,776 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 17:06:42,776 - INFO - Sent periodic vote message
+2025-09-01 17:28:22,169 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 17:28:22,169 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 17:28:22,169 - INFO - Sent periodic vote message
+2025-09-01 18:05:27,089 - ERROR - Monitor error: telnet connection closed
+2025-09-01 18:05:27,090 - INFO - Waiting 30 seconds before reconnection attempt...
+2025-09-01 18:05:57,090 - INFO - Connecting to 91.99.236.133:8081
+2025-09-01 18:05:57,090 - ERROR - Connection failed: [Errno 111] Connection refused
+2025-09-01 18:05:57,090 - INFO - Connection still down, waiting 30 seconds before retry...
+2025-09-01 18:06:27,091 - INFO - Connecting to 91.99.236.133:8081
+2025-09-01 18:06:27,591 - INFO - Sending password
+2025-09-01 18:06:29,101 - INFO - Successfully connected to 91.99.236.133:8081
+2025-09-01 18:06:29,102 - INFO - Starting periodic message thread (60 minute interval)
+2025-09-01 18:06:29,102 - INFO - Starting automatic vote checker thread
+2025-09-01 18:06:29,102 - INFO - Starting chat monitoring for /vote commands...
+2025-09-01 18:06:31,732 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 18:06:31,733 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 18:06:31,733 - INFO - Sent periodic vote message
+2025-09-01 18:06:31,886 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 18:06:31,887 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 18:06:31,887 - INFO - Sent periodic vote message
+2025-09-01 18:06:32,123 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 18:06:32,123 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 18:06:32,123 - INFO - Sent periodic vote message
+2025-09-01 18:06:32,151 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 18:06:32,152 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 18:06:32,152 - INFO - Sent periodic vote message
+2025-09-01 18:06:32,333 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 18:06:32,333 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 18:06:32,333 - INFO - Sent periodic vote message
+2025-09-01 18:06:32,503 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 18:06:32,503 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 18:06:32,503 - INFO - Sent periodic vote message
+2025-09-01 18:06:32,610 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 18:06:32,610 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 18:06:32,610 - INFO - Sent periodic vote message
+2025-09-01 18:06:32,794 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 18:06:32,794 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 18:06:32,794 - INFO - Sent periodic vote message
+2025-09-01 18:06:32,977 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 18:06:32,977 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 18:06:32,977 - INFO - Sent periodic vote message
+2025-09-01 18:06:33,519 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 18:06:33,519 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 18:06:33,519 - INFO - Sent periodic vote message
+2025-09-01 18:06:42,777 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 18:06:42,778 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 18:06:42,778 - INFO - Sent periodic vote message
+2025-09-01 18:28:22,170 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2025-09-01 18:28:22,170 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2025-09-01 18:28:22,170 - INFO - Sent periodic vote message

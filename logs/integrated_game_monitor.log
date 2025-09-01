@@ -1,0 +1,2230 @@
+2025-08-31 16:23:21,628 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:23:21,631 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:23:21,631 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:26:59,391 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:26:59,393 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:26:59,394 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:26:59,563 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:26:59,564 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:26:59,736 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:26:59,736 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:26:59,908 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:26:59,908 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:27:00,698 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:27:00,699 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:27:00,700 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:27:00,701 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:27:00,701 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:27:01,866 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:27:01,866 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:28:21,632 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:28:21,634 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:28:21,634 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:31:59,394 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:31:59,396 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:31:59,397 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:31:59,566 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:31:59,567 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:31:59,738 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:31:59,738 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:31:59,911 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:31:59,912 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:32:00,701 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:32:00,702 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:32:00,702 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:32:00,704 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:32:00,704 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:32:01,870 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:32:01,870 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:33:21,635 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:33:21,637 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:33:21,637 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:36:59,397 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:36:59,399 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:36:59,399 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:36:59,569 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:36:59,569 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:36:59,740 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:36:59,741 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:36:59,914 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:36:59,914 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:37:00,705 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:37:00,705 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:37:00,705 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:37:00,707 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:37:00,707 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:37:01,873 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:37:01,874 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:38:21,638 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:38:21,641 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:38:21,641 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:41:59,400 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:41:59,402 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:41:59,402 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:41:59,572 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:41:59,572 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:41:59,743 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:41:59,743 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:41:59,916 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:41:59,917 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:42:00,707 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:42:00,708 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:42:00,708 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:42:00,709 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:42:00,710 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:42:01,876 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:42:01,877 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:43:21,642 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:43:21,644 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:43:21,645 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:46:59,403 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:46:59,405 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:46:59,406 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:46:59,574 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:46:59,575 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:46:59,746 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:46:59,746 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:46:59,920 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:46:59,921 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:47:00,710 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:47:00,711 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:47:00,711 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:47:00,714 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:47:00,714 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:47:01,879 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:47:01,880 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:48:21,645 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:48:21,647 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:48:21,648 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:51:59,406 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:51:59,408 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:51:59,409 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:51:59,577 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:51:59,577 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:51:59,748 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:51:59,749 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:51:59,923 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:51:59,923 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:52:00,714 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:52:00,714 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:52:00,716 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:52:00,717 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:52:01,883 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:52:01,885 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:53:21,648 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:53:21,650 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:53:21,651 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:56:59,409 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:56:59,412 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:56:59,412 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:56:59,580 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:56:59,580 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:56:59,751 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:56:59,751 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:56:59,926 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:56:59,926 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:57:00,716 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:57:00,717 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:57:00,718 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:57:00,718 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:57:01,887 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:57:01,887 - INFO - Quest server: running, authenticated: True
+2025-08-31 16:58:21,651 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 16:58:21,653 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 16:58:21,654 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:00:15,647 - DEBUG - Received: 2025-08-31T17:00:15 17659.359 INF Chat (from '-non-player-', entity id '-1', to 'Global'): Brewer: Hit TAB and check all the cool functions Server HUB  can offer.
+2025-08-31 17:01:59,413 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:01:59,415 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:01:59,415 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:01:59,582 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:01:59,582 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:01:59,753 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:01:59,754 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:01:59,928 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:01:59,928 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:02:00,719 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:02:00,719 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:02:00,720 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:02:00,721 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:02:00,722 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:02:01,890 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:02:01,890 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:03:21,655 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:03:21,658 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:03:21,658 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:06:32,627 - DEBUG - Received: 2025-08-31T17:06:32 18036.340 INF Executing command 'say "Vote for our server and get great rewards! Type /vote in chat!"' by Telnet from 91.99.236.133:51968
+2025-08-31 17:06:32,627 - DEBUG - Received: 2025-08-31T17:06:32 18036.340 INF Chat (from '-non-player-', entity id '-1', to 'Global'): Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 17:06:59,416 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:06:59,418 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:06:59,418 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:06:59,584 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:06:59,585 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:06:59,756 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:06:59,756 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:06:59,930 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:06:59,931 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:07:00,722 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:07:00,723 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:07:00,723 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:07:00,725 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:07:00,725 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:07:01,893 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:07:01,893 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:07:04,486 - INFO - Updating player levels...
+2025-08-31 17:07:04,579 - INFO - Updating player levels...
+2025-08-31 17:07:04,862 - INFO - Updating player levels...
+2025-08-31 17:07:05,487 - DEBUG - Listplayers response length: 0
+2025-08-31 17:07:05,487 - DEBUG - Saved 3 player levels to file
+2025-08-31 17:07:05,487 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 17:07:05,580 - DEBUG - Listplayers response length: 0
+2025-08-31 17:07:05,580 - DEBUG - Saved 3 player levels to file
+2025-08-31 17:07:05,580 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 17:07:05,862 - DEBUG - Listplayers response length: 0
+2025-08-31 17:07:05,863 - DEBUG - Saved 3 player levels to file
+2025-08-31 17:07:05,863 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 17:08:21,659 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:08:21,662 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:08:21,662 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:11:59,419 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:11:59,421 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:11:59,421 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:11:59,587 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:11:59,587 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:11:59,759 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:11:59,759 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:11:59,933 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:11:59,933 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:12:00,726 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:12:00,727 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:12:00,727 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:12:00,728 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:12:00,728 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:12:01,896 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:12:01,896 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:13:21,663 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:13:21,665 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:13:21,665 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:16:59,422 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:16:59,424 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:16:59,425 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:16:59,590 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:16:59,590 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:16:59,761 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:16:59,762 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:16:59,936 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:16:59,936 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:17:00,729 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:17:00,730 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:17:00,730 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:17:00,731 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:17:00,731 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:17:01,899 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:17:01,900 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:18:21,666 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:18:21,668 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:18:21,668 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:21:59,425 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:21:59,427 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:21:59,428 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:21:59,592 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:21:59,593 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:21:59,764 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:21:59,764 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:21:59,938 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:21:59,938 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:22:00,732 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:22:00,732 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:22:00,733 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:22:00,734 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:22:00,734 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:22:01,902 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:22:01,902 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:23:21,669 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:23:21,671 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:23:21,671 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:26:59,428 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:26:59,431 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:26:59,431 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:26:59,595 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:26:59,595 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:26:59,766 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:26:59,767 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:26:59,940 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:26:59,941 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:27:00,735 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:27:00,736 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:27:00,736 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:27:00,738 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:27:00,738 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:27:01,905 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:27:01,905 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:28:21,672 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:28:21,674 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:28:21,674 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:31:59,432 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:31:59,434 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:31:59,434 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:31:59,598 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:31:59,598 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:31:59,769 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:31:59,769 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:31:59,943 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:31:59,943 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:32:00,739 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:32:00,739 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:32:00,741 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:32:00,741 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:32:01,907 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:32:01,908 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:33:21,675 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:33:21,677 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:33:21,677 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:36:59,435 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:36:59,437 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:36:59,437 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:36:59,601 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:36:59,601 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:36:59,771 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:36:59,772 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:36:59,946 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:36:59,947 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:37:00,742 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:37:00,742 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:37:00,743 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:37:00,746 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:37:00,746 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:37:01,910 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:37:01,911 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:38:21,678 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:38:21,680 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:38:21,680 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:41:59,438 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:41:59,440 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:41:59,440 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:41:59,604 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:41:59,604 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:41:59,774 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:41:59,774 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:41:59,950 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:41:59,950 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:42:00,746 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:42:00,746 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:42:00,748 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:42:00,748 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:42:01,913 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:42:01,913 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:43:21,681 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:43:21,683 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:43:21,683 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:46:59,441 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:46:59,443 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:46:59,443 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:46:59,606 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:46:59,607 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:46:59,776 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:46:59,776 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:46:59,953 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:46:59,953 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:47:00,748 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:47:00,749 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:47:00,750 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:47:00,750 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:47:01,916 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:47:01,917 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:48:21,684 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:48:21,686 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:48:21,686 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:51:59,444 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:51:59,447 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:51:59,447 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:51:59,609 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:51:59,610 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:51:59,779 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:51:59,780 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:51:59,955 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:51:59,957 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:52:00,751 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:52:00,752 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:52:00,752 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:52:00,754 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:52:00,754 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:52:01,919 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:52:01,920 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:53:21,687 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:53:21,689 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:53:21,689 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:56:59,448 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:56:59,450 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:56:59,450 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:56:59,612 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:56:59,612 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:56:59,782 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:56:59,782 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:56:59,959 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:56:59,959 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:57:00,754 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:57:00,755 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:57:00,755 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:57:00,757 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:57:00,757 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:57:01,922 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:57:01,922 - INFO - Quest server: running, authenticated: True
+2025-08-31 17:58:21,690 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 17:58:21,693 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 17:58:21,693 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:00:03,112 - DEBUG - Received: 2025-08-31T18:00:03 21246.823 INF Chat (from '-non-player-', entity id '-1', to 'Global'): [SERVER] 🔄 SERVER RESTART in 5 minutes! Please find a safe location and prepare to logout.
+2025-08-31 18:00:10,441 - DEBUG - Received: 2025-08-31T18:00:10 21254.173 INF Chat (from '-non-player-', entity id '-1', to 'Global'): Brewer: Don't forget to initiate and finish your daily quests for delicious Czech beer!
+2025-08-31 18:01:59,451 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:01:59,453 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:01:59,453 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:01:59,615 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:01:59,615 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:01:59,785 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:01:59,785 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:01:59,962 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:01:59,962 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:02:00,758 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:02:00,758 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:02:00,759 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:02:00,760 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:02:00,760 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:02:01,925 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:02:01,925 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:03:04,097 - DEBUG - Received: 2025-08-31T18:03:04 21427.816 INF Chat (from '-non-player-', entity id '-1', to 'Global'): [SERVER] ⚠️ SERVER RESTART in 2 minutes!
+2025-08-31 18:03:21,694 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:03:21,696 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:03:21,697 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:04:06,121 - DEBUG - Received: 2025-08-31T18:04:06 21489.853 INF Chat (from '-non-player-', entity id '-1', to 'Global'): [SERVER] 🚨 SERVER RESTART in 1 MINUTE!
+2025-08-31 18:04:54,141 - DEBUG - Received: 2025-08-31T18:04:54 21537.862 INF Chat (from '-non-player-', entity id '-1', to 'Global'): [SERVER] ⏰ SERVER RESTART in 15 seconds! Saving world data...
+2025-08-31 18:05:07,119 - DEBUG - Received: 2025-08-31T18:05:07 21550.842 INF Chat (from '-non-player-', entity id '-1', to 'Global'): [SERVER] Restarting in 5...
+2025-08-31 18:05:10,106 - DEBUG - Received: 2025-08-31T18:05:10 21553.841 INF Chat (from '-non-player-', entity id '-1', to 'Global'): [SERVER] Restarting in 4...
+2025-08-31 18:05:13,169 - DEBUG - Received: 2025-08-31T18:05:13 21556.889 INF Chat (from '-non-player-', entity id '-1', to 'Global'): [SERVER] Restarting in 3...
+2025-08-31 18:05:16,156 - DEBUG - Received: 2025-08-31T18:05:16 21559.889 INF Chat (from '-non-player-', entity id '-1', to 'Global'): [SERVER] Restarting in 2...
+2025-08-31 18:05:19,168 - DEBUG - Received: 2025-08-31T18:05:19 21562.890 INF Chat (from '-non-player-', entity id '-1', to 'Global'): [SERVER] Restarting in 1...
+2025-08-31 18:05:23,160 - DEBUG - Received: 2025-08-31T18:05:23 21566.890 INF Chat (from '-non-player-', entity id '-1', to 'Global'): [SERVER] 🔄 Server restarting now! Please reconnect in 1 minute.
+2025-08-31 18:05:26,083 - WARNING - Connection lost
+2025-08-31 18:05:26,083 - INFO - Connecting to 91.99.236.133:8081
+2025-08-31 18:05:26,083 - ERROR - Connection failed: [Errno 111] Connection refused
+2025-08-31 18:05:26,083 - INFO - Waiting 30 seconds before retry...
+2025-08-31 18:05:56,083 - INFO - Connecting to 91.99.236.133:8081
+2025-08-31 18:05:56,084 - ERROR - Connection failed: [Errno 111] Connection refused
+2025-08-31 18:05:56,084 - INFO - Waiting 60 seconds before retry...
+2025-08-31 18:06:56,084 - INFO - Connecting to 91.99.236.133:8081
+2025-08-31 18:06:57,085 - DEBUG - Warming up telnet connection...
+2025-08-31 18:06:57,586 - INFO - ✅ Successfully connected to telnet
+2025-08-31 18:06:57,587 - INFO - Updating player levels...
+2025-08-31 18:06:58,587 - DEBUG - Listplayers response length: 123
+2025-08-31 18:06:58,587 - DEBUG - Saved 3 player levels to file
+2025-08-31 18:06:58,587 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 18:06:58,587 - INFO - Checking Takaro quest server...
+2025-08-31 18:06:58,588 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:06:58,590 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:06:58,590 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:06:58,590 - INFO - ✅ Quest server is healthy and authenticated
+2025-08-31 18:06:58,590 - INFO - Starting enhanced chat monitor with Takaro quest integration
+2025-08-31 18:06:59,456 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:06:59,456 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:06:59,617 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:06:59,617 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:06:59,788 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:06:59,788 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:06:59,965 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:06:59,965 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:07:00,760 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:07:00,762 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:07:00,762 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:07:00,763 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:07:00,763 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:07:01,928 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:07:01,928 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:07:36,269 - DEBUG - Received: 2025-08-31T18:07:36 100.611 INF Chat (from '-non-player-', entity id '-1', to 'Global'): [SERVER]   Server restart complete! Welcome back, survivors!
+2025-08-31 18:08:21,697 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:08:21,699 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:08:21,700 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:11:58,591 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:11:58,593 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:11:58,593 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:11:59,458 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:11:59,458 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:11:59,619 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:11:59,620 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:11:59,790 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:11:59,791 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:11:59,968 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:11:59,968 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:12:00,764 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:12:00,765 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:12:00,765 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:12:00,767 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:12:00,767 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:12:01,930 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:12:01,931 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:13:21,700 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:13:21,702 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:13:21,703 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:16:58,594 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:16:58,597 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:16:58,597 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:16:59,461 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:16:59,461 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:16:59,622 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:16:59,622 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:16:59,793 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:16:59,793 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:16:59,970 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:16:59,970 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:17:00,768 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:17:00,768 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:17:00,769 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:17:00,769 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:17:00,769 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:17:01,933 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:17:01,934 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:18:21,703 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:18:21,705 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:18:21,706 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:21:58,598 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:21:58,600 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:21:58,600 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:21:59,463 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:21:59,464 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:21:59,624 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:21:59,625 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:21:59,796 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:21:59,796 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:21:59,974 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:21:59,974 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:22:00,770 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:22:00,771 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:22:00,771 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:22:00,772 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:22:00,772 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:22:01,936 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:22:01,936 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:23:21,707 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:23:21,711 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:23:21,711 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:26:58,601 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:26:58,603 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:26:58,603 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:26:59,466 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:26:59,467 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:26:59,627 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:26:59,627 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:26:59,799 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:26:59,799 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:26:59,976 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:26:59,977 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:27:00,773 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:27:00,774 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:27:00,774 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:27:00,775 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:27:00,775 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:27:01,939 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:27:01,939 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:28:21,712 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:28:21,714 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:28:21,714 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:31:58,604 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:31:58,606 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:31:58,606 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:31:59,469 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:31:59,469 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:31:59,629 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:31:59,629 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:31:59,801 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:31:59,801 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:31:59,979 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:31:59,980 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:32:00,776 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:32:00,776 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:32:00,777 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:32:00,779 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:32:00,779 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:32:01,941 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:32:01,942 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:33:21,715 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:33:21,717 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:33:21,717 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:36:58,607 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:36:58,609 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:36:58,610 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:36:59,471 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:36:59,472 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:36:59,632 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:36:59,633 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:36:59,805 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:36:59,805 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:36:59,982 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:36:59,982 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:37:00,779 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:37:00,780 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:37:00,781 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:37:00,782 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:37:01,945 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:37:01,946 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:38:21,718 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:38:21,720 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:38:21,720 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:41:58,610 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:41:58,613 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:41:58,613 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:41:59,474 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:41:59,474 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:41:59,635 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:41:59,635 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:41:59,808 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:41:59,808 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:41:59,984 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:41:59,984 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:42:00,782 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:42:00,782 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:42:00,784 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:42:00,784 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:42:01,948 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:42:01,949 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:43:21,721 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:43:21,723 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:43:21,723 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:46:58,614 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:46:58,616 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:46:58,616 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:46:59,476 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:46:59,476 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:46:59,638 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:46:59,638 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:46:59,811 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:46:59,811 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:46:59,987 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:46:59,987 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:47:00,785 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:47:00,785 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:47:00,786 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:47:00,787 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:47:00,787 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:47:01,951 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:47:01,951 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:48:21,724 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:48:21,727 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:48:21,727 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:51:58,617 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:51:58,620 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:51:58,621 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:51:59,479 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:51:59,479 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:51:59,640 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:51:59,640 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:51:59,813 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:51:59,814 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:51:59,991 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:51:59,991 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:52:00,788 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:52:00,789 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:52:00,789 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:52:00,791 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:52:00,791 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:52:01,954 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:52:01,954 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:53:21,728 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:53:21,730 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:53:21,730 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:56:58,622 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:56:58,624 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:56:58,624 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:56:59,481 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:56:59,482 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:56:59,643 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:56:59,643 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:56:59,816 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:56:59,816 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:56:59,993 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:56:59,994 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:57:00,792 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:57:00,793 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:57:00,793 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:57:00,794 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:57:00,795 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:57:01,958 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:57:01,958 - INFO - Quest server: running, authenticated: True
+2025-08-31 18:58:21,731 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 18:58:21,734 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 18:58:21,734 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:00:05,929 - DEBUG - Received: 2025-08-31T19:00:05 3250.288 INF Chat (from '-non-player-', entity id '-1', to 'Global'): Brewer: Hit TAB and check all the cool functions Server HUB  can offer.
+2025-08-31 19:01:58,625 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:01:58,627 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:01:58,627 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:01:59,484 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:01:59,484 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:01:59,645 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:01:59,646 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:01:59,818 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:01:59,819 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:01:59,996 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:01:59,996 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:02:00,795 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:02:00,796 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:02:00,796 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:02:00,798 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:02:00,798 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:02:01,962 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:02:01,962 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:03:21,735 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:03:21,737 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:03:21,738 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:06:28,791 - DEBUG - Received: 2025-08-31T19:06:28 3633.142 INF Executing command 'say "Vote for our server and get great rewards! Type /vote in chat!"' by Telnet from 91.99.236.133:34142
+2025-08-31 19:06:28,791 - DEBUG - Received: 2025-08-31T19:06:28 3633.142 INF Chat (from '-non-player-', entity id '-1', to 'Global'): Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 19:06:58,598 - INFO - Updating player levels...
+2025-08-31 19:06:58,628 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:06:58,630 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:06:58,630 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:06:59,488 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:06:59,488 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:06:59,599 - DEBUG - Listplayers response length: 0
+2025-08-31 19:06:59,599 - DEBUG - Saved 3 player levels to file
+2025-08-31 19:06:59,599 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 19:06:59,649 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:06:59,649 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:06:59,821 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:06:59,821 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:06:59,999 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:07:00,000 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:07:00,799 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:07:00,799 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:07:00,800 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:07:00,801 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:07:00,801 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:07:01,965 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:07:01,965 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:08:21,739 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:08:21,740 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:08:21,741 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:11:58,631 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:11:58,633 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:11:58,633 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:11:59,491 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:11:59,491 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:11:59,651 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:11:59,651 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:11:59,824 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:11:59,824 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:12:00,003 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:12:00,003 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:12:00,802 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:12:00,802 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:12:00,803 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:12:00,804 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:12:00,805 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:12:01,969 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:12:01,970 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:13:21,742 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:13:21,745 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:13:21,745 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:16:58,634 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:16:58,636 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:16:58,636 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:16:59,493 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:16:59,493 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:16:59,654 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:16:59,654 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:16:59,826 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:16:59,826 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:17:00,005 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:17:00,006 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:17:00,805 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:17:00,806 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:17:00,806 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:17:00,808 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:17:00,808 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:17:01,972 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:17:01,972 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:18:21,746 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:18:21,748 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:18:21,748 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:21:58,637 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:21:58,639 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:21:58,639 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:21:59,496 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:21:59,496 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:21:59,656 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:21:59,656 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:21:59,828 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:21:59,829 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:22:00,008 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:22:00,008 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:22:00,808 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:22:00,809 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:22:00,809 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:22:00,811 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:22:00,811 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:22:01,974 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:22:01,975 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:23:21,749 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:23:21,751 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:23:21,752 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:26:58,640 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:26:58,642 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:26:58,642 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:26:59,499 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:26:59,499 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:26:59,659 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:26:59,659 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:26:59,831 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:26:59,831 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:27:00,012 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:27:00,012 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:27:00,812 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:27:00,812 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:27:00,812 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:27:00,814 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:27:00,814 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:27:01,978 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:27:01,978 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:28:21,753 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:28:21,755 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:28:21,755 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:31:23,388 - DEBUG - Received: 2025-08-31T19:31:23 5127.732 INF Chat (from '-non-player-', entity id '-1', to 'Global'): Brewer: Welcome in Bohemia ★ TheEgg ★
+2025-08-31 19:31:58,643 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:31:58,645 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:31:58,645 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:31:59,502 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:31:59,502 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:31:59,662 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:31:59,662 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:31:59,833 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:31:59,834 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:32:00,014 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:32:00,014 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:32:00,815 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:32:00,815 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:32:00,815 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:32:00,817 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:32:00,817 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:32:01,980 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:32:01,981 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:33:21,756 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:33:21,758 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:33:21,759 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:35:39,241 - DEBUG - Received: 2025-08-31T19:35:39 5383.596 INF Chat (from 'Steam_76561198093609245', entity id '856', to 'Global'): 'TheEgg':/vote
+2025-08-31 19:35:39,241 - DEBUG - Received: 2025-08-31T19:35:39 5383.596 INF Chat handled by mod '1CSMM_Patrons': Chat (from 'Steam_76561198093609245', entity id '856', to 'Global'): 'TheEgg': /vote
+2025-08-31 19:35:40,398 - DEBUG - Received: 2025-08-31T19:35:40 5384.744 INF Executing command 'pm Player_856 "Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting!"' by Telnet from 91.99.236.133:34142
+2025-08-31 19:35:41,502 - DEBUG - Received: 2025-08-31T19:35:41 5385.844 INF Executing command 'pm TheEgg "Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting!"' by Telnet from 91.99.236.133:34142
+2025-08-31 19:36:35,712 - DEBUG - Received: 2025-08-31T19:36:35 5440.061 INF Executing command 'pm TheEgg "Thanks for voting TheEgg! Your rewards have been automatically delivered! Look, goodies are at your feet :D"' by Telnet from 91.99.236.133:34142
+2025-08-31 19:36:35,712 - INFO - 🗳️ Vote completion detected for TheEgg
+2025-08-31 19:36:35,712 - DEBUG - Sending command: pm TheEgg "Vote detected! Updating daily quest..."
+2025-08-31 19:36:36,213 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 19:36:36,213 - DEBUG - Sending quest update: {'playerName': 'TheEgg', 'questType': 'vote', 'increment': 1}
+2025-08-31 19:36:36,215 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:36:36,380 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 157
+2025-08-31 19:36:36,380 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 19:36:36,380 - DEBUG - Sending command: pm TheEgg "Vote registered, but quest update failed"
+2025-08-31 19:36:36,881 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 19:36:36,881 - ERROR - ❌ Failed to update vote quest for TheEgg
+2025-08-31 19:36:58,646 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:36:58,648 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:36:58,648 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:36:59,504 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:36:59,505 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:36:59,664 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:36:59,665 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:36:59,836 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:36:59,837 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:37:00,017 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:37:00,017 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:37:00,818 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:37:00,819 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:37:00,820 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:37:00,822 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:37:00,823 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:37:01,984 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:37:01,985 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:37:13,271 - DEBUG - Received: 2025-08-31T19:37:13 5477.626 INF Chat (from '-non-player-', entity id '-1', to 'Global'): Brewer: Welcome in Bohemia ★ BohemianBrewer ★
+2025-08-31 19:37:18,086 - DEBUG - Received: 2025-08-31T19:37:18 5482.426 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer':/daily
+2025-08-31 19:37:18,087 - DEBUG - Received: 2025-08-31T19:37:18 5482.426 INF Chat handled by mod '1CSMM_Patrons': Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer': /daily
+2025-08-31 19:37:28,676 - DEBUG - Received: 2025-08-31T19:37:28 5493.027 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer':/initquets
+2025-08-31 19:37:28,676 - DEBUG - Received: 2025-08-31T19:37:28 5493.028 INF Chat handled by mod '1CSMM_Patrons': Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer': /initquets
+2025-08-31 19:37:37,885 - DEBUG - Received: 2025-08-31T19:37:37 5502.246 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer':/balance
+2025-08-31 19:37:37,886 - DEBUG - Received: 2025-08-31T19:37:37 5502.246 INF Chat handled by mod '1CSMM_Patrons': Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer': /balance
+2025-08-31 19:37:45,162 - DEBUG - Received: 2025-08-31T19:37:45 5509.497 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer':/initquests
+2025-08-31 19:37:45,162 - DEBUG - Received: 2025-08-31T19:37:45 5509.497 INF Chat handled by mod '1CSMM_Patrons': Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer': /initquests
+2025-08-31 19:38:07,722 - DEBUG - Received: 2025-08-31T19:38:07 5532.077 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer':/vote
+2025-08-31 19:38:07,723 - DEBUG - Received: 2025-08-31T19:38:07 5532.078 INF Chat handled by mod '1CSMM_Patrons': Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer': /vote
+2025-08-31 19:38:08,826 - DEBUG - Received: 2025-08-31T19:38:08 5533.178 INF Executing command 'pm Player_171 "Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting!"' by Telnet from 91.99.236.133:34142
+2025-08-31 19:38:10,081 - DEBUG - Received: 2025-08-31T19:38:10 5534.427 INF Executing command 'pm BohemianBrewer "Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting!"' by Telnet from 91.99.236.133:34142
+2025-08-31 19:38:21,759 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:38:21,761 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:38:21,762 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:38:44,408 - DEBUG - Received: 2025-08-31T19:38:44 5568.749 INF Executing command 'pm BohemianBrewer "Thanks for voting BohemianBrewer! Your rewards have been automatically delivered! Look, goodies are at your feet :D"' by Telnet from 91.99.236.133:34142
+2025-08-31 19:38:44,408 - INFO - 🗳️ Vote completion detected for BohemianBrewer
+2025-08-31 19:38:44,409 - DEBUG - Sending command: pm BohemianBrewer "Vote detected! Updating daily quest..."
+2025-08-31 19:38:44,909 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 19:38:44,909 - DEBUG - Sending quest update: {'playerName': 'BohemianBrewer', 'questType': 'vote', 'increment': 1}
+2025-08-31 19:38:44,910 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:38:45,014 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 165
+2025-08-31 19:38:45,014 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 19:38:45,014 - DEBUG - Sending command: pm BohemianBrewer "Vote registered, but quest update failed"
+2025-08-31 19:38:45,515 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 19:38:45,515 - ERROR - ❌ Failed to update vote quest for BohemianBrewer
+2025-08-31 19:39:02,007 - DEBUG - Received: 2025-08-31T19:39:01 5586.347 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer':/dailyclaim
+2025-08-31 19:39:02,007 - DEBUG - Received: 2025-08-31T19:39:01 5586.347 INF Chat handled by mod '1CSMM_Patrons': Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer': /dailyclaim
+2025-08-31 19:39:09,071 - DEBUG - Received: 2025-08-31T19:39:09 5593.415 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer':/daily
+2025-08-31 19:39:09,072 - DEBUG - Received: 2025-08-31T19:39:09 5593.416 INF Chat handled by mod '1CSMM_Patrons': Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer': /daily
+2025-08-31 19:41:58,649 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:41:58,651 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:41:58,651 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:41:59,507 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:41:59,507 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:41:59,667 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:41:59,667 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:41:59,839 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:41:59,839 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:42:00,020 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:42:00,020 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:42:00,822 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:42:00,822 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:42:00,824 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:42:00,824 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:42:01,988 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:42:01,988 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:43:21,762 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:43:21,765 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:43:21,765 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:46:58,652 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:46:58,654 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:46:58,654 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:46:59,510 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:46:59,510 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:46:59,670 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:46:59,670 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:46:59,841 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:46:59,842 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:47:00,023 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:47:00,023 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:47:00,826 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:47:00,827 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:47:00,827 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:47:00,829 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:47:00,830 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:47:01,991 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:47:01,991 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:47:14,775 - DEBUG - Received: 2025-08-31T19:47:14 6079.117 INF MinEventLogMessage: XP gained during the last level:
+2025-08-31 19:47:14,775 - INFO - XP level message detected - checking for level changes...
+2025-08-31 19:47:15,275 - INFO - Updating player levels...
+2025-08-31 19:47:16,276 - DEBUG - Listplayers response length: 659
+2025-08-31 19:47:16,277 - DEBUG - Saved 3 player levels to file
+2025-08-31 19:47:16,277 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 19:48:19,299 - DEBUG - Received: 2025-08-31T19:48:19 6143.644 INF [CSMM_Patrons]playerLeveled: TheEgg (Steam_76561198093609245) made level 161 (was 160)
+2025-08-31 19:48:19,299 - INFO - 📈 Level up detected: TheEgg reached level 161
+2025-08-31 19:48:19,299 - DEBUG - Saved 3 player levels to file
+2025-08-31 19:48:19,300 - DEBUG - Sending command: pm TheEgg "Level 161 achieved! Updating quest..."
+2025-08-31 19:48:19,800 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 19:48:19,800 - DEBUG - Sending quest update: {'playerName': 'TheEgg', 'questType': 'levelup', 'increment': 1}
+2025-08-31 19:48:19,801 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:48:19,904 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 160
+2025-08-31 19:48:19,905 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 19:48:19,905 - DEBUG - Sending command: pm TheEgg "Level registered, but quest update failed"
+2025-08-31 19:48:20,405 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 19:48:20,405 - ERROR - ❌ Failed to update level quest for TheEgg
+2025-08-31 19:48:21,768 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:48:21,768 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:51:58,656 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:51:58,659 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:51:58,660 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:51:59,514 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:51:59,515 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:51:59,673 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:51:59,673 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:51:59,845 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:51:59,846 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:52:00,025 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:52:00,026 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:52:00,830 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:52:00,831 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:52:00,831 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:52:00,833 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:52:00,834 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:52:01,993 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:52:01,993 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:53:21,769 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:53:21,770 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:53:21,771 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:55:40,863 - DEBUG - Received: 2025-08-31T19:55:40 6585.207 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer':/balance
+2025-08-31 19:55:40,864 - DEBUG - Received: 2025-08-31T19:55:40 6585.207 INF Chat handled by mod '1CSMM_Patrons': Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer': /balance
+2025-08-31 19:56:58,661 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:56:58,663 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:56:58,663 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:56:59,517 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:56:59,517 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:56:59,676 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:56:59,676 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:56:59,848 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:56:59,848 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:57:00,028 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:57:00,028 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:57:00,834 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:57:00,834 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:57:00,837 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:57:00,837 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:57:01,996 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:57:01,996 - INFO - Quest server: running, authenticated: True
+2025-08-31 19:58:21,772 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 19:58:21,774 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 19:58:21,775 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:00:12,130 - DEBUG - Received: 2025-08-31T20:00:12 6856.475 INF Chat (from '-non-player-', entity id '-1', to 'Global'): Brewer: Don't forget to initiate and finish your daily quests for delicious Czech beer!
+2025-08-31 20:01:58,664 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:01:58,666 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:01:58,666 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:01:59,519 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:01:59,520 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:01:59,679 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:01:59,679 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:01:59,851 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:01:59,851 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:02:00,030 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:02:00,031 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:02:00,837 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:02:00,837 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:02:00,839 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:02:00,839 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:02:01,999 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:02:01,999 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:03:21,775 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:03:21,777 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:03:21,777 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:06:29,472 - DEBUG - Received: 2025-08-31T20:06:29 7233.826 INF Executing command 'say "Vote for our server and get great rewards! Type /vote in chat!"' by Telnet from 91.99.236.133:34142
+2025-08-31 20:06:29,472 - DEBUG - Received: 2025-08-31T20:06:29 7233.826 INF Chat (from '-non-player-', entity id '-1', to 'Global'): Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 20:06:58,667 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:06:58,669 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:06:58,670 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:06:59,523 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:06:59,523 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:06:59,682 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:06:59,682 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:06:59,853 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:06:59,853 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:07:00,033 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:07:00,033 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:07:00,840 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:07:00,840 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:07:00,841 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:07:00,842 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:07:00,842 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:07:02,002 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:07:02,002 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:08:21,779 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:08:21,782 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:08:21,782 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:11:58,670 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:11:58,672 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:11:58,673 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:11:59,526 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:11:59,526 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:11:59,685 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:11:59,685 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:11:59,855 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:11:59,856 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:12:00,037 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:12:00,037 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:12:00,843 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:12:00,843 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:12:00,844 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:12:00,845 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:12:00,845 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:12:02,004 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:12:02,005 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:13:21,783 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:13:21,786 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:13:21,786 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:16:58,673 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:16:58,676 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:16:58,676 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:16:59,528 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:16:59,529 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:16:59,687 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:16:59,687 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:16:59,858 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:16:59,858 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:17:00,039 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:17:00,040 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:17:00,846 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:17:00,846 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:17:00,847 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:17:00,849 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:17:00,849 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:17:02,007 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:17:02,007 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:18:21,787 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:18:21,789 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:18:21,789 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:21:58,677 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:21:58,680 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:21:58,681 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:21:59,531 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:21:59,531 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:21:59,690 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:21:59,691 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:21:59,860 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:21:59,861 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:22:00,043 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:22:00,043 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:22:00,849 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:22:00,849 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:22:00,851 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:22:00,851 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:22:02,009 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:22:02,009 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:23:21,790 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:23:21,792 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:23:21,792 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:26:58,682 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:26:58,684 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:26:58,684 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:26:59,533 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:26:59,533 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:26:59,693 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:26:59,693 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:26:59,863 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:26:59,863 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:27:00,046 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:27:00,046 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:27:00,851 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:27:00,852 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:27:00,852 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:27:00,854 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:27:00,854 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:27:02,012 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:27:02,013 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:28:21,793 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:28:21,795 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:28:21,795 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:31:36,787 - DEBUG - Received: 2025-08-31T20:31:36 8741.127 INF [CSMM_Patrons]playerLeveled: TheEgg (Steam_76561198093609245) made level 162 (was 161)
+2025-08-31 20:31:36,787 - INFO - 📈 Level up detected: TheEgg reached level 162
+2025-08-31 20:31:36,787 - DEBUG - Saved 3 player levels to file
+2025-08-31 20:31:36,788 - DEBUG - Sending command: pm TheEgg "Level 162 achieved! Updating quest..."
+2025-08-31 20:31:37,288 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 20:31:37,288 - DEBUG - Sending quest update: {'playerName': 'TheEgg', 'questType': 'levelup', 'increment': 1}
+2025-08-31 20:31:37,289 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:31:37,404 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 160
+2025-08-31 20:31:37,405 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 20:31:37,405 - DEBUG - Sending command: pm TheEgg "Level registered, but quest update failed"
+2025-08-31 20:31:37,905 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 20:31:37,905 - ERROR - ❌ Failed to update level quest for TheEgg
+2025-08-31 20:31:58,685 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:31:58,687 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:31:58,687 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:31:59,536 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:31:59,536 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:31:59,696 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:31:59,696 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:31:59,865 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:31:59,866 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:32:00,049 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:32:00,049 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:32:00,855 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:32:00,855 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:32:00,855 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:32:00,857 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:32:00,857 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:32:02,016 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:32:02,017 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:33:21,796 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:33:21,798 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:33:21,799 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:36:58,688 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:36:58,690 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:36:58,690 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:36:59,538 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:36:59,539 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:36:59,698 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:36:59,699 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:36:59,868 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:36:59,869 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:37:00,053 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:37:00,053 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:37:00,858 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:37:00,858 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:37:00,858 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:37:00,859 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:37:00,859 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:37:02,019 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:37:02,019 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:38:21,799 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:38:21,801 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:38:21,802 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:41:58,692 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:41:58,695 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:41:58,695 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:41:59,541 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:41:59,541 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:41:59,702 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:41:59,703 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:41:59,871 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:41:59,871 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:42:00,055 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:42:00,056 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:42:00,860 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:42:00,861 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:42:00,861 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:42:00,865 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:42:00,865 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:42:02,021 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:42:02,022 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:43:21,803 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:43:21,806 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:43:21,807 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:45:33,200 - DEBUG - Received: 2025-08-31T20:45:33 9577.545 INF MinEventLogMessage: XP gained during the last level:
+2025-08-31 20:45:33,201 - INFO - XP level message detected - checking for level changes...
+2025-08-31 20:45:33,701 - INFO - Updating player levels...
+2025-08-31 20:45:34,702 - DEBUG - Listplayers response length: 662
+2025-08-31 20:45:34,702 - DEBUG - Saved 3 player levels to file
+2025-08-31 20:45:34,702 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 20:45:39,219 - DEBUG - Received: 2025-08-31T20:45:39 9583.560 INF [CSMM_Patrons]playerLeveled: BohemianBrewer (Steam_76561198039589588) made level 192 (was 191)
+2025-08-31 20:45:39,219 - INFO - 📈 Level up detected: BohemianBrewer reached level 192
+2025-08-31 20:45:39,219 - DEBUG - Saved 3 player levels to file
+2025-08-31 20:45:39,219 - DEBUG - Sending command: pm BohemianBrewer "Level 192 achieved! Updating quest..."
+2025-08-31 20:45:39,720 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 20:45:39,720 - DEBUG - Sending quest update: {'playerName': 'BohemianBrewer', 'questType': 'levelup', 'increment': 1}
+2025-08-31 20:45:39,720 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:45:39,813 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 168
+2025-08-31 20:45:39,814 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 20:45:39,814 - DEBUG - Sending command: pm BohemianBrewer "Level registered, but quest update failed"
+2025-08-31 20:45:40,315 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 20:45:40,315 - ERROR - ❌ Failed to update level quest for BohemianBrewer
+2025-08-31 20:46:58,696 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:46:58,699 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:46:58,699 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:46:59,544 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:46:59,544 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:46:59,705 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:46:59,705 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:46:59,874 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:46:59,874 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:47:00,058 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:47:00,058 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:47:00,863 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:47:00,863 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:47:00,867 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:47:00,868 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:47:02,024 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:47:02,024 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:48:21,808 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:48:21,810 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:48:21,810 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:51:58,700 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:51:58,702 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:51:58,703 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:51:59,546 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:51:59,547 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:51:59,708 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:51:59,709 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:51:59,876 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:51:59,877 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:52:00,061 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:52:00,061 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:52:00,866 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:52:00,866 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:52:00,870 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:52:00,870 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:52:02,027 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:52:02,027 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:52:29,120 - DEBUG - Received: 2025-08-31T20:52:29 9993.460 INF [CSMM_Patrons]playerLeveled: TheEgg (Steam_76561198093609245) made level 163 (was 162)
+2025-08-31 20:52:29,120 - INFO - 📈 Level up detected: TheEgg reached level 163
+2025-08-31 20:52:29,121 - DEBUG - Saved 3 player levels to file
+2025-08-31 20:52:29,121 - DEBUG - Sending command: pm TheEgg "Level 163 achieved! Updating quest..."
+2025-08-31 20:52:29,621 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 20:52:29,622 - DEBUG - Sending quest update: {'playerName': 'TheEgg', 'questType': 'levelup', 'increment': 1}
+2025-08-31 20:52:29,622 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:52:29,741 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 160
+2025-08-31 20:52:29,741 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 20:52:29,741 - DEBUG - Sending command: pm TheEgg "Level registered, but quest update failed"
+2025-08-31 20:52:30,241 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 20:52:30,241 - ERROR - ❌ Failed to update level quest for TheEgg
+2025-08-31 20:52:30,752 - DEBUG - Received: 2025-08-31T20:52:30 9995.093 INF MinEventLogMessage: XP gained during the last level:
+2025-08-31 20:52:30,752 - INFO - XP level message detected - checking for level changes...
+2025-08-31 20:52:31,253 - INFO - Updating player levels...
+2025-08-31 20:52:32,254 - DEBUG - Listplayers response length: 662
+2025-08-31 20:52:32,254 - DEBUG - Saved 3 player levels to file
+2025-08-31 20:52:32,254 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 20:53:21,811 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:53:21,813 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:53:21,813 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:56:53,713 - DEBUG - Received: 2025-08-31T20:56:53 10258.063 INF [CSMM_Patrons]playerLeveled: BohemianBrewer (Steam_76561198039589588) made level 193 (was 192)
+2025-08-31 20:56:53,713 - INFO - 📈 Level up detected: BohemianBrewer reached level 193
+2025-08-31 20:56:53,713 - DEBUG - Saved 3 player levels to file
+2025-08-31 20:56:53,713 - DEBUG - Sending command: pm BohemianBrewer "Level 193 achieved! Updating quest..."
+2025-08-31 20:56:54,214 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 20:56:54,214 - DEBUG - Sending quest update: {'playerName': 'BohemianBrewer', 'questType': 'levelup', 'increment': 1}
+2025-08-31 20:56:54,215 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:56:54,324 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 168
+2025-08-31 20:56:54,324 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 20:56:54,324 - DEBUG - Sending command: pm BohemianBrewer "Level registered, but quest update failed"
+2025-08-31 20:56:54,826 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 20:56:54,826 - ERROR - ❌ Failed to update level quest for BohemianBrewer
+2025-08-31 20:56:55,255 - DEBUG - Received: 2025-08-31T20:56:55 10259.602 INF MinEventLogMessage: XP gained during the last level:
+2025-08-31 20:56:55,256 - INFO - XP level message detected - checking for level changes...
+2025-08-31 20:56:55,756 - INFO - Updating player levels...
+2025-08-31 20:56:56,757 - DEBUG - Listplayers response length: 663
+2025-08-31 20:56:56,758 - DEBUG - Saved 3 player levels to file
+2025-08-31 20:56:56,758 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 20:56:58,706 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:56:58,706 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:56:59,549 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:56:59,549 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:56:59,711 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:56:59,712 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:56:59,879 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:56:59,879 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:57:00,064 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:57:00,065 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:57:00,868 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:57:00,869 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:57:00,872 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:57:00,872 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:57:02,031 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:57:02,031 - INFO - Quest server: running, authenticated: True
+2025-08-31 20:58:21,814 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 20:58:21,816 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 20:58:21,817 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:01:05,792 - DEBUG - Received: 2025-08-31T21:01:05 10510.142 INF Chat (from '-non-player-', entity id '-1', to 'Global'): Brewer: Hit TAB and check all the cool functions Server HUB  can offer.
+2025-08-31 21:01:58,707 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:01:58,709 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:01:58,709 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:01:59,552 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:01:59,552 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:01:59,714 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:01:59,714 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:01:59,881 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:01:59,882 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:02:00,067 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:02:00,067 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:02:00,871 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:02:00,872 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:02:00,874 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:02:00,874 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:02:02,034 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:02:02,034 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:03:21,818 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:03:21,821 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:03:21,821 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:04:26,238 - DEBUG - Received: 2025-08-31T21:04:26 10710.586 INF [CSMM_Patrons]playerLeveled: TheEgg (Steam_76561198093609245) made level 164 (was 163)
+2025-08-31 21:04:26,238 - INFO - 📈 Level up detected: TheEgg reached level 164
+2025-08-31 21:04:26,238 - DEBUG - Saved 3 player levels to file
+2025-08-31 21:04:26,238 - DEBUG - Sending command: pm TheEgg "Level 164 achieved! Updating quest..."
+2025-08-31 21:04:26,739 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 21:04:26,739 - DEBUG - Sending quest update: {'playerName': 'TheEgg', 'questType': 'levelup', 'increment': 1}
+2025-08-31 21:04:26,739 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:04:26,868 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 160
+2025-08-31 21:04:26,868 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 21:04:26,868 - DEBUG - Sending command: pm TheEgg "Level registered, but quest update failed"
+2025-08-31 21:04:27,369 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 21:04:27,369 - ERROR - ❌ Failed to update level quest for TheEgg
+2025-08-31 21:04:27,944 - DEBUG - Received: 2025-08-31T21:04:27 10712.304 INF MinEventLogMessage: XP gained during the last level:
+2025-08-31 21:04:27,944 - INFO - XP level message detected - checking for level changes...
+2025-08-31 21:04:28,444 - INFO - Updating player levels...
+2025-08-31 21:04:29,446 - DEBUG - Listplayers response length: 662
+2025-08-31 21:04:29,446 - DEBUG - Saved 3 player levels to file
+2025-08-31 21:04:29,446 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 21:04:33,971 - DEBUG - Received: 2025-08-31T21:04:33 10718.321 INF [CSMM_Patrons]playerLeveled: BohemianBrewer (Steam_76561198039589588) made level 194 (was 193)
+2025-08-31 21:04:33,971 - INFO - 📈 Level up detected: BohemianBrewer reached level 194
+2025-08-31 21:04:33,971 - DEBUG - Saved 3 player levels to file
+2025-08-31 21:04:33,972 - DEBUG - Sending command: pm BohemianBrewer "Level 194 achieved! Updating quest..."
+2025-08-31 21:04:34,472 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 21:04:34,473 - DEBUG - Sending quest update: {'playerName': 'BohemianBrewer', 'questType': 'levelup', 'increment': 1}
+2025-08-31 21:04:34,473 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:04:34,622 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 168
+2025-08-31 21:04:34,622 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 21:04:34,622 - DEBUG - Sending command: pm BohemianBrewer "Level registered, but quest update failed"
+2025-08-31 21:04:35,123 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 21:04:35,123 - ERROR - ❌ Failed to update level quest for BohemianBrewer
+2025-08-31 21:06:30,181 - DEBUG - Received: 2025-08-31T21:06:30 10834.533 INF Executing command 'say "Vote for our server and get great rewards! Type /vote in chat!"' by Telnet from 91.99.236.133:34142
+2025-08-31 21:06:30,181 - DEBUG - Received: 2025-08-31T21:06:30 10834.533 INF Chat (from '-non-player-', entity id '-1', to 'Global'): Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 21:06:58,710 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:06:58,712 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:06:58,712 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:06:59,554 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:06:59,555 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:06:59,716 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:06:59,716 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:06:59,884 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:06:59,885 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:07:00,069 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:07:00,070 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:07:00,874 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:07:00,874 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:07:00,876 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:07:00,877 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:07:02,036 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:07:02,037 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:08:21,822 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:08:21,824 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:08:21,824 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:11:58,713 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:11:58,715 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:11:58,715 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:11:59,557 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:11:59,557 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:11:59,719 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:11:59,719 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:11:59,887 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:11:59,888 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:12:00,072 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:12:00,072 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:12:00,877 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:12:00,877 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:12:00,879 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:12:00,879 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:12:02,041 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:12:02,041 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:13:21,825 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:13:21,827 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:13:21,827 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:16:58,716 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:16:58,718 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:16:58,718 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:16:59,560 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:16:59,560 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:16:59,721 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:16:59,721 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:16:59,890 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:16:59,890 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:17:00,075 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:17:00,075 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:17:00,880 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:17:00,880 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:17:00,880 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:17:00,883 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:17:00,883 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:17:02,044 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:17:02,044 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:18:21,828 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:18:21,830 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:18:21,830 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:21:58,719 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:21:58,721 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:21:58,721 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:21:59,562 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:21:59,563 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:21:59,723 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:21:59,724 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:21:59,892 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:21:59,893 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:22:00,078 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:22:00,078 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:22:00,883 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:22:00,883 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:22:00,885 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:22:00,885 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:22:02,047 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:22:02,047 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:23:21,831 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:23:21,834 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:23:21,834 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:26:58,722 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:26:58,726 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:26:58,726 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:26:59,565 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:26:59,565 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:26:59,726 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:26:59,727 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:26:59,895 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:26:59,895 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:27:00,081 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:27:00,081 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:27:00,886 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:27:00,886 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:27:00,887 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:27:00,889 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:27:00,889 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:27:02,051 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:27:02,051 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:28:21,835 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:28:21,837 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:28:21,837 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:30:59,987 - DEBUG - Received: 2025-08-31T21:30:59 12304.335 INF [CSMM_Patrons]playerLeveled: BohemianBrewer (Steam_76561198039589588) made level 195 (was 194)
+2025-08-31 21:30:59,987 - INFO - 📈 Level up detected: BohemianBrewer reached level 195
+2025-08-31 21:30:59,987 - DEBUG - Saved 3 player levels to file
+2025-08-31 21:30:59,987 - DEBUG - Sending command: pm BohemianBrewer "Level 195 achieved! Updating quest..."
+2025-08-31 21:31:00,488 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 21:31:00,488 - DEBUG - Sending quest update: {'playerName': 'BohemianBrewer', 'questType': 'levelup', 'increment': 1}
+2025-08-31 21:31:00,488 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:31:08,480 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 168
+2025-08-31 21:31:08,480 - ERROR - ❌ Quest update failed: Request failed with status code 502
+2025-08-31 21:31:08,480 - DEBUG - Sending command: pm BohemianBrewer "Level registered, but quest update failed"
+2025-08-31 21:31:08,982 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 21:31:08,982 - ERROR - ❌ Failed to update level quest for BohemianBrewer
+2025-08-31 21:31:58,727 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:31:58,729 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:31:58,730 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:31:59,569 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:31:59,569 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:31:59,731 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:31:59,732 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:31:59,897 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:31:59,897 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:32:00,085 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:32:00,085 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:32:00,889 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:32:00,889 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:32:00,891 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:32:00,891 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:32:02,054 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:32:02,055 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:33:21,838 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:33:21,840 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:33:21,840 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:36:58,731 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:36:58,734 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:36:58,735 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:36:59,573 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:36:59,573 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:36:59,735 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:36:59,735 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:36:59,901 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:36:59,901 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:37:00,088 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:37:00,088 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:37:00,892 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:37:00,893 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:37:00,893 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:37:00,894 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:37:00,894 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:37:02,058 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:37:02,059 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:38:21,841 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:38:21,844 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:38:21,845 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:41:58,735 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:41:58,737 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:41:58,737 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:41:59,576 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:41:59,577 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:41:59,739 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:41:59,740 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:41:59,904 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:41:59,904 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:42:00,091 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:42:00,091 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:42:00,895 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:42:00,895 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:42:00,896 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:42:00,897 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:42:00,897 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:42:02,061 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:42:02,062 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:42:51,842 - DEBUG - Received: 2025-08-31T21:42:51 13016.188 INF [CSMM_Patrons]playerLeveled: BohemianBrewer (Steam_76561198039589588) made level 196 (was 195)
+2025-08-31 21:42:51,842 - INFO - 📈 Level up detected: BohemianBrewer reached level 196
+2025-08-31 21:42:51,843 - DEBUG - Saved 3 player levels to file
+2025-08-31 21:42:51,843 - DEBUG - Sending command: pm BohemianBrewer "Level 196 achieved! Updating quest..."
+2025-08-31 21:42:52,343 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 21:42:52,343 - DEBUG - Sending quest update: {'playerName': 'BohemianBrewer', 'questType': 'levelup', 'increment': 1}
+2025-08-31 21:42:52,344 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:42:52,468 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 168
+2025-08-31 21:42:52,468 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 21:42:52,468 - DEBUG - Sending command: pm BohemianBrewer "Level registered, but quest update failed"
+2025-08-31 21:42:52,970 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 21:42:52,970 - ERROR - ❌ Failed to update level quest for BohemianBrewer
+2025-08-31 21:43:21,846 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:43:21,849 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:43:21,850 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:44:26,725 - DEBUG - Received: 2025-08-31T21:44:26 13111.073 INF [CSMM_Patrons]playerLeveled: TheEgg (Steam_76561198093609245) made level 166 (was 165)
+2025-08-31 21:44:26,725 - INFO - 📈 Level up detected: TheEgg reached level 166
+2025-08-31 21:44:26,725 - DEBUG - Saved 3 player levels to file
+2025-08-31 21:44:26,725 - DEBUG - Sending command: pm TheEgg "Level 166 achieved! Updating quest..."
+2025-08-31 21:44:27,226 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 21:44:27,226 - DEBUG - Sending quest update: {'playerName': 'TheEgg', 'questType': 'levelup', 'increment': 1}
+2025-08-31 21:44:27,227 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:44:27,310 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 160
+2025-08-31 21:44:27,311 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 21:44:27,311 - DEBUG - Sending command: pm TheEgg "Level registered, but quest update failed"
+2025-08-31 21:44:27,812 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 21:44:27,812 - ERROR - ❌ Failed to update level quest for TheEgg
+2025-08-31 21:46:58,738 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:46:58,741 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:46:58,741 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:46:59,581 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:46:59,581 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:46:59,742 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:46:59,742 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:46:59,907 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:46:59,907 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:47:00,094 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:47:00,094 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:47:00,898 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:47:00,898 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:47:00,899 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:47:00,901 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:47:00,901 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:47:02,064 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:47:02,065 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:48:21,851 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:48:21,853 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:48:21,853 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:51:58,742 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:51:58,747 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:51:58,747 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:51:59,584 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:51:59,584 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:51:59,744 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:51:59,745 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:51:59,909 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:51:59,910 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:52:00,097 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:52:00,097 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:52:00,901 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:52:00,901 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:52:00,903 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:52:00,903 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:52:02,067 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:52:02,068 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:53:21,854 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:53:21,856 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:53:21,857 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:54:51,769 - DEBUG - Received: 2025-08-31T21:54:51 13736.109 INF [CSMM_Patrons]playerLeveled: BohemianBrewer (Steam_76561198039589588) made level 197 (was 196)
+2025-08-31 21:54:51,769 - INFO - 📈 Level up detected: BohemianBrewer reached level 197
+2025-08-31 21:54:51,769 - DEBUG - Saved 3 player levels to file
+2025-08-31 21:54:51,769 - DEBUG - Sending command: pm BohemianBrewer "Level 197 achieved! Updating quest..."
+2025-08-31 21:54:52,270 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 21:54:52,270 - DEBUG - Sending quest update: {'playerName': 'BohemianBrewer', 'questType': 'levelup', 'increment': 1}
+2025-08-31 21:54:52,271 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:54:52,380 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 168
+2025-08-31 21:54:52,380 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 21:54:52,380 - DEBUG - Sending command: pm BohemianBrewer "Level registered, but quest update failed"
+2025-08-31 21:54:52,881 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 21:54:52,881 - ERROR - ❌ Failed to update level quest for BohemianBrewer
+2025-08-31 21:56:58,749 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:56:58,752 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:56:58,752 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:56:59,586 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:56:59,586 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:56:59,747 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:56:59,747 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:56:59,912 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:56:59,912 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:57:00,100 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:57:00,100 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:57:00,904 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:57:00,904 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:57:00,905 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:57:00,905 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:57:02,070 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:57:02,071 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:58:21,857 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 21:58:21,859 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 21:58:21,860 - INFO - Quest server: running, authenticated: True
+2025-08-31 21:58:25,287 - DEBUG - Received: 2025-08-31T21:58:25 13949.629 INF [CSMM_Patrons]playerLeveled: TheEgg (Steam_76561198093609245) made level 167 (was 166)
+2025-08-31 21:58:25,287 - INFO - 📈 Level up detected: TheEgg reached level 167
+2025-08-31 21:58:25,287 - DEBUG - Saved 3 player levels to file
+2025-08-31 21:58:25,287 - DEBUG - Sending command: pm TheEgg "Level 167 achieved! Updating quest..."
+2025-08-31 21:58:25,788 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 21:58:25,788 - DEBUG - Sending quest update: {'playerName': 'TheEgg', 'questType': 'levelup', 'increment': 1}
+2025-08-31 21:58:25,866 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 160
+2025-08-31 21:58:25,866 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 21:58:25,866 - DEBUG - Sending command: pm TheEgg "Level registered, but quest update failed"
+2025-08-31 21:58:26,367 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 21:58:26,367 - ERROR - ❌ Failed to update level quest for TheEgg
+2025-08-31 22:01:03,381 - DEBUG - Received: 2025-08-31T22:01:03 14107.724 INF Chat (from '-non-player-', entity id '-1', to 'Global'): Brewer: Don't forget to initiate and finish your daily quests for delicious Czech beer!
+2025-08-31 22:01:58,753 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:01:58,755 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:01:58,756 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:01:59,589 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:01:59,589 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:01:59,749 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:01:59,750 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:01:59,914 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:01:59,915 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:02:00,103 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:02:00,103 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:02:00,906 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:02:00,906 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:02:00,907 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:02:00,908 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:02:00,908 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:02:02,073 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:02:02,074 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:03:21,860 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:03:21,863 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:03:21,863 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:03:38,824 - DEBUG - Received: 2025-08-31T22:03:38 14263.173 INF MinEventLogMessage: XP gained during the last level:
+2025-08-31 22:03:38,824 - INFO - XP level message detected - checking for level changes...
+2025-08-31 22:03:39,324 - INFO - Updating player levels...
+2025-08-31 22:03:40,325 - DEBUG - Listplayers response length: 660
+2025-08-31 22:03:40,325 - DEBUG - Saved 3 player levels to file
+2025-08-31 22:03:40,325 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 22:03:59,548 - DEBUG - Received: 2025-08-31T22:03:59 14283.896 INF [CSMM_Patrons]playerLeveled: BohemianBrewer (Steam_76561198039589588) made level 198 (was 197)
+2025-08-31 22:03:59,548 - INFO - 📈 Level up detected: BohemianBrewer reached level 198
+2025-08-31 22:03:59,548 - DEBUG - Saved 3 player levels to file
+2025-08-31 22:03:59,548 - DEBUG - Sending command: pm BohemianBrewer "Level 198 achieved! Updating quest..."
+2025-08-31 22:04:00,049 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 22:04:00,049 - DEBUG - Sending quest update: {'playerName': 'BohemianBrewer', 'questType': 'levelup', 'increment': 1}
+2025-08-31 22:04:00,050 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:04:00,129 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 168
+2025-08-31 22:04:00,129 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 22:04:00,129 - DEBUG - Sending command: pm BohemianBrewer "Level registered, but quest update failed"
+2025-08-31 22:04:00,630 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 22:04:00,630 - ERROR - ❌ Failed to update level quest for BohemianBrewer
+2025-08-31 22:06:30,859 - DEBUG - Received: 2025-08-31T22:06:30 14435.209 INF Executing command 'say "Vote for our server and get great rewards! Type /vote in chat!"' by Telnet from 91.99.236.133:34142
+2025-08-31 22:06:30,859 - DEBUG - Received: 2025-08-31T22:06:30 14435.209 INF Chat (from '-non-player-', entity id '-1', to 'Global'): Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 22:06:58,757 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:06:58,760 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:06:58,760 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:06:59,592 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:06:59,592 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:06:59,752 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:06:59,753 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:06:59,917 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:06:59,917 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:07:00,105 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:07:00,106 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:07:00,909 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:07:00,910 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:07:00,911 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:07:00,912 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:07:00,913 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:07:02,076 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:07:02,076 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:08:21,864 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:08:21,866 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:08:21,867 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:10:02,879 - DEBUG - Received: 2025-08-31T22:10:02 14647.228 INF [CSMM_Patrons]playerLeveled: TheEgg (Steam_76561198093609245) made level 168 (was 167)
+2025-08-31 22:10:02,879 - INFO - 📈 Level up detected: TheEgg reached level 168
+2025-08-31 22:10:02,880 - DEBUG - Saved 3 player levels to file
+2025-08-31 22:10:02,880 - DEBUG - Sending command: pm TheEgg "Level 168 achieved! Updating quest..."
+2025-08-31 22:10:03,380 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 22:10:03,380 - DEBUG - Sending quest update: {'playerName': 'TheEgg', 'questType': 'levelup', 'increment': 1}
+2025-08-31 22:10:03,381 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:10:03,646 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 160
+2025-08-31 22:10:03,646 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 22:10:03,646 - DEBUG - Sending command: pm TheEgg "Level registered, but quest update failed"
+2025-08-31 22:10:04,147 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 22:10:04,147 - ERROR - ❌ Failed to update level quest for TheEgg
+2025-08-31 22:11:58,761 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:11:58,763 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:11:58,763 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:11:59,596 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:11:59,596 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:11:59,758 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:11:59,759 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:11:59,920 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:11:59,920 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:12:00,109 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:12:00,109 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:12:00,913 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:12:00,914 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:12:00,915 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:12:00,915 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:12:02,079 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:12:02,079 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:13:21,868 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:13:21,870 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:13:21,870 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:16:58,764 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:16:58,766 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:16:58,766 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:16:59,599 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:16:59,599 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:16:59,762 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:16:59,762 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:16:59,922 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:16:59,923 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:17:00,112 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:17:00,112 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:17:00,916 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:17:00,916 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:17:00,917 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:17:00,918 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:17:00,918 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:17:02,082 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:17:02,083 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:18:21,871 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:18:21,875 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:18:21,876 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:19:20,836 - DEBUG - Received: 2025-08-31T22:19:20 15205.181 INF [CSMM_Patrons]playerLeveled: BohemianBrewer (Steam_76561198039589588) made level 199 (was 198)
+2025-08-31 22:19:20,836 - INFO - 📈 Level up detected: BohemianBrewer reached level 199
+2025-08-31 22:19:20,836 - DEBUG - Saved 3 player levels to file
+2025-08-31 22:19:20,837 - DEBUG - Sending command: pm BohemianBrewer "Level 199 achieved! Updating quest..."
+2025-08-31 22:19:21,337 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 22:19:21,337 - DEBUG - Sending quest update: {'playerName': 'BohemianBrewer', 'questType': 'levelup', 'increment': 1}
+2025-08-31 22:19:21,338 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:19:21,428 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 168
+2025-08-31 22:19:21,429 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 22:19:21,429 - DEBUG - Sending command: pm BohemianBrewer "Level registered, but quest update failed"
+2025-08-31 22:19:21,930 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 22:19:21,930 - ERROR - ❌ Failed to update level quest for BohemianBrewer
+2025-08-31 22:21:58,767 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:21:58,770 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:21:58,771 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:21:59,601 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:21:59,601 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:21:59,765 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:21:59,765 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:21:59,925 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:21:59,925 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:22:00,114 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:22:00,115 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:22:00,919 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:22:00,920 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:22:00,920 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:22:00,922 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:22:00,922 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:22:02,085 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:22:02,085 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:23:21,876 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:23:21,878 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:23:21,879 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:26:31,936 - DEBUG - Received: 2025-08-31T22:26:31 15636.291 INF [CSMM_Patrons]playerLeveled: TheEgg (Steam_76561198093609245) made level 169 (was 168)
+2025-08-31 22:26:31,936 - INFO - 📈 Level up detected: TheEgg reached level 169
+2025-08-31 22:26:31,936 - DEBUG - Saved 3 player levels to file
+2025-08-31 22:26:31,936 - DEBUG - Sending command: pm TheEgg "Level 169 achieved! Updating quest..."
+2025-08-31 22:26:32,437 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 22:26:32,437 - DEBUG - Sending quest update: {'playerName': 'TheEgg', 'questType': 'levelup', 'increment': 1}
+2025-08-31 22:26:32,437 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:26:32,583 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 160
+2025-08-31 22:26:32,583 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 22:26:32,583 - DEBUG - Sending command: pm TheEgg "Level registered, but quest update failed"
+2025-08-31 22:26:33,084 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 22:26:33,084 - ERROR - ❌ Failed to update level quest for TheEgg
+2025-08-31 22:26:38,263 - DEBUG - Received: 2025-08-31T22:26:38 15642.613 INF [CSMM_Patrons]playerLeveled: BohemianBrewer (Steam_76561198039589588) made level 200 (was 199)
+2025-08-31 22:26:38,263 - INFO - 📈 Level up detected: BohemianBrewer reached level 200
+2025-08-31 22:26:38,263 - DEBUG - Saved 3 player levels to file
+2025-08-31 22:26:38,263 - DEBUG - Sending command: pm BohemianBrewer "Level 200 achieved! Updating quest..."
+2025-08-31 22:26:38,764 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 22:26:38,764 - DEBUG - Sending quest update: {'playerName': 'BohemianBrewer', 'questType': 'levelup', 'increment': 1}
+2025-08-31 22:26:38,765 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:26:38,852 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 168
+2025-08-31 22:26:38,852 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 22:26:38,852 - DEBUG - Sending command: pm BohemianBrewer "Level registered, but quest update failed"
+2025-08-31 22:26:39,353 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 22:26:39,353 - ERROR - ❌ Failed to update level quest for BohemianBrewer
+2025-08-31 22:26:58,772 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:26:58,774 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:26:58,774 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:26:59,604 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:26:59,604 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:26:59,769 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:26:59,769 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:26:59,927 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:26:59,927 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:27:00,117 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:27:00,118 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:27:00,922 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:27:00,923 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:27:00,923 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:27:00,925 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:27:00,926 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:27:02,087 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:27:02,088 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:28:21,879 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:28:21,881 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:28:21,882 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:31:58,775 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:31:58,778 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:31:58,779 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:31:59,606 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:31:59,606 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:31:59,771 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:31:59,772 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:31:59,931 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:31:59,931 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:32:00,121 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:32:00,122 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:32:00,926 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:32:00,926 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:32:00,927 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:32:00,929 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:32:00,929 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:32:02,090 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:32:02,090 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:33:21,882 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:33:21,885 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:33:21,885 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:36:58,780 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:36:58,784 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:36:58,785 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:36:59,609 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:36:59,609 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:36:59,774 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:36:59,775 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:36:59,933 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:36:59,934 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:37:00,124 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:37:00,125 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:37:00,930 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:37:00,931 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:37:00,931 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:37:00,934 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:37:00,934 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:37:02,093 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:37:02,094 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:38:21,886 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:38:21,888 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:38:21,888 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:41:58,785 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:41:58,787 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:41:58,788 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:41:59,611 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:41:59,611 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:41:59,777 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:41:59,777 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:41:59,936 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:41:59,936 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:42:00,127 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:42:00,128 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:42:00,934 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:42:00,934 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:42:00,936 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:42:00,936 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:42:02,096 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:42:02,097 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:43:21,889 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:43:21,891 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:43:21,892 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:46:58,788 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:46:58,790 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:46:58,791 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:46:59,614 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:46:59,614 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:46:59,779 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:46:59,779 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:46:59,938 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:46:59,939 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:47:00,130 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:47:00,131 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:47:00,937 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:47:00,937 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:47:00,938 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:47:00,940 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:47:00,941 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:47:02,099 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:47:02,099 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:48:21,893 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:48:21,895 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:48:21,895 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:48:26,129 - DEBUG - Received: 2025-08-31T22:48:26 16950.485 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer':/balance
+2025-08-31 22:48:26,130 - DEBUG - Received: 2025-08-31T22:48:26 16950.485 INF Chat handled by mod '1CSMM_Patrons': Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer': /balance
+2025-08-31 22:49:57,317 - DEBUG - Received: 2025-08-31T22:49:57 17041.666 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer':/balance
+2025-08-31 22:49:57,317 - DEBUG - Received: 2025-08-31T22:49:57 17041.666 INF Chat handled by mod '1CSMM_Patrons': Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer': /balance
+2025-08-31 22:50:03,214 - DEBUG - Received: 2025-08-31T22:50:03 17047.566 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer':/shop
+2025-08-31 22:50:03,215 - DEBUG - Received: 2025-08-31T22:50:03 17047.566 INF Chat handled by mod '1CSMM_Patrons': Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer': /shop
+2025-08-31 22:50:14,707 - DEBUG - Received: 2025-08-31T22:50:14 17059.067 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer':/shop 3
+2025-08-31 22:50:14,707 - DEBUG - Received: 2025-08-31T22:50:14 17059.068 INF Chat handled by mod '1CSMM_Patrons': Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer': /shop 3
+2025-08-31 22:50:27,630 - DEBUG - Received: 2025-08-31T22:50:27 17071.977 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer':/shop 3 3 buy
+2025-08-31 22:50:27,630 - DEBUG - Received: 2025-08-31T22:50:27 17071.977 INF Chat handled by mod '1CSMM_Patrons': Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer': /shop 3 3 buy
+2025-08-31 22:51:58,791 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:51:58,794 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:51:58,794 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:51:59,617 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:51:59,617 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:51:59,781 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:51:59,782 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:51:59,942 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:51:59,942 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:52:00,136 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:52:00,136 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:52:00,940 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:52:00,940 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:52:00,943 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:52:00,943 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:52:02,101 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:52:02,101 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:53:21,896 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:53:21,899 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:53:21,900 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:56:58,795 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:56:58,797 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:56:58,797 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:56:59,619 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:56:59,620 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:56:59,784 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:56:59,784 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:56:59,944 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:56:59,945 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:57:00,139 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:57:00,139 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:57:00,942 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:57:00,943 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:57:00,945 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:57:00,945 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:57:02,103 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:57:02,104 - INFO - Quest server: running, authenticated: True
+2025-08-31 22:58:21,901 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 22:58:21,903 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 22:58:21,903 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:01:04,033 - DEBUG - Received: 2025-08-31T23:01:04 17708.372 INF Chat (from '-non-player-', entity id '-1', to 'Global'): Brewer: Hit TAB and check all the cool functions Server HUB  can offer.
+2025-08-31 23:01:58,798 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:01:58,800 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:01:58,801 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:01:59,623 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:01:59,624 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:01:59,788 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:01:59,788 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:01:59,947 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:01:59,947 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:02:00,142 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:02:00,142 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:02:00,945 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:02:00,945 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:02:00,946 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:02:00,947 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:02:02,107 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:02:02,107 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:03:21,905 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:03:21,907 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:03:21,908 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:03:59,624 - INFO - Updating player levels...
+2025-08-31 23:03:59,687 - DEBUG - Received: 0. id=856, TheEgg, pos=(-869.0, 28.1, 1156.0), rot=(-45.0, 288.3, 0.0), remote=True, health=380, deaths=40, zombies=4795, players=24, score=4134, level=169, pltfmid=Steam_76561198093609245, crossid=EOS_000259a1bfb14805957cba8e46375923, ip=109.81.170.191, ping=8
+2025-08-31 23:03:59,687 - DEBUG - Received: 1. id=171, BohemianBrewer, pos=(-938.0, 3.1, 1187.5), rot=(-23.9, -2656.4, 0.0), remote=True, health=400, deaths=17, zombies=7651, players=33, score=7157, level=200, pltfmid=Steam_76561198039589588, crossid=EOS_0002daf8cd0342efb6b92b4f0a4694f9, ip=213.220.194.165, ping=5
+2025-08-31 23:04:00,625 - DEBUG - Listplayers response length: 0
+2025-08-31 23:04:00,629 - DEBUG - Saved 3 player levels to file
+2025-08-31 23:04:00,629 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 23:06:31,558 - DEBUG - Received: 2025-08-31T23:06:31 18035.897 INF Executing command 'say "Vote for our server and get great rewards! Type /vote in chat!"' by Telnet from 91.99.236.133:34142
+2025-08-31 23:06:31,558 - DEBUG - Received: 2025-08-31T23:06:31 18035.897 INF Chat (from '-non-player-', entity id '-1', to 'Global'): Vote for our server and get great rewards! Type /vote in chat!
+2025-08-31 23:06:58,801 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:06:58,803 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:06:58,804 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:06:59,627 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:06:59,627 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:06:59,791 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:06:59,791 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:06:59,949 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:06:59,950 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:07:00,144 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:07:00,144 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:07:00,947 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:07:00,948 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:07:00,948 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:07:00,950 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:07:00,950 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:07:02,112 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:07:02,112 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:08:21,909 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:08:21,912 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:08:21,912 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:11:58,804 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:11:58,806 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:11:58,807 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:11:59,629 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:11:59,630 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:11:59,793 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:11:59,794 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:11:59,952 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:11:59,952 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:12:00,147 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:12:00,147 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:12:00,951 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:12:00,951 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:12:00,952 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:12:00,954 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:12:00,955 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:12:02,114 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:12:02,115 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:13:21,913 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:13:21,916 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:13:21,917 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:16:58,808 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:16:58,810 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:16:58,810 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:16:59,632 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:16:59,632 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:16:59,796 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:16:59,796 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:16:59,955 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:16:59,955 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:17:00,150 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:17:00,150 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:17:00,954 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:17:00,955 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:17:00,956 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:17:00,956 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:17:02,117 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:17:02,118 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:18:21,917 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:18:21,920 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:18:21,920 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:19:28,426 - DEBUG - Received: 2025-08-31T23:19:28 18812.764 INF MinEventLogMessage: XP gained during the last level:
+2025-08-31 23:19:28,426 - INFO - XP level message detected - checking for level changes...
+2025-08-31 23:19:28,926 - INFO - Updating player levels...
+2025-08-31 23:19:29,927 - DEBUG - Listplayers response length: 662
+2025-08-31 23:19:29,928 - DEBUG - Saved 3 player levels to file
+2025-08-31 23:19:29,928 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 23:21:12,471 - DEBUG - Received: 2025-08-31T23:21:12 18916.810 INF MinEventLogMessage: XP gained during the last level:
+2025-08-31 23:21:12,471 - INFO - XP level message detected - checking for level changes...
+2025-08-31 23:21:12,971 - INFO - Updating player levels...
+2025-08-31 23:21:13,972 - DEBUG - Listplayers response length: 663
+2025-08-31 23:21:13,973 - DEBUG - Saved 3 player levels to file
+2025-08-31 23:21:13,973 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 23:21:58,811 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:21:58,813 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:21:58,814 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:21:59,635 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:21:59,636 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:21:59,799 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:21:59,799 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:21:59,958 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:21:59,958 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:22:00,153 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:22:00,153 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:22:00,957 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:22:00,958 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:22:00,958 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:22:00,960 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:22:00,960 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:22:02,120 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:22:02,120 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:23:08,411 - DEBUG - Received: 2025-08-31T23:23:08 19032.748 INF Chat (from 'Steam_76561198093609245', entity id '856', to 'Global'): 'TheEgg': sluchatko out
+2025-08-31 23:23:16,491 - DEBUG - Received: 2025-08-31T23:23:16 19040.847 INF MinEventLogMessage: XP gained during the last level:
+2025-08-31 23:23:16,491 - INFO - XP level message detected - checking for level changes...
+2025-08-31 23:23:16,991 - INFO - Updating player levels...
+2025-08-31 23:23:17,992 - DEBUG - Listplayers response length: 776
+2025-08-31 23:23:17,992 - DEBUG - Saved 3 player levels to file
+2025-08-31 23:23:17,992 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 23:23:21,921 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:23:21,925 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:23:21,926 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:24:07,533 - DEBUG - Received: 2025-08-31T23:24:07 19091.875 INF MinEventLogMessage: XP gained during the last level:
+2025-08-31 23:24:07,533 - INFO - XP level message detected - checking for level changes...
+2025-08-31 23:24:08,033 - INFO - Updating player levels...
+2025-08-31 23:24:09,034 - DEBUG - Listplayers response length: 662
+2025-08-31 23:24:09,034 - DEBUG - Saved 3 player levels to file
+2025-08-31 23:24:09,034 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 23:25:05,902 - DEBUG - Received: 2025-08-31T23:25:05 19150.252 INF [CSMM_Patrons]playerLeveled: TheEgg (Steam_76561198093609245) made level 170 (was 169)
+2025-08-31 23:25:05,903 - INFO - 📈 Level up detected: TheEgg reached level 170
+2025-08-31 23:25:05,903 - DEBUG - Saved 3 player levels to file
+2025-08-31 23:25:05,903 - DEBUG - Sending command: pm TheEgg "Level 170 achieved! Updating quest..."
+2025-08-31 23:25:06,403 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 23:25:06,404 - DEBUG - Sending quest update: {'playerName': 'TheEgg', 'questType': 'levelup', 'increment': 1}
+2025-08-31 23:25:06,404 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:25:06,542 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 160
+2025-08-31 23:25:06,543 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 23:25:06,543 - DEBUG - Sending command: pm TheEgg "Level registered, but quest update failed"
+2025-08-31 23:25:07,044 - DEBUG - PM sent to TheEgg (attempt 1)
+2025-08-31 23:25:07,044 - ERROR - ❌ Failed to update level quest for TheEgg
+2025-08-31 23:25:19,455 - DEBUG - Received: 2025-08-31T23:25:19 19163.791 INF [CSMM_Patrons]playerLeveled: BohemianBrewer (Steam_76561198039589588) made level 203 (was 200)
+2025-08-31 23:25:19,455 - INFO - 📈 Level up detected: BohemianBrewer reached level 203
+2025-08-31 23:25:19,456 - DEBUG - Saved 3 player levels to file
+2025-08-31 23:25:19,456 - DEBUG - Sending command: pm BohemianBrewer "Level 203 achieved! Updating quest..."
+2025-08-31 23:25:19,957 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 23:25:19,957 - DEBUG - Sending quest update: {'playerName': 'BohemianBrewer', 'questType': 'levelup', 'increment': 1}
+2025-08-31 23:25:19,962 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:25:20,055 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 168
+2025-08-31 23:25:20,055 - ERROR - ❌ Quest update failed: Request failed with status code 502
+2025-08-31 23:25:20,055 - DEBUG - Sending command: pm BohemianBrewer "Level registered, but quest update failed"
+2025-08-31 23:25:20,556 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 23:25:20,556 - ERROR - ❌ Failed to update level quest for BohemianBrewer
+2025-08-31 23:25:26,581 - DEBUG - Received: 2025-08-31T23:25:26 19170.927 INF MinEventLogMessage: XP gained during the last level:
+2025-08-31 23:25:26,582 - INFO - XP level message detected - checking for level changes...
+2025-08-31 23:25:27,082 - INFO - Updating player levels...
+2025-08-31 23:25:28,083 - DEBUG - Listplayers response length: 733
+2025-08-31 23:25:28,083 - DEBUG - Saved 3 player levels to file
+2025-08-31 23:25:28,084 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 23:25:28,213 - DEBUG - Received: 2025-08-31T23:25:28 19172.555 INF [CSMM_Patrons]playerLeveled: BohemianBrewer (Steam_76561198039589588) made level 204 (was 203)
+2025-08-31 23:25:28,213 - INFO - 📈 Level up detected: BohemianBrewer reached level 204
+2025-08-31 23:25:28,213 - DEBUG - Saved 3 player levels to file
+2025-08-31 23:25:28,213 - DEBUG - Sending command: pm BohemianBrewer "Level 204 achieved! Updating quest..."
+2025-08-31 23:25:28,714 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 23:25:28,714 - DEBUG - Sending quest update: {'playerName': 'BohemianBrewer', 'questType': 'levelup', 'increment': 1}
+2025-08-31 23:25:28,714 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:25:28,818 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 168
+2025-08-31 23:25:28,819 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 23:25:28,819 - DEBUG - Sending command: pm BohemianBrewer "Level registered, but quest update failed"
+2025-08-31 23:25:29,319 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 23:25:29,320 - ERROR - ❌ Failed to update level quest for BohemianBrewer
+2025-08-31 23:26:58,815 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:26:58,817 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:26:58,817 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:26:59,638 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:26:59,638 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:26:59,802 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:26:59,802 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:26:59,960 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:26:59,960 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:27:00,156 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:27:00,156 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:27:00,961 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:27:00,961 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:27:00,961 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:27:00,963 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:27:00,964 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:27:02,122 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:27:02,122 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:27:30,555 - DEBUG - Received: 2025-08-31T23:27:30 19294.893 INF MinEventLogMessage: XP gained during the last level:
+2025-08-31 23:27:30,555 - INFO - XP level message detected - checking for level changes...
+2025-08-31 23:27:31,055 - INFO - Updating player levels...
+2025-08-31 23:27:32,056 - DEBUG - Listplayers response length: 663
+2025-08-31 23:27:32,057 - DEBUG - Saved 3 player levels to file
+2025-08-31 23:27:32,057 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 23:27:45,114 - DEBUG - Received: 2025-08-31T23:27:45 19309.454 INF [CSMM_Patrons]playerLeveled: BohemianBrewer (Steam_76561198039589588) made level 205 (was 204)
+2025-08-31 23:27:45,114 - INFO - 📈 Level up detected: BohemianBrewer reached level 205
+2025-08-31 23:27:45,115 - DEBUG - Saved 3 player levels to file
+2025-08-31 23:27:45,115 - DEBUG - Sending command: pm BohemianBrewer "Level 205 achieved! Updating quest..."
+2025-08-31 23:27:45,615 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 23:27:45,615 - DEBUG - Sending quest update: {'playerName': 'BohemianBrewer', 'questType': 'levelup', 'increment': 1}
+2025-08-31 23:27:45,616 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:27:45,702 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 168
+2025-08-31 23:27:45,702 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 23:27:45,702 - DEBUG - Sending command: pm BohemianBrewer "Level registered, but quest update failed"
+2025-08-31 23:27:46,202 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 23:27:46,203 - ERROR - ❌ Failed to update level quest for BohemianBrewer
+2025-08-31 23:28:21,927 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:28:21,929 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:28:21,929 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:29:31,378 - DEBUG - Received: 2025-08-31T23:29:31 19415.734 INF MinEventLogMessage: XP gained during the last level:
+2025-08-31 23:29:31,378 - INFO - XP level message detected - checking for level changes...
+2025-08-31 23:29:31,878 - INFO - Updating player levels...
+2025-08-31 23:29:32,879 - DEBUG - Listplayers response length: 664
+2025-08-31 23:29:32,880 - DEBUG - Saved 3 player levels to file
+2025-08-31 23:29:32,880 - INFO - Player levels updated. Total players tracked: 3
+2025-08-31 23:30:04,664 - DEBUG - Received: 2025-08-31T23:30:04 19449.017 INF [CSMM_Patrons]playerLeveled: BohemianBrewer (Steam_76561198039589588) made level 206 (was 205)
+2025-08-31 23:30:04,664 - INFO - 📈 Level up detected: BohemianBrewer reached level 206
+2025-08-31 23:30:04,664 - DEBUG - Saved 3 player levels to file
+2025-08-31 23:30:04,664 - DEBUG - Sending command: pm BohemianBrewer "Level 206 achieved! Updating quest..."
+2025-08-31 23:30:05,165 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 23:30:05,165 - DEBUG - Sending quest update: {'playerName': 'BohemianBrewer', 'questType': 'levelup', 'increment': 1}
+2025-08-31 23:30:05,165 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:30:05,436 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 168
+2025-08-31 23:30:05,437 - ERROR - ❌ Quest update failed: Request failed with status code 401
+2025-08-31 23:30:05,437 - DEBUG - Sending command: pm BohemianBrewer "Level registered, but quest update failed"
+2025-08-31 23:30:05,937 - DEBUG - PM sent to BohemianBrewer (attempt 1)
+2025-08-31 23:30:05,937 - ERROR - ❌ Failed to update level quest for BohemianBrewer
+2025-08-31 23:31:58,818 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:31:58,820 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:31:58,820 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:31:59,641 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:31:59,641 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:31:59,804 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:31:59,804 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:31:59,963 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:31:59,963 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:32:00,159 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:32:00,159 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:32:00,964 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:32:00,965 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:32:00,966 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:32:00,967 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:32:02,125 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:32:02,125 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:32:17,306 - DEBUG - Received: 2025-08-31T23:32:17 19581.648 INF Chat (from 'Steam_76561198093609245', entity id '856', to 'Global'): 'TheEgg': to j drahy za 5k
+2025-08-31 23:33:21,930 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:33:21,933 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:33:21,933 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:34:23,644 - DEBUG - Received: 2025-08-31T23:34:23 19707.989 INF Chat (from 'Steam_76561198093609245', entity id '856', to 'Global'): 'TheEgg': nekoupi vse
+2025-08-31 23:34:33,281 - DEBUG - Received: 2025-08-31T23:34:33 19717.637 INF Chat (from 'Steam_76561198093609245', entity id '856', to 'Global'): 'TheEgg': koupil mi 2 nebo 3 stacky
+2025-08-31 23:36:58,821 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:36:58,824 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:36:58,824 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:36:59,643 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:36:59,644 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:36:59,807 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:36:59,807 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:36:59,965 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:36:59,966 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:37:00,161 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:37:00,162 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:37:00,967 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:37:00,967 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:37:00,969 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:37:00,969 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:37:02,128 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:37:02,129 - INFO - Quest server: running, authenticated: True
+2025-08-31 23:37:54,572 - DEBUG - Received: 2025-08-31T23:37:54 19918.924 INF Chat (from 'Steam_76561198093609245', entity id '856', to 'Global'): 'TheEgg': jj docela to jde:)
+2025-08-31 23:38:21,934 - DEBUG - Resetting dropped connection: localhost
+2025-08-31 23:38:21,936 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 128
+2025-08-31 23:38:21,936 - INFO - Quest server: running, authenticated: True
