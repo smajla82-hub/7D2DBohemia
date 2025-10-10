@@ -1,8 +1,8 @@
 // =====================================
-// FILE 3: questTracker.js
+// FILE: questTracker.js (Cron Job - runs every 15 seconds)
 // =====================================
 import { takaro, data } from '@takaro/helpers';
-import { getPragueDate } from '../Functions/questConfig.js';
+import { getPragueDate } from './questConfig.js';
 
 async function getPlayerName(playerId, fallback = null) {
   try {

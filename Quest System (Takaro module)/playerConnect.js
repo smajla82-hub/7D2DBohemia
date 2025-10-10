@@ -1,8 +1,8 @@
 // =====================================
-// FILE 1: playerConnect.js (Hook)
+// FILE: playerConnect.js (Hook - player-connected event)
 // =====================================
 import { takaro, data } from '@takaro/helpers';
-import { getQuestConfig, getTargetFor, getPragueDate } from '../Functions/questConfig.js';
+import { getQuestConfig, getTargetFor, getPragueDate } from './questConfig.js';
 
 async function main() {
     const { player, gameServerId, module: mod } = data;

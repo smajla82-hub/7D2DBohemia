@@ -1,8 +1,9 @@
 // =====================================
-// FILE 5: daily.js 
+// FILE: daily.js (v0.2.0 single-PM, rotation aware)
+// Minor tweak: header total = activeTypes.length (not number of existing variables)
 // =====================================
 import { takaro, data, TakaroUserError } from '@takaro/helpers';
-import { getPragueDate } from '../Functions/questConfig.js';
+import { getPragueDate } from './questConfig.js';
 
 async function main() {
     const { player, pog, gameServerId, module: mod } = data;
