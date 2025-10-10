@@ -2,6 +2,7 @@
 // FILE 4: autoClaimRewards.js (Cron Job - runs every 15 seconds)
 // =====================================
 import { takaro, data } from '@takaro/helpers';
+import { getQuestConfig, getRewardFor, getPragueDate } from '../Functions/questConfig.js';
 
 async function getPlayerName(playerId) {
     try {
@@ -13,16 +14,9 @@ async function getPlayerName(playerId) {
     return `Player_${playerId}`;
 }
 
-function getPragueDate() {
-    const now = new Date();
-    const pragueOffset = 1; // CET is UTC+1
-    const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
-    const pragueTime = new Date(utc + (3600000 * pragueOffset));
-    return pragueTime.toISOString().split('T')[0];
-}
-
 async function main() {
     const { gameServerId, module: mod } = data;
+    const config = getQuestConfig(mod);
     const today = getPragueDate();
 
     try {
@@ -81,10 +75,7 @@ async function main() {
                                 value: JSON.stringify(questData)
                             });
 
-                            let currencyAmount = 25;
-                            if (questType === 'vote') {
-                                currencyAmount = 50;
-                            }
+                            const currencyAmount = getRewardFor(config, questType);
 
                             if (currencyAmount > 0) {
                                 try {

@@ -2,14 +2,7 @@
 // FILE 5: daily.js 
 // =====================================
 import { takaro, data, TakaroUserError } from '@takaro/helpers';
-
-function getPragueDate() {
-    const now = new Date();
-    const pragueOffset = 1; // CET is UTC+1
-    const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
-    const pragueTime = new Date(utc + (3600000 * pragueOffset));
-    return pragueTime.toISOString().split('T')[0];
-}
+import { getPragueDate } from '../Functions/questConfig.js';
 
 async function main() {
     const { player, pog, gameServerId, module: mod } = data;

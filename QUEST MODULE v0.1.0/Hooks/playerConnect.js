@@ -2,17 +2,11 @@
 // FILE 1: playerConnect.js (Hook)
 // =====================================
 import { takaro, data } from '@takaro/helpers';
-
-function getPragueDate() {
-    const now = new Date();
-    const pragueOffset = 1; // CET is UTC+1
-    const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
-    const pragueTime = new Date(utc + (3600000 * pragueOffset));
-    return pragueTime.toISOString().split('T')[0];
-}
+import { getQuestConfig, getTargetFor, getPragueDate } from '../Functions/questConfig.js';
 
 async function main() {
     const { player, gameServerId, module: mod } = data;
+    const config = getQuestConfig(mod);
     const today = getPragueDate();
     const playerId = player.id;
 
@@ -45,25 +39,16 @@ async function main() {
         });
 
         if (!existingQuest?.data?.data?.length) {
-            const questTypeConfigs = {
-                'timespent': { target: 3600000 },
-                'vote': { target: 1 },
-                'zombiekills': { target: 200 },
-                'levelgain': { target: 5 },
-                'shopquest': { target: 1 }
-            };
-
             let createCount = 0;
 
             for (const type of activeTypes) {
-                const questConfig = questTypeConfigs[type];
-                if (!questConfig) continue;
+                const target = getTargetFor(config, type);
                 
                 const questKey = `dailyquest_${playerId}_${today}_${type}`;
 
                 const questData = {
                     type: type,
-                    target: questConfig.target,
+                    target: target,
                     progress: 0,
                     completed: false,
                     claimed: false,
@@ -83,8 +68,8 @@ async function main() {
             }
 
             const sessionKey = `session_${playerId}_${today}`;
-            // Only create session if timespent is active
-            if (activeTypes.includes('timespent')) {
+            // Only create session if timespent is active and time tracking is enabled
+            if (activeTypes.includes('timespent') && config.enable_time_tracking) {
                 try {
                     await takaro.variable.variableControllerCreate({
                         key: sessionKey,
@@ -127,8 +112,8 @@ async function main() {
             }
         } else {
             const sessionKey = `session_${playerId}_${today}`;
-            // Only update session if timespent is active
-            if (activeTypes.includes('timespent')) {
+            // Only update session if timespent is active and time tracking is enabled
+            if (activeTypes.includes('timespent') && config.enable_time_tracking) {
                 try {
                     const existingSession = await takaro.variable.variableControllerSearch({
                         filters: {
