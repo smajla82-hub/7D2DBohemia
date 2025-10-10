@@ -13,10 +13,18 @@ async function getPlayerName(playerId, fallback = null) {
   return fallback || `Player_${playerId}`;
 }
 
+function getPragueDate() {
+    const now = new Date();
+    const pragueOffset = 1; // CET is UTC+1
+    const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
+    const pragueTime = new Date(utc + (3600000 * pragueOffset));
+    return pragueTime.toISOString().split('T')[0];
+}
+
 async function main() {
   const { gameServerId, module: mod } = data;
   const VARIABLE_KEY = 'lastQuestUpdate';
-  const today = new Date().toISOString().split('T')[0];
+  const today = getPragueDate();
 
   async function sendCompletionPM(playerId, questType) {
     const questNames = {
@@ -28,8 +36,49 @@ async function main() {
     };
     const playerName = await getPlayerName(playerId);
     await takaro.gameserver.gameServerControllerExecuteCommand(gameServerId, {
-      command: `pm "${playerName}" "?? Daily ${questNames[questType] || questType} quest completed! Use /dailyclaim to get your reward!"`
+      command: `pm "${playerName}" "✔ Daily ${questNames[questType] || questType} quest completed ✔"`
     });
+  }
+
+  async function enqueueForAutoClaim(playerId, questType) {
+    const queueKey = `autoclaim_queue_${playerId}`;
+    try {
+      const existingQueue = await takaro.variable.variableControllerSearch({
+        filters: {
+          key: [queueKey],
+          gameServerId: [gameServerId],
+          playerId: [playerId],
+          moduleId: [mod.moduleId]
+        }
+      });
+      
+      let queue = [];
+      if (existingQueue?.data?.data?.length > 0) {
+        try {
+          queue = JSON.parse(existingQueue.data.data[0].value);
+        } catch (e) {
+          queue = [];
+        }
+      }
+      
+      if (!queue.includes(questType)) {
+        queue.push(questType);
+      }
+      
+      if (existingQueue?.data?.data?.length > 0) {
+        await takaro.variable.variableControllerUpdate(existingQueue.data.data[0].id, {
+          value: JSON.stringify(queue)
+        });
+      } else {
+        await takaro.variable.variableControllerCreate({
+          key: queueKey,
+          value: JSON.stringify(queue),
+          gameServerId: gameServerId,
+          playerId: playerId,
+          moduleId: mod.moduleId
+        });
+      }
+    } catch (e) { }
   }
 
   try {
@@ -74,6 +123,7 @@ async function main() {
           if (justCompleted) {
             questData.completed = true;
             await sendCompletionPM(playerId, 'zombiekills');
+            await enqueueForAutoClaim(playerId, 'zombiekills');
           } else if (questData.progress >= questData.target) {
             questData.completed = true;
           }
@@ -114,6 +164,7 @@ async function main() {
             value: JSON.stringify(questData)
           });
           await sendCompletionPM(playerId, 'shopquest');
+          await enqueueForAutoClaim(playerId, 'shopquest');
         }
       }
     }
@@ -186,6 +237,7 @@ async function main() {
             justCompleted = true;
             questData.completed = true;
             await sendCompletionPM(playerId, 'timespent');
+            await enqueueForAutoClaim(playerId, 'timespent');
           }
           await takaro.variable.variableControllerUpdate(timeQuestVar.data.data[0].id, {
             value: JSON.stringify(questData)
