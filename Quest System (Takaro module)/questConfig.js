@@ -1,5 +1,5 @@
 // =====================================
-// Quest Configuration Loader
+// FILE: questConfig.js (v0.2.0 Configuration Loader)
 // =====================================
 // Loads quest configuration from module userConfig with sensible fallback defaults
 

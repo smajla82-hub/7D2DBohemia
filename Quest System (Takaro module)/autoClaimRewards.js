@@ -1,8 +1,8 @@
 // =====================================
-// FILE 4: autoClaimRewards.js (Cron Job - runs every 15 seconds)
+// FILE: autoClaimRewards.js (Cron Job - runs every 15 seconds)
 // =====================================
 import { takaro, data } from '@takaro/helpers';
-import { getQuestConfig, getRewardFor, getPragueDate } from '../Functions/questConfig.js';
+import { getQuestConfig, getRewardFor, getPragueDate } from './questConfig.js';
 
 async function getPlayerName(playerId) {
     try {

@@ -1,8 +1,8 @@
 // =====================================
-// FILE 2: autoInitDailyQuests.js (Cron Job - Runs every 5 minutes, executes once per day at configured time)
+// FILE: autoInitDailyQuests.js (Cron Job - Runs every 5 minutes, executes once per day at configured time)
 // =====================================
 import { takaro, data } from '@takaro/helpers';
-import { getQuestConfig, getTargetFor, getPragueDate, getPragueTimeHHMM } from '../Functions/questConfig.js';
+import { getQuestConfig, getTargetFor, getPragueDate, getPragueTimeHHMM } from './questConfig.js';
 
 async function getPlayerName(playerId) {
     try {

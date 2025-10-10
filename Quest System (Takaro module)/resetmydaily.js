@@ -2,7 +2,7 @@
 // FILE: resetmydaily.js (Admin/Testing Command)
 // =====================================
 import { takaro, data, TakaroUserError } from '@takaro/helpers';
-import { getQuestConfig, getTargetFor, getPragueDate } from '../Functions/questConfig.js';
+import { getQuestConfig, getTargetFor, getPragueDate } from './questConfig.js';
 
 async function main() {
     const { player, pog, gameServerId, module: mod } = data;
