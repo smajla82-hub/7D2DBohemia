@@ -2,6 +2,7 @@
 // FILE 3: questTracker.js
 // =====================================
 import { takaro, data } from '@takaro/helpers';
+import { getPragueDate } from '../Functions/questConfig.js';
 
 async function getPlayerName(playerId, fallback = null) {
   try {
@@ -11,14 +12,6 @@ async function getPlayerName(playerId, fallback = null) {
     }
   } catch (e) { }
   return fallback || `Player_${playerId}`;
-}
-
-function getPragueDate() {
-    const now = new Date();
-    const pragueOffset = 1; // CET is UTC+1
-    const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
-    const pragueTime = new Date(utc + (3600000 * pragueOffset));
-    return pragueTime.toISOString().split('T')[0];
 }
 
 async function main() {

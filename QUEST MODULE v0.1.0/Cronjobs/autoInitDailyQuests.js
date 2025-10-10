@@ -1,7 +1,8 @@
 // =====================================
-// FILE 2: autoInitDailyQuests.js (Cron Job - Daily at midnight)
+// FILE 2: autoInitDailyQuests.js (Cron Job - Runs every 5 minutes, executes once per day at configured time)
 // =====================================
 import { takaro, data } from '@takaro/helpers';
+import { getQuestConfig, getTargetFor, getPragueDate, getPragueTimeHHMM } from '../Functions/questConfig.js';
 
 async function getPlayerName(playerId) {
     try {
@@ -11,14 +12,6 @@ async function getPlayerName(playerId) {
         }
     } catch (e) { }
     return `Player_${playerId}`;
-}
-
-function getPragueDate() {
-    const now = new Date();
-    const pragueOffset = 1; // CET is UTC+1, CEST is UTC+2 but we use +1 for consistency
-    const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
-    const pragueTime = new Date(utc + (3600000 * pragueOffset));
-    return pragueTime.toISOString().split('T')[0];
 }
 
 function getRotatedQuestTypes(dateStr, serverId) {
@@ -34,7 +27,58 @@ function getRotatedQuestTypes(dateStr, serverId) {
 
 async function main() {
     const { gameServerId, module: mod } = data;
+    const config = getQuestConfig(mod);
     const today = getPragueDate();
+    const currentTime = getPragueTimeHHMM();
+    
+    // Check if reset time matches configured time
+    if (currentTime !== config.quest_reset_time_hhmm) {
+        // Not the right time to reset, exit silently
+        return;
+    }
+    
+    // Check if we already ran today using guard variable
+    const guardKey = 'dailyquests_last_reset_at';
+    try {
+        const guardVar = await takaro.variable.variableControllerSearch({
+            filters: {
+                key: [guardKey],
+                gameServerId: [gameServerId],
+                moduleId: [mod.moduleId]
+            }
+        });
+        
+        if (guardVar?.data?.data?.length > 0) {
+            const lastResetDate = guardVar.data.data[0].value;
+            if (lastResetDate === today) {
+                // Already reset today, exit
+                return;
+            }
+            // Update guard to today
+            await takaro.variable.variableControllerUpdate(guardVar.data.data[0].id, {
+                value: today
+            });
+        } else {
+            // Create guard variable
+            await takaro.variable.variableControllerCreate({
+                key: guardKey,
+                value: today,
+                gameServerId: gameServerId,
+                moduleId: mod.moduleId
+            });
+        }
+    } catch (e) {
+        // Log error to diagnostic variable
+        try {
+            await takaro.variable.variableControllerCreate({
+                key: 'questdiag_last_error',
+                value: `Guard check failed: ${e.message || e}`,
+                gameServerId: gameServerId,
+                moduleId: mod.moduleId
+            });
+        } catch { }
+    }
+    
     const activeTypes = getRotatedQuestTypes(today, gameServerId);
     
     // Store active types globally for other scripts
@@ -114,23 +158,14 @@ async function main() {
         const playerId = playerObj.playerId;
         const playerName = await getPlayerName(playerId);
 
-        const questTypeConfigs = {
-            'timespent': { target: 3600000 },
-            'vote': { target: 1 },
-            'zombiekills': { target: 200 },
-            'levelgain': { target: 5 },
-            'shopquest': { target: 1 }
-        };
-
         for (const type of activeTypes) {
-            const questConfig = questTypeConfigs[type];
-            if (!questConfig) continue;
+            const target = getTargetFor(config, type);
             
             const questKey = `dailyquest_${playerId}_${today}_${type}`;
             try {
                 const questData = {
                     type: type,
-                    target: questConfig.target,
+                    target: target,
                     progress: 0,
                     completed: false,
                     claimed: false,
@@ -147,8 +182,8 @@ async function main() {
         }
 
         const sessionKey = `session_${playerId}_${today}`;
-        // Only create session if timespent is in active types
-        if (activeTypes.includes('timespent')) {
+        // Only create session if timespent is in active types and time tracking is enabled
+        if (activeTypes.includes('timespent') && config.enable_time_tracking) {
             try {
                 await takaro.variable.variableControllerCreate({
                     key: sessionKey,

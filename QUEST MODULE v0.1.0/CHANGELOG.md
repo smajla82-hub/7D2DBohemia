@@ -2,6 +2,44 @@
 
 All notable changes to the Quest Module will be documented in this file.
 
+## [0.1.3] - 2025-10-10
+
+### Added
+- **Configurable Quest System**: All quest parameters now configurable via Takaro installer "User config"
+  - `quest_reset_time_hhmm`: Daily reset time in HH:mm format (Europe/Prague timezone)
+  - Reward configuration: `reward_default_beers`, `reward_vote_beers`, `reward_unkillable_beers`, `reward_dieonce_beers`, `reward_feralkills_beers`, `reward_vulturekills_beers`
+  - Target configuration: `target_timespent_ms`, `target_unkillable_ms`, `target_feralkills`, `target_vulturekills`, `target_dieonce`, `target_zombiekills`, `target_levelgain`, `target_shopquest`
+  - Optional: `enable_time_tracking` toggle
+- **Shared Config Loader**: New `Functions/questConfig.js` utility with `getQuestConfig()`, `getTargetFor()`, `getRewardFor()` helpers
+- **Once-Per-Day Guard**: `dailyquests_last_reset_at` variable ensures reset runs exactly once per day
+- **Flexible Cron Scheduling**: autoInitDailyQuests.js can now run every 5 minutes safely with internal time-based gating
+- **Admin Command**: `/resetmydaily` command for testing/admin use (rotation-aware, uses configured targets)
+- **Error Diagnostics**: `questdiag_last_error` variable for logging config/guard errors
+
+### Changed
+- **autoInitDailyQuests.js**: 
+  - Now checks current Prague time against `quest_reset_time_hhmm` config
+  - Uses guard variable to prevent duplicate daily resets
+  - Reads quest targets from config with fallback defaults
+  - Can be safely scheduled every 5 minutes (e.g., */5 * * * *)
+- **autoClaimRewards.js**: Reads reward amounts from config instead of hardcoded values
+- **playerConnect.js**: Uses configured targets when backfilling missing quests
+- **All time-based logic**: Honors `enable_time_tracking` config flag
+- **Documentation**: Updated README.md with comprehensive config documentation
+
+### Technical Details
+- Config system uses nullish coalescing (`??`) for proper fallback handling
+- All scripts import shared helpers from `Functions/questConfig.js`
+- Reset time comparison uses Prague timezone HH:mm format
+- Deterministic rotation logic unchanged (vote always included)
+- Existing behavior preserved when no config values are set
+
+### Migration Notes
+- Existing installations work with default values if config not set
+- Recommended cron schedule for autoInitDailyQuests.js: Every 5 minutes
+- Set `quest_reset_time_hhmm` in User config to control daily reset time
+- Adjust rewards/targets in User config dialog to customize quest difficulty
+
 ## [0.1.2] - 2025-10-10
 
 ### Added
