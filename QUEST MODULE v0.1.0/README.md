@@ -101,6 +101,7 @@ All daily resets and quest tracking use Europe/Prague timezone (CET/CEST) for co
      - Set `quest_reset_time_hhmm` for your preferred daily reset time
      - Adjust reward amounts (`reward_*_beers` fields)
      - Modify quest targets (`target_*` fields)
+     - See [CONFIG_GUIDE.md](CONFIG_GUIDE.md) for detailed configuration documentation
 
 3. External integration:
    - Python `integrated_game_monitor.py` handles level-gain quest updates
