@@ -3,16 +3,40 @@
 // =====================================
 import { takaro, data, TakaroUserError } from '@takaro/helpers';
 
+function getPragueDate() {
+    const now = new Date();
+    const pragueOffset = 1; // CET is UTC+1
+    const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
+    const pragueTime = new Date(utc + (3600000 * pragueOffset));
+    return pragueTime.toISOString().split('T')[0];
+}
+
 async function main() {
     const { player, pog, gameServerId, module: mod } = data;
-    const today = new Date().toISOString().split('T')[0];
+    const today = getPragueDate();
     const playerId = pog.playerId;
 
     try {
-        const questTypes = ['timespent', 'vote', 'zombiekills', 'levelgain', 'shopquest'];
+        // Get today's active quest types
+        const activeTypesKey = `dailyquests_active_types_${today}`;
+        let activeTypes = ['vote', 'timespent', 'zombiekills']; // Default fallback
+        
+        try {
+            const activeTypesVar = await takaro.variable.variableControllerSearch({
+                filters: {
+                    key: [activeTypesKey],
+                    gameServerId: [gameServerId],
+                    moduleId: [mod.moduleId]
+                }
+            });
+            if (activeTypesVar?.data?.data?.length > 0) {
+                activeTypes = JSON.parse(activeTypesVar.data.data[0].value);
+            }
+        } catch (e) { }
+
         const allQuests = [];
 
-        for (const type of questTypes) {
+        for (const type of activeTypes) {
             try {
                 const questVar = await takaro.variable.variableControllerSearch({
                     filters: {
@@ -82,7 +106,8 @@ async function main() {
             }
         }
 
-        let questStatus = `=DAILY QUEST PROGRESS ${claimedCount}/${allQuests.length}= `;
+        // Single compact PM with BMP-safe icons
+        let questStatus = `✪ DAILY QUESTS ${claimedCount}/${allQuests.length} ✪ `;
 
         for (const questVar of activeQuests) {
             let questData;
@@ -105,17 +130,17 @@ async function main() {
                     progressText = `${questData.progress}/${questData.target}`;
                 }
 
-                let status = questData.completed ? 'READY' : 'in progress';
-                questStatus += `*** ${questInfo.name}: ${status} | ${progressText} `;
+                let status = questData.completed ? '✔ READY' : (questData.claimed ? 'CLAIMED' : 'in progress');
+                questStatus += `※ ${questInfo.name}: ${status} | ${progressText} `;
             }
         }
 
         if (readyCount > 0) {
-            questStatus += `*** ${readyCount} quests ready! Use /dailyclaim`;
+            questStatus += `※ Auto-claim active, rewards coming soon!`;
         } else if (activeQuests.length > 0) {
-            questStatus += `*** Keep playing to complete quests!`;
+            questStatus += `※ Keep playing to complete quests!`;
         } else {
-            questStatus += `*** All daily quests completed! Well done!`;
+            questStatus += `※ All daily quests completed! Well done!`;
         }
 
         await takaro.gameserver.gameServerControllerExecuteCommand(gameServerId, {
