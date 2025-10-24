@@ -1,232 +1,235 @@
 // =====================================
-// FILE: autoInitDailyQuests.js (Cron Job - Runs every 5 minutes, executes once per day at configured time)
+// FILE: autoInitDailyQuests.js (v0.2.1 - rotation + new quests)
+// - Europe/Prague date for keys
+// - Deterministic daily selection (server/day)
+// - Always include 'vote', pick remaining from POOL
+// - Retention=0 cleanup for prior-day quests
+// - Initialize session for timespent and deathless_start for unkillable
 // =====================================
 import { takaro, data } from '@takaro/helpers';
-import { getQuestConfig, getTargetFor, getPragueDate, getPragueTimeHHMM } from './questConfig.js';
 
-async function getPlayerName(playerId) {
-    try {
-        const playerRes = await takaro.player.playerControllerGetOne(playerId);
-        if (playerRes?.data?.data?.name) {
-            return playerRes.data.data.name;
-        }
-    } catch (e) { }
-    return `Player_${playerId}`;
+const TIME_ZONE = 'Europe/Prague';
+function getPragueDateString() {
+  const local = new Date(new Date().toLocaleString('en-US', { timeZone: TIME_ZONE }));
+  const yyyy = local.getFullYear();
+  const mm = String(local.getMonth() + 1).padStart(2, '0');
+  const dd = String(local.getDate()).padStart(2, '0');
+  return `${yyyy}-${mm}-${dd}`;
 }
 
-function getRotatedQuestTypes(dateStr, serverId) {
-    // Deterministic rotation: vote always included, others rotate daily per server
-    const allOptional = ['timespent', 'zombiekills', 'levelgain', 'shopquest'];
-    const seed = parseInt(dateStr.replace(/-/g, '')) + parseInt(serverId);
-    const rng = (seed * 9301 + 49297) % 233280 / 233280;
-    const count = 2; // Select 2 additional quests besides vote
-    const shuffled = allOptional.sort(() => (rng * allOptional.length) % 1 - 0.5);
-    const selected = shuffled.slice(0, count);
-    return ['vote', ...selected]; // vote always included
+// Quest pool (vote is always included)
+// Targets:
+// - timespent: 1h (ms); vote: 1; zombiekills: 200; levelgain: 5; shopquest:1
+// - unkillable: 3h (ms)
+// - feralkills: 10; vulturekills: 10; dieonce: 1
+const POOL = [
+  { type: 'timespent', target: 3600000 },
+  { type: 'zombiekills', target: 200 },
+  { type: 'levelgain', target: 5 },
+  { type: 'shopquest', target: 1 },
+  { type: 'unkillable', target: 10800000 },
+  { type: 'feralkills', target: 10 },
+  { type: 'vulturekills', target: 10 },
+  { type: 'dieonce', target: 1 },
+];
+const ALWAYS = ['vote'];
+const TOTAL_DAILY = 5;
+
+const GLOBAL_DATE_KEY = 'dailyquests_current_date';
+const DAILY_ACTIVE_TYPES_KEY = 'dailyquests_active_types';
+const PLAYER_LAST_REFRESH_PREFIX = 'dailyquests_last_refresh_';
+
+// Deterministic PRNG + hash
+function mulberry32(seed) {
+  return function () {
+    let t = seed += 0x6D2B79F5;
+    t = Math.imul(t ^ t >>> 15, t | 1);
+    t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+    return ((t ^ t >>> 14) >>> 0) / 4294967296;
+  };
+}
+function hashString(str) {
+  let h = 2166136261 >>> 0;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+function deterministicSelection(dateStr, gameServerId) {
+  const need = Math.max(0, TOTAL_DAILY - ALWAYS.length);
+  const seed = hashString(`${dateStr}#${gameServerId}`);
+  const rng = mulberry32(seed);
+  const poolCopy = [...POOL];
+  for (let i = poolCopy.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [poolCopy[i], poolCopy[j]] = [poolCopy[j], poolCopy[i]];
+  }
+  const chosen = poolCopy.slice(0, Math.min(need, poolCopy.length)).map(p => p.type);
+  return [...ALWAYS, ...chosen];
+}
+
+async function setGlobalDate(date, gameServerId, moduleId) {
+  try {
+    const existing = await takaro.variable.variableControllerSearch({
+      filters: { key: [GLOBAL_DATE_KEY], gameServerId: [gameServerId], moduleId: [moduleId] }
+    });
+    if (existing.data.data.length) {
+      await takaro.variable.variableControllerUpdate(existing.data.data[0].id, { value: date });
+    } else {
+      await takaro.variable.variableControllerCreate({ key: GLOBAL_DATE_KEY, value: date, gameServerId, moduleId });
+    }
+  } catch { }
+}
+
+async function setDailyActiveTypes(date, types, gameServerId, moduleId) {
+  try {
+    const existing = await takaro.variable.variableControllerSearch({
+      filters: { key: [DAILY_ACTIVE_TYPES_KEY], gameServerId: [gameServerId], moduleId: [moduleId] }
+    });
+    const payload = JSON.stringify({ date, types });
+    if (existing.data.data.length) {
+      await takaro.variable.variableControllerUpdate(existing.data.data[0].id, { value: payload });
+    } else {
+      await takaro.variable.variableControllerCreate({
+        key: DAILY_ACTIVE_TYPES_KEY, value: payload, gameServerId, moduleId
+      });
+    }
+  } catch { }
+}
+
+async function deleteOldQuests(playerId, today, gameServerId, moduleId) {
+  try {
+    const prefix = `dailyquest_${playerId}_`;
+    const search = await takaro.variable.variableControllerSearch({
+      filters: { gameServerId: [gameServerId], playerId: [playerId], moduleId: [moduleId] },
+      limit: 500
+    });
+    for (const variable of search.data.data) {
+      if (variable.key.startsWith(prefix) && !variable.key.includes(`_${today}_`)) {
+        try { await takaro.variable.variableControllerDelete(variable.id); } catch { }
+      }
+    }
+  } catch { }
+}
+
+function targetFor(type) {
+  const t = POOL.find(p => p.type === type);
+  if (t) return t.target;
+  return type === 'vote' ? 1 : 1;
+}
+
+async function ensureDailyQuestsFor(playerId, date, types, gameServerId, moduleId) {
+  const created = [];
+  for (const type of types) {
+    const key = `dailyquest_${playerId}_${date}_${type}`;
+    try {
+      const search = await takaro.variable.variableControllerSearch({
+        filters: { key: [key], gameServerId: [gameServerId], playerId: [playerId], moduleId: [moduleId] }
+      });
+      if (search.data.data.length) continue;
+
+      await takaro.variable.variableControllerCreate({
+        key,
+        value: JSON.stringify({
+          type,
+          target: targetFor(type),
+          progress: 0,
+          completed: false,
+          claimed: false,
+          date,
+          createdAt: new Date().toISOString()
+        }),
+        gameServerId,
+        playerId,
+        moduleId
+      });
+      created.push(type);
+    } catch { }
+  }
+
+  // Session only if timespent is active
+  if (types.includes('timespent')) {
+    const sessionKey = `session_${playerId}_${date}`;
+    try {
+      const s = await takaro.variable.variableControllerSearch({
+        filters: { key: [sessionKey], gameServerId: [gameServerId], playerId: [playerId], moduleId: [moduleId] }
+      });
+      if (!s.data.data.length) {
+        await takaro.variable.variableControllerCreate({
+          key: sessionKey,
+          value: JSON.stringify({ startTime: Date.now(), totalTime: 0, lastUpdate: Date.now() }),
+          gameServerId, playerId, moduleId
+        });
+      }
+    } catch { }
+  }
+
+  // Deathless start only if unkillable is active
+  if (types.includes('unkillable')) {
+    const dkey = `deathless_start_${playerId}_${date}`;
+    try {
+      const s = await takaro.variable.variableControllerSearch({
+        filters: { key: [dkey], gameServerId: [gameServerId], playerId: [playerId], moduleId: [moduleId] }
+      });
+      if (!s.data.data.length) {
+        await takaro.variable.variableControllerCreate({
+          key: dkey,
+          value: String(Date.now()),
+          gameServerId, playerId, moduleId
+        });
+      }
+    } catch { }
+  }
+
+  return { created };
 }
 
 async function main() {
-    const { gameServerId, module: mod } = data;
-    const config = getQuestConfig(mod);
-    const today = getPragueDate();
-    const currentTime = getPragueTimeHHMM();
-    
-    // Check if reset time matches configured time
-    if (currentTime !== config.quest_reset_time_hhmm) {
-        // Not the right time to reset, exit silently
-        return;
-    }
-    
-    // Check if we already ran today using guard variable
-    const guardKey = 'dailyquests_last_reset_at';
-    try {
-        const guardVar = await takaro.variable.variableControllerSearch({
-            filters: {
-                key: [guardKey],
-                gameServerId: [gameServerId],
-                moduleId: [mod.moduleId]
-            }
-        });
-        
-        if (guardVar?.data?.data?.length > 0) {
-            const lastResetDate = guardVar.data.data[0].value;
-            if (lastResetDate === today) {
-                // Already reset today, exit
-                return;
-            }
-            // Update guard to today
-            await takaro.variable.variableControllerUpdate(guardVar.data.data[0].id, {
-                value: today
-            });
-        } else {
-            // Create guard variable
-            await takaro.variable.variableControllerCreate({
-                key: guardKey,
-                value: today,
-                gameServerId: gameServerId,
-                moduleId: mod.moduleId
-            });
-        }
-    } catch (e) {
-        // Log error to diagnostic variable
-        try {
-            await takaro.variable.variableControllerCreate({
-                key: 'questdiag_last_error',
-                value: `Guard check failed: ${e.message || e}`,
-                gameServerId: gameServerId,
-                moduleId: mod.moduleId
-            });
-        } catch { }
-    }
-    
-    const activeTypes = getRotatedQuestTypes(today, gameServerId);
-    
-    // Store active types globally for other scripts
-    const activeTypesKey = `dailyquests_active_types_${today}`;
-    try {
-        await takaro.variable.variableControllerCreate({
-            key: activeTypesKey,
-            value: JSON.stringify(activeTypes),
-            gameServerId: gameServerId,
-            moduleId: mod.moduleId
-        });
-    } catch (e) {
-        // May already exist, update it
-        const existing = await takaro.variable.variableControllerSearch({
-            filters: {
-                key: [activeTypesKey],
-                gameServerId: [gameServerId],
-                moduleId: [mod.moduleId]
-            }
-        });
-        if (existing?.data?.data?.length > 0) {
-            await takaro.variable.variableControllerUpdate(existing.data.data[0].id, {
-                value: JSON.stringify(activeTypes)
-            });
-        }
-    }
+  const { gameServerId, module: mod } = data;
+  const today = getPragueDateString();
+  const types = deterministicSelection(today, gameServerId);
 
-    let playerList = [];
-    try {
-        const playersRes = await takaro.playerOnGameserver.playerOnGameServerControllerSearch({
-            filters: { gameServerId: [gameServerId] },
-            limit: 1000
-        });
-        playerList = playersRes.data.data;
-    } catch (e) {
-        await takaro.gameserver.gameServerControllerSendMessage(gameServerId, {
-            message: 'Failed to load player list for daily quest initialization.'
-        });
-        return;
-    }
+  await setGlobalDate(today, gameServerId, mod.moduleId);
+  await setDailyActiveTypes(today, types, gameServerId, mod.moduleId);
 
-    let onlinePlayerIds = new Set();
-    try {
-        const onlinePlayers = await takaro.playerOnGameserver.playerOnGameServerControllerSearch({
-            filters: { gameServerId: [gameServerId], online: [true] },
-            limit: 1000
-        });
-        for (const p of onlinePlayers.data.data) {
-            onlinePlayerIds.add(p.playerId);
-        }
-    } catch (e) { }
-
-    // Retention=0: Delete all old quest variables before creating new ones
-    for (const playerObj of playerList) {
-        const playerId = playerObj.playerId;
-        
-        // Delete all old dailyquest_* keys for this player
-        const allQuestKeys = await takaro.variable.variableControllerSearch({
-            filters: {
-                gameServerId: [gameServerId],
-                playerId: [playerId],
-                moduleId: [mod.moduleId]
-            },
-            limit: 1000
-        });
-        
-        for (const varItem of allQuestKeys.data.data) {
-            if (varItem.key.startsWith('dailyquest_')) {
-                try {
-                    await takaro.variable.variableControllerDelete(varItem.id);
-                } catch (e) { }
-            }
-        }
-    }
-
-    for (const playerObj of playerList) {
-        const playerId = playerObj.playerId;
-        const playerName = await getPlayerName(playerId);
-
-        for (const type of activeTypes) {
-            const target = getTargetFor(config, type);
-            
-            const questKey = `dailyquest_${playerId}_${today}_${type}`;
-            try {
-                const questData = {
-                    type: type,
-                    target: target,
-                    progress: 0,
-                    completed: false,
-                    claimed: false,
-                    createdAt: new Date().toISOString()
-                };
-                await takaro.variable.variableControllerCreate({
-                    key: questKey,
-                    value: JSON.stringify(questData),
-                    gameServerId: gameServerId,
-                    playerId: playerId,
-                    moduleId: mod.moduleId
-                });
-            } catch (e) { }
-        }
-
-        const sessionKey = `session_${playerId}_${today}`;
-        // Only create session if timespent is in active types and time tracking is enabled
-        if (activeTypes.includes('timespent') && config.enable_time_tracking) {
-            try {
-                await takaro.variable.variableControllerCreate({
-                    key: sessionKey,
-                    value: JSON.stringify({
-                        startTime: Date.now(),
-                        totalTime: 0,
-                        lastUpdate: Date.now()
-                    }),
-                    gameServerId: gameServerId,
-                    playerId: playerId,
-                    moduleId: mod.moduleId
-                });
-            } catch (sessionError) {
-                try {
-                    const existingSession = await takaro.variable.variableControllerSearch({
-                        filters: {
-                            key: [sessionKey],
-                            gameServerId: [gameServerId],
-                            playerId: [playerId],
-                            moduleId: [mod.moduleId]
-                        }
-                    });
-                    if (existingSession?.data?.data?.length > 0) {
-                        const sessionData = JSON.parse(existingSession.data.data[0].value);
-                        sessionData.lastUpdate = Date.now();
-                        await takaro.variable.variableControllerUpdate(existingSession.data.data[0].id, {
-                            value: JSON.stringify(sessionData)
-                        });
-                    }
-                } catch (e) { }
-            }
-        }
-
-        if (onlinePlayerIds.has(playerId)) {
-            await takaro.gameserver.gameServerControllerExecuteCommand(gameServerId, {
-                command: `pm "${playerName}" "Daily quests have been refreshed! Type /daily to see your new challenges!"`
-            });
-        }
-    }
-
-    await takaro.gameserver.gameServerControllerSendMessage(gameServerId, {
-        message: 'Daily quests have been reset for all players! Type /daily to see your new challenges.'
+  // All known players on this server
+  let players = [];
+  try {
+    const res = await takaro.playerOnGameserver.playerOnGameServerControllerSearch({
+      filters: { gameServerId: [gameServerId] },
+      limit: 1000
     });
+    players = res.data.data;
+  } catch {
+    await takaro.gameserver.gameServerControllerSendMessage(gameServerId, {
+      message: 'Failed to load player list for daily quest initialization.'
+    });
+    return;
+  }
+
+  let totalCreated = 0;
+  for (const p of players) {
+    const playerId = p.playerId;
+    try {
+      await deleteOldQuests(playerId, today, gameServerId, mod.moduleId);
+      const { created } = await ensureDailyQuestsFor(playerId, today, types, gameServerId, mod.moduleId);
+      totalCreated += created.length;
+    } catch { }
+  }
+
+  try {
+    await takaro.gameserver.gameServerControllerSendMessage(gameServerId, {
+      message: 'Daily quests have been reset for all players! Type /daily to see your new challenges.'
+    });
+    await takaro.gameserver.gameServerControllerSendMessage(gameServerId, {
+      message: `Today’s active quests: ${types.join(', ')}`
+    });
+  } catch { }
+
+  await takaro.gameserver.gameServerControllerSendMessage(gameServerId, {
+    message: `[DailyReset] Completed. Players: ${players.length}, Quests created: ${totalCreated}`
+  });
 }
 
 await main();
