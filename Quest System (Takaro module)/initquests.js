@@ -1,5 +1,5 @@
 // =====================================
-// FILE 7: initquests.js
+// FILE 7: initquests.js (v2.1 copy - outdated module, no longer needed?)
 // =====================================
 import { takaro, data, TakaroUserError } from '@takaro/helpers';
 
