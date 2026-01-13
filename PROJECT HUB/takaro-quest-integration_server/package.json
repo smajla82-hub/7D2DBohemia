@@ -1,0 +1,1 @@
+{"type":"module","dependencies":{"@takaro/apiclient":"^0.3.3","axios":"^1.11.0","express":"^5.1.0","node-fetch":"^3.3.2"}}
