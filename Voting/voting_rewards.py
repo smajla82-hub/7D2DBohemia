@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 7D2D Voting Rewards Production Script with Automatic Detection
-Version 33 - Fixed multi-word PM/say messages being truncated to first word
+Version 34 - Updated give command to giveplus syntax (server v3.1+)
 """
 
 import telnetlib
@@ -197,19 +197,21 @@ class VotingRewards:
         self.send_command(command, flush=True)
 
     def give_rewards(self, player_name):
-        """Give rewards to the player"""
+        """Give rewards to the player using the giveplus syntax:
+        giveplus <name/entityId/steamId> <item name> <amount>
+        """
         logger.info(f"Giving rewards to {player_name}")
 
         # Give fixed rewards
         for item, amount in self.fixed_rewards:
-            command = f'give {player_name} {item} {amount}'
+            command = f'giveplus {player_name} {item} {amount}'
             self.send_command(command)
             time.sleep(0.3)
 
         # Give 3 random skill books (no duplicates)
         random_books = random.sample(self.skill_books, 3)
         for book in random_books:
-            command = f'give {player_name} {book} 1'
+            command = f'giveplus {player_name} {book} 1'
             self.send_command(command)
             time.sleep(0.3)
 
