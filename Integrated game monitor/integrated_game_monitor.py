@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-integrated_game_monitor.py - v16
+integrated_game_monitor.py - v17
 
 Features:
 - Stable telnet connection with single-flight listplayers (no concurrent runs)
@@ -11,6 +11,12 @@ Features:
 - Supports Steam + XBL + EOS players for quest updates
 - Handles PrismaCore "[PrismaCore]playerLeveled" directly (reliable)
 - ALSO keeps listplayers diff as a fallback, but now with DEDUPLICATION so levelgain won't double increment
+
+v17 changes (from v16):
+- Fixed multi-word messages being truncated to the first word: the server now
+  requires the whole text argument to be wrapped in double quotes whenever it
+  contains a space, both for "pm2 <channel> <player> "<text>"" and "say "<text>"".
+  Single-word messages are sent without quotes (matches confirmed working example).
 
 v16 changes (from v15):
 - Updated send_pm to use the new pm2 syntax required by server v3.1+:
@@ -432,13 +438,28 @@ class IntegratedMonitor:
             logger.error("Error sending command: %s", e)
             return False
 
+    @staticmethod
+    def _quote_if_needed(text):
+        """Wrap text in double quotes if it contains whitespace.
+        The server only reads the first word of an unquoted multi-word argument,
+        so any message with more than one word must be quoted. Single-word
+        messages are sent unquoted (matches the confirmed working examples).
+        """
+        text = str(text)
+        if re.search(r"\s", text):
+            escaped = text.replace('"', '\\"')
+            return f'"{escaped}"'
+        return text
+
     def send_pm(self, player_name, message):
         """Send a private message using the pm2 syntax:
-        pm2 <channel> <player_or_id> <text>  (no quotes around the text)
-        Example: pm2 Brewer BohemianBrewer zkouska
+        pm2 <channel> <player_or_id> <text>
+        Multi-word text must be quoted, e.g.:
+        pm2 Brewer 171 "test delsi vety kde jsou mezery"
         """
+        quoted_message = self._quote_if_needed(message)
         for _ in range(2):
-            if self.send_command(f"pm2 {PM_CHANNEL} {player_name} {message}"):
+            if self.send_command(f"pm2 {PM_CHANNEL} {player_name} {quoted_message}"):
                 return True
             time.sleep(0.7)
         return False
