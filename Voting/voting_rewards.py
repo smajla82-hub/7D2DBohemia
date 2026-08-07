@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 7D2D Voting Rewards Production Script with Automatic Detection
-Version 32 - Updated private message command to pm2 syntax (server v3.1+)
+Version 33 - Fixed multi-word PM/say messages being truncated to first word
 """
 
 import telnetlib
@@ -98,6 +98,19 @@ class VotingRewards:
         self.reconnect_delay = 30  # Start with 30 seconds
         self.max_reconnect_delay = 480  # Max 8 minutes
 
+    @staticmethod
+    def _quote_if_needed(text):
+        """Wrap text in double quotes if it contains whitespace.
+        The server only reads the first word of an unquoted multi-word argument,
+        so any message with more than one word must be quoted. Single-word
+        messages are sent unquoted (matches the confirmed working example).
+        """
+        text = str(text)
+        if re.search(r"\s", text):
+            escaped = text.replace('"', '\\"')
+            return f'"{escaped}"'
+        return text
+
     def connect(self):
         """Connect to the 7D2D telnet server"""
         try:
@@ -165,16 +178,21 @@ class VotingRewards:
 
     def send_private_message(self, player_name, message):
         """Send a private message to a specific player using the pm2 syntax:
-        pm2 <channel> <player_or_id> <text>  (no quotes around the text)
-        Example: pm2 Brewer BohemianBrewer zkouska
+        pm2 <channel> <player_or_id> <text>
+        Multi-word text must be quoted, e.g.:
+        pm2 Brewer BohemianBrewer "delsi zprava s mezerami"
         """
-        command = f'pm2 {self.pm_channel} {player_name} {message}'
+        quoted_message = self._quote_if_needed(message)
+        command = f'pm2 {self.pm_channel} {player_name} {quoted_message}'
         logger.info(f"Sending PM to {player_name}: {message}")
         return self.send_command(command, flush=True)
 
     def send_global_message(self, message):
-        """Send a global message to all players"""
-        command = f'say "{message}"'
+        """Send a global message to all players.
+        Multi-word text must be quoted, single-word text is sent unquoted.
+        """
+        quoted_message = self._quote_if_needed(message)
+        command = f'say {quoted_message}'
         logger.info(f"Sending global message: {message}")
         self.send_command(command, flush=True)
 
