@@ -1,4 +1,5 @@
-// v0.3.4
+// v0.3.5
+// - v0.3.5: Updated pm() to pm2 syntax with quoteIfNeeded for multi-word messages
 // - Properly resets time quests (unkillable: overwrite deathless_start today to now)
 // - Records per-player reset stamp for today
 // - Sets expiresAt for all created/updated variables (retentionDays, default 7)
@@ -61,7 +62,9 @@ async function upsertRaw(gsId,moduleId,playerId,key,value,expiresAtISO){
   if(s.data.data.length){ await takaro.variable.variableControllerUpdate(s.data.data[0].id, { value: String(value), expiresAt: expiresAtISO }); }
   else{ await takaro.variable.variableControllerCreate({ key, value: String(value), gameServerId: gsId, playerId, moduleId, expiresAt: expiresAtISO }); }
 }
-async function pm(gsId,name,text){ try{ await takaro.gameserver.gameServerControllerExecuteCommand(gsId,{command:`pm "${name}" "${text}"`}); }catch{} }
+const PM_CHANNEL = 'Brewer';
+function quoteIfNeeded(text) { return /\s/.test(text) ? `"${String(text).replace(/"/g, '\\"')}"` : String(text); }
+async function pm(gsId,name,text){ try{ await takaro.gameserver.gameServerControllerExecuteCommand(gsId,{command:`pm2 ${PM_CHANNEL} ${name} ${quoteIfNeeded(text)}`}); }catch{} }
 
 async function main(){
   const { gameServerId: gsId, player, module: mod } = data;

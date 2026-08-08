@@ -1,4 +1,5 @@
-// FILE: autoClaimPendingRewards.js (v0.1.1)
+// FILE: autoClaimPendingRewards.js (v0.1.2)
+// - v0.1.2: Updated pm() to pm2 syntax + quoteIfNeeded; fixed mojibake (? -> ✔) in reward message
 // - Pays queued rewards from autoclaim_pending_<playerId>_<date>
 // - Marks items as paid=true after successful payout
 // Suggested schedule: */1 * * * *  (every minute)
@@ -28,8 +29,12 @@ function num(v, def) { const n = Number(v); return Number.isNaN(n) ? def : n; }
 function retentionDays() { return num(cfgGet('retentionDays', RETENTION_DEFAULT_DAYS), RETENTION_DEFAULT_DAYS); }
 function addDaysISO(d, days) { return new Date(d.getTime() + days * 86400 * 1000).toISOString(); }
 
+const PM_CHANNEL = 'Brewer';
+function quoteIfNeeded(text) {
+    return /\s/.test(text) ? `"${String(text).replace(/"/g, '\\"')}"` : String(text);
+}
 async function pm(gsId, name, text) {
-    try { await takaro.gameserver.gameServerControllerExecuteCommand(gsId, { command: `pm "${name}" "${text}"` }); } catch { }
+    try { await takaro.gameserver.gameServerControllerExecuteCommand(gsId, { command: `pm2 ${PM_CHANNEL} ${name} ${quoteIfNeeded(text)}` }); } catch { }
 }
 async function getPlayerName(gsId, pogId) {
     try {
@@ -88,7 +93,7 @@ async function main() {
                 changed = true;
 
                 const name = await getPlayerName(gsId, playerId);
-                if (name) await pm(gsId, name, `? Bonus reward claimed: ${beers} beers.`);
+                if (name) await pm(gsId, name, `✔ Bonus reward claimed: ${beers} beers.`);
             } catch {
                 // leave it for retry next run
             }

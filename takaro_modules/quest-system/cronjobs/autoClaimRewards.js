@@ -1,5 +1,6 @@
 // =====================================
-// FILE: autoClaimRewards.js (v0.3.8)
+// FILE: autoClaimRewards.js (v0.3.9)
+// - v0.3.9: Updated pm() to pm2 syntax with quoteIfNeeded for multi-word messages
 // - Claims only for quest types that are in today's active set.
 // - Rewards from schema; stylized names in PM.
 // =====================================
@@ -15,9 +16,13 @@ function pragueDateString() {
   const dd = String(d.getDate()).padStart(2, '0');
   return `${yyyy}-${mm}-${dd}`;
 }
+const PM_CHANNEL = 'Brewer';
+function quoteIfNeeded(text) {
+  return /\s/.test(text) ? `"${String(text).replace(/"/g, '\\"')}"` : String(text);
+}
 async function pm(gameServerId, name, text) {
   try {
-    await takaro.gameserver.gameServerControllerExecuteCommand(gameServerId, { command: `pm "${name}" "${text}"` });
+    await takaro.gameserver.gameServerControllerExecuteCommand(gameServerId, { command: `pm2 ${PM_CHANNEL} ${name} ${quoteIfNeeded(text)}` });
   } catch { }
 }
 

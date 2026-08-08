@@ -1,4 +1,5 @@
-// FILE: questTrackerKills.js (v0.4.0)
+// FILE: questTrackerKills.js (v0.4.1)
+// - v0.4.1: Updated pm() to pm2 syntax + quoteIfNeeded; fixed mojibake (? -> ✔) in notify message
 // - Dedicated lightweight cron for entity-killed processing only
 // - zombiekills / feralkills / vulturekills
 // - per-player cursor + overlap + dedupe
@@ -46,8 +47,12 @@ function targetCount(type) {
 
 const DISPLAY = { zombiekills: 'ZOMBIE HUNTER', feralkills: 'FERAL WHO?', vulturekills: 'COME DOWN!' };
 
+const PM_CHANNEL = 'Brewer';
+function quoteIfNeeded(text) {
+    return /\s/.test(text) ? `"${String(text).replace(/"/g, '\\"')}"` : String(text);
+}
 async function pm(gsId, name, text) {
-    try { await takaro.gameserver.gameServerControllerExecuteCommand(gsId, { command: `pm "${name}" "${text}"` }); } catch { }
+    try { await takaro.gameserver.gameServerControllerExecuteCommand(gsId, { command: `pm2 ${PM_CHANNEL} ${name} ${quoteIfNeeded(text)}` }); } catch { }
 }
 async function getPlayerName(gsId, pogId) {
     try {
@@ -59,7 +64,7 @@ async function getPlayerName(gsId, pogId) {
 async function notifyComplete(gsId, pid, type) {
     const name = await getPlayerName(gsId, pid);
     if (!name) return;
-    await pm(gsId, name, `? ${(DISPLAY[type] || type.toUpperCase())} complete! Reward will be claimed shortly.`);
+    await pm(gsId, name, `✔ ${(DISPLAY[type] || type.toUpperCase())} complete! Reward will be claimed shortly.`);
 }
 
 async function fetchEvents(gsId, sinceISO) {

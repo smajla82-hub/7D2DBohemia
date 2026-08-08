@@ -1,5 +1,6 @@
 // =====================================
-// FILE: playerConnect.js (v0.3.0)
+// FILE: playerConnect.js (v0.3.1)
+// - v0.3.1: Updated pm() to pm2 syntax with quoteIfNeeded for multi-word messages
 // - Ensures player has today's ACTIVE quests
 // - Creates sessions for time-based quests when enabled
 // - PM when refreshed
@@ -14,9 +15,13 @@ function pragueDateString() {
   const dd = String(d.getDate()).padStart(2, '0');
   return `${yyyy}-${mm}-${dd}`;
 }
+const PM_CHANNEL = 'Brewer';
+function quoteIfNeeded(text) {
+  return /\s/.test(text) ? `"${String(text).replace(/"/g, '\\"')}"` : String(text);
+}
 async function pm(gameServerId, name, text) {
   try {
-    await takaro.gameserver.gameServerControllerExecuteCommand(gameServerId, { command: `pm "${name}" "${text}"` });
+    await takaro.gameserver.gameServerControllerExecuteCommand(gameServerId, { command: `pm2 ${PM_CHANNEL} ${name} ${quoteIfNeeded(text)}` });
   } catch { }
 }
 
