@@ -311,7 +311,7 @@ class VotingRewards:
                             # Take the most recent vote regardless of claimed status
                             if latest_vote_time is None or vote_time > latest_vote_time:
                                 latest_vote_time = vote_time
-                                logger.info(f"Found vote time for {steam_id}: {vote_time} (API says: {vote.get('date cest', 'unknown')}, claimed: {vote.get('claimed', 'unknown')})")
+                                logger.info("Found vote time for %s: %s", steam_id, vote_time)
 
                 if latest_vote_time:
                     self.last_vote_times[steam_id] = latest_vote_time
