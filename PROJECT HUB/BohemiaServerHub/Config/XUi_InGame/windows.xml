@@ -3,18 +3,21 @@
     <remove xpath="/windows/window[@name='windowPagingHeader']/iconbutton[@name='Creative']" />
 
     <!-- Bohemia Hub button - Green B letter -->
+    <!-- Path B: iconbutton left "clean" (no child elements) like every vanilla
+         iconbutton in this window, so WindowSelector paging navigation picks
+         it up correctly. The "B" label is a sibling positioned on top of it,
+         not a child, since iconbutton with a child label caused the whole
+         icon to disappear (Path 3.0b). -->
     <append xpath="/windows/window[@name='windowPagingHeader']">
-        <button pos="576,-21" depth="3" selectable="true" collider_scale="1.5" name="BohemiaHub"
+        <iconbutton pos="576,-21" depth="3" selectable="true" collider_scale="1.5" name="BohemiaHub"
                 sprite="ui_game_filled_circle"
                 tooltip="Bohemia Server Hub"
-                style="press, hover, paging.window.icon"
-                snap="false" gamepad_selectable="false">
-            <label pos="0,0" font_size="20" text="B" 
-                   color="0,255,0"
-                   justify="center" pivot="center" 
-                   depth="2"
-                   effect="outline" effect_distance="1,1" effect_color="0,0,0,255" />
-        </button>
+                snap="false" gamepad_selectable="false" />
+        <label pos="576,-21" font_size="20" text="B" 
+               color="0,255,0"
+               justify="center" pivot="center" 
+               depth="4"
+               effect="outline" effect_distance="1,1" effect_color="0,0,0,255" />
     </append>
 
     <!-- MAIN HUB WINDOW -->
