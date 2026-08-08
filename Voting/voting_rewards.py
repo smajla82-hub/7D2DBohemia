@@ -48,7 +48,15 @@ class VoteQuestIntegration:
             )
 
             if response.status_code == 200:
-                data = response.json()
+                try:
+                    data = response.json()
+                except ValueError as e:
+                    logger.error(
+                        "Vote quest server returned invalid JSON for %s: %s",
+                        player_name,
+                        e,
+                    )
+                    return False
                 if data.get("success"):
                     logger.info("Vote quest updated for %s", player_name)
                     return True
