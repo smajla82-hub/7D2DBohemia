@@ -1,0 +1,8 @@
+<configs>
+    <!-- Register BohemiaHub window group (v3.1: ruleset level removed) -->
+    <append xpath="/xui">
+        <window_group name="BohemiaHub">
+            <window name="BohemiaHub" />
+        </window_group>
+    </append>
+</configs>

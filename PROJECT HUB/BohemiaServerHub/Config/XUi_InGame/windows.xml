@@ -19,7 +19,7 @@
     <!-- MAIN HUB WINDOW -->
     <append xpath="/windows">
         <window name="BohemiaHub" 
-                anchor="CenterCenter" pos="0,0" width="480" height="350"
+                anchor="CenterCenter" pivot="CenterCenter" pos="0,0" width="480" height="350"
                 panel="Center">
             
             <panel style="header.panel">
@@ -118,7 +118,7 @@
                     </rect>
                 
                 <!-- Catchup system Button with Tooltip -->
-                    <rect name="btnPlayerStats" depth="3" pos="0,-160" width="400" height="32">
+                    <rect name="btnCatchup" depth="3" pos="0,-160" width="400" height="32">
                         <sprite depth="1" name="background" sprite="menu_empty" 
                                 color="100,100,100,150" type="sliced" />
                         <button name="BohemiaHubCatchup" depth="2" pos="200,-16" width="400" height="32" 
