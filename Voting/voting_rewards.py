@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 7D2D Voting Rewards Production Script with Automatic Detection
-Version 34 - Updated give command to giveplus syntax (server v3.1+)
+Version 34 - Added Takaro vote quest integration after successful vote claims
 """
 
 import telnetlib
@@ -26,14 +26,67 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+class VoteQuestIntegration:
+    """Handles vote quest updates for the Takaro quest server."""
+
+    def __init__(self, quest_server_url="http://localhost:3000"):
+        self.quest_server_url = quest_server_url
+        self.session = requests.Session()
+
+    def notify_vote(self, player_name):
+        payload = {
+            "playerName": player_name,
+            "questType": "vote",
+            "increment": 1,
+        }
+
+        try:
+            response = self.session.post(
+                f"{self.quest_server_url}/update-quest",
+                json=payload,
+                timeout=12,
+            )
+
+            if response.status_code == 200:
+                data = response.json()
+                if data.get("success"):
+                    logger.info("Vote quest updated for %s", player_name)
+                    return True
+                logger.error(
+                    "Vote quest update failed for %s: %s",
+                    player_name,
+                    data.get("error", "Unknown error"),
+                )
+                return False
+
+            try:
+                data = response.json()
+                logger.error(
+                    "Vote quest update failed for %s: status=%s body=%s",
+                    player_name,
+                    response.status_code,
+                    data,
+                )
+            except Exception:
+                logger.error(
+                    "Vote quest server returned status %s for %s",
+                    response.status_code,
+                    player_name,
+                )
+            return False
+        except requests.exceptions.RequestException as e:
+            logger.error("Network error updating vote quest for %s: %s", player_name, e)
+            return False
+
 class VotingRewards:
-    def __init__(self, host='localhost', port=8081, password='', api_key=''):
+    def __init__(self, host='localhost', port=8081, password='', api_key='', quest_server_url='http://localhost:3000'):
         # Server connection settings
         self.host = host
         self.port = port
         self.password = password
         self.api_key = api_key
         self.tn = None
+        self.vote_quest_integration = VoteQuestIntegration(quest_server_url=quest_server_url)
 
         # API endpoints
         self.api_base = 'https://7daystodie-servers.com/api/'
@@ -429,6 +482,8 @@ class VotingRewards:
             self.last_vote_times[steam_id] = datetime.now(self.cest_tz)
             logger.info(f"Updated vote time for {steam_id} to current time")
 
+            self.vote_quest_integration.notify_vote(player_name)
+
             # Small delay between messages
             time.sleep(0.5)
 
@@ -660,6 +715,7 @@ def main():
     port = 8081
     password = 'ferPa932'
     api_key = 'nev0DEqwzjXzQC1TO7azAqdMNmGGC9vNMZO'
+    quest_server_url = os.getenv('QUEST_SERVER_URL', 'http://localhost:3000')
 
     logger.info(f"Connecting to {host}:{port}")
     logger.info(f"Server ID: 157783")
@@ -673,7 +729,7 @@ def main():
     # Run with automatic reconnection
     while True:
         try:
-            voting_system = VotingRewards(host, port, password, api_key)
+            voting_system = VotingRewards(host, port, password, api_key, quest_server_url)
             # Copy the global delay to the instance
             voting_system.reconnect_delay = global_reconnect_delay
 
