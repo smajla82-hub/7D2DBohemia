@@ -482,7 +482,11 @@ class VotingRewards:
             self.last_vote_times[steam_id] = datetime.now(self.cest_tz)
             logger.info(f"Updated vote time for {steam_id} to current time")
 
-            self.vote_quest_integration.notify_vote(player_name)
+            if not self.vote_quest_integration.notify_vote(player_name):
+                logger.warning(
+                    "Vote rewards for %s were processed, but the Takaro vote quest update failed",
+                    player_name,
+                )
 
             # Small delay between messages
             time.sleep(0.5)
