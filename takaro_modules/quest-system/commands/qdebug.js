@@ -1,5 +1,6 @@
 // =====================================
-// FILE: qdebug.js (v0.3.0)
+// FILE: qdebug.js (v0.3.1)
+// - v0.3.1: Updated pm() to pm2 syntax with quoteIfNeeded for multi-word messages
 // - Inspect today's vote/levelgain variables for the invoking player across modules.
 // - Usage: /qdebug [vote|levelgain]  (default: both)
 // =====================================
@@ -13,9 +14,13 @@ function pragueDateString() {
     const dd = String(d.getDate()).padStart(2, '0');
     return `${yyyy}-${mm}-${dd}`;
 }
+const PM_CHANNEL = 'Brewer';
+function quoteIfNeeded(text) {
+    return /\s/.test(text) ? `"${String(text).replace(/"/g, '\\"')}"` : String(text);
+}
 async function pm(gameServerId, name, text) {
     try {
-        await takaro.gameserver.gameServerControllerExecuteCommand(gameServerId, { command: `pm "${name}" "${text}"` });
+        await takaro.gameserver.gameServerControllerExecuteCommand(gameServerId, { command: `pm2 ${PM_CHANNEL} ${name} ${quoteIfNeeded(text)}` });
     } catch { }
 }
 

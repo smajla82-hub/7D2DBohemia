@@ -1,4 +1,5 @@
-// FILE: questTrackerTime.js (v0.4.1)
+// FILE: questTrackerTime.js (v0.4.2)
+// - v0.4.2: Updated pm() to pm2 syntax + quoteIfNeeded; fixed mojibake (? -> ✔) in notify message
 // Fix UNKILLABLE: use deathless_session_* instead of deathless_start_*
 
 import { takaro, data } from '@takaro/helpers';
@@ -43,8 +44,12 @@ function targetMs(type) {
     return 0;
 }
 
+const PM_CHANNEL = 'Brewer';
+function quoteIfNeeded(text) {
+    return /\s/.test(text) ? `"${String(text).replace(/"/g, '\\"')}"` : String(text);
+}
 async function pm(gsId, name, text) {
-    try { await takaro.gameserver.gameServerControllerExecuteCommand(gsId, { command: `pm "${name}" "${text}"` }); } catch { }
+    try { await takaro.gameserver.gameServerControllerExecuteCommand(gsId, { command: `pm2 ${PM_CHANNEL} ${name} ${quoteIfNeeded(text)}` }); } catch { }
 }
 async function getPlayerName(gsId, playerId) {
     try {
@@ -57,7 +62,7 @@ async function notifyComplete(gsId, playerId, type) {
     const name = await getPlayerName(gsId, playerId);
     if (!name) return;
     const nice = type === 'timespent' ? 'TIME SURVIVOR' : 'UNKILLABLE';
-    await pm(gsId, name, `? ${nice} complete! Reward will be claimed shortly.`);
+    await pm(gsId, name, `✔ ${nice} complete! Reward will be claimed shortly.`);
 }
 
 async function getVar(gsId, moduleId, key, playerId) {

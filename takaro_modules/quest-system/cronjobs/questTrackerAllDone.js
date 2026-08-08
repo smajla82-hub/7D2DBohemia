@@ -1,4 +1,5 @@
-// FILE: questTrackerAllDone.js (v0.4.1)
+// FILE: questTrackerAllDone.js (v0.4.2)
+// - v0.4.2: Updated pm/say to pm2 syntax + quoteIfNeeded; fixed mojibake in messages
 // - Checks "all daily quests completed" for ONLINE players only (fast/reliable)
 // - Creates dailyquests_all_done_<pid>_<date>
 // - Queues a pending payout in autoclaim_pending_<pid>_<date>
@@ -35,11 +36,15 @@ function retentionDays() { return num(cfgGet('retentionDays', RETENTION_DEFAULT_
 // configure your all-done reward here (beers)
 function allDoneBeers() { return num(cfgGet('rewards.allDoneBeers', 200), 200); }
 
+const PM_CHANNEL = 'Brewer';
+function quoteIfNeeded(text) {
+    return /\s/.test(text) ? `"${String(text).replace(/"/g, '\\"')}"` : String(text);
+}
 async function pm(gsId, name, text) {
-    try { await takaro.gameserver.gameServerControllerExecuteCommand(gsId, { command: `pm "${name}" "${text}"` }); } catch { }
+    try { await takaro.gameserver.gameServerControllerExecuteCommand(gsId, { command: `pm2 ${PM_CHANNEL} ${name} ${quoteIfNeeded(text)}` }); } catch { }
 }
 async function say(gsId, text) {
-    try { await takaro.gameserver.gameServerControllerExecuteCommand(gsId, { command: `say "${text}"` }); } catch { }
+    try { await takaro.gameserver.gameServerControllerExecuteCommand(gsId, { command: `say ${quoteIfNeeded(text)}` }); } catch { }
 }
 
 async function getVar(gsId, moduleId, key, playerId) {
@@ -161,8 +166,8 @@ async function main() {
         }, expISO);
 
         const name = (await getPlayerName(gsId, pid)) || 'Player';
-        await say(gsId, `? HUGE EFFORT BY ${name} FOR FINISHING ALL DAILY QUESTS TODAY � YOU EARNED A KEG OF BEER AS A REWARD! ?`);
-        await pm(gsId, name, `? All Daily quests done! Bonus ${rewardBeers} beers will be claimed shortly.`);
+        await say(gsId, `✨ HUGE EFFORT BY ${name} FOR FINISHING ALL DAILY QUESTS TODAY — YOU EARNED A KEG OF BEER AS A REWARD! ✨`);
+        await pm(gsId, name, `✔ All Daily quests done! Bonus ${rewardBeers} beers will be claimed shortly.`);
     }
 }
 

@@ -1,4 +1,4 @@
-// v23 - v0.3.35 (REWRITE: Simplified kill tracking - copy working zombieKillReward pattern)
+// v23 - v0.3.36 (Updated pm/say to pm2 syntax + quoteIfNeeded for multi-word messages)
 // Changes from v0.3.34:
 // - REMOVED complex classifyKill() function - it was buggy
 // - NOW uses SIMPLE entity name string matching (like zombieKillReward does)
@@ -24,8 +24,10 @@ function nowPrague() { return new Date(new Date().toLocaleString('en-US', { time
 function ymd(d = nowPrague()) { const y = d.getFullYear(), m = String(d.getMonth() + 1).padStart(2, '0'), dd = String(d.getDate()).padStart(2, '0'); return `${y}-${m}-${dd}`; }
 function addDaysISO(d, days) { return new Date(d.getTime() + days * 86400 * 1000).toISOString(); }
 
-async function pm(gsId, name, text) { try { await takaro.gameserver.gameServerControllerExecuteCommand(gsId, { command: `pm "${name}" "${text}"` }); } catch { } }
-async function say(gsId, text) { try { await takaro.gameserver.gameServerControllerExecuteCommand(gsId, { command: `say "${text}"` }); } catch { } }
+const PM_CHANNEL = 'Brewer';
+function quoteIfNeeded(text) { return /\s/.test(text) ? `"${String(text).replace(/"/g, '\\"')}"` : String(text); }
+async function pm(gsId, name, text) { try { await takaro.gameserver.gameServerControllerExecuteCommand(gsId, { command: `pm2 ${PM_CHANNEL} ${name} ${quoteIfNeeded(text)}` }); } catch { } }
+async function say(gsId, text) { try { await takaro.gameserver.gameServerControllerExecuteCommand(gsId, { command: `say ${quoteIfNeeded(text)}` }); } catch { } }
 
 const DISPLAY = {
   timespent: 'TIME SURVIVOR',
