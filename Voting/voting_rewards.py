@@ -711,7 +711,7 @@ def main():
         return
 
     # Configuration
-    host = os.getenv('VOTING_REWARDS_HOST', '91.99.236.133')
+    host = os.getenv('VOTING_REWARDS_HOST', 'localhost')
     port = int(os.getenv('VOTING_REWARDS_PORT', '8081'))
     password = os.getenv('VOTING_REWARDS_PASSWORD', '')
     api_key = os.getenv('VOTING_REWARDS_API_KEY', '')

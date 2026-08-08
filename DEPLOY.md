@@ -241,7 +241,7 @@ The server integration allows external events (voting, level-ups) to update ques
 3. **Configure voting_rewards.py**:
    
    Set the required environment variables before starting the script:
-   - `VOTING_REWARDS_HOST` (optional, defaults to `91.99.236.133`)
+   - `VOTING_REWARDS_HOST` (optional, defaults to `localhost`)
    - `VOTING_REWARDS_PORT` (optional, defaults to `8081`)
    - `VOTING_REWARDS_PASSWORD` (required)
    - `VOTING_REWARDS_API_KEY` (required)
