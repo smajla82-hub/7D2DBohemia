@@ -4,16 +4,17 @@
 
     <!-- Bohemia Hub button - Green B letter -->
     <append xpath="/windows/window[@name='windowPagingHeader']">
-        <iconbutton pos="576,-21" depth="3" selectable="true" collider_scale="1.5" name="BohemiaHub"
+        <button pos="576,-21" depth="3" selectable="true" collider_scale="1.5" name="BohemiaHub"
                 sprite="ui_game_filled_circle"
                 tooltip="Bohemia Server Hub"
+                style="press, hover, paging.window.icon"
                 snap="false" gamepad_selectable="false">
             <label pos="0,0" font_size="20" text="B" 
                    color="0,255,0"
                    justify="center" pivot="center" 
                    depth="2"
                    effect="outline" effect_distance="1,1" effect_color="0,0,0,255" />
-        </iconbutton>
+        </button>
     </append>
 
     <!-- MAIN HUB WINDOW -->
@@ -91,7 +92,7 @@
                                 style="press, hover"
                                 sound="[default_click]"
                                 pivot="center"
-                                tooltip="DAILY QUESTS\n\n**Work in progress**\n\nComplete daily challenges for rewards!\nCheck server announcements!.\n\nConsole commands:\n/daily - information about quest and completion.\n/dailyclaim - collecting rewards for finished daily quest!\n/initquests - Start new daily quests!\n\nCurrently there are 5 quests:\nTIME SURVIVOR - Spend 1hour ingame for 25beers\nSERVER SUPPORTER - Vote once per day for 50beers\nZOMBIE HUNTER - Kill 200 zombies for 25beers\nEXPERIENCE GRINDER - Level up 5x for 25beers\nTRADE BEERS - Buy and item from shop for 25beers" />
+                                tooltip="DAILY QUESTS\n\nComplete daily challenges for rewards!\nCheck server announcements!.\n\nConsole commands:\n/daily - information about quest and completion.\n\nCurrently there are 9 quests:\nTIME SURVIVOR - Spend 1hour ingame for 25beers\nSERVER SUPPORTER - Vote once per day for 50beers\nZOMBIE HUNTER - Kill 200 zombies for 25beers\nEXPERIENCE GRINDER - Level up 5x for 25beers\nTRADE BEERS - Buy and item from shop for 25beers\nUNKILLABLE - Avoid death for 3 hours for 50beers.\nFERAL WHO? - Kill 10 feral zombies for 25beers.\nCOME DOWN! - Kill 10 zombie vultures for 25beers.\nDEATH? I DONT CARE - Die 1 time for 50beers." />
                         <label depth="3" text="DAILY QUESTS" 
                                pos="200,-16" justify="center" pivot="center" 
                                font_size="14" color="0,255,0" 
