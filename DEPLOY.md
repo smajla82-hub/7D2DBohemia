@@ -240,13 +240,17 @@ The server integration allows external events (voting, level-ups) to update ques
 
 3. **Configure voting_rewards.py**:
    
-   Edit the script and update configuration:
-   - Telnet host/port for your 7D2D server
-   - Telnet password
-   - Quest integration server URL (http://localhost:3000)
+   Set the required environment variables before starting the script:
+   - `VOTING_REWARDS_HOST` (optional, defaults to `91.99.236.133`)
+   - `VOTING_REWARDS_PORT` (optional, defaults to `8081`)
+   - `VOTING_REWARDS_PASSWORD` (required)
+   - `VOTING_REWARDS_API_KEY` (required)
+   - `QUEST_SERVER_URL` (optional, defaults to `http://localhost:3000`)
 
 4. **Start with PM2** (or systemd):
    ```bash
+   VOTING_REWARDS_PASSWORD='your-telnet-password' \
+   VOTING_REWARDS_API_KEY='your-7dtd-servers-api-key' \
    pm2 start voting_rewards.py --name voting-rewards --interpreter python3
    pm2 save
    ```

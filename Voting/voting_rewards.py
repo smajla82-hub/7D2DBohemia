@@ -711,11 +711,17 @@ def main():
         return
 
     # Configuration
-    host = '91.99.236.133'
-    port = 8081
-    password = 'ferPa932'
-    api_key = 'nev0DEqwzjXzQC1TO7azAqdMNmGGC9vNMZO'
+    host = os.getenv('VOTING_REWARDS_HOST', '91.99.236.133')
+    port = int(os.getenv('VOTING_REWARDS_PORT', '8081'))
+    password = os.getenv('VOTING_REWARDS_PASSWORD', '')
+    api_key = os.getenv('VOTING_REWARDS_API_KEY', '')
     quest_server_url = os.getenv('QUEST_SERVER_URL', 'http://localhost:3000')
+
+    if not password or not api_key:
+        logger.error(
+            "VOTING_REWARDS_PASSWORD and VOTING_REWARDS_API_KEY must be set in the environment"
+        )
+        return
 
     logger.info(f"Connecting to {host}:{port}")
     logger.info(f"Server ID: 157783")
