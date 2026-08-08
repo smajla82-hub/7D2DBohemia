@@ -1,4 +1,5 @@
-// FILE: questTrackerTime.js (v0.4.2)
+// FILE: questTrackerTime.js (v0.4.3)
+// - v0.4.3: Cron no longer auto-resumes paused session_* variables; only ticks running sessions
 // - v0.4.2: Updated pm() to pm2 syntax + quoteIfNeeded; fixed mojibake (? -> ✔) in notify message
 // Fix UNKILLABLE: use deathless_session_* instead of deathless_start_*
 
@@ -126,17 +127,16 @@ async function main() {
         if (sVar) { try { sess = JSON.parse(sVar.value); } catch { sess = null; } }
         if (!sess || typeof sess !== 'object') sess = { startTime: now, totalTime: 0, lastUpdate: now };
 
-        if (!sess.startTime) {
-            sess.startTime = now;
-            sess.lastUpdate = now;
-        } else {
+        if (sess.startTime) {
             const last = Number(sess.lastUpdate || sess.startTime || now);
             sess.totalTime = Number(sess.totalTime || 0) + Math.max(0, now - last);
             sess.lastUpdate = now;
         }
 
-        if (sVar) {
+        if (sVar && sess.startTime) {
             try { await takaro.variable.variableControllerUpdate(sVar.id, { value: JSON.stringify(sess), expiresAt: expISO }); } catch { }
+        } else if (sVar) {
+            // Paused sessions stay paused until playerConnect resumes them.
         } else {
             try {
                 await takaro.variable.variableControllerCreate({
