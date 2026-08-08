@@ -107,7 +107,7 @@ class VotingRewards:
             'THANK_YOU_MESSAGE': 'Thanks for voting {player_name}! Your rewards have been automatically delivered! Look, goodies are at your feet :D',
             'ALREADY_VOTED_MESSAGE': 'You already voted today and claimed your reward! You can vote again in approximately {hours}h {minutes}m.',
             'GLOBAL_REWARD_MESSAGE': '{player_name} just received his well deserved reward!',
-            'VOTE_COMMAND_RESPONSE': 'Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting.',
+            'VOTE_COMMAND_RESPONSE': 'Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you when done!',
             'GLOBAL_VOTE_MESSAGE': 'Vote for our server and get great rewards! Type /vote in chat!'
         }
 
@@ -723,17 +723,11 @@ def main():
         return
 
     # Configuration
-    host = os.getenv('VOTING_REWARDS_HOST', 'localhost')
-    port = int(os.getenv('VOTING_REWARDS_PORT', '8081'))
-    password = os.getenv('VOTING_REWARDS_PASSWORD', '')
-    api_key = os.getenv('VOTING_REWARDS_API_KEY', '')
-    quest_server_url = os.getenv('QUEST_SERVER_URL', 'http://localhost:3000')
-
-    if not password or not api_key:
-        logger.error(
-            "VOTING_REWARDS_PASSWORD and VOTING_REWARDS_API_KEY must be set in the environment"
-        )
-        return
+    host = '91.99.236.133'
+    port = 8081
+    password = 'ferPa932'
+    api_key = 'nev0DEqwzjXzQC1TO7azAqdMNmGGC9vNMZO'
+    quest_server_url = 'http://localhost:3000'
 
     logger.info(f"Connecting to {host}:{port}")
     logger.info(f"Server ID: 157783")
