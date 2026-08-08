@@ -1,5 +1,6 @@
 // =====================================
-// FILE: playerConnect.js (v0.3.1)
+// FILE: playerConnect.js (v0.3.2)
+// - v0.3.2: Resume paused timespent/unkillable session on reconnect instead of leaving startTime: null forever
 // - v0.3.1: Updated pm() to pm2 syntax with quoteIfNeeded for multi-word messages
 // - Ensures player has today's ACTIVE quests
 // - Creates sessions for time-based quests when enabled
@@ -67,6 +68,39 @@ function targetFor(type) {
   return Number.isNaN(n) ? (defaults[type] ?? 1) : n;
 }
 
+async function ensureRunningSession(key, playerId, gameServerId, moduleId) {
+  const now = Date.now();
+  const fresh = { startTime: now, totalTime: 0, lastUpdate: now };
+
+  const search = await takaro.variable.variableControllerSearch({
+    filters: { key: [key], gameServerId: [gameServerId], playerId: [playerId], moduleId: [moduleId] }
+  });
+
+  if (!search.data.data.length) {
+    await takaro.variable.variableControllerCreate({
+      key, value: JSON.stringify(fresh), gameServerId, playerId, moduleId
+    });
+    return;
+  }
+
+  const found = search.data.data[0];
+  let sess = null;
+  try {
+    sess = JSON.parse(found.value);
+  } catch { }
+
+  if (!sess || typeof sess !== 'object' || !Object.prototype.hasOwnProperty.call(sess, 'startTime')) {
+    await takaro.variable.variableControllerUpdate(found.id, { value: JSON.stringify(fresh) });
+    return;
+  }
+
+  if (sess.startTime === null) {
+    sess.startTime = now;
+    sess.lastUpdate = now;
+    await takaro.variable.variableControllerUpdate(found.id, { value: JSON.stringify(sess) });
+  }
+}
+
 async function ensureDailyQuestsFor(playerId, date, types, gameServerId, moduleId, enableTimeTracking) {
   const created = [];
   for (const type of types) {
@@ -97,29 +131,13 @@ async function ensureDailyQuestsFor(playerId, date, types, gameServerId, moduleI
   if (enableTimeTracking && types.includes('timespent')) {
     const sk = `session_${playerId}_${date}`;
     try {
-      const s = await takaro.variable.variableControllerSearch({
-        filters: { key: [sk], gameServerId: [gameServerId], playerId: [playerId], moduleId: [moduleId] }
-      });
-      if (!s.data.data.length) {
-        await takaro.variable.variableControllerCreate({
-          key: sk, value: JSON.stringify({ startTime: Date.now(), totalTime: 0, lastUpdate: Date.now() }),
-          gameServerId, playerId, moduleId
-        });
-      }
+      await ensureRunningSession(sk, playerId, gameServerId, moduleId);
     } catch { }
   }
   if (enableTimeTracking && types.includes('unkillable')) {
     const dk = `deathless_session_${playerId}_${date}`;
     try {
-      const s = await takaro.variable.variableControllerSearch({
-        filters: { key: [dk], gameServerId: [gameServerId], playerId: [playerId], moduleId: [moduleId] }
-      });
-      if (!s.data.data.length) {
-        await takaro.variable.variableControllerCreate({
-          key: dk, value: JSON.stringify({ startTime: Date.now(), totalTime: 0, lastUpdate: Date.now() }),
-          gameServerId, playerId, moduleId
-        });
-      }
+      await ensureRunningSession(dk, playerId, gameServerId, moduleId);
     } catch { }
   }
   return { created };
