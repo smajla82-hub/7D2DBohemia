@@ -1,5 +1,5 @@
 // FILE: questTrackerTime.js (v0.4.3)
-// - v0.4.3: Resume paused timespent/unkillable session on reconnect instead of leaving startTime: null forever
+// - v0.4.3: Cron no longer auto-resumes paused session_* variables; only ticks running sessions
 // - v0.4.2: Updated pm() to pm2 syntax + quoteIfNeeded; fixed mojibake (? -> ✔) in notify message
 // Fix UNKILLABLE: use deathless_session_* instead of deathless_start_*
 
