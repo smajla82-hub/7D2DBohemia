@@ -2,6 +2,26 @@
 
 All notable changes for the Quest System module and integration are documented here.
 
+## [Unreleased] - 2026-08-08
+### Fixed
+- **BohemiaServerHub icon disappearing from `windowPagingHeader` (7D2D v3.1)**: The green "B" HUB icon button went through several iterations while chasing 7D2D v3.1 XUi compatibility. Documenting the full history here so future modding on this button doesn't repeat the same dead ends.
+
+  | Version | XUi element | Icon visible | Click sound | Opens window |
+  |---|---|---|---|---|
+  | 2.6 (pre-3.1) | `<button>` with child `<label>` | ✅ | ✅ | ❌ |
+  | 3.0a | `<button>` + paging nav attrs (`selectable`, `collider_scale`, `snap`, `gamepad_selectable`) + child `<label>` | ✅ | ✅ | ❌ |
+  | 3.0b | `<iconbutton>` with child `<label>` | ❌ (icon vanished entirely) | – | – |
+  | **3.0c (current)** | `<iconbutton>` with **no children** + `<label>` as a **sibling** at the same `pos`, higher `depth` | ✅ | ✅ | ✅ |
+
+  **Root cause**: 7D2D v3.1's `WindowSelector` (the controller behind `windowPagingHeader`) only wires up paging navigation for `<iconbutton>` elements — matching every vanilla icon in that header (Crafting, Character, Map, Skills, etc.), none of which have child elements. Adding paging-nav attributes to a plain `<button>` (3.0a) made it look and sound right but never registered with `WindowSelector`, so it never opened its target window. Nesting a `<label>` inside `<iconbutton>` (3.0b) is apparently unsupported by that component and silently discards the whole icon at parse/render time, rather than just ignoring the label.
+
+  **Fix**: Keep `<iconbutton>` completely "clean" (no children), exactly like vanilla. Render the "B" text as an independent sibling `<label>` positioned at the same `pos="576,-21"` with a higher `depth`, so it visually overlays the iconbutton without being nested inside it.
+
+  **Rule of thumb for future XUi work in this mod**: `<iconbutton>` in 7D2D v3.1 must not have child elements. If you need a label/overlay on top of an iconbutton, add it as a sibling at the same position with a higher depth instead.
+
+  Files: `PROJECT HUB/BohemiaServerHub/Config/XUi_InGame/windows.xml`
+  Commits: `32a7244` (Path A attempt, superseded), `e16a66b` (Path B, working fix)
+
 ## [0.3.9] - 2025-10-29
 Robust quest tracking on a busy live server (Bohemia). Fixes time quests, prevents post-reset auto-complete, and adds safe retention for variables. Tagged in Takaro as v0.3.9.
 
