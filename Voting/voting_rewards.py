@@ -1,7 +1,17 @@
 #!/usr/bin/env python3
 """
 7D2D Voting Rewards Production Script with Automatic Detection
-Version 34 - Added Takaro vote quest integration after successful vote claims
+Version 35 - Fix: /vote name-extraction regex required exactly one space after
+the colon ('Name': /vote). 7D2D chat lines are inconsistent about that space
+(some are 'Name':/vote with no space), so when the regex didn't match, the
+code silently fell back to a fake "Player_<entityId>" name. That fake name
+was then used for BOTH the in-game `giveplus` reward command (which silently
+fails because no player is named "Player_173") AND the Takaro vote-quest
+update (which also fails to resolve a player by that fake name). Net effect:
+the player's vote got marked "claimed" via the external vote API, but they
+received no in-game items and no quest credit, with no visible error.
+
+Fix: the name regex now tolerates zero or more spaces after the colon.
 """
 
 import telnetlib
@@ -107,7 +117,7 @@ class VotingRewards:
             'THANK_YOU_MESSAGE': 'Thanks for voting {player_name}! Your rewards have been automatically delivered! Look, goodies are at your feet :D',
             'ALREADY_VOTED_MESSAGE': 'You already voted today and claimed your reward! You can vote again in approximately {hours}h {minutes}m.',
             'GLOBAL_REWARD_MESSAGE': '{player_name} just received his well deserved reward!',
-            'VOTE_COMMAND_RESPONSE': 'Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you when done!',
+            'VOTE_COMMAND_RESPONSE': 'Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you [...]
             'GLOBAL_VOTE_MESSAGE': 'Vote for our server and get great rewards! Type /vote in chat!'
         }
 
@@ -629,9 +639,24 @@ class VotingRewards:
                                             steam_id = platform_id.replace('Steam_', '')
 
                                         if steam_id:
-                                            # Try to get player name from the line
-                                            name_match = re.search(r"'([^']+)': /vote", line)
+                                            # Try to get player name from the line.
+                                            # NOTE: 7D2D chat lines are inconsistent about the
+                                            # space after the colon - some are "'Name': /vote"
+                                            # and others are "'Name':/vote" with no space.
+                                            # The old regex required exactly one space, so it
+                                            # silently missed the no-space case and fell back
+                                            # to a fake "Player_<entityId>" name. That fake name
+                                            # then broke BOTH the in-game giveplus reward AND
+                                            # the Takaro quest update, with no visible error.
+                                            name_match = re.search(r"'([^']+)':\s*/vote", line)
                                             player_name = name_match.group(1) if name_match else f"Player_{entity_id}"
+
+                                            if not name_match:
+                                                logger.warning(
+                                                    "Could not extract player name for /vote from line, "
+                                                    "falling back to fake name 'Player_%s': %s",
+                                                    entity_id, line
+                                                )
 
                                             logger.info(f"Vote command detected from {player_name} (Steam ID: {steam_id})")
 
