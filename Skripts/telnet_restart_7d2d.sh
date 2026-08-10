@@ -30,6 +30,14 @@ send_message() {
     log_restart "Sent message: $message"
 }
 
+apply_prismacore_settings() {
+    # Hide PrismaCore/CSMM chat command prefixes (/ and $) from global chat.
+    # This setting is NOT persisted by PrismaCore across server restarts, so it
+    # must be re-applied via telnet every time the server (re)starts.
+    send_telnet_cmd "hccp /,\$"
+    log_restart "Applied PrismaCore hccp /,\$ (hide chat command prefixes)"
+}
+
 is_server_running() {
     if [ -f "$PID_FILE" ]; then
         local pid=$(cat "$PID_FILE")
@@ -82,6 +90,10 @@ start_server() {
     if kill -0 "$pid" 2>/dev/null; then
         log_restart "Verified: server is running (PID: $pid)"
         echo "Server started successfully (PID: $pid). Log: $log_file"
+
+        # Re-apply PrismaCore chat command prefix hiding on every start,
+        # since it resets on each server restart.
+        apply_prismacore_settings
     else
         log_restart "ERROR: Server failed to start or crashed shortly after launch (PID: $pid). Check log: $log_file"
         echo "ERROR: Server failed to start. Check log: $log_file"
