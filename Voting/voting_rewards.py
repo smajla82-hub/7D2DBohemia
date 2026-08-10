@@ -117,7 +117,7 @@ class VotingRewards:
             'THANK_YOU_MESSAGE': 'Thanks for voting {player_name}! Your rewards have been automatically delivered! Look, goodies are at your feet :D',
             'ALREADY_VOTED_MESSAGE': 'You already voted today and claimed your reward! You can vote again in approximately {hours}h {minutes}m.',
             'GLOBAL_REWARD_MESSAGE': '{player_name} just received his well deserved reward!',
-            'VOTE_COMMAND_RESPONSE': 'Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you [...]
+            'VOTE_COMMAND_RESPONSE': 'Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you when done!',
             'GLOBAL_VOTE_MESSAGE': 'Vote for our server and get great rewards! Type /vote in chat!'
         }
 
