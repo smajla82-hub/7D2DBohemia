@@ -1,7 +1,15 @@
 /**
- * Takaro Quest Integration Client - v15.6-patch3
+ * Takaro Quest Integration Client - v15.6-patch4
  *
- * Patch3 goals:
+ * Patch4 goals (on top of patch3):
+ * 1) Self-heal on 401: requestWithFallback() now detects expired/invalid
+ *    sessions, forces re-authentication via initAuth(), and retries the
+ *    request once. Previously `authenticated` was cached to `true` forever,
+ *    so once the Takaro session token expired every request kept failing
+ *    with 401 forever (root cause of the 2026-08-10 incident: game-monitor
+ *    error log grew to ~2GB and the quest retry queue never drained).
+ *
+ * Patch3 goals (kept):
  * 1) Keep your working hardcoded CONFIG fallbacks (email/password/gameServerId/moduleId).
  * 2) Fix "Create failed 404" + retry storms by NEVER calling singular endpoints:
  *    - /variable
@@ -13,22 +21,22 @@
  *    - /variables/:id
  *
  * 3) Keep PATH_PREFIXES locked to [''] only (no /api/v1 learning).
- * 4) Add bad-path cache: if a path returns 404 once, we won’t keep retrying it.
+ * 4) Add bad-path cache: if a path returns 404 once, we won't keep retrying it.
  * 5) Keep ALL debug helpers used by working_server.js:
  *    - getQuestVarByName
  *    - scanTodayPlayerQuests
  *    - repairQuest
  *    - setQuest
  *
- * NOTE: This file fixes the Takaro-side 404 spam. The "level jump 10->35" issue is in
- * integrated_game_monitor.py (listplayers diff logic + stale local level cache) and needs
- * a separate patch there (we can do it next).
+ * NOTE: This file fixes the Takaro-side 404 spam and 401-after-expiry hang.
+ * The "level jump 10->35" issue is in integrated_game_monitor.py (listplayers
+ * diff logic + stale local level cache) and needs a separate patch there.
  */
 
 import http from 'http';
 import https from 'https';
 
-const VERSION = 'v15.6-patch3';
+const VERSION = 'v15.6-patch4';
 
 const CONFIG = {
   baseUrl: process.env.TAKARO_BASE_URL || 'https://api.takaro.io',
@@ -152,12 +160,15 @@ class TakaroQuestClientV156 {
 
   log(...a) { console.log(`[TAKARO ${VERSION}]`, ...a); }
 
-  async initAuth() {
-    if (this.authenticated) return true;
+  async initAuth(force = false) {
+    if (this.authenticated && !force) return true;
 
     // Clear caches when auth state is (re)built (prevents stale/bad cached paths)
     pathCache.clear();
     badPathCache.clear();
+    this.authenticated = false;
+    this.cookieJar = '';
+    this.authStrategyChosen = null;
 
     if (CONFIG.cookieOverride) {
       this.cookieJar = CONFIG.cookieOverride;
@@ -242,6 +253,13 @@ class TakaroQuestClientV156 {
 
   async ensureAuthenticated() { return this.initAuth(); }
 
+  // Force a brand-new login, ignoring any cached "authenticated" state.
+  // Used when a request comes back with 401 (expired/invalid session).
+  async reauthenticate() {
+    this.log('Session expired or invalid (401) - forcing re-authentication.');
+    return this.initAuth(true);
+  }
+
   requestRaw(method, path, data = null, extraHeaders = {}) {
     return new Promise((resolve) => {
       const url = new URL(path.startsWith('http') ? path : CONFIG.baseUrl + path);
@@ -298,7 +316,18 @@ class TakaroQuestClientV156 {
   }
 
   async requestWithFallback(method, cacheKey, suffix, data = null) {
-    if (pathCache.has(cacheKey)) return this.requestRaw(method, pathCache.get(cacheKey), data);
+    // Path already known to work - use it, but self-heal on 401
+    if (pathCache.has(cacheKey)) {
+      const full = pathCache.get(cacheKey);
+      let resp = await this.requestRaw(method, full, data);
+      if (resp.status === 401) {
+        const reAuthOk = await this.reauthenticate();
+        if (reAuthOk) {
+          resp = await this.requestRaw(method, full, data);
+        }
+      }
+      return resp;
+    }
 
     for (const prefix of PATH_PREFIXES) {
       const full = `${prefix}${suffix}`; // prefix is '' by design
@@ -306,7 +335,16 @@ class TakaroQuestClientV156 {
       // Skip known-bad 404 paths (avoid retry storms)
       if (badPathCache.has(full)) continue;
 
-      const resp = await this.requestRaw(method, full, data);
+      let resp = await this.requestRaw(method, full, data);
+
+      // Session expired/invalid: force re-auth and retry this same path once.
+      if (resp.status === 401) {
+        const reAuthOk = await this.reauthenticate();
+        if (reAuthOk) {
+          resp = await this.requestRaw(method, full, data);
+        }
+      }
+
       if (resp.status >= 200 && resp.status < 300) {
         pathCache.set(cacheKey, full);
         return resp;
@@ -316,7 +354,14 @@ class TakaroQuestClientV156 {
     }
 
     // No success, last attempt (still plural-only logic should prevent 404 loops)
-    return this.requestRaw(method, suffix, data);
+    let resp = await this.requestRaw(method, suffix, data);
+    if (resp.status === 401) {
+      const reAuthOk = await this.reauthenticate();
+      if (reAuthOk) {
+        resp = await this.requestRaw(method, suffix, data);
+      }
+    }
+    return resp;
   }
 
   // PATCH: use ONLY plural /variables/:id
