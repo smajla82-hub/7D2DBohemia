@@ -30,7 +30,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler(os.path.expanduser('~/voting_rewards.log')),
+        logging.FileHandler('/home/steam/7D2DBohemia/voting/voting_rewards.log'),
         logging.StreamHandler()
     ]
 )

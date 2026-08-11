@@ -1,0 +1,2162 @@
+2026-07-03 14:35:54,746 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-07-03 14:35:54,752 - INFO - =================================================
+2026-07-03 14:35:54,752 - INFO - Connecting to 91.99.236.133:8081
+2026-07-03 14:35:54,752 - INFO - Server ID: 157783
+2026-07-03 14:35:54,752 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-07-03 14:35:54,752 - INFO - Daily reset time: 6:00 AM CEST
+2026-07-03 14:35:54,756 - INFO - Connecting to 91.99.236.133:8081
+2026-07-03 14:35:55,257 - INFO - Sending password
+2026-07-03 14:35:56,766 - INFO - Successfully connected to 91.99.236.133:8081
+2026-07-03 14:35:56,767 - INFO - Starting periodic message thread (60 minute interval)
+2026-07-03 14:35:56,768 - INFO - Starting automatic vote checker thread
+2026-07-03 14:35:56,769 - INFO - Starting chat monitoring for /vote commands...
+2026-07-03 14:41:32,378 - ERROR - Monitor error: telnet connection closed
+2026-07-03 14:41:32,379 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-07-03 14:41:32,710 - INFO - Shutting down...
+2026-07-03 14:41:44,854 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-07-03 14:41:44,855 - INFO - =================================================
+2026-07-03 14:41:44,855 - INFO - Connecting to 91.99.236.133:8081
+2026-07-03 14:41:44,855 - INFO - Server ID: 157783
+2026-07-03 14:41:44,855 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-07-03 14:41:44,856 - INFO - Daily reset time: 6:00 AM CEST
+2026-07-03 14:41:44,857 - INFO - Connecting to 91.99.236.133:8081
+2026-07-03 14:41:44,857 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-07-03 14:41:44,857 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-07-03 14:42:14,857 - INFO - Connecting to 91.99.236.133:8081
+2026-07-03 14:42:14,858 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-07-03 14:42:14,858 - INFO - Connection still down, waiting 60 seconds before retry...
+2026-07-03 14:43:14,858 - INFO - Connecting to 91.99.236.133:8081
+2026-07-03 14:43:14,858 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-07-03 14:43:14,858 - INFO - Connection still down, waiting 120 seconds before retry...
+2026-07-03 14:45:14,859 - INFO - Connecting to 91.99.236.133:8081
+2026-07-03 14:45:14,859 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-07-03 14:45:14,859 - INFO - Connection still down, waiting 240 seconds before retry...
+2026-07-03 14:49:06,320 - INFO - Shutdown requested
+2026-07-03 14:49:06,835 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-07-03 14:49:06,838 - INFO - =================================================
+2026-07-03 14:49:06,838 - INFO - Connecting to 91.99.236.133:8081
+2026-07-03 14:49:06,838 - INFO - Server ID: 157783
+2026-07-03 14:49:06,838 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-07-03 14:49:06,838 - INFO - Daily reset time: 6:00 AM CEST
+2026-07-03 14:49:06,841 - INFO - Connecting to 91.99.236.133:8081
+2026-07-03 14:49:07,342 - INFO - Sending password
+2026-07-03 14:49:08,848 - INFO - Successfully connected to 91.99.236.133:8081
+2026-07-03 14:49:08,850 - INFO - Starting periodic message thread (60 minute interval)
+2026-07-03 14:49:08,851 - INFO - Starting automatic vote checker thread
+2026-07-03 14:49:08,852 - INFO - Starting chat monitoring for /vote commands...
+2026-07-03 14:54:16,603 - ERROR - Monitor error: telnet connection closed
+2026-07-03 14:54:16,603 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-07-03 14:54:16,889 - INFO - Shutting down...
+2026-07-03 14:54:25,656 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-07-03 14:54:25,657 - INFO - =================================================
+2026-07-03 14:54:25,658 - INFO - Connecting to 91.99.236.133:8081
+2026-07-03 14:54:25,658 - INFO - Server ID: 157783
+2026-07-03 14:54:25,658 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-07-03 14:54:25,658 - INFO - Daily reset time: 6:00 AM CEST
+2026-07-03 14:54:25,659 - INFO - Connecting to 91.99.236.133:8081
+2026-07-03 14:54:25,659 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-07-03 14:54:25,659 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-07-03 14:54:56,276 - INFO - Connecting to 91.99.236.133:8081
+2026-07-03 14:54:56,276 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-07-03 14:54:56,276 - INFO - Connection still down, waiting 60 seconds before retry...
+2026-07-03 14:55:56,277 - INFO - Connecting to 91.99.236.133:8081
+2026-07-03 14:55:56,277 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-07-03 14:55:56,277 - INFO - Connection still down, waiting 120 seconds before retry...
+2026-07-03 14:57:56,277 - INFO - Connecting to 91.99.236.133:8081
+2026-07-03 14:57:56,278 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-07-03 14:57:56,279 - INFO - Connection still down, waiting 240 seconds before retry...
+2026-07-03 14:59:04,477 - INFO - Shutdown requested
+2026-07-03 14:59:04,822 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-07-03 14:59:04,822 - INFO - =================================================
+2026-07-03 14:59:04,822 - INFO - Connecting to 91.99.236.133:8081
+2026-07-03 14:59:04,822 - INFO - Server ID: 157783
+2026-07-03 14:59:04,822 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-07-03 14:59:04,822 - INFO - Daily reset time: 6:00 AM CEST
+2026-07-03 14:59:04,823 - INFO - Connecting to 91.99.236.133:8081
+2026-07-03 14:59:04,823 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-07-03 14:59:04,823 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-07-03 14:59:34,823 - INFO - Connecting to 91.99.236.133:8081
+2026-07-03 14:59:34,824 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-07-03 14:59:34,824 - INFO - Connection still down, waiting 60 seconds before retry...
+2026-07-03 15:00:34,824 - INFO - Connecting to 91.99.236.133:8081
+2026-07-03 15:00:34,825 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-07-03 15:00:34,825 - INFO - Connection still down, waiting 120 seconds before retry...
+2026-07-03 15:02:16,123 - INFO - Shutdown requested
+2026-08-07 18:21:53,329 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-07 18:21:53,329 - INFO - =================================================
+2026-08-07 18:21:53,329 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:21:53,329 - INFO - Server ID: 157783
+2026-08-07 18:21:53,329 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-07 18:21:53,329 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-07 18:21:53,330 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:22:03,341 - ERROR - Connection failed: timed out
+2026-08-07 18:22:03,341 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-07 18:22:33,896 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:22:43,907 - ERROR - Connection failed: timed out
+2026-08-07 18:22:43,907 - INFO - Connection still down, waiting 60 seconds before retry...
+2026-08-07 18:24:50,617 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-07 18:24:50,617 - INFO - =================================================
+2026-08-07 18:24:50,617 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:24:50,617 - INFO - Server ID: 157783
+2026-08-07 18:24:50,617 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-07 18:24:50,617 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-07 18:24:50,618 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:24:50,619 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 18:24:50,619 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-07 18:25:21,166 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:25:21,167 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 18:25:21,167 - INFO - Connection still down, waiting 60 seconds before retry...
+2026-08-07 18:26:21,167 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:26:21,168 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 18:26:21,168 - INFO - Connection still down, waiting 120 seconds before retry...
+2026-08-07 18:28:21,169 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:28:21,169 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 18:28:21,169 - INFO - Connection still down, waiting 240 seconds before retry...
+2026-08-07 18:32:21,170 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:32:21,170 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 18:32:21,170 - INFO - Connection still down, waiting 480 seconds before retry...
+2026-08-07 18:40:21,171 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:40:21,171 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 18:40:21,172 - INFO - Connection still down, waiting 480 seconds before retry...
+2026-08-07 18:44:23,635 - INFO - Shutdown requested
+2026-08-07 18:44:24,726 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-07 18:44:24,727 - INFO - =================================================
+2026-08-07 18:44:24,727 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:44:24,727 - INFO - Server ID: 157783
+2026-08-07 18:44:24,727 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-07 18:44:24,727 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-07 18:44:24,727 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:44:24,728 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 18:44:24,728 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-07 18:44:44,709 - INFO - Shutdown requested
+2026-08-07 18:44:45,834 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-07 18:44:45,834 - INFO - =================================================
+2026-08-07 18:44:45,834 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:44:45,834 - INFO - Server ID: 157783
+2026-08-07 18:44:45,834 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-07 18:44:45,834 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-07 18:44:45,835 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:44:45,835 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 18:44:45,835 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-07 18:45:15,835 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:45:15,836 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 18:45:15,836 - INFO - Connection still down, waiting 60 seconds before retry...
+2026-08-07 18:45:17,743 - INFO - Shutdown requested
+2026-08-07 18:45:18,815 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-07 18:45:18,815 - INFO - =================================================
+2026-08-07 18:45:18,815 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:45:18,816 - INFO - Server ID: 157783
+2026-08-07 18:45:18,816 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-07 18:45:18,816 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-07 18:45:18,816 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:45:18,817 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 18:45:18,817 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-07 18:45:27,249 - INFO - Shutdown requested
+2026-08-07 18:45:28,318 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-07 18:45:28,318 - INFO - =================================================
+2026-08-07 18:45:28,318 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:45:28,319 - INFO - Server ID: 157783
+2026-08-07 18:45:28,319 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-07 18:45:28,319 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-07 18:45:28,319 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:45:28,319 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 18:45:28,320 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-07 18:45:58,320 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:45:58,320 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 18:45:58,320 - INFO - Connection still down, waiting 60 seconds before retry...
+2026-08-07 18:46:58,321 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:46:58,321 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 18:46:58,321 - INFO - Connection still down, waiting 120 seconds before retry...
+2026-08-07 18:48:58,322 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:48:58,322 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 18:48:58,322 - INFO - Connection still down, waiting 240 seconds before retry...
+2026-08-07 18:52:58,323 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 18:52:58,323 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 18:52:58,324 - INFO - Connection still down, waiting 480 seconds before retry...
+2026-08-07 19:00:58,325 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 19:00:58,325 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 19:00:58,326 - INFO - Connection still down, waiting 480 seconds before retry...
+2026-08-07 19:08:58,327 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 19:08:58,328 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 19:08:58,328 - INFO - Connection still down, waiting 480 seconds before retry...
+2026-08-07 19:16:58,328 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 19:16:58,328 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 19:16:58,328 - INFO - Connection still down, waiting 480 seconds before retry...
+2026-08-07 19:24:58,329 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 19:24:58,329 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 19:24:58,330 - INFO - Connection still down, waiting 480 seconds before retry...
+2026-08-07 19:32:58,330 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 19:32:58,331 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 19:32:58,331 - INFO - Connection still down, waiting 480 seconds before retry...
+2026-08-07 19:40:58,331 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 19:40:58,332 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 19:40:58,332 - INFO - Connection still down, waiting 480 seconds before retry...
+2026-08-07 19:48:58,333 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 19:48:58,834 - INFO - Sending password
+2026-08-07 19:49:00,345 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-07 19:49:00,346 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-07 19:49:00,346 - INFO - Starting automatic vote checker thread
+2026-08-07 19:49:00,346 - INFO - Starting chat monitoring for /vote commands...
+2026-08-07 19:50:35,516 - ERROR - Monitor error: telnet connection closed
+2026-08-07 19:50:35,516 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-07 19:51:05,517 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 19:51:05,517 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 19:51:05,517 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-07 19:51:35,517 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 19:51:35,518 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 19:51:35,518 - INFO - Connection still down, waiting 60 seconds before retry...
+2026-08-07 19:52:35,519 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 19:52:35,519 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 19:52:35,519 - INFO - Connection still down, waiting 120 seconds before retry...
+2026-08-07 19:54:35,520 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 19:54:35,520 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 19:54:35,520 - INFO - Connection still down, waiting 240 seconds before retry...
+2026-08-07 19:58:35,520 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 19:58:36,021 - INFO - Sending password
+2026-08-07 19:58:37,536 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-07 19:58:37,537 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-07 19:58:37,537 - INFO - Starting automatic vote checker thread
+2026-08-07 19:58:37,537 - INFO - Starting chat monitoring for /vote commands...
+2026-08-07 20:30:15,351 - ERROR - Monitor error: telnet connection closed
+2026-08-07 20:30:15,351 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-07 20:30:45,352 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 20:30:45,352 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 20:30:45,352 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-07 20:31:15,353 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 20:31:15,353 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 20:31:15,354 - INFO - Connection still down, waiting 60 seconds before retry...
+2026-08-07 20:32:15,354 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 20:32:15,855 - INFO - Sending password
+2026-08-07 20:32:17,367 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-07 20:32:17,367 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-07 20:32:17,367 - INFO - Starting automatic vote checker thread
+2026-08-07 20:32:17,368 - INFO - Starting chat monitoring for /vote commands...
+2026-08-07 20:33:09,619 - INFO - Shutting down...
+2026-08-07 20:33:10,048 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-07 20:33:10,048 - INFO - =================================================
+2026-08-07 20:33:10,048 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 20:33:10,048 - INFO - Server ID: 157783
+2026-08-07 20:33:10,048 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-07 20:33:10,048 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-07 20:33:10,049 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 20:33:10,549 - INFO - Sending password
+2026-08-07 20:33:12,064 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-07 20:33:12,065 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-07 20:33:12,065 - INFO - Starting automatic vote checker thread
+2026-08-07 20:33:12,065 - INFO - Starting chat monitoring for /vote commands...
+2026-08-07 20:35:33,830 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-07 20:35:36,542 - INFO - Connection warmed up
+2026-08-07 20:36:59,093 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-07 20:36:59,093 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-07 20:36:59,561 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:36:59,563 - INFO - BohemianBrewer has not voted yet
+2026-08-07 20:36:59,563 - INFO - Sending PM to BohemianBrewer: Please vote on 7daystodie-servers.com (search Bohemia) or visit: https://7daystodie-servers.com/server/157783 - Rewards drop within 2 minutes after voting.
+2026-08-07 20:37:00,264 - INFO - Added BohemianBrewer to automatic check list
+2026-08-07 20:37:02,241 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:37:12,414 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:37:22,577 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:37:32,728 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:37:42,873 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:37:53,028 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:38:03,172 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:38:13,303 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:38:19,010 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-07 20:38:19,010 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-07 20:38:19,440 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:38:19,441 - INFO - BohemianBrewer has not voted yet
+2026-08-07 20:38:19,442 - INFO - Sending PM to BohemianBrewer: Please vote on 7daystodie-servers.com (search Bohemia) or visit: https://7daystodie-servers.com/server/157783 - Rewards drop within 2 minutes after voting.
+2026-08-07 20:38:20,143 - INFO - Added BohemianBrewer to automatic check list
+2026-08-07 20:38:23,456 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:38:33,602 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:38:43,758 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:38:53,916 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:39:04,064 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:39:14,202 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:39:24,324 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:39:34,452 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:39:44,595 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:39:54,742 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:40:04,866 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:40:15,018 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:40:25,186 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:40:35,334 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:40:45,481 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:40:55,653 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:41:05,809 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:41:08,573 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-07 20:41:08,573 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-07 20:41:09,019 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:41:09,020 - INFO - BohemianBrewer has not voted yet
+2026-08-07 20:41:09,021 - INFO - Sending PM to BohemianBrewer: Please vote on 7daystodie-servers.com (search Bohemia) or visit: https://7daystodie-servers.com/server/157783 - Rewards drop within 2 minutes after voting.
+2026-08-07 20:41:09,721 - INFO - Added BohemianBrewer to automatic check list
+2026-08-07 20:41:15,957 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:41:26,098 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:41:36,251 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:41:46,403 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:41:56,527 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:42:06,692 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:42:16,848 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:42:26,992 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:42:37,151 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:42:47,303 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:42:57,429 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:43:07,569 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:43:17,709 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:43:27,852 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:43:37,996 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:43:48,140 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:43:58,290 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:44:08,434 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:44:18,589 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:44:28,762 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:44:38,916 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:44:49,058 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:44:59,206 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:45:09,329 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:45:19,452 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:45:29,595 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:45:39,759 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:45:41,228 - INFO - Player McZonk spawned, warming up connection
+2026-08-07 20:45:43,944 - INFO - Connection warmed up
+2026-08-07 20:45:49,926 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:46:00,069 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:46:10,210 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:46:20,362 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:46:30,505 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:46:40,653 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:46:50,822 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:47:00,967 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:47:11,099 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:47:21,242 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:47:31,394 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:47:41,552 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:47:51,703 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:48:01,844 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:48:12,000 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:48:22,131 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:48:32,288 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:48:42,429 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:48:52,569 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:49:02,698 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:49:12,822 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:49:22,968 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:49:33,111 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:49:43,256 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:49:53,399 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:50:03,561 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:50:13,710 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:50:23,868 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:50:34,047 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:50:44,199 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:50:54,345 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:51:04,495 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:51:14,648 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:51:24,789 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:51:34,952 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:51:45,098 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:51:55,259 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:52:05,387 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:52:15,524 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:52:25,679 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:52:28,092 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-07 20:52:30,804 - INFO - Connection warmed up
+2026-08-07 20:52:30,805 - INFO - Re-adding BohemianBrewer to vote check list (returning player)
+2026-08-07 20:52:35,850 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:52:45,986 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:52:56,129 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:53:06,279 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:53:16,450 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:53:26,596 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:53:36,766 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:53:46,923 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:53:57,090 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:54:07,220 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:54:17,351 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:54:27,497 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:54:37,637 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:54:47,787 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:54:57,936 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:55:08,116 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:55:18,255 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:55:28,384 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:55:38,538 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:55:48,683 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:55:58,840 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:56:08,976 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:56:19,107 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:56:29,246 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:56:39,397 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:56:49,548 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:56:59,691 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:57:09,822 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:57:19,976 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:57:30,132 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:57:40,272 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:57:50,436 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:58:00,592 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:58:10,736 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:58:20,891 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:58:31,035 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:58:41,183 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:58:51,333 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:59:01,505 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:59:11,653 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:59:21,812 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:59:31,966 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:59:42,108 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 20:59:52,257 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:00:02,415 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:00:12,570 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:00:22,705 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:00:32,853 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:00:43,008 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:00:53,170 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:01:03,314 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:01:13,452 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:01:23,605 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:01:33,741 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:01:43,874 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:01:54,016 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:02:04,175 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:02:14,317 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:02:24,463 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:02:34,601 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:02:44,736 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:02:54,853 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:03:04,980 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:03:15,148 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:03:25,290 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:03:35,465 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:03:45,614 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:03:55,744 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:04:05,872 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:04:16,022 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:04:26,162 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:04:36,309 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:04:46,467 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:04:56,605 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:05:06,765 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:05:16,927 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:05:27,083 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:05:37,227 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:05:47,388 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:05:57,532 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:06:07,688 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:06:17,844 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:06:27,984 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:06:38,132 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:06:48,286 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:06:58,436 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:07:08,574 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:07:18,725 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:07:28,878 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:07:39,039 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:07:49,188 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:07:59,342 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:08:09,494 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:08:19,651 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:08:29,780 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:08:39,924 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:08:50,082 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:09:00,225 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:09:10,358 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:09:20,497 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:09:30,662 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:09:40,811 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:09:50,984 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:10:01,163 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:10:11,316 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:10:21,448 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:10:31,580 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:10:41,732 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:10:51,854 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:11:02,000 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:11:12,131 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:11:22,257 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:11:32,379 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:11:42,534 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:11:52,684 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:12:02,844 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:12:12,970 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:12:23,106 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:12:33,253 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:12:43,404 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:12:53,553 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:13:03,689 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:13:13,845 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:13:23,995 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:13:34,143 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:13:44,296 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:13:54,441 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:14:04,592 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:14:14,722 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:14:24,889 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:14:35,042 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:14:45,185 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:14:55,327 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:15:05,479 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:15:15,616 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:15:25,770 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:15:35,927 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:15:46,082 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:15:56,236 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:16:06,395 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:16:16,535 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:16:26,669 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:16:36,826 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:16:46,957 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:16:57,109 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:17:07,259 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:17:17,408 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:17:27,546 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:17:37,666 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:17:47,816 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:17:57,941 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:18:08,108 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:18:18,252 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:18:28,399 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:18:38,568 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:18:48,718 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:18:58,859 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:19:09,010 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:19:19,164 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:19:29,326 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:19:39,465 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:19:49,617 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:19:59,764 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:20:09,899 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:20:20,051 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:20:30,194 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:20:40,362 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:20:50,502 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:20:56,402 - ERROR - Monitor error: telnet connection closed
+2026-08-07 21:20:56,402 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-07 21:21:00,648 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:21:10,810 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:21:20,971 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:21:26,403 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 21:21:26,403 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 21:21:26,403 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-07 21:21:31,124 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:21:41,267 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:21:51,415 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:21:56,404 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 21:21:56,404 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 21:21:56,405 - INFO - Connection still down, waiting 60 seconds before retry...
+2026-08-07 21:22:01,560 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:22:11,703 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:22:21,849 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 21:22:56,405 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 21:22:56,405 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 21:22:56,406 - INFO - Connection still down, waiting 120 seconds before retry...
+2026-08-07 21:24:56,406 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 21:24:56,407 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 21:24:56,407 - INFO - Connection still down, waiting 240 seconds before retry...
+2026-08-07 21:28:56,407 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 21:28:56,408 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 21:28:56,408 - INFO - Connection still down, waiting 480 seconds before retry...
+2026-08-07 21:33:12,065 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-07 21:33:12,066 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-07 21:33:12,066 - INFO - Sent periodic vote message
+2026-08-07 21:36:56,409 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 21:36:56,409 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 21:36:56,409 - INFO - Connection still down, waiting 480 seconds before retry...
+2026-08-07 21:44:56,410 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 21:44:56,411 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 21:44:56,411 - INFO - Connection still down, waiting 480 seconds before retry...
+2026-08-07 21:52:56,411 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 21:52:56,412 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 21:52:56,412 - INFO - Connection still down, waiting 480 seconds before retry...
+2026-08-07 22:00:56,412 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 22:00:56,413 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 22:00:56,413 - INFO - Connection still down, waiting 480 seconds before retry...
+2026-08-07 22:08:56,413 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 22:08:56,414 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 22:08:56,414 - INFO - Connection still down, waiting 480 seconds before retry...
+2026-08-07 22:16:56,415 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 22:16:56,415 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 22:16:56,415 - INFO - Connection still down, waiting 480 seconds before retry...
+2026-08-07 22:24:56,416 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 22:24:56,416 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 22:24:56,417 - INFO - Connection still down, waiting 480 seconds before retry...
+2026-08-07 22:31:37,555 - INFO - Shutdown requested
+2026-08-07 22:31:37,804 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-07 22:31:37,805 - INFO - =================================================
+2026-08-07 22:31:37,805 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 22:31:37,805 - INFO - Server ID: 157783
+2026-08-07 22:31:37,805 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-07 22:31:37,805 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-07 22:31:37,806 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 22:31:38,307 - INFO - Sending password
+2026-08-07 22:31:39,823 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-07 22:31:39,823 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-07 22:31:39,824 - INFO - Starting automatic vote checker thread
+2026-08-07 22:31:39,824 - INFO - Starting chat monitoring for /vote commands...
+2026-08-07 22:32:33,435 - ERROR - Monitor error: telnet connection closed
+2026-08-07 22:32:33,435 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-07 22:33:03,436 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 22:33:03,437 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 22:33:03,437 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-07 22:33:33,437 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 22:33:33,438 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 22:33:33,438 - INFO - Connection still down, waiting 60 seconds before retry...
+2026-08-07 22:34:33,439 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 22:34:33,439 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 22:34:33,439 - INFO - Connection still down, waiting 120 seconds before retry...
+2026-08-07 22:36:33,440 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 22:36:33,440 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 22:36:33,440 - INFO - Connection still down, waiting 240 seconds before retry...
+2026-08-07 22:40:33,441 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 22:40:33,941 - INFO - Sending password
+2026-08-07 22:40:35,454 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-07 22:40:35,455 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-07 22:40:35,455 - INFO - Starting automatic vote checker thread
+2026-08-07 22:40:35,455 - INFO - Starting chat monitoring for /vote commands...
+2026-08-07 22:40:49,364 - INFO - Shutting down...
+2026-08-07 22:40:49,623 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-07 22:40:49,623 - INFO - =================================================
+2026-08-07 22:40:49,623 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 22:40:49,623 - INFO - Server ID: 157783
+2026-08-07 22:40:49,623 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-07 22:40:49,623 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-07 22:40:49,624 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 22:40:50,124 - INFO - Sending password
+2026-08-07 22:40:51,639 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-07 22:40:51,639 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-07 22:40:51,639 - INFO - Starting automatic vote checker thread
+2026-08-07 22:40:51,640 - INFO - Starting chat monitoring for /vote commands...
+2026-08-07 22:45:42,387 - ERROR - Monitor error: telnet connection closed
+2026-08-07 22:45:42,387 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-07 22:46:12,388 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 22:46:12,389 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 22:46:12,389 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-07 22:46:42,389 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 22:46:42,390 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 22:46:42,390 - INFO - Connection still down, waiting 60 seconds before retry...
+2026-08-07 22:47:42,391 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 22:47:42,391 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 22:47:42,391 - INFO - Connection still down, waiting 120 seconds before retry...
+2026-08-07 22:49:42,392 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 22:49:42,392 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 22:49:42,392 - INFO - Connection still down, waiting 240 seconds before retry...
+2026-08-07 22:53:42,393 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 22:53:42,393 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-07 22:53:42,393 - INFO - Connection still down, waiting 480 seconds before retry...
+2026-08-07 23:01:42,394 - INFO - Connecting to 91.99.236.133:8081
+2026-08-07 23:01:42,894 - INFO - Sending password
+2026-08-07 23:01:44,407 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-07 23:01:44,408 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-07 23:01:44,408 - INFO - Starting automatic vote checker thread
+2026-08-07 23:01:44,408 - INFO - Starting chat monitoring for /vote commands...
+2026-08-07 23:15:25,161 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-07 23:15:27,877 - INFO - Connection warmed up
+2026-08-07 23:28:18,174 - INFO - Player kameleron spawned, warming up connection
+2026-08-07 23:28:20,888 - INFO - Connection warmed up
+2026-08-07 23:40:51,640 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-07 23:40:51,640 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-07 23:40:51,640 - INFO - Sent periodic vote message
+2026-08-07 23:54:10,732 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-07 23:54:10,732 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-07 23:54:11,495 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:54:11,497 - INFO - BohemianBrewer has not voted yet
+2026-08-07 23:54:11,497 - INFO - Sending PM to BohemianBrewer: Please vote on 7daystodie-servers.com (search Bohemia) or visit: https://7daystodie-servers.com/server/157783 - Rewards drop within 2 minutes after voting.
+2026-08-07 23:54:12,198 - INFO - Added BohemianBrewer to automatic check list
+2026-08-07 23:54:14,616 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:54:24,772 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:54:34,933 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:54:45,063 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:54:55,209 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:55:05,363 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:55:15,527 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:55:25,667 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:55:35,809 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:55:45,957 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:55:56,118 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:56:06,266 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:56:16,408 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:56:26,551 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:56:36,700 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:56:46,852 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:56:57,017 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:57:07,151 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:57:17,304 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:57:27,465 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:57:37,616 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:57:47,746 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:57:57,897 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:58:08,039 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:58:18,170 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:58:28,316 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:58:38,448 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:58:48,582 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:58:58,728 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:59:08,876 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:59:19,022 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:59:29,176 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:59:39,318 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:59:49,467 - INFO - Vote status for 76561198039589588: 0
+2026-08-07 23:59:59,619 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:00:09,759 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:00:19,919 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:00:30,068 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:00:40,215 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:00:50,342 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:01:00,476 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:01:10,633 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:01:20,777 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:01:30,917 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:01:41,066 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:01:44,408 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 00:01:45,109 - INFO - Sent periodic vote message
+2026-08-08 00:01:51,218 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:02:01,366 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:02:11,521 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:02:21,652 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:02:31,782 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:02:41,926 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:02:52,076 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:03:02,210 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:03:12,357 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:03:22,484 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:03:32,629 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:03:42,783 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:03:52,931 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:04:03,110 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:04:13,232 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:04:23,378 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:04:33,527 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:04:43,679 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:04:53,832 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:05:03,982 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:05:14,120 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:05:24,281 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:05:26,784 - ERROR - Monitor error: telnet connection closed
+2026-08-08 00:05:26,784 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-08 00:05:34,428 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:05:44,582 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:05:54,729 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:05:56,785 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 00:05:56,785 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-08 00:05:56,785 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-08 00:06:04,893 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:06:15,039 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:06:25,187 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:06:26,788 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 00:06:27,288 - INFO - Sending password
+2026-08-08 00:06:28,801 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-08 00:06:28,802 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-08 00:06:28,802 - INFO - Starting automatic vote checker thread
+2026-08-08 00:06:28,802 - INFO - Starting chat monitoring for /vote commands...
+2026-08-08 00:06:35,333 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:06:45,479 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:06:55,621 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:06:59,478 - ERROR - Monitor error: telnet connection closed
+2026-08-08 00:06:59,479 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-08 00:07:05,781 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:07:15,933 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:07:26,077 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:07:29,479 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 00:07:29,480 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-08 00:07:29,480 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-08 00:07:36,227 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:07:46,375 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:07:56,531 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:07:59,481 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 00:07:59,481 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-08 00:07:59,481 - INFO - Connection still down, waiting 60 seconds before retry...
+2026-08-08 00:08:06,676 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:08:16,824 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:08:26,973 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:08:37,119 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:08:47,267 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:08:57,412 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:08:59,482 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 00:08:59,482 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-08 00:08:59,483 - INFO - Connection still down, waiting 120 seconds before retry...
+2026-08-08 00:09:07,565 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:09:17,707 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:09:27,867 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:09:38,019 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:09:48,170 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:09:58,312 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:10:08,437 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:10:18,569 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:10:28,694 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:10:38,848 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:10:48,999 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:10:59,136 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:10:59,483 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 00:10:59,984 - INFO - Sending password
+2026-08-08 00:11:01,501 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-08 00:11:01,501 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-08 00:11:01,501 - INFO - Starting automatic vote checker thread
+2026-08-08 00:11:01,502 - INFO - Starting chat monitoring for /vote commands...
+2026-08-08 00:11:09,277 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:11:19,433 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:11:21,365 - INFO - Shutting down...
+2026-08-08 00:11:21,609 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-08 00:11:21,609 - INFO - =================================================
+2026-08-08 00:11:21,609 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 00:11:21,609 - INFO - Server ID: 157783
+2026-08-08 00:11:21,609 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-08 00:11:21,609 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-08 00:11:21,610 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 00:11:22,111 - INFO - Sending password
+2026-08-08 00:11:23,623 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-08 00:11:23,623 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-08 00:11:23,623 - INFO - Starting automatic vote checker thread
+2026-08-08 00:11:23,623 - INFO - Starting chat monitoring for /vote commands...
+2026-08-08 00:12:53,413 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-08 00:12:56,123 - INFO - Connection warmed up
+2026-08-08 00:13:26,884 - INFO - Player Ozzy spawned, warming up connection
+2026-08-08 00:13:29,595 - INFO - Connection warmed up
+2026-08-08 00:13:29,896 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-08 00:13:32,605 - INFO - Connection warmed up
+2026-08-08 00:14:04,374 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 00:14:04,374 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 00:14:04,818 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:14:04,819 - INFO - BohemianBrewer has not voted yet
+2026-08-08 00:14:04,820 - INFO - Sending PM to BohemianBrewer: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting.
+2026-08-08 00:14:05,521 - INFO - Added BohemianBrewer to automatic check list
+2026-08-08 00:14:17,142 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 00:14:17,143 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 00:14:17,602 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:14:17,603 - INFO - BohemianBrewer has not voted yet
+2026-08-08 00:14:17,603 - INFO - Sending PM to BohemianBrewer: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting.
+2026-08-08 00:14:18,304 - INFO - Added BohemianBrewer to automatic check list
+2026-08-08 00:14:23,775 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:14:53,931 - INFO - Vote status for 76561198039589588: 0
+2026-08-08 00:15:00,382 - INFO - Player kameleron spawned, warming up connection
+2026-08-08 00:15:03,093 - INFO - Connection warmed up
+2026-08-08 00:15:24,070 - INFO - Vote status for 76561198039589588: 1
+2026-08-08 00:15:24,072 - INFO - Automatic check: BohemianBrewer has voted! Delivering rewards...
+2026-08-08 00:15:24,072 - INFO - Giving rewards to BohemianBrewer
+2026-08-08 00:15:30,076 - INFO - Gave BohemianBrewer: Fixed rewards + books: sledgehammersSkillMagazine, workstationSkillMagazine, seedSkillMagazine
+2026-08-08 00:15:30,217 - INFO - Successfully claimed vote for 76561198039589588
+2026-08-08 00:15:30,219 - INFO - Updated vote time for 76561198039589588 to current time
+2026-08-08 00:15:30,719 - INFO - Sending PM to BohemianBrewer: Thanks for voting BohemianBrewer! Your rewards have been automatically delivered! Look, goodies are at your feet :D
+2026-08-08 00:15:31,920 - INFO - Sending global message: BohemianBrewer just received his well deserved reward!
+2026-08-08 00:20:18,872 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 00:20:18,872 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 00:20:19,324 - INFO - Vote status for 76561198039589588: 2
+2026-08-08 00:20:19,325 - INFO - BohemianBrewer has already voted and claimed
+2026-08-08 00:20:19,325 - INFO - Sending PM to BohemianBrewer: You already voted today and claimed your reward! You can vote again in approximately 5h 39m.
+2026-08-08 00:31:20,024 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-08 00:31:22,737 - INFO - Connection warmed up
+2026-08-08 00:31:22,737 - INFO - Re-adding BohemianBrewer to vote check list (returning player)
+2026-08-08 00:31:32,779 - INFO - Vote status for 76561198039589588: 2
+2026-08-08 00:31:32,780 - INFO - Automatic check: BohemianBrewer already claimed
+2026-08-08 00:33:01,016 - INFO - Player Ozzy spawned, warming up connection
+2026-08-08 00:33:03,726 - INFO - Connection warmed up
+2026-08-08 00:43:44,391 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-08 00:43:47,100 - INFO - Connection warmed up
+2026-08-08 00:43:47,100 - INFO - Re-adding BohemianBrewer to vote check list (returning player)
+2026-08-08 00:44:02,921 - INFO - Vote status for 76561198039589588: 2
+2026-08-08 00:44:02,922 - INFO - Automatic check: BohemianBrewer already claimed
+2026-08-08 00:48:26,015 - INFO - Player Ozzy spawned, warming up connection
+2026-08-08 00:48:28,727 - INFO - Connection warmed up
+2026-08-08 00:49:33,862 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 00:49:33,862 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 00:49:34,316 - INFO - Vote status for 76561198039589588: 2
+2026-08-08 00:49:34,318 - INFO - BohemianBrewer has already voted and claimed
+2026-08-08 00:49:34,319 - INFO - Sending PM to BohemianBrewer: You already voted today and claimed your reward! You can vote again in approximately 5h 10m.
+2026-08-08 00:50:59,175 - INFO - Vote command detected from Player_171 (Steam ID: 76561198039589588)
+2026-08-08 00:50:59,176 - INFO - Handling /vote command from Player_171 (Steam ID: 76561198039589588)
+2026-08-08 00:50:59,625 - INFO - Vote status for 76561198039589588: 2
+2026-08-08 00:50:59,627 - INFO - Player_171 has already voted and claimed
+2026-08-08 00:50:59,627 - INFO - Sending PM to Player_171: You already voted today and claimed your reward! You can vote again in approximately 5h 9m.
+2026-08-08 00:52:43,531 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 00:52:43,531 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 00:52:43,993 - INFO - Vote status for 76561198039589588: 2
+2026-08-08 00:52:43,995 - INFO - BohemianBrewer has already voted and claimed
+2026-08-08 00:52:43,995 - INFO - Sending PM to BohemianBrewer: You already voted today and claimed your reward! You can vote again in approximately 5h 7m.
+2026-08-08 00:54:49,350 - INFO - Player Ozzy spawned, warming up connection
+2026-08-08 00:54:52,067 - INFO - Connection warmed up
+2026-08-08 00:56:27,956 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 00:56:27,956 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 00:56:28,420 - INFO - Vote status for 76561198039589588: 2
+2026-08-08 00:56:28,422 - INFO - BohemianBrewer has already voted and claimed
+2026-08-08 00:56:28,423 - INFO - Sending PM to BohemianBrewer: You already voted today and claimed your reward! You can vote again in approximately 5h 3m.
+2026-08-08 00:56:36,701 - INFO - Shutting down...
+2026-08-08 00:56:50,909 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-08 00:56:50,909 - INFO - =================================================
+2026-08-08 00:56:50,909 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 00:56:50,909 - INFO - Server ID: 157783
+2026-08-08 00:56:50,909 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-08 00:56:50,909 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-08 00:56:50,910 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 00:56:51,411 - INFO - Sending password
+2026-08-08 00:56:52,922 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-08 00:56:52,922 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-08 00:56:52,922 - INFO - Starting automatic vote checker thread
+2026-08-08 00:56:52,922 - INFO - Starting chat monitoring for /vote commands...
+2026-08-08 00:57:02,744 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 00:57:02,744 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 00:57:03,184 - INFO - Vote status for 76561198039589588: 2
+2026-08-08 00:57:03,319 - INFO - Found vote time for 76561198039589588: 2026-08-08 00:15:14+02:00 (API says: August 8th, 2026 12:15 AM CEST, claimed: 1)
+2026-08-08 00:57:03,322 - INFO - BohemianBrewer has already voted and claimed
+2026-08-08 00:57:03,324 - INFO - Sending PM to BohemianBrewer: You already voted today and claimed your reward! You can vote again in approximately 5h 2m.
+2026-08-08 01:03:21,584 - INFO - Player Diaboliko spawned, warming up connection
+2026-08-08 01:03:24,297 - INFO - Connection warmed up
+2026-08-08 01:03:35,824 - INFO - Player kameleron spawned, warming up connection
+2026-08-08 01:03:38,536 - INFO - Connection warmed up
+2026-08-08 01:07:17,273 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 01:07:17,273 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 01:07:17,702 - INFO - Vote status for 76561198039589588: 2
+2026-08-08 01:07:17,704 - INFO - BohemianBrewer has already voted and claimed
+2026-08-08 01:07:17,704 - INFO - Sending PM to BohemianBrewer: You already voted today and claimed your reward! You can vote again in approximately 4h 52m.
+2026-08-08 01:14:09,118 - INFO - Vote command detected from kameleron (Steam ID: 76561198108723696)
+2026-08-08 01:14:09,119 - INFO - Handling /vote command from kameleron (Steam ID: 76561198108723696)
+2026-08-08 01:14:09,550 - INFO - Vote status for 76561198108723696: 0
+2026-08-08 01:14:09,552 - INFO - kameleron has not voted yet
+2026-08-08 01:14:09,552 - INFO - Sending PM to kameleron: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting.
+2026-08-08 01:14:10,253 - INFO - Added kameleron to automatic check list
+2026-08-08 01:14:20,273 - INFO - Player Ozzy spawned, warming up connection
+2026-08-08 01:14:22,988 - INFO - Connection warmed up
+2026-08-08 01:14:23,075 - INFO - Vote status for 76561198108723696: 0
+2026-08-08 01:14:53,228 - INFO - Vote status for 76561198108723696: 0
+2026-08-08 01:15:23,370 - INFO - Vote status for 76561198108723696: 0
+2026-08-08 01:15:53,522 - INFO - Vote status for 76561198108723696: 0
+2026-08-08 01:16:23,680 - INFO - Vote status for 76561198108723696: 0
+2026-08-08 01:16:53,844 - INFO - Vote status for 76561198108723696: 0
+2026-08-08 01:17:23,993 - INFO - Vote status for 76561198108723696: 0
+2026-08-08 01:17:54,141 - INFO - Vote status for 76561198108723696: 0
+2026-08-08 01:18:24,293 - INFO - Vote status for 76561198108723696: 0
+2026-08-08 01:18:54,441 - INFO - Vote status for 76561198108723696: 0
+2026-08-08 01:19:24,577 - INFO - Vote status for 76561198108723696: 0
+2026-08-08 01:19:48,879 - INFO - Shutting down...
+2026-08-08 01:20:00,220 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-08 01:20:00,220 - INFO - =================================================
+2026-08-08 01:20:00,220 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 01:20:00,220 - INFO - Server ID: 157783
+2026-08-08 01:20:00,220 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-08 01:20:00,220 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-08 01:20:00,221 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 01:20:00,722 - INFO - Sending password
+2026-08-08 01:20:02,234 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-08 01:20:02,235 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-08 01:20:02,235 - INFO - Starting automatic vote checker thread
+2026-08-08 01:20:02,235 - INFO - Starting chat monitoring for /vote commands...
+2026-08-08 01:20:28,787 - INFO - Vote command detected from kameleron (Steam ID: 76561198108723696)
+2026-08-08 01:20:28,787 - INFO - Handling /vote command from kameleron (Steam ID: 76561198108723696)
+2026-08-08 01:20:29,234 - INFO - Vote status for 76561198108723696: 0
+2026-08-08 01:20:29,236 - INFO - kameleron has not voted yet
+2026-08-08 01:20:29,237 - INFO - Sending PM to kameleron: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting.
+2026-08-08 01:20:29,938 - INFO - Added kameleron to automatic check list
+2026-08-08 01:20:32,372 - INFO - Vote status for 76561198108723696: 0
+2026-08-08 01:21:02,522 - INFO - Vote status for 76561198108723696: 0
+2026-08-08 01:21:32,682 - INFO - Vote status for 76561198108723696: 0
+2026-08-08 01:22:02,832 - INFO - Vote status for 76561198108723696: 1
+2026-08-08 01:22:02,833 - INFO - Automatic check: kameleron has voted! Delivering rewards...
+2026-08-08 01:22:02,834 - INFO - Giving rewards to kameleron
+2026-08-08 01:22:08,838 - INFO - Gave kameleron: Fixed rewards + books: trapsSkillMagazine, medicalSkillMagazine, roboticsSkillMagazine
+2026-08-08 01:22:08,988 - INFO - Successfully claimed vote for 76561198108723696
+2026-08-08 01:22:08,990 - INFO - Updated vote time for 76561198108723696 to current time
+2026-08-08 01:22:09,490 - INFO - Sending PM to kameleron: Thanks for voting kameleron! Your rewards have been automatically delivered! Look, goodies are at your feet :D
+2026-08-08 01:22:10,691 - INFO - Sending global message: kameleron just received his well deserved reward!
+2026-08-08 01:22:18,451 - INFO - Vote command detected from Tripplelexx (Steam ID: 76561198039528689)
+2026-08-08 01:22:18,451 - INFO - Handling /vote command from Tripplelexx (Steam ID: 76561198039528689)
+2026-08-08 01:22:18,903 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:22:18,904 - INFO - Tripplelexx has not voted yet
+2026-08-08 01:22:18,905 - INFO - Sending PM to Tripplelexx: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting.
+2026-08-08 01:22:19,606 - INFO - Added Tripplelexx to automatic check list
+2026-08-08 01:22:41,547 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:23:11,675 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:23:41,821 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:24:11,969 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:24:42,107 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:25:12,257 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:25:42,405 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:26:12,527 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:26:42,669 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:27:12,822 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:27:42,952 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:28:13,106 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:28:43,275 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:29:13,420 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:29:43,573 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:30:13,724 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:30:43,855 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:31:14,013 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:31:31,443 - INFO - Vote command detected from Player_171 (Steam ID: 76561198039589588)
+2026-08-08 01:31:31,443 - INFO - Handling /vote command from Player_171 (Steam ID: 76561198039589588)
+2026-08-08 01:31:31,896 - INFO - Vote status for 76561198039589588: 2
+2026-08-08 01:31:32,040 - INFO - Found vote time for 76561198039589588: 2026-08-08 00:15:14+02:00 (API says: August 8th, 2026 12:15 AM CEST, claimed: 1)
+2026-08-08 01:31:32,043 - INFO - Player_171 has already voted and claimed
+2026-08-08 01:31:32,044 - INFO - Sending PM to Player_171: You already voted today and claimed your reward! You can vote again in approximately 4h 28m.
+2026-08-08 01:31:37,353 - INFO - Vote command detected from Tripplelexx (Steam ID: 76561198039528689)
+2026-08-08 01:31:37,353 - INFO - Handling /vote command from Tripplelexx (Steam ID: 76561198039528689)
+2026-08-08 01:31:37,806 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:31:37,807 - INFO - Tripplelexx has not voted yet
+2026-08-08 01:31:37,808 - INFO - Sending PM to Tripplelexx: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting.
+2026-08-08 01:31:38,509 - INFO - Added Tripplelexx to automatic check list
+2026-08-08 01:31:44,153 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:32:14,294 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:32:44,456 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:33:14,610 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:33:44,742 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:34:14,863 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:34:45,001 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:35:15,138 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:35:45,294 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:36:15,446 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:36:45,598 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:37:15,736 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:37:45,887 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:38:16,038 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:38:46,190 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:39:16,347 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:39:46,493 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:39:49,533 - INFO - Player Ozzy spawned, warming up connection
+2026-08-08 01:39:52,245 - INFO - Connection warmed up
+2026-08-08 01:40:16,645 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:40:46,802 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:41:16,954 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:41:46,955 - INFO - Removing Tripplelexx from check list (timeout)
+2026-08-08 01:46:00,147 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-08 01:46:02,858 - INFO - Connection warmed up
+2026-08-08 01:46:02,858 - INFO - Re-adding Tripplelexx to vote check list (returning player)
+2026-08-08 01:46:17,105 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:46:47,264 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:47:16,200 - INFO - Vote command detected from Player_171 (Steam ID: 76561198039589588)
+2026-08-08 01:47:16,200 - INFO - Handling /vote command from Player_171 (Steam ID: 76561198039589588)
+2026-08-08 01:47:16,656 - INFO - Vote status for 76561198039589588: 2
+2026-08-08 01:47:16,657 - INFO - Player_171 has already voted and claimed
+2026-08-08 01:47:16,658 - INFO - Sending PM to Player_171: You already voted today and claimed your reward! You can vote again in approximately 4h 12m.
+2026-08-08 01:47:17,421 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:47:47,573 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:48:17,701 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:48:47,853 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:49:18,009 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:49:48,156 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:50:18,317 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:50:48,471 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:51:18,623 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:51:48,773 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:52:18,936 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:52:49,082 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:53:19,234 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:53:49,397 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:54:19,548 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:54:49,689 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:55:19,839 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:55:49,989 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 01:56:19,991 - INFO - Removing Tripplelexx from check list (timeout)
+2026-08-08 02:04:56,164 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-08 02:04:58,878 - INFO - Connection warmed up
+2026-08-08 02:04:58,879 - INFO - Re-adding Tripplelexx to vote check list (returning player)
+2026-08-08 02:05:20,147 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:05:50,294 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:06:20,445 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:06:50,590 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:07:20,748 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:07:50,891 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:08:21,032 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:08:51,191 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:09:21,318 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:09:51,462 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:10:21,618 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:10:51,775 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:11:21,923 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:11:46,948 - INFO - Vote command detected from Tripplelexx (Steam ID: 76561198039528689)
+2026-08-08 02:11:46,948 - INFO - Handling /vote command from Tripplelexx (Steam ID: 76561198039528689)
+2026-08-08 02:11:47,401 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:11:47,403 - INFO - Tripplelexx has not voted yet
+2026-08-08 02:11:47,403 - INFO - Sending PM to Tripplelexx: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting.
+2026-08-08 02:11:48,104 - INFO - Added Tripplelexx to automatic check list
+2026-08-08 02:11:52,073 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:12:22,203 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:12:52,363 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:13:22,515 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:13:52,660 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:14:22,814 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:14:52,951 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:15:23,101 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:15:53,257 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:16:23,407 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:16:53,557 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:17:23,702 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:17:53,849 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:18:23,983 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:18:54,131 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:19:24,281 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:19:54,427 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:20:02,235 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 02:20:02,937 - INFO - Sent periodic vote message
+2026-08-08 02:20:24,571 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:20:54,715 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:21:24,862 - INFO - Vote status for 76561198039528689: 0
+2026-08-08 02:21:54,864 - INFO - Removing Tripplelexx from check list (timeout)
+2026-08-08 03:11:26,114 - INFO - Player Diaboliko spawned, warming up connection
+2026-08-08 03:11:28,829 - INFO - Connection warmed up
+2026-08-08 03:20:02,937 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 03:20:03,638 - INFO - Sent periodic vote message
+2026-08-08 04:20:03,638 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 04:20:04,339 - INFO - Sent periodic vote message
+2026-08-08 04:25:56,899 - INFO - Player Diaboliko spawned, warming up connection
+2026-08-08 04:25:59,609 - INFO - Connection warmed up
+2026-08-08 05:20:04,339 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 05:20:05,040 - INFO - Sent periodic vote message
+2026-08-08 05:36:36,621 - INFO - Player Diaboliko spawned, warming up connection
+2026-08-08 05:36:39,334 - INFO - Connection warmed up
+2026-08-08 06:05:26,752 - ERROR - Monitor error: telnet connection closed
+2026-08-08 06:05:26,752 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-08 06:05:56,752 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 06:05:56,753 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-08 06:05:56,753 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-08 06:06:26,753 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 06:06:27,254 - INFO - Sending password
+2026-08-08 06:06:28,767 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-08 06:06:28,767 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-08 06:06:28,768 - INFO - Starting automatic vote checker thread
+2026-08-08 06:06:28,768 - INFO - Starting chat monitoring for /vote commands...
+2026-08-08 06:08:10,291 - INFO - Player Diaboliko spawned, warming up connection
+2026-08-08 06:08:13,003 - INFO - Connection warmed up
+2026-08-08 06:20:05,041 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 06:20:05,041 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-08 06:20:05,041 - INFO - Sent periodic vote message
+2026-08-08 07:06:28,768 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 07:06:29,468 - INFO - Sent periodic vote message
+2026-08-08 07:20:05,041 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 07:20:05,041 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-08 07:20:05,042 - INFO - Sent periodic vote message
+2026-08-08 08:06:29,469 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 08:06:30,170 - INFO - Sent periodic vote message
+2026-08-08 08:20:05,042 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 08:20:05,042 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-08 08:20:05,042 - INFO - Sent periodic vote message
+2026-08-08 09:06:30,170 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 09:06:30,871 - INFO - Sent periodic vote message
+2026-08-08 09:20:05,043 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 09:20:05,044 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-08 09:20:05,044 - INFO - Sent periodic vote message
+2026-08-08 10:06:30,871 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 10:06:31,572 - INFO - Sent periodic vote message
+2026-08-08 10:20:05,044 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 10:20:05,044 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-08 10:20:05,044 - INFO - Sent periodic vote message
+2026-08-08 11:06:31,573 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 11:06:32,273 - INFO - Sent periodic vote message
+2026-08-08 11:20:05,045 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 11:20:05,045 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-08 11:20:05,045 - INFO - Sent periodic vote message
+2026-08-08 11:49:40,642 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-08 11:49:43,352 - INFO - Connection warmed up
+2026-08-08 11:52:14,248 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 11:52:14,248 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 11:52:14,717 - INFO - Vote status for 76561198039589588: 2
+2026-08-08 11:52:14,883 - INFO - Found vote time for 76561198039589588: 2026-08-08 00:15:14+02:00 (API says: August 8th, 2026 12:15 AM CEST, claimed: 1)
+2026-08-08 11:52:14,885 - INFO - Vote status is 2 but from before daily reset - treating as 0
+2026-08-08 11:52:14,887 - INFO - BohemianBrewer has not voted yet
+2026-08-08 11:52:14,888 - INFO - Sending PM to BohemianBrewer: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you within 2 minutes after voting.
+2026-08-08 11:52:15,589 - INFO - Added BohemianBrewer to automatic check list
+2026-08-08 11:52:29,024 - INFO - Vote status for 76561198039589588: 2
+2026-08-08 11:52:29,024 - INFO - Vote status is 2 but from before daily reset - treating as 0
+2026-08-08 11:52:59,159 - INFO - Vote status for 76561198039589588: 1
+2026-08-08 11:52:59,160 - INFO - Automatic check: BohemianBrewer has voted! Delivering rewards...
+2026-08-08 11:52:59,161 - INFO - Giving rewards to BohemianBrewer
+2026-08-08 11:53:05,165 - INFO - Gave BohemianBrewer: Fixed rewards + books: vehiclesSkillMagazine, salvageToolsSkillMagazine, explosivesSkillMagazine
+2026-08-08 11:53:05,323 - INFO - Successfully claimed vote for 76561198039589588
+2026-08-08 11:53:05,324 - INFO - Updated vote time for 76561198039589588 to current time
+2026-08-08 11:53:05,825 - INFO - Sending PM to BohemianBrewer: Thanks for voting BohemianBrewer! Your rewards have been automatically delivered! Look, goodies are at your feet :D
+2026-08-08 11:53:07,026 - INFO - Sending global message: BohemianBrewer just received his well deserved reward!
+2026-08-08 12:05:19,386 - ERROR - Monitor error: telnet connection closed
+2026-08-08 12:05:19,386 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-08 12:05:49,386 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 12:05:49,887 - INFO - Sending password
+2026-08-08 12:05:51,400 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-08 12:05:51,400 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-08 12:05:51,401 - INFO - Starting automatic vote checker thread
+2026-08-08 12:05:51,401 - INFO - Starting chat monitoring for /vote commands...
+2026-08-08 12:06:32,274 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 12:06:32,274 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-08 12:06:32,274 - INFO - Sent periodic vote message
+2026-08-08 12:07:45,449 - ERROR - Monitor error: telnet connection closed
+2026-08-08 12:07:45,449 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-08 12:08:08,158 - INFO - Shutting down...
+2026-08-08 12:09:55,565 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-08 12:09:55,565 - INFO - =================================================
+2026-08-08 12:09:55,565 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 12:09:55,565 - INFO - Server ID: 157783
+2026-08-08 12:09:55,565 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-08 12:09:55,566 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-08 12:09:55,566 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 12:09:55,567 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-08 12:09:55,567 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-08 12:10:26,032 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 12:10:26,033 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-08 12:10:26,033 - INFO - Connection still down, waiting 60 seconds before retry...
+2026-08-08 12:11:26,033 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 12:11:26,534 - INFO - Sending password
+2026-08-08 12:11:28,046 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-08 12:11:28,046 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-08 12:11:28,047 - INFO - Starting automatic vote checker thread
+2026-08-08 12:11:28,047 - INFO - Starting chat monitoring for /vote commands...
+2026-08-08 12:11:53,810 - INFO - Shutting down...
+2026-08-08 12:11:54,111 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-08 12:11:54,111 - INFO - =================================================
+2026-08-08 12:11:54,111 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 12:11:54,111 - INFO - Server ID: 157783
+2026-08-08 12:11:54,111 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-08 12:11:54,111 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-08 12:11:54,112 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 12:11:54,613 - INFO - Sending password
+2026-08-08 12:11:56,127 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-08 12:11:56,127 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-08 12:11:56,128 - INFO - Starting automatic vote checker thread
+2026-08-08 12:11:56,128 - INFO - Starting chat monitoring for /vote commands...
+2026-08-08 12:13:33,525 - INFO - Player Diaboliko spawned, warming up connection
+2026-08-08 12:13:36,241 - INFO - Connection warmed up
+2026-08-08 12:31:38,891 - INFO - Player kameleron spawned, warming up connection
+2026-08-08 12:31:41,605 - INFO - Connection warmed up
+2026-08-08 13:11:56,128 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 13:11:56,829 - INFO - Sent periodic vote message
+2026-08-08 13:40:52,562 - INFO - Player Ozzy spawned, warming up connection
+2026-08-08 13:40:55,274 - INFO - Connection warmed up
+2026-08-08 14:11:56,829 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 14:11:57,530 - INFO - Sent periodic vote message
+2026-08-08 14:38:40,840 - INFO - Player kameleron spawned, warming up connection
+2026-08-08 14:38:43,553 - INFO - Connection warmed up
+2026-08-08 14:49:53,621 - INFO - Player kameleron spawned, warming up connection
+2026-08-08 14:49:56,331 - INFO - Connection warmed up
+2026-08-08 14:58:10,362 - INFO - Player Ozzy spawned, warming up connection
+2026-08-08 14:58:13,075 - INFO - Connection warmed up
+2026-08-08 15:11:57,530 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 15:11:58,231 - INFO - Sent periodic vote message
+2026-08-08 16:11:58,231 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 16:11:58,932 - INFO - Sent periodic vote message
+2026-08-08 17:11:58,932 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 17:11:59,633 - INFO - Sent periodic vote message
+2026-08-08 17:15:59,966 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-08 17:16:02,676 - INFO - Connection warmed up
+2026-08-08 17:38:32,218 - INFO - Player Panda Noir spawned, warming up connection
+2026-08-08 17:38:34,932 - INFO - Connection warmed up
+2026-08-08 18:04:54,170 - INFO - Player Panda Noir spawned, warming up connection
+2026-08-08 18:04:56,882 - INFO - Connection warmed up
+2026-08-08 18:05:26,352 - ERROR - Monitor error: telnet connection closed
+2026-08-08 18:05:26,352 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-08 18:05:56,352 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 18:05:56,353 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-08 18:05:56,353 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-08 18:06:26,353 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 18:06:26,854 - INFO - Sending password
+2026-08-08 18:06:28,355 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-08 18:06:28,356 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-08 18:06:28,356 - INFO - Starting automatic vote checker thread
+2026-08-08 18:06:28,356 - INFO - Starting chat monitoring for /vote commands...
+2026-08-08 18:07:59,859 - INFO - Player Diaboliko spawned, warming up connection
+2026-08-08 18:08:02,582 - INFO - Connection warmed up
+2026-08-08 18:08:52,579 - INFO - Player Panda Noir spawned, warming up connection
+2026-08-08 18:08:55,295 - INFO - Connection warmed up
+2026-08-08 18:09:53,898 - INFO - Player Ozzy spawned, warming up connection
+2026-08-08 18:09:56,612 - INFO - Connection warmed up
+2026-08-08 18:11:59,634 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 18:11:59,634 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-08 18:11:59,634 - INFO - Sent periodic vote message
+2026-08-08 18:30:06,189 - INFO - Shutting down...
+2026-08-08 18:30:17,849 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-08 18:30:17,850 - INFO - =================================================
+2026-08-08 18:30:17,850 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 18:30:17,850 - INFO - Server ID: 157783
+2026-08-08 18:30:17,850 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-08 18:30:17,850 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-08 18:30:17,850 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 18:30:18,351 - INFO - Sending password
+2026-08-08 18:30:19,864 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-08 18:30:19,864 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-08 18:30:19,864 - INFO - Starting automatic vote checker thread
+2026-08-08 18:30:19,865 - INFO - Starting chat monitoring for /vote commands...
+2026-08-08 18:31:57,845 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-08 18:32:00,559 - INFO - Connection warmed up
+2026-08-08 18:32:19,593 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 18:32:19,593 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-08 18:32:20,037 - INFO - Vote status for 76561198039589588: 2
+2026-08-08 18:32:20,182 - INFO - Found vote time for 76561198039589588: 2026-08-08 11:52:29+02:00
+2026-08-08 18:32:20,184 - INFO - BohemianBrewer has already voted and claimed
+2026-08-08 18:32:20,185 - INFO - Sending PM to BohemianBrewer: You already voted today and claimed your reward! You can vote again in approximately 11h 27m.
+2026-08-08 18:34:26,607 - INFO - Player Panda Noir spawned, warming up connection
+2026-08-08 18:34:29,317 - INFO - Connection warmed up
+2026-08-08 19:13:43,916 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-08 19:13:46,629 - INFO - Connection warmed up
+2026-08-08 19:30:19,864 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 19:30:20,565 - INFO - Sent periodic vote message
+2026-08-08 19:32:33,512 - ERROR - Monitor error: telnet connection closed
+2026-08-08 19:32:33,512 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-08 19:33:03,513 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 19:33:03,513 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-08 19:33:03,513 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-08 19:33:33,514 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 19:33:34,015 - INFO - Sending password
+2026-08-08 19:33:35,524 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-08 19:33:35,524 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-08 19:33:35,525 - INFO - Starting automatic vote checker thread
+2026-08-08 19:33:35,525 - INFO - Starting chat monitoring for /vote commands...
+2026-08-08 19:34:24,183 - INFO - Shutting down...
+2026-08-08 19:34:24,443 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-08 19:34:24,443 - INFO - =================================================
+2026-08-08 19:34:24,443 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 19:34:24,443 - INFO - Server ID: 157783
+2026-08-08 19:34:24,443 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-08 19:34:24,443 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-08 19:34:24,444 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 19:34:24,944 - INFO - Sending password
+2026-08-08 19:34:26,457 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-08 19:34:26,458 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-08 19:34:26,458 - INFO - Starting automatic vote checker thread
+2026-08-08 19:34:26,459 - INFO - Starting chat monitoring for /vote commands...
+2026-08-08 19:35:11,044 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-08 19:35:13,756 - INFO - Connection warmed up
+2026-08-08 20:21:41,491 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-08 20:21:44,205 - INFO - Connection warmed up
+2026-08-08 20:22:27,186 - INFO - Player Ozzy spawned, warming up connection
+2026-08-08 20:22:29,901 - INFO - Connection warmed up
+2026-08-08 20:24:39,344 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-08 20:24:42,056 - INFO - Connection warmed up
+2026-08-08 20:34:26,458 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 20:34:27,159 - INFO - Sent periodic vote message
+2026-08-08 20:50:18,542 - INFO - Player Revengation- spawned, warming up connection
+2026-08-08 20:50:21,261 - INFO - Connection warmed up
+2026-08-08 21:20:38,348 - INFO - Player Diaboliko spawned, warming up connection
+2026-08-08 21:20:41,064 - INFO - Connection warmed up
+2026-08-08 21:24:13,982 - INFO - Player Revengation- spawned, warming up connection
+2026-08-08 21:24:16,694 - INFO - Connection warmed up
+2026-08-08 21:34:27,160 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 21:34:27,860 - INFO - Sent periodic vote message
+2026-08-08 22:34:27,861 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 22:34:28,562 - INFO - Sent periodic vote message
+2026-08-08 23:05:59,457 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-08 23:06:02,168 - INFO - Connection warmed up
+2026-08-08 23:13:30,585 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-08 23:13:33,296 - INFO - Connection warmed up
+2026-08-08 23:13:41,813 - INFO - Player Ozzy spawned, warming up connection
+2026-08-08 23:13:44,530 - INFO - Connection warmed up
+2026-08-08 23:34:28,562 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-08 23:34:29,263 - INFO - Sent periodic vote message
+2026-08-08 23:44:23,466 - INFO - Shutting down...
+2026-08-08 23:46:34,467 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-08 23:46:34,467 - INFO - =================================================
+2026-08-08 23:46:34,467 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 23:46:34,467 - INFO - Server ID: 157783
+2026-08-08 23:46:34,467 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-08 23:46:34,467 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-08 23:46:34,468 - INFO - Connecting to 91.99.236.133:8081
+2026-08-08 23:46:34,969 - INFO - Sending password
+2026-08-08 23:46:36,487 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-08 23:46:36,488 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-08 23:46:36,488 - INFO - Starting automatic vote checker thread
+2026-08-08 23:46:36,488 - INFO - Starting chat monitoring for /vote commands...
+2026-08-08 23:47:33,208 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-08 23:47:35,925 - INFO - Connection warmed up
+2026-08-09 00:05:26,745 - ERROR - Monitor error: telnet connection closed
+2026-08-09 00:05:26,745 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-09 00:05:56,746 - INFO - Connecting to 91.99.236.133:8081
+2026-08-09 00:05:56,746 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-09 00:05:56,746 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-09 00:06:26,747 - INFO - Connecting to 91.99.236.133:8081
+2026-08-09 00:06:27,249 - INFO - Sending password
+2026-08-09 00:06:28,761 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-09 00:06:28,762 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-09 00:06:28,762 - INFO - Starting automatic vote checker thread
+2026-08-09 00:06:28,762 - INFO - Starting chat monitoring for /vote commands...
+2026-08-09 00:46:36,488 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 00:46:36,488 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 00:46:36,488 - INFO - Sent periodic vote message
+2026-08-09 01:06:28,762 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 01:06:29,463 - INFO - Sent periodic vote message
+2026-08-09 01:46:36,489 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 01:46:36,489 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 01:46:36,489 - INFO - Sent periodic vote message
+2026-08-09 02:06:29,463 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 02:06:30,164 - INFO - Sent periodic vote message
+2026-08-09 02:46:36,489 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 02:46:36,490 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 02:46:36,490 - INFO - Sent periodic vote message
+2026-08-09 03:06:30,164 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 03:06:30,865 - INFO - Sent periodic vote message
+2026-08-09 03:46:36,490 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 03:46:36,490 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 03:46:36,490 - INFO - Sent periodic vote message
+2026-08-09 04:06:30,866 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 04:06:31,566 - INFO - Sent periodic vote message
+2026-08-09 04:46:36,490 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 04:46:36,491 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 04:46:36,491 - INFO - Sent periodic vote message
+2026-08-09 05:06:31,567 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 05:06:32,267 - INFO - Sent periodic vote message
+2026-08-09 05:46:36,491 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 05:46:36,491 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 05:46:36,491 - INFO - Sent periodic vote message
+2026-08-09 06:05:27,313 - ERROR - Monitor error: telnet connection closed
+2026-08-09 06:05:27,314 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-09 06:05:57,314 - INFO - Connecting to 91.99.236.133:8081
+2026-08-09 06:05:57,314 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-09 06:05:57,314 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-09 06:06:27,315 - INFO - Connecting to 91.99.236.133:8081
+2026-08-09 06:06:27,815 - INFO - Sending password
+2026-08-09 06:06:29,327 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-09 06:06:29,327 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-09 06:06:29,328 - INFO - Starting automatic vote checker thread
+2026-08-09 06:06:29,328 - INFO - Starting chat monitoring for /vote commands...
+2026-08-09 06:06:32,268 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 06:06:32,268 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 06:06:32,268 - INFO - Sent periodic vote message
+2026-08-09 06:46:36,491 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 06:46:36,492 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 06:46:36,492 - INFO - Sent periodic vote message
+2026-08-09 07:06:29,328 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 07:06:30,028 - INFO - Sent periodic vote message
+2026-08-09 07:06:32,268 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 07:06:32,269 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 07:06:32,269 - INFO - Sent periodic vote message
+2026-08-09 07:46:36,492 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 07:46:36,492 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 07:46:36,493 - INFO - Sent periodic vote message
+2026-08-09 08:06:30,029 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 08:06:30,730 - INFO - Sent periodic vote message
+2026-08-09 08:06:32,269 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 08:06:32,269 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 08:06:32,269 - INFO - Sent periodic vote message
+2026-08-09 08:46:36,493 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 08:46:36,493 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 08:46:36,493 - INFO - Sent periodic vote message
+2026-08-09 09:06:30,730 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 09:06:31,431 - INFO - Sent periodic vote message
+2026-08-09 09:06:32,270 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 09:06:32,270 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 09:06:32,270 - INFO - Sent periodic vote message
+2026-08-09 09:46:36,493 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 09:46:36,494 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 09:46:36,494 - INFO - Sent periodic vote message
+2026-08-09 10:06:31,431 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 10:06:32,132 - INFO - Sent periodic vote message
+2026-08-09 10:06:32,270 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 10:06:32,270 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 10:06:32,270 - INFO - Sent periodic vote message
+2026-08-09 10:46:36,494 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 10:46:36,494 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 10:46:36,494 - INFO - Sent periodic vote message
+2026-08-09 10:50:24,576 - INFO - Player Ozzy spawned, warming up connection
+2026-08-09 10:50:27,289 - INFO - Connection warmed up
+2026-08-09 10:57:05,123 - INFO - Player Ozzy spawned, warming up connection
+2026-08-09 10:57:07,837 - INFO - Connection warmed up
+2026-08-09 11:06:32,133 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 11:06:32,271 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 11:06:32,271 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 11:06:32,271 - INFO - Sent periodic vote message
+2026-08-09 11:06:32,834 - INFO - Sent periodic vote message
+2026-08-09 11:15:41,692 - INFO - Player Ozzy spawned, warming up connection
+2026-08-09 11:15:44,406 - INFO - Connection warmed up
+2026-08-09 11:26:55,094 - INFO - Player Ozzy spawned, warming up connection
+2026-08-09 11:26:57,805 - INFO - Connection warmed up
+2026-08-09 11:46:36,495 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 11:46:36,495 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 11:46:36,495 - INFO - Sent periodic vote message
+2026-08-09 12:05:26,763 - ERROR - Monitor error: telnet connection closed
+2026-08-09 12:05:26,763 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-09 12:05:56,764 - INFO - Connecting to 91.99.236.133:8081
+2026-08-09 12:05:56,764 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-09 12:05:56,765 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-09 12:06:26,765 - INFO - Connecting to 91.99.236.133:8081
+2026-08-09 12:06:27,266 - INFO - Sending password
+2026-08-09 12:06:28,777 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-09 12:06:28,778 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-09 12:06:28,778 - INFO - Starting automatic vote checker thread
+2026-08-09 12:06:28,778 - INFO - Starting chat monitoring for /vote commands...
+2026-08-09 12:06:32,271 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 12:06:32,271 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 12:06:32,271 - INFO - Sent periodic vote message
+2026-08-09 12:06:32,834 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 12:06:32,834 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 12:06:32,834 - INFO - Sent periodic vote message
+2026-08-09 12:08:13,894 - INFO - Player Ozzy spawned, warming up connection
+2026-08-09 12:08:16,610 - INFO - Connection warmed up
+2026-08-09 12:46:36,495 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 12:46:36,495 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 12:46:36,495 - INFO - Sent periodic vote message
+2026-08-09 13:06:28,778 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 13:06:29,480 - INFO - Sent periodic vote message
+2026-08-09 13:06:32,272 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 13:06:32,272 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 13:06:32,272 - INFO - Sent periodic vote message
+2026-08-09 13:06:32,835 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 13:06:32,835 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 13:06:32,835 - INFO - Sent periodic vote message
+2026-08-09 13:46:36,496 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 13:46:36,496 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 13:46:36,496 - INFO - Sent periodic vote message
+2026-08-09 14:06:29,481 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 14:06:30,182 - INFO - Sent periodic vote message
+2026-08-09 14:06:32,272 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 14:06:32,273 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 14:06:32,273 - INFO - Sent periodic vote message
+2026-08-09 14:06:32,835 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 14:06:32,836 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 14:06:32,836 - INFO - Sent periodic vote message
+2026-08-09 14:46:36,496 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 14:46:36,496 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 14:46:36,497 - INFO - Sent periodic vote message
+2026-08-09 15:06:30,182 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 15:06:30,883 - INFO - Sent periodic vote message
+2026-08-09 15:06:32,273 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 15:06:32,273 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 15:06:32,273 - INFO - Sent periodic vote message
+2026-08-09 15:06:32,836 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 15:06:32,836 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 15:06:32,836 - INFO - Sent periodic vote message
+2026-08-09 15:46:36,497 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 15:46:36,497 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 15:46:36,497 - INFO - Sent periodic vote message
+2026-08-09 16:06:30,883 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 16:06:31,584 - INFO - Sent periodic vote message
+2026-08-09 16:06:32,273 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 16:06:32,274 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 16:06:32,274 - INFO - Sent periodic vote message
+2026-08-09 16:06:32,836 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 16:06:32,837 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 16:06:32,837 - INFO - Sent periodic vote message
+2026-08-09 16:27:56,169 - INFO - Player Mull spawned, warming up connection
+2026-08-09 16:27:58,882 - INFO - Connection warmed up
+2026-08-09 16:46:36,497 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 16:46:36,498 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 16:46:36,498 - INFO - Sent periodic vote message
+2026-08-09 16:58:16,050 - INFO - Player Ozzy spawned, warming up connection
+2026-08-09 16:58:18,765 - INFO - Connection warmed up
+2026-08-09 17:06:31,584 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 17:06:32,274 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 17:06:32,274 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 17:06:32,274 - INFO - Sent periodic vote message
+2026-08-09 17:06:32,285 - INFO - Sent periodic vote message
+2026-08-09 17:06:32,837 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 17:06:32,837 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 17:06:32,837 - INFO - Sent periodic vote message
+2026-08-09 17:16:33,713 - INFO - Player Ozzy spawned, warming up connection
+2026-08-09 17:16:36,427 - INFO - Connection warmed up
+2026-08-09 17:19:18,946 - INFO - Player Ozzy spawned, warming up connection
+2026-08-09 17:19:21,657 - INFO - Connection warmed up
+2026-08-09 17:46:36,498 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 17:46:36,498 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 17:46:36,498 - INFO - Sent periodic vote message
+2026-08-09 18:05:27,283 - ERROR - Monitor error: telnet connection closed
+2026-08-09 18:05:27,283 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-09 18:05:57,284 - INFO - Connecting to 91.99.236.133:8081
+2026-08-09 18:05:57,284 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-09 18:05:57,284 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-09 18:06:27,285 - INFO - Connecting to 91.99.236.133:8081
+2026-08-09 18:06:27,785 - INFO - Sending password
+2026-08-09 18:06:29,286 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-09 18:06:29,287 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-09 18:06:29,287 - INFO - Starting automatic vote checker thread
+2026-08-09 18:06:29,288 - INFO - Starting chat monitoring for /vote commands...
+2026-08-09 18:06:32,275 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 18:06:32,275 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 18:06:32,275 - INFO - Sent periodic vote message
+2026-08-09 18:06:32,285 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 18:06:32,286 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 18:06:32,286 - INFO - Sent periodic vote message
+2026-08-09 18:06:32,838 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 18:06:32,838 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 18:06:32,838 - INFO - Sent periodic vote message
+2026-08-09 18:08:17,545 - INFO - Player Ozzy spawned, warming up connection
+2026-08-09 18:08:20,257 - INFO - Connection warmed up
+2026-08-09 18:46:03,329 - INFO - Player Ozzy spawned, warming up connection
+2026-08-09 18:46:06,043 - INFO - Connection warmed up
+2026-08-09 18:46:36,499 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 18:46:36,499 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 18:46:36,499 - INFO - Sent periodic vote message
+2026-08-09 19:06:29,287 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 19:06:29,988 - INFO - Sent periodic vote message
+2026-08-09 19:06:32,275 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 19:06:32,275 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 19:06:32,276 - INFO - Sent periodic vote message
+2026-08-09 19:06:32,286 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 19:06:32,286 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 19:06:32,286 - INFO - Sent periodic vote message
+2026-08-09 19:06:32,838 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 19:06:32,838 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 19:06:32,838 - INFO - Sent periodic vote message
+2026-08-09 19:28:51,351 - INFO - Player Mid-Night-Mike spawned, warming up connection
+2026-08-09 19:28:54,064 - INFO - Connection warmed up
+2026-08-09 19:39:26,473 - INFO - Player Ozzy spawned, warming up connection
+2026-08-09 19:39:29,185 - INFO - Connection warmed up
+2026-08-09 19:46:12,851 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-09 19:46:15,564 - INFO - Connection warmed up
+2026-08-09 19:46:36,499 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 19:46:36,499 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 19:46:36,499 - INFO - Sent periodic vote message
+2026-08-09 19:48:58,070 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-09 19:48:58,070 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-09 19:48:58,551 - INFO - Vote status for 76561198039589588: 0
+2026-08-09 19:48:58,552 - INFO - BohemianBrewer has not voted yet
+2026-08-09 19:48:58,553 - INFO - Sending PM to BohemianBrewer: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you when done!
+2026-08-09 19:48:59,254 - INFO - Added BohemianBrewer to automatic check list
+2026-08-09 19:48:59,490 - INFO - Vote status for 76561198039589588: 0
+2026-08-09 19:49:29,654 - INFO - Vote status for 76561198039589588: 0
+2026-08-09 19:49:59,811 - INFO - Vote status for 76561198039589588: 1
+2026-08-09 19:49:59,812 - INFO - Automatic check: BohemianBrewer has voted! Delivering rewards...
+2026-08-09 19:49:59,813 - INFO - Giving rewards to BohemianBrewer
+2026-08-09 19:50:05,817 - INFO - Gave BohemianBrewer: Fixed rewards + books: sledgehammersSkillMagazine, riflesSkillMagazine, vehiclesSkillMagazine
+2026-08-09 19:50:05,937 - INFO - Successfully claimed vote for 76561198039589588
+2026-08-09 19:50:05,938 - INFO - Updated vote time for 76561198039589588 to current time
+2026-08-09 19:50:07,065 - INFO - Vote quest updated for BohemianBrewer
+2026-08-09 19:50:07,565 - INFO - Sending PM to BohemianBrewer: Thanks for voting BohemianBrewer! Your rewards have been automatically delivered! Look, goodies are at your feet :D
+2026-08-09 19:50:08,766 - INFO - Sending global message: BohemianBrewer just received his well deserved reward!
+2026-08-09 19:50:20,809 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-09 19:50:23,524 - INFO - Connection warmed up
+2026-08-09 20:06:29,988 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 20:06:30,690 - INFO - Sent periodic vote message
+2026-08-09 20:06:32,276 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 20:06:32,276 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 20:06:32,276 - INFO - Sent periodic vote message
+2026-08-09 20:06:32,287 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 20:06:32,287 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 20:06:32,287 - INFO - Sent periodic vote message
+2026-08-09 20:06:32,839 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 20:06:32,839 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-09 20:06:32,839 - INFO - Sent periodic vote message
+2026-08-09 20:18:14,429 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-09 20:18:17,143 - INFO - Connection warmed up
+2026-08-09 20:25:43,814 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-09 20:25:46,524 - INFO - Connection warmed up
+2026-08-09 20:25:46,525 - INFO - Re-adding BohemianBrewer to vote check list (returning player)
+2026-08-09 20:26:09,635 - INFO - Vote status for 76561198039589588: 2
+2026-08-09 20:26:09,636 - INFO - Automatic check: BohemianBrewer already claimed
+2026-08-09 20:32:05,576 - ERROR - Monitor error: telnet connection closed
+2026-08-09 20:32:05,576 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-09 20:32:35,576 - INFO - Connecting to 91.99.236.133:8081
+2026-08-09 20:32:35,577 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-09 20:32:35,577 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-09 20:33:05,577 - INFO - Connecting to 91.99.236.133:8081
+2026-08-09 20:33:06,078 - INFO - Sending password
+2026-08-09 20:33:07,592 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-09 20:33:07,593 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-09 20:33:07,593 - INFO - Starting automatic vote checker thread
+2026-08-09 20:33:07,593 - INFO - Starting chat monitoring for /vote commands...
+2026-08-09 20:34:57,558 - ERROR - Monitor error: telnet connection closed
+2026-08-09 20:34:57,559 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-09 20:35:27,559 - INFO - Connecting to 91.99.236.133:8081
+2026-08-09 20:35:27,560 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-09 20:35:27,560 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-09 20:35:57,560 - INFO - Connecting to 91.99.236.133:8081
+2026-08-09 20:35:57,560 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-09 20:35:57,561 - INFO - Connection still down, waiting 60 seconds before retry...
+2026-08-09 20:36:57,561 - INFO - Connecting to 91.99.236.133:8081
+2026-08-09 20:36:58,061 - INFO - Sending password
+2026-08-09 20:36:59,575 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-09 20:36:59,576 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-09 20:36:59,576 - INFO - Starting automatic vote checker thread
+2026-08-09 20:36:59,576 - INFO - Starting chat monitoring for /vote commands...
+2026-08-09 20:37:11,687 - INFO - Shutting down...
+2026-08-09 20:37:11,927 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-09 20:37:11,927 - INFO - =================================================
+2026-08-09 20:37:11,927 - INFO - Connecting to 91.99.236.133:8081
+2026-08-09 20:37:11,927 - INFO - Server ID: 157783
+2026-08-09 20:37:11,927 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-09 20:37:11,927 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-09 20:37:11,928 - INFO - Connecting to 91.99.236.133:8081
+2026-08-09 20:37:12,429 - INFO - Sending password
+2026-08-09 20:37:13,941 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-09 20:37:13,941 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-09 20:37:13,941 - INFO - Starting automatic vote checker thread
+2026-08-09 20:37:13,942 - INFO - Starting chat monitoring for /vote commands...
+2026-08-09 20:38:31,397 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-09 20:38:34,112 - INFO - Connection warmed up
+2026-08-09 20:41:52,504 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-09 20:41:55,218 - INFO - Connection warmed up
+2026-08-09 20:57:04,615 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-09 20:57:07,328 - INFO - Connection warmed up
+2026-08-09 21:01:54,455 - INFO - Player Ozzy spawned, warming up connection
+2026-08-09 21:01:57,167 - INFO - Connection warmed up
+2026-08-09 21:36:32,724 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-09 21:36:35,434 - INFO - Connection warmed up
+2026-08-09 21:37:13,941 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 21:37:14,642 - INFO - Sent periodic vote message
+2026-08-09 22:10:16,014 - INFO - Player kameleron spawned, warming up connection
+2026-08-09 22:10:18,732 - INFO - Connection warmed up
+2026-08-09 22:34:23,516 - INFO - Player Ozzy spawned, warming up connection
+2026-08-09 22:34:26,228 - INFO - Connection warmed up
+2026-08-09 22:37:14,643 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 22:37:15,345 - INFO - Sent periodic vote message
+2026-08-09 22:37:19,347 - INFO - Vote command detected from kameleron (Steam ID: 76561198108723696)
+2026-08-09 22:37:19,347 - INFO - Handling /vote command from kameleron (Steam ID: 76561198108723696)
+2026-08-09 22:37:19,809 - INFO - Vote status for 76561198108723696: 0
+2026-08-09 22:37:19,810 - INFO - kameleron has not voted yet
+2026-08-09 22:37:19,811 - INFO - Sending PM to kameleron: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you when done!
+2026-08-09 22:37:20,512 - INFO - Added kameleron to automatic check list
+2026-08-09 22:37:44,142 - INFO - Vote status for 76561198108723696: 0
+2026-08-09 22:38:14,280 - INFO - Vote status for 76561198108723696: 1
+2026-08-09 22:38:14,281 - INFO - Automatic check: kameleron has voted! Delivering rewards...
+2026-08-09 22:38:14,282 - INFO - Giving rewards to kameleron
+2026-08-09 22:38:20,286 - INFO - Gave kameleron: Fixed rewards + books: clubsSkillMagazine, handgunsSkillMagazine, sledgehammersSkillMagazine
+2026-08-09 22:38:20,441 - INFO - Successfully claimed vote for 76561198108723696
+2026-08-09 22:38:20,443 - INFO - Updated vote time for 76561198108723696 to current time
+2026-08-09 22:38:21,515 - INFO - Vote quest updated for kameleron
+2026-08-09 22:38:22,016 - INFO - Sending PM to kameleron: Thanks for voting kameleron! Your rewards have been automatically delivered! Look, goodies are at your feet :D
+2026-08-09 22:38:23,217 - INFO - Sending global message: kameleron just received his well deserved reward!
+2026-08-09 22:48:59,218 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-09 22:49:01,931 - INFO - Connection warmed up
+2026-08-09 22:55:00,409 - INFO - Player Ozzy spawned, warming up connection
+2026-08-09 22:55:03,123 - INFO - Connection warmed up
+2026-08-09 23:01:04,799 - INFO - Player Revengation- spawned, warming up connection
+2026-08-09 23:01:07,512 - INFO - Connection warmed up
+2026-08-09 23:01:40,676 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-09 23:01:43,393 - INFO - Connection warmed up
+2026-08-09 23:01:43,997 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-09 23:01:46,721 - INFO - Connection warmed up
+2026-08-09 23:01:46,721 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-09 23:01:49,456 - INFO - Connection warmed up
+2026-08-09 23:05:12,650 - INFO - Player Revengation- spawned, warming up connection
+2026-08-09 23:05:15,360 - INFO - Connection warmed up
+2026-08-09 23:08:37,647 - INFO - Player Ozzy spawned, warming up connection
+2026-08-09 23:08:40,363 - INFO - Connection warmed up
+2026-08-09 23:23:14,812 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-09 23:23:17,524 - INFO - Connection warmed up
+2026-08-09 23:28:29,912 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-09 23:28:32,626 - INFO - Connection warmed up
+2026-08-09 23:37:15,345 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-09 23:37:16,046 - INFO - Sent periodic vote message
+2026-08-09 23:39:39,664 - INFO - Player Revengation- spawned, warming up connection
+2026-08-09 23:39:42,375 - INFO - Connection warmed up
+2026-08-09 23:40:47,598 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-09 23:40:50,310 - INFO - Connection warmed up
+2026-08-09 23:59:52,906 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-09 23:59:55,621 - INFO - Connection warmed up
+2026-08-10 00:02:41,374 - INFO - Vote command detected from Player_7992 (Steam ID: 76561198173036023)
+2026-08-10 00:02:41,374 - INFO - Handling /vote command from Player_7992 (Steam ID: 76561198173036023)
+2026-08-10 00:02:41,839 - INFO - Vote status for 76561198173036023: 1
+2026-08-10 00:02:41,841 - INFO - Player_7992 has voted but not claimed - giving rewards
+2026-08-10 00:02:41,841 - INFO - Giving rewards to Player_7992
+2026-08-10 00:02:47,848 - INFO - Gave Player_7992: Fixed rewards + books: salvageToolsSkillMagazine, clubsSkillMagazine, seedSkillMagazine
+2026-08-10 00:02:48,047 - INFO - Successfully claimed vote for 76561198173036023
+2026-08-10 00:02:48,050 - INFO - Updated vote time for 76561198173036023 to current time
+2026-08-10 00:02:49,509 - INFO - Vote quest updated for Player_7992
+2026-08-10 00:02:50,010 - INFO - Sending PM to Player_7992: Thanks for voting Player_7992! Your rewards have been automatically delivered! Look, goodies are at your feet :D
+2026-08-10 00:02:51,211 - INFO - Sending global message: Player_7992 just received his well deserved reward!
+2026-08-10 00:02:51,912 - INFO - Vote command detected from Revengation- (Steam ID: 76561198173036023)
+2026-08-10 00:02:51,913 - INFO - Handling /vote command from Revengation- (Steam ID: 76561198173036023)
+2026-08-10 00:02:52,347 - INFO - Vote status for 76561198173036023: 2
+2026-08-10 00:02:52,349 - INFO - Revengation- has already voted and claimed
+2026-08-10 00:02:52,349 - INFO - Sending PM to Revengation-: You already voted today and claimed your reward! You can vote again in approximately 5h 57m.
+2026-08-10 00:05:26,767 - ERROR - Monitor error: telnet connection closed
+2026-08-10 00:05:26,767 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-10 00:05:56,768 - INFO - Connecting to 91.99.236.133:8081
+2026-08-10 00:05:56,768 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-10 00:05:56,768 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-10 00:06:26,768 - INFO - Connecting to 91.99.236.133:8081
+2026-08-10 00:06:27,269 - INFO - Sending password
+2026-08-10 00:06:28,770 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-10 00:06:28,771 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-10 00:06:28,771 - INFO - Starting automatic vote checker thread
+2026-08-10 00:06:28,771 - INFO - Starting chat monitoring for /vote commands...
+2026-08-10 00:08:40,090 - INFO - Player Ozzy spawned, warming up connection
+2026-08-10 00:08:42,801 - INFO - Connection warmed up
+2026-08-10 00:09:05,547 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-10 00:09:08,261 - INFO - Connection warmed up
+2026-08-10 00:21:27,716 - INFO - Vote command detected from Player_171 (Steam ID: 76561198039589588)
+2026-08-10 00:21:27,716 - INFO - Handling /vote command from Player_171 (Steam ID: 76561198039589588)
+2026-08-10 00:21:28,166 - INFO - Vote status for 76561198039589588: 2
+2026-08-10 00:21:28,334 - INFO - Found vote time for 76561198039589588: 2026-08-09 19:49:34+02:00
+2026-08-10 00:21:28,337 - INFO - Player_171 has already voted and claimed
+2026-08-10 00:21:28,339 - INFO - Sending PM to Player_171: You already voted today and claimed your reward! You can vote again in approximately 5h 38m.
+2026-08-10 00:21:29,040 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-10 00:21:29,040 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-10 00:21:29,497 - INFO - Vote status for 76561198039589588: 2
+2026-08-10 00:21:29,499 - INFO - BohemianBrewer has already voted and claimed
+2026-08-10 00:21:29,500 - INFO - Sending PM to BohemianBrewer: You already voted today and claimed your reward! You can vote again in approximately 5h 38m.
+2026-08-10 00:32:29,020 - INFO - Player kameleron spawned, warming up connection
+2026-08-10 00:32:31,736 - INFO - Connection warmed up
+2026-08-10 00:37:16,046 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 00:37:16,047 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 00:37:16,047 - INFO - Sent periodic vote message
+2026-08-10 00:40:59,317 - INFO - Player kameleron spawned, warming up connection
+2026-08-10 00:41:02,030 - INFO - Connection warmed up
+2026-08-10 01:06:28,771 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 01:06:29,472 - INFO - Sent periodic vote message
+2026-08-10 01:37:16,047 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 01:37:16,047 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 01:37:16,047 - INFO - Sent periodic vote message
+2026-08-10 02:06:29,472 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 02:06:30,173 - INFO - Sent periodic vote message
+2026-08-10 02:37:16,047 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 02:37:16,048 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 02:37:16,048 - INFO - Sent periodic vote message
+2026-08-10 03:06:30,174 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 03:06:30,874 - INFO - Sent periodic vote message
+2026-08-10 03:37:16,048 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 03:37:16,048 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 03:37:16,048 - INFO - Sent periodic vote message
+2026-08-10 04:06:30,875 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 04:06:31,576 - INFO - Sent periodic vote message
+2026-08-10 04:37:16,049 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 04:37:16,049 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 04:37:16,049 - INFO - Sent periodic vote message
+2026-08-10 05:06:31,576 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 05:06:32,277 - INFO - Sent periodic vote message
+2026-08-10 05:37:16,050 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 05:37:16,050 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 05:37:16,050 - INFO - Sent periodic vote message
+2026-08-10 06:05:26,400 - ERROR - Monitor error: telnet connection closed
+2026-08-10 06:05:26,400 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-10 06:05:56,400 - INFO - Connecting to 91.99.236.133:8081
+2026-08-10 06:05:56,401 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-10 06:05:56,401 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-10 06:06:26,401 - INFO - Connecting to 91.99.236.133:8081
+2026-08-10 06:06:26,902 - INFO - Sending password
+2026-08-10 06:06:28,418 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-10 06:06:28,419 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-10 06:06:28,419 - INFO - Starting automatic vote checker thread
+2026-08-10 06:06:28,420 - INFO - Starting chat monitoring for /vote commands...
+2026-08-10 06:06:32,278 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 06:06:32,278 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 06:06:32,278 - INFO - Sent periodic vote message
+2026-08-10 06:37:16,050 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 06:37:16,050 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 06:37:16,050 - INFO - Sent periodic vote message
+2026-08-10 07:06:28,419 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 07:06:29,120 - INFO - Sent periodic vote message
+2026-08-10 07:06:32,278 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 07:06:32,279 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 07:06:32,279 - INFO - Sent periodic vote message
+2026-08-10 07:37:16,051 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 07:37:16,051 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 07:37:16,051 - INFO - Sent periodic vote message
+2026-08-10 08:06:29,121 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 08:06:29,821 - INFO - Sent periodic vote message
+2026-08-10 08:06:32,279 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 08:06:32,279 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 08:06:32,279 - INFO - Sent periodic vote message
+2026-08-10 08:37:16,051 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 08:37:16,052 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 08:37:16,052 - INFO - Sent periodic vote message
+2026-08-10 09:06:29,822 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 09:06:30,523 - INFO - Sent periodic vote message
+2026-08-10 09:06:32,279 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 09:06:32,280 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 09:06:32,280 - INFO - Sent periodic vote message
+2026-08-10 09:37:16,052 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 09:37:16,052 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 09:37:16,052 - INFO - Sent periodic vote message
+2026-08-10 10:06:30,523 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 10:06:31,224 - INFO - Sent periodic vote message
+2026-08-10 10:06:32,280 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 10:06:32,280 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 10:06:32,280 - INFO - Sent periodic vote message
+2026-08-10 10:37:16,052 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 10:37:16,053 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 10:37:16,053 - INFO - Sent periodic vote message
+2026-08-10 11:06:31,225 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 11:06:31,926 - INFO - Sent periodic vote message
+2026-08-10 11:06:32,281 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 11:06:32,281 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 11:06:32,281 - INFO - Sent periodic vote message
+2026-08-10 11:37:16,053 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 11:37:16,053 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 11:37:16,053 - INFO - Sent periodic vote message
+2026-08-10 12:05:26,945 - ERROR - Monitor error: telnet connection closed
+2026-08-10 12:05:26,946 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-10 12:05:56,946 - INFO - Connecting to 91.99.236.133:8081
+2026-08-10 12:05:56,946 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-10 12:05:56,946 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-10 12:06:26,947 - INFO - Connecting to 91.99.236.133:8081
+2026-08-10 12:06:27,448 - INFO - Sending password
+2026-08-10 12:06:28,949 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-10 12:06:28,949 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-10 12:06:28,950 - INFO - Starting automatic vote checker thread
+2026-08-10 12:06:28,950 - INFO - Starting chat monitoring for /vote commands...
+2026-08-10 12:06:31,926 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 12:06:31,926 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 12:06:31,926 - INFO - Sent periodic vote message
+2026-08-10 12:06:32,281 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 12:06:32,282 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 12:06:32,282 - INFO - Sent periodic vote message
+2026-08-10 12:37:16,054 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 12:37:16,054 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 12:37:16,054 - INFO - Sent periodic vote message
+2026-08-10 13:06:28,950 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 13:06:29,651 - INFO - Sent periodic vote message
+2026-08-10 13:06:31,926 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 13:06:31,927 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 13:06:31,927 - INFO - Sent periodic vote message
+2026-08-10 13:06:32,282 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 13:06:32,282 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 13:06:32,282 - INFO - Sent periodic vote message
+2026-08-10 13:37:16,054 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 13:37:16,055 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 13:37:16,055 - INFO - Sent periodic vote message
+2026-08-10 13:37:52,529 - INFO - Player Ozzy spawned, warming up connection
+2026-08-10 13:37:55,244 - INFO - Connection warmed up
+2026-08-10 14:06:29,651 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 14:06:30,352 - INFO - Sent periodic vote message
+2026-08-10 14:06:31,927 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 14:06:31,927 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 14:06:31,927 - INFO - Sent periodic vote message
+2026-08-10 14:06:32,282 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 14:06:32,283 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 14:06:32,283 - INFO - Sent periodic vote message
+2026-08-10 14:37:16,055 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 14:37:16,055 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 14:37:16,055 - INFO - Sent periodic vote message
+2026-08-10 15:06:30,352 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 15:06:31,053 - INFO - Sent periodic vote message
+2026-08-10 15:06:31,927 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 15:06:31,928 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 15:06:31,928 - INFO - Sent periodic vote message
+2026-08-10 15:06:32,283 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 15:06:32,283 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 15:06:32,284 - INFO - Sent periodic vote message
+2026-08-10 15:37:16,055 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 15:37:16,055 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 15:37:16,056 - INFO - Sent periodic vote message
+2026-08-10 16:06:31,054 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 16:06:31,754 - INFO - Sent periodic vote message
+2026-08-10 16:06:31,928 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 16:06:31,928 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 16:06:31,928 - INFO - Sent periodic vote message
+2026-08-10 16:06:32,284 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 16:06:32,284 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 16:06:32,284 - INFO - Sent periodic vote message
+2026-08-10 16:37:16,056 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 16:37:16,056 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 16:37:16,056 - INFO - Sent periodic vote message
+2026-08-10 17:06:31,755 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 17:06:31,928 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 17:06:31,929 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 17:06:31,929 - INFO - Sent periodic vote message
+2026-08-10 17:06:32,284 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 17:06:32,284 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 17:06:32,285 - INFO - Sent periodic vote message
+2026-08-10 17:06:32,455 - INFO - Sent periodic vote message
+2026-08-10 17:14:14,169 - INFO - Player Ozzy spawned, warming up connection
+2026-08-10 17:14:16,881 - INFO - Connection warmed up
+2026-08-10 17:23:16,744 - INFO - Player kameleron spawned, warming up connection
+2026-08-10 17:23:19,454 - INFO - Connection warmed up
+2026-08-10 17:30:07,287 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-10 17:30:10,000 - INFO - Connection warmed up
+2026-08-10 17:31:11,814 - INFO - Vote command detected from Player_171 (Steam ID: 76561198039589588)
+2026-08-10 17:31:11,814 - INFO - Handling /vote command from Player_171 (Steam ID: 76561198039589588)
+2026-08-10 17:31:12,277 - INFO - Vote status for 76561198039589588: 2
+2026-08-10 17:31:12,446 - INFO - Found vote time for 76561198039589588: 2026-08-09 19:49:34+02:00
+2026-08-10 17:31:12,447 - INFO - Vote status is 2 but from before daily reset - treating as 0
+2026-08-10 17:31:12,448 - INFO - Player_171 has not voted yet
+2026-08-10 17:31:12,448 - INFO - Sending PM to Player_171: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you when done!
+2026-08-10 17:31:13,149 - INFO - Added Player_171 to automatic check list
+2026-08-10 17:31:13,150 - INFO - Vote command detected from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-10 17:31:13,150 - INFO - Handling /vote command from BohemianBrewer (Steam ID: 76561198039589588)
+2026-08-10 17:31:13,603 - INFO - Vote status for 76561198039589588: 2
+2026-08-10 17:31:13,603 - INFO - Vote status is 2 but from before daily reset - treating as 0
+2026-08-10 17:31:13,604 - INFO - BohemianBrewer has not voted yet
+2026-08-10 17:31:13,605 - INFO - Sending PM to BohemianBrewer: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you when done!
+2026-08-10 17:31:14,306 - INFO - Added BohemianBrewer to automatic check list
+2026-08-10 17:31:29,194 - INFO - Vote status for 76561198039589588: 1
+2026-08-10 17:31:29,195 - INFO - Automatic check: BohemianBrewer has voted! Delivering rewards...
+2026-08-10 17:31:29,196 - INFO - Giving rewards to BohemianBrewer
+2026-08-10 17:31:35,199 - INFO - Gave BohemianBrewer: Fixed rewards + books: sledgehammersSkillMagazine, electricianSkillMagazine, riflesSkillMagazine
+2026-08-10 17:31:35,353 - INFO - Successfully claimed vote for 76561198039589588
+2026-08-10 17:31:35,355 - INFO - Updated vote time for 76561198039589588 to current time
+2026-08-10 17:31:36,443 - INFO - Vote quest updated for BohemianBrewer
+2026-08-10 17:31:36,943 - INFO - Sending PM to BohemianBrewer: Thanks for voting BohemianBrewer! Your rewards have been automatically delivered! Look, goodies are at your feet :D
+2026-08-10 17:31:38,144 - INFO - Sending global message: BohemianBrewer just received his well deserved reward!
+2026-08-10 17:37:16,057 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 17:37:16,057 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 17:37:16,057 - INFO - Sent periodic vote message
+2026-08-10 18:05:26,564 - ERROR - Monitor error: telnet connection closed
+2026-08-10 18:05:26,565 - INFO - Waiting 30 seconds before reconnection attempt...
+2026-08-10 18:05:56,565 - INFO - Connecting to 91.99.236.133:8081
+2026-08-10 18:05:56,565 - ERROR - Connection failed: [Errno 111] Connection refused
+2026-08-10 18:05:56,565 - INFO - Connection still down, waiting 30 seconds before retry...
+2026-08-10 18:06:26,566 - INFO - Connecting to 91.99.236.133:8081
+2026-08-10 18:06:27,066 - INFO - Sending password
+2026-08-10 18:06:28,581 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-10 18:06:28,581 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-10 18:06:28,582 - INFO - Starting automatic vote checker thread
+2026-08-10 18:06:28,582 - INFO - Starting chat monitoring for /vote commands...
+2026-08-10 18:06:31,929 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 18:06:31,929 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 18:06:31,929 - INFO - Sent periodic vote message
+2026-08-10 18:06:32,285 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 18:06:32,285 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 18:06:32,285 - INFO - Sent periodic vote message
+2026-08-10 18:06:32,456 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 18:06:32,456 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 18:06:32,456 - INFO - Sent periodic vote message
+2026-08-10 18:13:30,776 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-10 18:13:33,489 - INFO - Connection warmed up
+2026-08-10 18:37:16,057 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 18:37:16,057 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 18:37:16,057 - INFO - Sent periodic vote message
+2026-08-10 18:44:54,203 - INFO - Player kameleron spawned, warming up connection
+2026-08-10 18:44:56,916 - INFO - Connection warmed up
+2026-08-10 19:06:28,582 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 19:06:29,282 - INFO - Sent periodic vote message
+2026-08-10 19:06:31,930 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 19:06:31,930 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 19:06:31,930 - INFO - Sent periodic vote message
+2026-08-10 19:06:32,285 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 19:06:32,286 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 19:06:32,286 - INFO - Sent periodic vote message
+2026-08-10 19:06:32,456 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 19:06:32,456 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 19:06:32,456 - INFO - Sent periodic vote message
+2026-08-10 19:37:16,058 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 19:37:16,058 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 19:37:16,058 - INFO - Sent periodic vote message
+2026-08-10 19:39:40,497 - INFO - Vote command detected from Player_171 (Steam ID: 76561198039589588)
+2026-08-10 19:39:40,497 - INFO - Handling /vote command from Player_171 (Steam ID: 76561198039589588)
+2026-08-10 19:39:40,955 - INFO - Vote status for 76561198039589588: 2
+2026-08-10 19:39:41,114 - INFO - Found vote time for 76561198039589588: 2026-08-10 17:31:25+02:00
+2026-08-10 19:39:41,116 - INFO - Player_171 has already voted and claimed
+2026-08-10 19:39:41,117 - INFO - Sending PM to Player_171: You already voted today and claimed your reward! You can vote again in approximately 10h 20m.
+2026-08-10 20:06:29,283 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 20:06:29,984 - INFO - Sent periodic vote message
+2026-08-10 20:06:31,930 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 20:06:31,930 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 20:06:31,930 - INFO - Sent periodic vote message
+2026-08-10 20:06:32,286 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 20:06:32,286 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 20:06:32,286 - INFO - Sent periodic vote message
+2026-08-10 20:06:32,457 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 20:06:32,457 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 20:06:32,457 - INFO - Sent periodic vote message
+2026-08-10 20:10:27,084 - INFO - Player Ozzy spawned, warming up connection
+2026-08-10 20:10:29,795 - INFO - Connection warmed up
+2026-08-10 20:27:53,634 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-10 20:27:56,344 - INFO - Connection warmed up
+2026-08-10 20:37:16,058 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 20:37:16,058 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 20:37:16,059 - INFO - Sent periodic vote message
+2026-08-10 20:49:39,562 - INFO - Player kameleron spawned, warming up connection
+2026-08-10 20:49:42,276 - INFO - Connection warmed up
+2026-08-10 21:06:29,984 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 21:06:30,685 - INFO - Sent periodic vote message
+2026-08-10 21:06:31,931 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 21:06:31,931 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 21:06:31,931 - INFO - Sent periodic vote message
+2026-08-10 21:06:32,286 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 21:06:32,287 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 21:06:32,287 - INFO - Sent periodic vote message
+2026-08-10 21:06:32,457 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 21:06:32,457 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 21:06:32,458 - INFO - Sent periodic vote message
+2026-08-10 21:37:15,484 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-10 21:37:16,059 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 21:37:16,059 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 21:37:16,059 - INFO - Sent periodic vote message
+2026-08-10 21:37:18,196 - INFO - Connection warmed up
+2026-08-10 21:42:16,940 - INFO - Player BohemianBrewer spawned, warming up connection
+2026-08-10 21:42:19,653 - INFO - Connection warmed up
+2026-08-10 22:06:30,685 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 22:06:31,386 - INFO - Sent periodic vote message
+2026-08-10 22:06:31,931 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 22:06:31,931 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 22:06:31,931 - INFO - Sent periodic vote message
+2026-08-10 22:06:32,287 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 22:06:32,287 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 22:06:32,287 - INFO - Sent periodic vote message
+2026-08-10 22:06:32,458 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 22:06:32,458 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 22:06:32,458 - INFO - Sent periodic vote message
+2026-08-10 22:06:39,960 - INFO - Vote command detected from Player_366 (Steam ID: 76561198039528689)
+2026-08-10 22:06:39,960 - INFO - Handling /vote command from Player_366 (Steam ID: 76561198039528689)
+2026-08-10 22:06:40,416 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:06:40,418 - INFO - Player_366 has not voted yet
+2026-08-10 22:06:40,418 - INFO - Sending PM to Player_366: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you when done!
+2026-08-10 22:06:41,119 - INFO - Added Player_366 to automatic check list
+2026-08-10 22:06:41,119 - INFO - Vote command detected from Tripplelexx (Steam ID: 76561198039528689)
+2026-08-10 22:06:41,119 - INFO - Handling /vote command from Tripplelexx (Steam ID: 76561198039528689)
+2026-08-10 22:06:41,584 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:06:41,585 - INFO - Tripplelexx has not voted yet
+2026-08-10 22:06:41,586 - INFO - Sending PM to Tripplelexx: Please vote on 7daystodie-servers.com (search Bohemia) or go to: https://7daystodie-servers.com/server/157783 - Your rewards will be dropped in front of you when done!
+2026-08-10 22:06:42,287 - INFO - Added Tripplelexx to automatic check list
+2026-08-10 22:06:58,801 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:07:28,957 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:07:59,101 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:08:29,256 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:08:59,404 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:09:29,563 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:09:59,718 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:10:29,885 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:11:00,035 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:11:30,187 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:12:00,324 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:12:30,468 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:13:00,616 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:13:30,760 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:14:00,914 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:14:31,058 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:15:01,218 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:15:31,391 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:16:01,537 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:16:31,698 - INFO - Vote status for 76561198039528689: 0
+2026-08-10 22:17:01,700 - INFO - Removing Tripplelexx from check list (timeout)
+2026-08-10 22:37:16,059 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 22:37:16,059 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 22:37:16,060 - INFO - Sent periodic vote message
+2026-08-10 23:06:31,386 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 23:06:31,932 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 23:06:31,932 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 23:06:31,932 - INFO - Sent periodic vote message
+2026-08-10 23:06:32,087 - INFO - Sent periodic vote message
+2026-08-10 23:06:32,288 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 23:06:32,288 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 23:06:32,288 - INFO - Sent periodic vote message
+2026-08-10 23:06:32,458 - INFO - Sending global message: Vote for our server and get great rewards! Type /vote in chat!
+2026-08-10 23:06:32,459 - ERROR - Failed to send command: 'NoneType' object has no attribute 'sendall'
+2026-08-10 23:06:32,459 - INFO - Sent periodic vote message
+2026-08-10 23:19:13,885 - INFO - Shutting down...
+2026-08-10 23:19:14,153 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-10 23:19:14,153 - INFO - =================================================
+2026-08-10 23:19:14,153 - INFO - Connecting to 91.99.236.133:8081
+2026-08-10 23:19:14,153 - INFO - Server ID: 157783
+2026-08-10 23:19:14,153 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-10 23:19:14,153 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-10 23:19:14,154 - INFO - Connecting to 91.99.236.133:8081
+2026-08-10 23:19:14,654 - INFO - Sending password
+2026-08-10 23:19:16,165 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-10 23:19:16,166 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-10 23:19:16,166 - INFO - Starting automatic vote checker thread
+2026-08-10 23:19:16,166 - INFO - Starting chat monitoring for /vote commands...
+2026-08-10 23:22:36,687 - INFO - Shutting down...
+2026-08-10 23:22:43,840 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-10 23:22:43,840 - INFO - =================================================
+2026-08-10 23:22:43,840 - INFO - Connecting to 91.99.236.133:8081
+2026-08-10 23:22:43,840 - INFO - Server ID: 157783
+2026-08-10 23:22:43,840 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-10 23:22:43,840 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-10 23:22:43,841 - INFO - Connecting to 91.99.236.133:8081
+2026-08-10 23:22:44,341 - INFO - Sending password
+2026-08-10 23:22:45,852 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-10 23:22:45,853 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-10 23:22:45,853 - INFO - Starting automatic vote checker thread
+2026-08-10 23:22:45,853 - INFO - Starting chat monitoring for /vote commands...
+2026-08-10 23:24:54,581 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-10 23:24:57,294 - INFO - Connection warmed up
+2026-08-10 23:25:18,223 - INFO - Shutting down...
+2026-08-10 23:25:22,902 - INFO - 7D2D Voting Rewards System with Auto-Detection Starting
+2026-08-10 23:25:22,903 - INFO - =================================================
+2026-08-10 23:25:22,903 - INFO - Connecting to 91.99.236.133:8081
+2026-08-10 23:25:22,903 - INFO - Server ID: 157783
+2026-08-10 23:25:22,903 - INFO - Auto-detection enabled: Players will receive rewards automatically after voting
+2026-08-10 23:25:22,903 - INFO - Daily reset time: 6:00 AM CEST
+2026-08-10 23:25:22,904 - INFO - Connecting to 91.99.236.133:8081
+2026-08-10 23:25:23,404 - INFO - Sending password
+2026-08-10 23:25:24,926 - INFO - Successfully connected to 91.99.236.133:8081
+2026-08-10 23:25:24,927 - INFO - Starting periodic message thread (60 minute interval)
+2026-08-10 23:25:24,927 - INFO - Starting automatic vote checker thread
+2026-08-10 23:25:24,927 - INFO - Starting chat monitoring for /vote commands...
+2026-08-10 23:31:08,065 - INFO - Player Tripplelexx spawned, warming up connection
+2026-08-10 23:31:10,785 - INFO - Connection warmed up
+2026-08-10 23:46:24,028 - INFO - Vote command detected from Player_173 (Steam ID: 76561198108723696)
+2026-08-10 23:46:24,028 - INFO - Handling /vote command from Player_173 (Steam ID: 76561198108723696)
+2026-08-10 23:46:24,505 - INFO - Vote status for 76561198108723696: 1
+2026-08-10 23:46:24,506 - INFO - Player_173 has voted but not claimed - giving rewards
+2026-08-10 23:46:24,506 - INFO - Giving rewards to Player_173
+2026-08-10 23:46:30,513 - INFO - Gave Player_173: Fixed rewards + books: vehiclesSkillMagazine, salvageToolsSkillMagazine, bladesSkillMagazine
+2026-08-10 23:46:30,674 - INFO - Successfully claimed vote for 76561198108723696
+2026-08-10 23:46:30,675 - INFO - Updated vote time for 76561198108723696 to current time
+2026-08-10 23:46:32,222 - INFO - Vote quest updated for Player_173
+2026-08-10 23:46:32,723 - INFO - Sending PM to Player_173: Thanks for voting Player_173! Your rewards have been automatically delivered! Look, goodies are at your feet :D
+2026-08-10 23:46:33,924 - INFO - Sending global message: Player_173 just received his well deserved reward!
+2026-08-10 23:46:34,626 - INFO - Vote command detected from kameleron (Steam ID: 76561198108723696)
+2026-08-10 23:46:34,626 - INFO - Handling /vote command from kameleron (Steam ID: 76561198108723696)
+2026-08-10 23:46:35,056 - INFO - Vote status for 76561198108723696: 2
+2026-08-10 23:46:35,057 - INFO - kameleron has already voted and claimed
+2026-08-10 23:46:35,058 - INFO - Sending PM to kameleron: You already voted today and claimed your reward! You can vote again in approximately 6h 13m.

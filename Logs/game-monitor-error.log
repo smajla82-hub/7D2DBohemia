@@ -1,0 +1,168 @@
+a/home/steam/integrated_game_monitor.py:30: DeprecationWarning: 'telnetlib' is deprecated and slated for removal in Python 3.13
+  import telnetlib
+2026-08-10 23:25:22,846 - INFO - Integrated Game Monitor Starting
+2026-08-10 23:25:22,847 - INFO - IMPORTANT: Make sure 'node working_server.js' is running for quest updates!
+2026-08-10 23:25:22,847 - INFO - Loaded 11 player levels from file
+2026-08-10 23:25:22,847 - INFO - Loaded retry queue items: 0
+2026-08-10 23:25:22,847 - INFO - Connecting to 91.99.236.133:8081
+2026-08-10 23:25:23,548 - DEBUG - Warming up telnet connection...
+2026-08-10 23:25:23,949 - INFO - Connected to telnet OK
+2026-08-10 23:25:23,949 - INFO - Checking Takaro quest server...
+2026-08-10 23:25:23,951 - DEBUG - Starting new HTTP connection (1): localhost:3000
+2026-08-10 23:25:23,961 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 105
+2026-08-10 23:25:23,962 - INFO - Quest server: running, authenticated: True
+2026-08-10 23:25:23,962 - INFO - Quest server is healthy and authenticated
+2026-08-10 23:25:23,962 - INFO - Updating player levels...
+2026-08-10 23:25:26,246 - DEBUG - Listplayers response length: 1469
+2026-08-10 23:25:26,247 - DEBUG - Saved 11 player levels to file
+2026-08-10 23:25:26,247 - INFO - Player levels updated. Total players tracked: 11
+2026-08-10 23:25:26,247 - INFO - Starting enhanced chat monitor with Takaro quest integration
+2026-08-10 23:25:26,248 - DEBUG - Skipping listplayers (cooldown)
+2026-08-10 23:26:26,248 - INFO - Updating player levels...
+2026-08-10 23:26:30,487 - DEBUG - Received: 2026-08-10T23:26:30 19234.589 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:26:38,876 - DEBUG - Listplayers response length: 270
+2026-08-10 23:26:38,877 - DEBUG - Saved 11 player levels to file
+2026-08-10 23:26:38,877 - INFO - Player levels updated. Total players tracked: 11
+2026-08-10 23:26:59,568 - DEBUG - Received: 2026-08-10T23:26:59 19263.704 INF MinEventLogMessage: XP gained during the last level:
+2026-08-10 23:26:59,568 - INFO - XP level message detected - refreshing player levels...
+2026-08-10 23:26:59,968 - INFO - Updating player levels...
+2026-08-10 23:27:02,253 - DEBUG - Listplayers response length: 1259
+2026-08-10 23:27:02,253 - INFO - Updated Ozzy level: 13 -> 14
+2026-08-10 23:27:02,254 - DEBUG - Saved 11 player levels to file
+2026-08-10 23:27:02,254 - INFO - Player levels updated. Total players tracked: 11
+2026-08-10 23:27:02,254 - INFO - Level up detected via listplayers: Ozzy 13->14 (+1); updating levelgain quest (steam)
+2026-08-10 23:27:02,254 - DEBUG - Sending quest update: {'playerName': 'Ozzy', 'questType': 'levelgain', 'increment': 1, 'steamId': '76561198121061279'}
+2026-08-10 23:27:02,255 - DEBUG - Resetting dropped connection: localhost
+2026-08-10 23:27:03,442 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 245
+2026-08-10 23:27:03,443 - INFO - Quest update success for Ozzy: 5/5
+2026-08-10 23:27:38,877 - INFO - Updating player levels...
+2026-08-10 23:27:51,674 - DEBUG - Received: 2026-08-10T23:27:51 19315.771 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:27:52,763 - DEBUG - Received: 2026-08-10T23:27:52 19316.924 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer':/daily
+2026-08-10 23:27:54,591 - DEBUG - Listplayers response length: 1406
+2026-08-10 23:27:54,592 - DEBUG - Saved 11 player levels to file
+2026-08-10 23:27:54,592 - INFO - Player levels updated. Total players tracked: 11
+2026-08-10 23:28:54,592 - INFO - Updating player levels...
+2026-08-10 23:28:55,109 - DEBUG - Received: 2026-08-10T23:28:55 19379.208 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:28:58,477 - DEBUG - Listplayers response length: 167
+2026-08-10 23:28:58,477 - DEBUG - Saved 11 player levels to file
+2026-08-10 23:28:58,478 - INFO - Player levels updated. Total players tracked: 11
+2026-08-10 23:29:58,478 - INFO - Updating player levels...
+2026-08-10 23:30:04,931 - DEBUG - Received: 2026-08-10T23:30:04 19449.045 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:30:10,687 - DEBUG - Listplayers response length: 0
+2026-08-10 23:30:26,249 - DEBUG - Resetting dropped connection: localhost
+2026-08-10 23:30:26,252 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 105
+2026-08-10 23:30:26,252 - INFO - Quest server: running, authenticated: True
+2026-08-10 23:31:10,687 - INFO - Updating player levels...
+2026-08-10 23:31:13,839 - DEBUG - Received: 2026-08-10T23:31:13 19517.958 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:31:30,590 - DEBUG - Listplayers response length: 146
+2026-08-10 23:31:30,590 - DEBUG - Saved 11 player levels to file
+2026-08-10 23:31:30,590 - INFO - Player levels updated. Total players tracked: 11
+2026-08-10 23:32:03,682 - DEBUG - Received: 2026-08-10T23:32:03 19567.830 INF MinEventLogMessage: XP gained during the last level:
+2026-08-10 23:32:03,682 - INFO - XP level message detected - refreshing player levels...
+2026-08-10 23:32:04,082 - INFO - Updating player levels...
+2026-08-10 23:32:06,367 - DEBUG - Listplayers response length: 1167
+2026-08-10 23:32:06,367 - INFO - Updated BohemianBrewer level: 19 -> 20
+2026-08-10 23:32:06,367 - DEBUG - Saved 11 player levels to file
+2026-08-10 23:32:06,367 - INFO - Player levels updated. Total players tracked: 11
+2026-08-10 23:32:06,368 - INFO - Level up detected via listplayers: BohemianBrewer 19->20 (+1); updating levelgain quest (steam)
+2026-08-10 23:32:06,368 - DEBUG - Sending quest update: {'playerName': 'BohemianBrewer', 'questType': 'levelgain', 'increment': 1, 'steamId': '76561198039589588'}
+2026-08-10 23:32:06,368 - DEBUG - Resetting dropped connection: localhost
+2026-08-10 23:32:07,522 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 245
+2026-08-10 23:32:07,522 - INFO - Quest update success for BohemianBrewer: 5/5
+2026-08-10 23:32:30,591 - INFO - Updating player levels...
+2026-08-10 23:32:31,663 - DEBUG - Received: 2026-08-10T23:32:31 19595.763 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:32:37,442 - DEBUG - Listplayers response length: 0
+2026-08-10 23:33:37,442 - INFO - Updating player levels...
+2026-08-10 23:33:45,839 - DEBUG - Received: 2026-08-10T23:33:45 19669.958 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:33:53,777 - DEBUG - Listplayers response length: 0
+2026-08-10 23:34:53,777 - INFO - Updating player levels...
+2026-08-10 23:34:58,327 - DEBUG - Received: 2026-08-10T23:34:58 19742.434 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:35:00,667 - DEBUG - Listplayers response length: 143
+2026-08-10 23:35:00,668 - DEBUG - Saved 11 player levels to file
+2026-08-10 23:35:00,668 - INFO - Player levels updated. Total players tracked: 11
+2026-08-10 23:35:26,253 - DEBUG - Resetting dropped connection: localhost
+2026-08-10 23:35:26,256 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 105
+2026-08-10 23:35:26,257 - INFO - Quest server: running, authenticated: True
+2026-08-10 23:36:00,668 - INFO - Updating player levels...
+2026-08-10 23:36:08,593 - DEBUG - Received: 2026-08-10T23:36:08 19812.733 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:36:17,225 - DEBUG - Listplayers response length: 0
+2026-08-10 23:37:17,225 - INFO - Updating player levels...
+2026-08-10 23:37:17,367 - DEBUG - Received: 2026-08-10T23:37:17 19881.467 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:37:24,249 - DEBUG - Listplayers response length: 0
+2026-08-10 23:38:24,249 - INFO - Updating player levels...
+2026-08-10 23:38:24,565 - DEBUG - Received: 2026-08-10T23:38:24 19948.666 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:38:27,690 - DEBUG - Listplayers response length: 0
+2026-08-10 23:39:27,690 - INFO - Updating player levels...
+2026-08-10 23:39:30,604 - DEBUG - Received: 2026-08-10T23:39:30 20014.715 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:39:51,910 - DEBUG - Listplayers response length: 131
+2026-08-10 23:39:51,910 - DEBUG - Saved 11 player levels to file
+2026-08-10 23:39:51,910 - INFO - Player levels updated. Total players tracked: 11
+2026-08-10 23:40:26,258 - DEBUG - Resetting dropped connection: localhost
+2026-08-10 23:40:26,260 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 105
+2026-08-10 23:40:26,260 - INFO - Quest server: running, authenticated: True
+2026-08-10 23:40:39,610 - DEBUG - Received: 2026-08-10T23:40:39 20083.766 INF MinEventLogMessage: XP gained during the last level:
+2026-08-10 23:40:39,610 - INFO - XP level message detected - refreshing player levels...
+2026-08-10 23:40:40,010 - INFO - Updating player levels...
+2026-08-10 23:40:42,295 - DEBUG - Listplayers response length: 1166
+2026-08-10 23:40:42,295 - INFO - Updated kameleron level: 18 -> 19
+2026-08-10 23:40:42,295 - DEBUG - Saved 11 player levels to file
+2026-08-10 23:40:42,296 - INFO - Player levels updated. Total players tracked: 11
+2026-08-10 23:40:42,296 - INFO - Level up detected via listplayers: kameleron 18->19 (+1); updating levelgain quest (steam)
+2026-08-10 23:40:42,296 - DEBUG - Sending quest update: {'playerName': 'kameleron', 'questType': 'levelgain', 'increment': 1, 'steamId': '76561198108723696'}
+2026-08-10 23:40:42,296 - DEBUG - Resetting dropped connection: localhost
+2026-08-10 23:40:43,427 - DEBUG - http://localhost:3000 "POST /update-quest HTTP/1.1" 200 245
+2026-08-10 23:40:43,427 - INFO - Quest update success for kameleron: 5/5
+2026-08-10 23:40:51,910 - INFO - Updating player levels...
+2026-08-10 23:40:55,013 - DEBUG - Received: 2026-08-10T23:40:54 20099.112 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:41:00,641 - DEBUG - Listplayers response length: 0
+2026-08-10 23:41:11,665 - DEBUG - Received: 2026-08-10T23:41:11 20115.824 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer':/daily
+2026-08-10 23:41:11,665 - DEBUG - Received: 2026-08-10T23:41:11 20115.824 INF Chat handled by mod 'PrismaCore': Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer': /daily
+2026-08-10 23:42:00,641 - INFO - Updating player levels...
+2026-08-10 23:42:02,794 - DEBUG - Received: 2026-08-10T23:42:02 20166.904 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:42:14,573 - DEBUG - Listplayers response length: 458
+2026-08-10 23:42:14,574 - DEBUG - Saved 11 player levels to file
+2026-08-10 23:42:14,574 - INFO - Player levels updated. Total players tracked: 11
+2026-08-10 23:43:14,574 - INFO - Updating player levels...
+2026-08-10 23:43:22,169 - DEBUG - Received: 2026-08-10T23:43:22 20246.328 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:43:25,427 - DEBUG - Listplayers response length: 286
+2026-08-10 23:43:25,428 - DEBUG - Saved 11 player levels to file
+2026-08-10 23:43:25,428 - INFO - Player levels updated. Total players tracked: 11
+2026-08-10 23:44:25,428 - INFO - Updating player levels...
+2026-08-10 23:44:30,543 - DEBUG - Received: 2026-08-10T23:44:30 20314.658 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:44:34,037 - DEBUG - Listplayers response length: 329
+2026-08-10 23:44:34,038 - DEBUG - Saved 11 player levels to file
+2026-08-10 23:44:34,038 - INFO - Player levels updated. Total players tracked: 11
+2026-08-10 23:45:19,047 - DEBUG - Received: 2026-08-10T23:45:19 20363.189 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer':/daily
+2026-08-10 23:45:19,048 - DEBUG - Received: 2026-08-10T23:45:19 20363.189 INF Chat handled by mod 'PrismaCore': Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer': /daily
+2026-08-10 23:45:26,261 - DEBUG - Resetting dropped connection: localhost
+2026-08-10 23:45:26,265 - DEBUG - http://localhost:3000 "GET /health HTTP/1.1" 200 105
+2026-08-10 23:45:26,265 - INFO - Quest server: running, authenticated: True
+2026-08-10 23:45:34,038 - INFO - Updating player levels...
+2026-08-10 23:45:34,978 - DEBUG - Received: 2026-08-10T23:45:34 20379.077 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:45:50,115 - DEBUG - Listplayers response length: 0
+2026-08-10 23:46:02,129 - DEBUG - Received: 2026-08-10T23:46:02 20406.278 INF Chat (from '-non-player-', entity id '-1', to 'Global'): ✨ HUGE EFFORT BY BohemianBrewer FOR FINISHING ALL DAILY QUESTS TODAY — YOU EARNED A KEG OF BEER AS A REWARD! ✨
+2026-08-10 23:46:09,583 - DEBUG - Received: 2026-08-10T23:46:09 20413.738 INF Chat (from 'Steam_76561198108723696', entity id '173', to 'Global'): 'kameleron': sjeeesh
+2026-08-10 23:46:12,242 - DEBUG - Received: 2026-08-10T23:46:12 20416.396 INF Chat (from 'Steam_76561198108723696', entity id '173', to 'Global'): 'kameleron':/daily
+2026-08-10 23:46:12,243 - DEBUG - Received: 2026-08-10T23:46:12 20416.396 INF Chat handled by mod 'PrismaCore': Chat (from 'Steam_76561198108723696', entity id '173', to 'Global'): 'kameleron': /daily
+2026-08-10 23:46:22,711 - DEBUG - Received: 2026-08-10T23:46:22 20426.852 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer':/balance
+2026-08-10 23:46:22,712 - DEBUG - Received: 2026-08-10T23:46:22 20426.852 INF Chat handled by mod 'PrismaCore': Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer': /balance
+2026-08-10 23:46:23,992 - DEBUG - Received: 2026-08-10T23:46:23 20428.154 INF Chat (from 'Steam_76561198108723696', entity id '173', to 'Global'): 'kameleron':/vote
+2026-08-10 23:46:23,992 - DEBUG - Received: 2026-08-10T23:46:23 20428.154 INF Chat handled by mod 'PrismaCore': Chat (from 'Steam_76561198108723696', entity id '173', to 'Global'): 'kameleron': /vote
+2026-08-10 23:46:33,959 - DEBUG - Received: 2026-08-10T23:46:33 20438.103 INF Chat (from '-non-player-', entity id '-1', to 'Global'): Player_173 just received his well deserved reward!
+2026-08-10 23:46:35,616 - DEBUG - Received: 2026-08-10T23:46:35 20439.753 INF Executing command 'pm2 Brewer kameleron "You already voted today and claimed your reward! You can vote again in approximately 6h 13m."' by Telnet from 91.99.236.133:44398
+2026-08-10 23:46:50,115 - INFO - Updating player levels...
+2026-08-10 23:46:56,515 - DEBUG - Received: 2026-08-10T23:46:56 20460.615 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:47:00,586 - DEBUG - Listplayers response length: 0
+2026-08-10 23:47:03,176 - DEBUG - Received: 2026-08-10T23:47:03 20467.326 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer': those 10 Ferals was a bit hard, but quest at night helped :D
+2026-08-10 23:47:19,369 - DEBUG - Received: 2026-08-10T23:47:19 20483.513 INF Chat (from 'Steam_76561198108723696', entity id '173', to 'Global'): 'kameleron': i voted but it didnt register or something
+2026-08-10 23:47:24,364 - DEBUG - Received: 2026-08-10T23:47:24 20488.520 INF Chat (from 'Steam_76561198108723696', entity id '173', to 'Global'): 'kameleron': cant complete :(
+2026-08-10 23:48:00,586 - INFO - Updating player levels...
+2026-08-10 23:48:01,568 - DEBUG - Received: 2026-08-10T23:48:01 20525.676 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:48:13,178 - DEBUG - Received: 2026-08-10T23:48:13 20537.328 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer':/balance
+2026-08-10 23:48:13,298 - DEBUG - Listplayers response length: 165
+2026-08-10 23:48:13,299 - DEBUG - Saved 11 player levels to file
+2026-08-10 23:48:13,299 - INFO - Player levels updated. Total players tracked: 11
+2026-08-10 23:48:42,649 - DEBUG - Received: 2026-08-10T23:48:42 20566.804 INF Chat (from 'Steam_76561198039589588', entity id '171', to 'Global'): 'BohemianBrewer': hmm ,let me check that
+2026-08-10 23:49:13,299 - INFO - Updating player levels...
+2026-08-10 23:49:14,280 - DEBUG - Received: 2026-08-10T23:49:14 20598.415 INF Executing command 'listplayers' by Telnet from 91.99.236.133:44388
+2026-08-10 23:49:26,986 - DEBUG - Listplayers response length: 0

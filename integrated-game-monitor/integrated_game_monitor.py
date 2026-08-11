@@ -43,7 +43,7 @@ logging.basicConfig(
     level=logging.DEBUG,
     format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler(os.path.expanduser("~/integrated_monitor.log")),
+        logging.FileHandler("/home/steam/7D2DBohemia/integrated-game-monitor/integrated_monitor.log"),
         logging.StreamHandler(),
     ],
 )
@@ -58,7 +58,7 @@ PASSWORD = "ferPa932"
 # Private message channel name required by pm2 syntax: pm2 <channel> <player> <text>
 PM_CHANNEL = "Brewer"
 
-LEVELS_FILE = os.path.expanduser("~/players_levels.json")
+LEVELS_FILE = "/home/steam/7D2DBohemia/runtime-state-backups/players_levels.json"
 
 # listplayers polling interval
 LISTPLAYERS_POLL_SECONDS = 60
@@ -78,7 +78,7 @@ LEVELGAIN_DEDUPE_TTL_SECONDS = 180
 
 # --- optional retry queue for quest updates ---
 ENABLE_RETRY_QUEUE = True
-RETRY_QUEUE_FILE = os.path.expanduser("~/quest_retry_queue.json")
+RETRY_QUEUE_FILE = "/home/steam/7D2DBohemia/runtime-state-backups/quest_retry_queue.json"
 RETRY_FLUSH_INTERVAL_SECONDS = 60
 RETRY_MAX_ITEMS = 500
 RETRY_MAX_AGE_SECONDS = 6 * 60 * 60  # 6h
