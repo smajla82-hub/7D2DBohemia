@@ -3,7 +3,7 @@ import { takaro, data } from '@takaro/helpers';
 const PM_CHANNEL = 'Brewer';
 
 function quoteIfNeeded(text) {
-    return /\s/.test(text) ? `"${String(text).replace(/"/g, '\\"')}"` : String(text);
+    return /\s/.test(text) ? `"${String(text).replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"` : String(text);
 }
 
 async function main() {
