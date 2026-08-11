@@ -1,6 +1,22 @@
 #!/usr/bin/env python3
 """
 7D2D Voting Rewards Production Script with Automatic Detection
+Version 36 - Fix: duplicate /vote handling caused by matching the same chat
+event twice. 7D2D's telnet output logs certain chat events on TWO separate
+lines: the raw event line
+  Chat (from 'Steam_...', entity id '171', to 'Global'): 'Name':/vote
+and a second line emitted right after by PrismaCore that echoes/wraps the
+same event:
+  Chat handled by mod 'PrismaCore': Chat (from 'Steam_...', entity id '171', to 'Global'): 'Name': /vote
+The chat-matching regexes used re.search (not anchored to line start), so
+they matched the embedded "Chat (from ...)" substring inside the second
+"Chat handled by mod ..." line too, causing handle_vote_command() to run
+twice for the same real /vote command (visible as two near-identical PMs
+sent ~1 second apart).
+
+Fix: skip lines that start with "Chat handled by mod" before running the
+chat command patterns, so each real chat event is only processed once.
+
 Version 35 - Fix: /vote name-extraction regex required exactly one space after
 the colon ('Name': /vote). 7D2D chat lines are inconsistent about that space
 (some are 'Name':/vote with no space), so when the regex didn't match, the
@@ -609,6 +625,13 @@ class VotingRewards:
                                         logger.info(f"Re-adding {player_name} to vote check list (returning player)")
                                         self.players_to_check[steam_id] = (player_name, datetime.now())
                                         # Don't remove from pending - they might disconnect again
+
+                            # Skip PrismaCore's wrapper/echo line - it re-logs the exact
+                            # same "Chat (from ...)" event as a second line, which would
+                            # otherwise match the same chat pattern below and cause
+                            # /vote (and other commands) to be handled twice.
+                            if line.startswith("Chat handled by mod"):
+                                continue
 
                             # Look for chat messages with /vote command
                             patterns = [
