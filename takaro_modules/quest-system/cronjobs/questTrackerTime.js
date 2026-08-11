@@ -1,4 +1,8 @@
-// FILE: questTrackerTime.js (v0.4.3)
+// FILE: questTrackerTime.js (v0.4.4)
+// - v0.4.4: Clamp progress to target once a quest is completed, so a large tick
+//   (e.g. after a server/cron restart where a lot of real time elapsed since the
+//   last run) can no longer leave progress permanently overshooting the target
+//   (was showing e.g. "5h23m/1h00m CLAIMED" instead of "1h00m/1h00m CLAIMED").
 // - v0.4.3: Cron no longer auto-resumes paused session_* variables; only ticks running sessions
 // - v0.4.2: Updated pm() to pm2 syntax + quoteIfNeeded; fixed mojibake (? -> ✔) in notify message
 // Fix UNKILLABLE: use deathless_session_* instead of deathless_start_*
@@ -154,9 +158,17 @@ async function main() {
         if (tQuest) {
             let q; try { q = JSON.parse(tQuest.value); } catch { q = null; }
             if (q && !q.completed) {
-                q.progress = Number(sess.totalTime || 0);
                 const tgt = targetMs('timespent'); q.target ||= tgt;
-                if (q.progress >= tgt) { q.completed = true; await notifyComplete(gsId, pid, 'timespent'); }
+                const rawProgress = Number(sess.totalTime || 0);
+                if (rawProgress >= tgt) {
+                    // Clamp to target so a big jump (e.g. after downtime) doesn't
+                    // permanently overshoot the displayed/stored progress value.
+                    q.progress = tgt;
+                    q.completed = true;
+                    await notifyComplete(gsId, pid, 'timespent');
+                } else {
+                    q.progress = rawProgress;
+                }
                 try { await takaro.variable.variableControllerUpdate(tQuest.id, { value: JSON.stringify(q) }); } catch { }
             }
         }
@@ -182,9 +194,16 @@ async function main() {
         if (uQuest) {
             let q; try { q = JSON.parse(uQuest.value); } catch { q = null; }
             if (q && !q.completed) {
-                q.progress = Number(d.totalTime || 0);
                 const tgt = targetMs('unkillable'); q.target ||= tgt;
-                if (q.progress >= tgt) { q.completed = true; await notifyComplete(gsId, pid, 'unkillable'); }
+                const rawProgress = Number(d.totalTime || 0);
+                if (rawProgress >= tgt) {
+                    // Clamp to target for the same reason as timespent above.
+                    q.progress = tgt;
+                    q.completed = true;
+                    await notifyComplete(gsId, pid, 'unkillable');
+                } else {
+                    q.progress = rawProgress;
+                }
                 try { await takaro.variable.variableControllerUpdate(uQuest.id, { value: JSON.stringify(q) }); } catch { }
             }
         }
