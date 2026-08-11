@@ -166,18 +166,18 @@ The server integration allows external events (voting, level-ups) to update ques
 
 3. **Download working_server.js**:
    
-   **Permalink**: [working_server.js](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/takaro-quest-integration_server/working_server.js)
+   **Permalink**: [working_server.js](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/quest-integration-server/working_server.js)
    
    ```bash
-   wget https://raw.githubusercontent.com/smajla82-hub/7D2DBohemia/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/takaro-quest-integration_server/working_server.js
+   wget https://raw.githubusercontent.com/smajla82-hub/7D2DBohemia/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/quest-integration-server/working_server.js
    ```
 
 4. **Download takaro_client.js (v2.1)**:
    
-   **Permalink**: [takaro_client.js](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/takaro-quest-integration_server/takaro_client.js)
+   **Permalink**: [takaro_client.js](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/quest-integration-server/takaro_client.js)
    
    ```bash
-   wget https://raw.githubusercontent.com/smajla82-hub/7D2DBohemia/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/takaro-quest-integration_server/takaro_client.js
+   wget https://raw.githubusercontent.com/smajla82-hub/7D2DBohemia/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/quest-integration-server/takaro_client.js
    ```
 
 5. **Install dependencies**:
@@ -226,11 +226,11 @@ The server integration allows external events (voting, level-ups) to update ques
 
 1. **Download voting_rewards.py (v34)**:
    
-   **Permalink**: [voting_rewards.py](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/Voting/voting_rewards.py)
+   **Permalink**: [voting_rewards.py](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/voting/voting_rewards.py)
    
    ```bash
    cd /path/to/your/scripts
-   wget https://raw.githubusercontent.com/smajla82-hub/7D2DBohemia/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/Voting/voting_rewards.py
+   wget https://raw.githubusercontent.com/smajla82-hub/7D2DBohemia/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/voting/voting_rewards.py
    ```
 
 2. **Install Python dependencies**:
@@ -423,6 +423,6 @@ Copy these exact versions for v0.2.1:
 - [Cronjobs/questTracker.js](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/QUEST%20MODULE%20v0.1.0/Cronjobs/questTracker.js)
 - [Hooks/playerConnect.js](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/QUEST%20MODULE%20v0.1.0/Hooks/playerConnect.js)
 - [Functions/questConfig.js](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/QUEST%20MODULE%20v0.1.0/Functions/questConfig.js)
-- [working_server.js](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/takaro-quest-integration_server/working_server.js)
-- [takaro_client.js](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/takaro-quest-integration_server/takaro_client.js)
-- [voting_rewards.py](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/Voting/voting_rewards.py)
+- [working_server.js](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/quest-integration-server/working_server.js)
+- [takaro_client.js](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/quest-integration-server/takaro_client.js)
+- [voting_rewards.py](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/voting/voting_rewards.py)

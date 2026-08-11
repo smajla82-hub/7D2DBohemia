@@ -14,8 +14,8 @@ This repository contains a comprehensive daily quest system for 7 Days to Die se
    - Location: `QUEST MODULE v0.1.0/` directory
 
 2. **Server Integration (Game Host)**
-   - Node.js integration server (`takaro-quest-integration_server/`)
-   - Python voting script (`Voting/voting_rewards.py`)
+   - Node.js integration server (`quest-integration-server/`)
+   - Python voting script (`voting/voting_rewards.py`)
    - Runs on the game server host to detect external events
    - Communicates quest updates to Takaro via REST API
 
@@ -31,10 +31,10 @@ This repository contains a comprehensive daily quest system for 7 Days to Die se
 │   ├── README.md                # Module documentation
 │   ├── CONFIG_GUIDE.md          # Configuration reference
 │   └── CHANGELOG.md             # Version history
-├── takaro-quest-integration_server/  # Server-side integration
+├── quest-integration-server/  # Server-side integration
 │   ├── working_server.js        # HTTP server for quest updates
 │   └── takaro_client.js         # Takaro API client (v2.1)
-├── Voting/
+├── voting/
 │   └── voting_rewards.py        # Vote detection script (v34)
 ├── RELEASES/                    # Release notes
 ├── README.md                    # This file
@@ -74,9 +74,9 @@ The following files comprise the Quest System v0.2.1. Use these permalink URLs t
 - [questConfig.js](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/QUEST%20MODULE%20v0.1.0/Functions/questConfig.js)
 
 **Server Integration:**
-- [working_server.js](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/takaro-quest-integration_server/working_server.js)
-- [takaro_client.js](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/takaro-quest-integration_server/takaro_client.js)
-- [voting_rewards.py](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/Voting/voting_rewards.py)
+- [working_server.js](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/quest-integration-server/working_server.js)
+- [takaro_client.js](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/quest-integration-server/takaro_client.js)
+- [voting_rewards.py](https://github.com/smajla82-hub/7D2DBohemia/blob/0f125fe5da361dd03d587ad12aa3f4933dcbf2b2/voting/voting_rewards.py)
 
 ## Quick Start
 
