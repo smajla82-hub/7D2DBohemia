@@ -34,8 +34,21 @@ apply_prismacore_settings() {
     # Hide PrismaCore/CSMM chat command prefixes (/ and $) from global chat.
     # This setting is NOT persisted by PrismaCore across server restarts, so it
     # must be re-applied via telnet every time the server (re)starts.
-    send_telnet_cmd "hccp /,\$"
-    log_restart "Applied PrismaCore hccp /,\$ (hide chat command prefixes)"
+    # Retry up to 3 times with a 5s delay between attempts, because PrismaCore
+    # may not have fully initialized its custom commands (like hccp) yet even
+    # though the base server process is already running.
+    # Note: send_telnet_cmd discards all telnet output, so success cannot be
+    # detected programmatically — all attempts are always sent.
+    local max_attempts=3
+    local attempt
+    for attempt in $(seq 1 $max_attempts); do
+        log_restart "Applying PrismaCore hccp /,\$ (attempt $attempt/$max_attempts)..."
+        send_telnet_cmd "hccp /,\$"
+        if [ "$attempt" -lt "$max_attempts" ]; then
+            sleep 5
+        fi
+    done
+    log_restart "Applied PrismaCore hccp /,\$ (hide chat command prefixes) — $max_attempts attempt(s) sent"
 }
 
 is_server_running() {
