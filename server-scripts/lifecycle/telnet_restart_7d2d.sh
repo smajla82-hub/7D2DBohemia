@@ -8,6 +8,18 @@ PID_FILE="/home/steam/7d2d.pid"
 TELNET_PASSWORD="ferPa932"  # Match your serverconfig.xml telnet password
 LOG_RETENTION_DAYS=30
 
+# Prevent two concurrent invocations of this script (e.g. a cron-triggered restart
+# and a simultaneous manual restart by an admin) from racing each other. Running two
+# instances at the same time causes both to independently call shutdown_server() and
+# start_server(), producing interleaved restart countdowns and corrupted server state.
+LOCK_FILE="/home/steam/7D2DBohemia/server-scripts/lifecycle/.telnet_restart.lock"
+exec 200>"$LOCK_FILE"
+if ! flock -n 200; then
+    echo "$(date '+%Y-%m-%d %H:%M:%S'): Aborted: another instance of telnet_restart_7d2d.sh is already running (PID held the lock)" >> "$RESTART_LOG"
+    echo "Another instance of telnet_restart_7d2d.sh is already running. Exiting."
+    exit 1
+fi
+
 log_restart() {
     local message=$1
     echo "$(date '+%Y-%m-%d %H:%M:%S'): $message" >> "$RESTART_LOG"
