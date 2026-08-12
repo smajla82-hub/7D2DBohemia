@@ -1,6 +1,20 @@
 #!/usr/bin/env python3
 """
 7D2D Voting Rewards Production Script with Automatic Detection
+Version 37 - Fix: the v36 duplicate-/vote fix used line.startswith("Chat
+handled by mod") to skip PrismaCore's echoed chat line, but real telnet
+output lines from the 7D2D server always have a timestamp + tick counter +
+log level prefix before the actual message, e.g.:
+  2026-08-12T17:39:43 1291.173 INF Chat handled by mod 'PrismaCore': Chat (from ...
+so the line never actually starts with "Chat handled by mod" - that text is
+always embedded further into the line. As a result the v36 "fix" never
+triggered in production and /vote (and other commands) kept being handled
+twice, confirmed via production logs showing the fix's code was present on
+disk but duplicate PMs still being sent ~1 second apart.
+
+Fix: check for the substring anywhere in the line instead of requiring it
+at the very start.
+
 Version 36 - Fix: duplicate /vote handling caused by matching the same chat
 event twice. 7D2D's telnet output logs certain chat events on TWO separate
 lines: the raw event line
@@ -14,7 +28,7 @@ they matched the embedded "Chat (from ...)" substring inside the second
 twice for the same real /vote command (visible as two near-identical PMs
 sent ~1 second apart).
 
-Fix: skip lines that start with "Chat handled by mod" before running the
+Fix: skip lines that contain "Chat handled by mod" before running the
 chat command patterns, so each real chat event is only processed once.
 
 Version 35 - Fix: /vote name-extraction regex required exactly one space after
@@ -630,7 +644,12 @@ class VotingRewards:
                             # same "Chat (from ...)" event as a second line, which would
                             # otherwise match the same chat pattern below and cause
                             # /vote (and other commands) to be handled twice.
-                            if line.startswith("Chat handled by mod"):
+                            # NOTE: real telnet lines always have a timestamp + tick +
+                            # log level prefix before the message (e.g. "2026-08-12T17:39:43
+                            # 1291.173 INF Chat handled by mod 'PrismaCore': ..."), so this
+                            # text never appears at the very start of the line - it must be
+                            # matched as a substring anywhere in the line, not via startswith.
+                            if "Chat handled by mod" in line:
                                 continue
 
                             # Look for chat messages with /vote command
