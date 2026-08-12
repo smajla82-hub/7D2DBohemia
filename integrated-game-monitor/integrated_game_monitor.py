@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-integrated_game_monitor.py - v17
+integrated_game_monitor.py - v18
 
 Features:
 - Stable telnet connection with single-flight listplayers (no concurrent runs)
@@ -11,6 +11,12 @@ Features:
 - Supports Steam + XBL + EOS players for quest updates
 - Handles PrismaCore "[PrismaCore]playerLeveled" directly (reliable)
 - ALSO keeps listplayers diff as a fallback, but now with DEDUPLICATION so levelgain won't double increment
+
+v18 changes (from v17):
+- Skip listplayers rows where player_name is empty or the literal placeholder
+  "EntityPlayer" (a transient server-internal name used before the real player
+  name has synced). Previously this caused a bogus levelgain spike (e.g. 0->24)
+  that incorrectly completed the EXPERIENCE GRINDER daily quest.
 
 v17 changes (from v16):
 - Fixed multi-word messages being truncated to the first word: the server now
@@ -510,6 +516,11 @@ class IntegratedMonitor:
 
             for _eid, player_name, lvl, sid in matches_b:
                 player_name = player_name.strip()
+                if not player_name or player_name == "EntityPlayer":
+                    logger.debug(
+                        "Skipping listplayers row with empty or placeholder name 'EntityPlayer' (entity id=%s)", _eid
+                    )
+                    continue
                 level = int(lvl)
                 seen_names.add(player_name)
 
@@ -527,6 +538,11 @@ class IntegratedMonitor:
             matches_a = re.findall(pattern_a, response)
             for _eid, player_name, lvl in matches_a:
                 player_name = player_name.strip()
+                if not player_name or player_name == "EntityPlayer":
+                    logger.debug(
+                        "Skipping listplayers row with empty or placeholder name 'EntityPlayer' (entity id=%s)", _eid
+                    )
+                    continue
                 if player_name in seen_names:
                     continue
                 level = int(lvl)
