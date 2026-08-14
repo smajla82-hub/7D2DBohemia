@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7D2D Bohemia - Server Management Commands Reference</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        h2 {
+            color: white;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 12px 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #2980b9;
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+            margin-top: 25px;
+        }
+        .cmd-list {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            font-family: 'Courier New', monospace;
+            border-left: 4px solid #4299e1;
+        }
+        .cmd-row {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            padding: 4px 0;
+            border-bottom: 1px solid #3a4657;
+        }
+        .cmd-row:last-child { border-bottom: none; }
+        .cmd {
+            color: #68d391;
+            font-weight: bold;
+            white-space: pre;
+            margin-right: 16px;
+        }
+        .desc {
+            color: #a0aec0;
+            font-style: italic;
+            font-size: 0.92em;
+        }
+        .comment {
+            color: #a0aec0;
+            font-style: italic;
+        }
+        .important {
+            background: #fef5e7;
+            border: 1px solid #f6ad55;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .emergency {
+            background: #fed7d7;
+            border: 1px solid #fc8181;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .info-box {
+            background: #ebf8ff;
+            border: 1px solid #63b3ed;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .server-info {
+            background: #f0fff4;
+            border: 1px solid #68d391;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .voting-info {
+            background: #f7fafc;
+            border: 1px solid #9f7aea;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .new-feature {
+            background: #e6fffa;
+            border: 1px solid #38b2ac;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid #e2e8f0;
+            padding: 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background: #4a5568;
+            color: white;
+        }
+        tr:nth-child(even) { background: #f7fafc; }
+        code { background:#edf2f7; padding:2px 5px; border-radius:4px; }
+        .quick-ref {
+            background: #edf2f7;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        @media print {
+            body { background: white; }
+            .container { box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 7D2D Bohemia - Server Management Commands Reference</h1>
+
+        <div class="server-info">
+            <h3>📋 Server Information</h3>
+            <ul>
+                <li><strong>Server Name:</strong> [EU/CZ] Bohemia</li>
+                <li><strong>Server IP:</strong> 91.99.236.133</li>
+                <li><strong>Game Port:</strong> 26900</li>
+                <li><strong>Telnet Port:</strong> 8081</li>
+                <li><strong>Web Dashboard Port:</strong> 8080</li>
+                <li><strong>Telnet Password:</strong> ferPa932</li>
+                <li><strong>Auto-restart:</strong> Every 6 hours (00:00, 06:00, 12:00, 18:00 Czech time)</li>
+            </ul>
+        </div>
+
+        <div class="new-feature">
+            <h2 style="margin-top:0;">🎯 Complete System Workflow</h2>
+            <p>Stack se skládá ze 4 procesů běžících pod <strong>PM2</strong> (definováno v <code>server-scripts/ecosystem.config.js</code>) + samotného herního serveru řízeného skriptem <code>telnet_restart_7d2d.sh</code>.</p>
+            <table>
+                <tr><th>Proces (PM2 name)</th><th>Soubor</th><th>Účel</th></tr>
+                <tr><td><code>game-monitor</code></td><td>integrated-game-monitor/integrated_game_monitor.py</td><td>Sledování levelů/hráčů, quest levelgain sync</td></tr>
+                <tr><td><code>takaro-server</code></td><td>quest-integration-server/working_server.js</td><td>HTTP most mezi hrou a Takaro API (port 3000, endpoint <code>/health</code>)</td></tr>
+                <tr><td><code>voting-rewards</code></td><td>voting/voting_rewards.py</td><td>Detekce hlasování + odměny přes telnet</td></tr>
+                <tr><td><code>pm2-logrotate</code></td><td>PM2 modul</td><td>Automatická rotace PM2 logů (nekonečný růst logů)</td></tr>
+            </table>
+            <ol>
+                <li><strong>Start všeho najednou:</strong> <code>~/7D2DBohemia/server-scripts/lifecycle/full_stack_start.sh</code> (nastartuje 7D2D server, počká, pak <code>pm2 start ecosystem.config.js</code>)</li>
+                <li><strong>Monitoring stavu:</strong> <code>pm2 list</code>, <code>pm2 logs</code>, <code>tail -f</code> na jednotlivé logy</li>
+                <li><strong>Hráčský zážitek:</strong> hráč hlasuje / hraje → <code>voting-rewards</code> / <code>game-monitor</code> zaznamenají událost → quest cronjoby v Takaro aktualizují progres → <code>autoClaimRewards.js</code> / <code>autoClaimPendingRewards.js</code> automaticky vyplatí odměnu</li>
+                <li><strong>Automatické restarty:</strong> cron volá <code>telnet_restart_7d2d.sh restart</code> (5min countdown), PM2 procesy běží nezávisle a přežívají restart herního serveru</li>
+                <li><strong>Údržba:</strong> telnet pro admin příkazy, PM2 + soubory v <code>Logs/</code> pro troubleshooting</li>
+            </ol>
+        </div>
+
+        <h2>🚀 Server Control Commands</h2>
+
+        <h3>⭐ Kompletní start / stop / restart celého stacku</h3>
+        <div class="cmd-list">
+<div class="cmd-row"><span class="cmd">~/7D2DBohemia/server-scripts/lifecycle/full_stack_start.sh</span><span class="desc"># Start 7D2D server + počká 45s + spustí všechny PM2 procesy + uloží PM2 startup</span></div>
+<div class="cmd-row"><span class="cmd">pm2 stop ecosystem.config.js</span><span class="desc"># Zastaví všechny PM2 procesy (server-scripts adresář)</span></div>
+<div class="cmd-row"><span class="cmd">~/7D2DBohemia/server-scripts/lifecycle/telnet_restart_7d2d.sh stop</span><span class="desc"># Zastaví jen herní server (graceful shutdown přes telnet)</span></div>
+<div class="cmd-row"><span class="cmd">~/7D2DBohemia/server-scripts/lifecycle/telnet_restart_7d2d.sh restart</span><span class="desc"># Restart herního serveru s 5min countdownem pro hráče</span></div>
+<div class="cmd-row"><span class="cmd">pkill -f 7DaysToDieServer</span><span class="desc"># Nouzové okamžité zabití herního serveru</span></div>
+        </div>
+
+        <h3>Manuální / nouzový start herního serveru</h3>
+        <div class="cmd-list">
+<div class="cmd-row"><span class="cmd">cd ~/7d2d-server</span><span class="desc"># Přejít do adresáře serveru</span></div>
+<div class="cmd-row"><span class="cmd">./7DaysToDieServer.x86_64 -configfile=serverconfig.xml -quit -batchmode -nographics -dedicated</span><span class="desc"># Ruční start bez wrapperu (bez logování do restart.log)</span></div>
+        </div>
+
+        <h3>Správa PM2 procesů (Quest server / Monitor / Voting)</h3>
+        <div class="cmd-list">
+<div class="cmd-row"><span class="cmd">pm2 list</span><span class="desc"># Přehled všech běžících procesů, uptime, mem, cpu</span></div>
+<div class="cmd-row"><span class="cmd">pm2 start ecosystem.config.js</span><span class="desc"># Spustit všechny procesy definované v ecosystem.config.js</span></div>
+<div class="cmd-row"><span class="cmd">pm2 restart game-monitor</span><span class="desc"># Restart konkrétního procesu (podle jména z pm2 list)</span></div>
+<div class="cmd-row"><span class="cmd">pm2 restart takaro-server</span><span class="desc"># Restart Node.js quest integračního serveru</span></div>
+<div class="cmd-row"><span class="cmd">pm2 restart voting-rewards</span><span class="desc"># Restart voting scriptu</span></div>
+<div class="cmd-row"><span class="cmd">pm2 stop &lt;name&gt;</span><span class="desc"># Zastavit konkrétní proces</span></div>
+<div class="cmd-row"><span class="cmd">pm2 delete &lt;name&gt;</span><span class="desc"># Odstranit proces z PM2 seznamu</span></div>
+<div class="cmd-row"><span class="cmd">pm2 save</span><span class="desc"># Uložit aktuální seznam procesů pro autostart po rebootu</span></div>
+<div class="cmd-row"><span class="cmd">pm2 monit</span><span class="desc"># Živý monitoring CPU/RAM per proces</span></div>
+        </div>
+
+        <h2>📊 Check Server Status</h2>
+        <div class="cmd-list">
+<div class="cmd-row"><span class="cmd">ps aux | grep 7DaysToDieServer</span><span class="desc"># Je herní server spuštěný?</span></div>
+<div class="cmd-row"><span class="cmd">pm2 list</span><span class="desc"># Stav všech PM2 procesů (game-monitor, takaro-server, voting-rewards, pm2-logrotate)</span></div>
+<div class="cmd-row"><span class="cmd">netstat -tulpn | grep 26900</span><span class="desc"># Game port</span></div>
+<div class="cmd-row"><span class="cmd">netstat -tulpn | grep 8081</span><span class="desc"># Telnet port</span></div>
+<div class="cmd-row"><span class="cmd">netstat -tulpn | grep 8080</span><span class="desc"># Web dashboard port</span></div>
+<div class="cmd-row"><span class="cmd">curl http://localhost:3000/health</span><span class="desc"># Health check quest integračního serveru (takaro-server)</span></div>
+<div class="cmd-row"><span class="cmd">free -h</span><span class="desc"># Paměť</span></div>
+<div class="cmd-row"><span class="cmd">df -h</span><span class="desc"># Diskový prostor</span></div>
+        </div>
+
+        <h2>🧭 Quest System (Takaro modul)</h2>
+        <div class="new-feature">
+            <p>Modul žije v <code>takaro_modules/quest-system/</code> a nasazuje se ručně do Takaro dashboardu (Commands / Cronjobs / Hooks). Konfigurace přes Takaro "User config", viz <code>docs/CONFIG_GUIDE.md</code>.</p>
+            <h3>Player Commands (in-game)</h3>
+            <div class="cmd-list">
+<div class="cmd-row"><span class="cmd">/daily</span><span class="desc"># Zobrazí aktuální denní questy a progres (commands/daily.js)</span></div>
+<div class="cmd-row"><span class="cmd">/vote</span><span class="desc"># Zobrazí voting link (voting quest)</span></div>
+            </div>
+            <h3>Admin Commands</h3>
+            <div class="cmd-list">
+<div class="cmd-row"><span class="cmd">/resetmydaily</span><span class="desc"># Reset vlastních denních questů (commands/resetmydaily.js)</span></div>
+<div class="cmd-row"><span class="cmd">/qdebug</span><span class="desc"># Diagnostický výpis quest proměnných (commands/qdebug.js)</span></div>
+            </div>
+            <h3>Cronjoby (nastavit v Takaro)</h3>
+            <table>
+                <tr><th>Soubor</th><th>Doporučený interval</th><th>Funkce</th></tr>
+                <tr><td><code>autoInitDailyQuests.js</code></td><td>*/5 min</td><td>Denní reset questů (spouští se jen v konfigurovaný čas, guard proti duplicitě)</td></tr>
+                <tr><td><code>questTracker.js</code></td><td>15s</td><td>Hlavní tracker – volá dílčí trackery</td></tr>
+                <tr><td><code>questTrackerKills.js</code></td><td>15s</td><td>Sleduje zabití zombie</td></tr>
+                <tr><td><code>questTrackerShop.js</code></td><td>15s</td><td>Sleduje nákupy v shopu</td></tr>
+                <tr><td><code>questTrackerTime.js</code></td><td>15s</td><td>Sleduje odehraný čas / unkillable</td></tr>
+                <tr><td><code>questTrackerAllDone.js</code></td><td>15s</td><td>Detekuje splnění všech denních questů</td></tr>
+                <tr><td><code>autoClaimRewards.js</code></td><td>15s</td><td>Auto-vyplacení odměn ze fronty</td></tr>
+                <tr><td><code>autoClaimPendingRewards.js</code></td><td>15s</td><td>Doplňkové zpracování čekajících odměn (externí eventy)</td></tr>
+                <tr><td><code>voteQuestRepair.js</code></td><td>dle potřeby</td><td>Oprava/reset vote questu při nesrovnalostech</td></tr>
+                <tr><td><code>cleanupDailyVars.js</code></td><td>denně</td><td>Úklid starých proměnných (retention)</td></tr>
+            </table>
+            <h3>Hooks</h3>
+            <div class="cmd-list">
+<div class="cmd-row"><span class="cmd">playerConnect.js</span><span class="desc"># Event: player-connected — zajistí existenci dnešních questů při připojení</span></div>
+            </div>
+        </div>
+
+        <div class="voting-info">
+            <h3>🗳️ Voting System Information</h3>
+            <ul>
+                <li><strong>Voting URL:</strong> https://7daystodie-servers.com/server/157783</li>
+                <li><strong>Server Key:</strong> nev0DEqwzjXzQC1TO7azAqdMNmGGC9vNMZO</li>
+                <li><strong>Voting Rewards:</strong> Beers/currency dle konfigurace questu (viz CONFIG_GUIDE.md)</li>
+                <li><strong>Skript:</strong> <code>voting/voting_rewards.py</code>, PM2 proces: <code>voting-rewards</code></li>
+            </ul>
+            <h3>Voting System Management</h3>
+            <div class="cmd-list">
+<div class="cmd-row"><span class="cmd">pm2 restart voting-rewards</span><span class="desc"># Restart voting scriptu</span></div>
+<div class="cmd-row"><span class="cmd">pm2 logs voting-rewards --lines 50</span><span class="desc"># Poslední logy</span></div>
+<div class="cmd-row"><span class="cmd">pm2 stop voting-rewards</span><span class="desc"># Zastavit</span></div>
+<div class="cmd-row"><span class="cmd">curl "https://7daystodie-servers.com/api/?object=votes&element=claim&key=nev0DEqwzjXzQC1TO7azAqdMNmGGC9vNMZO&username=USERNAME"</span><span class="desc"># Manuální test vote statusu hráče</span></div>
+            </div>
+        </div>
+
+        <h2>☎️ Telnet Connection & Commands</h2>
+        <h3>Connect to Server</h3>
+        <div class="cmd-list">
+<div class="cmd-row"><span class="cmd">telnet localhost 8081</span><span class="desc"># Lokální připojení</span></div>
+<div class="cmd-row"><span class="cmd">telnet 91.99.236.133 8081</span><span class="desc"># Vzdálené připojení, heslo: ferPa932</span></div>
+        </div>
+
+        <h3>In-Game Commands via Telnet</h3>
+        <div class="quick-ref">
+            <table>
+                <tr><th>Command</th><th>Description</th></tr>
+                <tr><td><code>say "message"</code></td><td>Zpráva všem hráčům</td></tr>
+                <tr><td><code>pm "playername" "message"</code></td><td>Soukromá zpráva hráči</td></tr>
+                <tr><td><code>lp</code> / <code>listplayers</code></td><td>Seznam online hráčů</td></tr>
+                <tr><td><code>give playername itemname amount</code></td><td>Dá item (padne na zem)</td></tr>
+                <tr><td><code>exec playername giveself itemname amount</code></td><td>Dá item přímo do inventáře</td></tr>
+                <tr><td><code>kick playername</code></td><td>Kick hráče</td></tr>
+                <tr><td><code>ban add playername</code></td><td>Ban hráče</td></tr>
+                <tr><td><code>saveworld</code></td><td>Uložit svět</td></tr>
+                <tr><td><code>shutdown</code></td><td>Vypnout server</td></tr>
+                <tr><td><code>mem</code></td><td>Zobrazit paměť</td></tr>
+                <tr><td><code>hccp /,$</code></td><td>Skrýt prefixy PrismaCore/CSMM chat příkazů (musí se aplikovat po každém startu, viz telnet_restart_7d2d.sh)</td></tr>
+                <tr><td><code>help</code></td><td>Výpis všech příkazů</td></tr>
+                <tr><td><code>exit</code></td><td>Odpojit telnet</td></tr>
+            </table>
+        </div>
+
+        <h2>📋 Log Management</h2>
+        <div class="info-box">
+            <ul>
+                <li><strong>Herní server:</strong> <code>~/logs/server_&lt;timestamp&gt;.log</code> + symlink <code>~/logs/latest.log</code> (rotace &gt;30 dní se maže automaticky ve <code>telnet_restart_7d2d.sh</code>)</li>
+                <li><strong>Restart wrapper log:</strong> <code>~/restart.log</code> (start/stop/restart eventy, lock konflikty)</li>
+                <li><strong>PM2 procesy:</strong> logy spravuje <code>pm2-logrotate</code> modul (automatická rotace, žádné ruční čištění potřeba)</li>
+                <li><strong>Game monitor:</strong> <code>integrated-game-monitor/integrated_monitor.log</code></li>
+            </ul>
+        </div>
+        <div class="cmd-list">
+<div class="cmd-row"><span class="cmd">tail -f ~/restart.log</span><span class="desc"># Live log restart wrapperu</span></div>
+<div class="cmd-row"><span class="cmd">tail -f ~/logs/latest.log</span><span class="desc"># Live log aktuálně běžícího herního serveru</span></div>
+<div class="cmd-row"><span class="cmd">pm2 logs</span><span class="desc"># Live logy všech PM2 procesů najednou</span></div>
+<div class="cmd-row"><span class="cmd">pm2 logs takaro-server --lines 100</span><span class="desc"># Logy konkrétního procesu</span></div>
+<div class="cmd-row"><span class="cmd">grep "error" ~/restart.log</span><span class="desc"># Hledání chyb v restart logu</span></div>
+<div class="cmd-row"><span class="cmd">sudo journalctl -u cron | tail -20</span><span class="desc"># Cron systémový log</span></div>
+        </div>
+
+        <h2>⏰ Crontab Management</h2>
+        <div class="cmd-list">
+<div class="cmd-row"><span class="cmd">crontab -e</span><span class="desc"># Editace crontabu</span></div>
+<div class="cmd-row"><span class="cmd">crontab -l</span><span class="desc"># Výpis aktuálního crontabu</span></div>
+        </div>
+        <div class="info-box">
+            <strong>Aktuální nastavení na serveru:</strong>
+            <div class="cmd-list">
+<div class="cmd-row"><span class="cmd">0 */6 * * * /home/steam/7D2DBohemia/server-scripts/lifecycle/telnet_restart_7d2d.sh restart >> /home/steam/restart.log 2>&1</span><span class="desc"># Auto-restart herního serveru každých 6h</span></div>
+<div class="cmd-row"><span class="cmd">@reboot /home/steam/7D2DBohemia/server-scripts/lifecycle/full_stack_start.sh >> /home/steam/startup.log 2>&1</span><span class="desc"># Kompletní start po rebootu (server + PM2 stack)</span></div>
+            </div>
+            <strong>Poznámka:</strong> PM2 procesy se navíc po <code>pm2 save</code> + <code>pm2 startup</code> spouští automaticky přes systemd, i bez @reboot řádku.
+        </div>
+
+        <h2>📁 File Management</h2>
+        <div class="cmd-list">
+<div class="cmd-row"><span class="cmd">cd ~/7d2d-server</span><span class="desc"># Adresář herního serveru</span></div>
+<div class="cmd-row"><span class="cmd">nano serverconfig.xml</span><span class="desc"># Konfigurace serveru</span></div>
+<div class="cmd-row"><span class="cmd">nano ~/7D2DBohemia/server-scripts/ecosystem.config.js</span><span class="desc"># Konfigurace PM2 procesů</span></div>
+<div class="cmd-row"><span class="cmd">nano ~/7D2DBohemia/server-scripts/lifecycle/telnet_restart_7d2d.sh</span><span class="desc"># Skript pro start/stop/restart</span></div>
+<div class="cmd-row"><span class="cmd">nano ~/7D2DBohemia/voting/voting_rewards.py</span><span class="desc"># Voting reward skript</span></div>
+<div class="cmd-row"><span class="cmd">cp serverconfig.xml serverconfig_backup_$(date +%Y%m%d).xml</span><span class="desc"># Záloha configu</span></div>
+<div class="cmd-row"><span class="cmd">tar -czf backup_$(date +%Y%m%d_%H%M%S).tar.gz ~/.local/share/7DaysToDie/Saves/</span><span class="desc"># Záloha world dat</span></div>
+<div class="cmd-row"><span class="cmd">tar -czf scripts_backup_$(date +%Y%m%d).tar.gz ~/7D2DBohemia/server-scripts ~/7D2DBohemia/voting ~/7D2DBohemia/quest-integration-server</span><span class="desc"># Záloha veškerých skriptů repa</span></div>
+        </div>
+
+        <h2>🔧 Troubleshooting Commands</h2>
+        <div class="cmd-list">
+<div class="cmd-row"><span class="cmd">find ~/.steam -name "steamclient.so" -exec file {} \;</span><span class="desc"># Kontrola Steam API</span></div>
+<div class="cmd-row"><span class="cmd">sudo chown steam:steam ~/.steam/sdk64/steamclient.so && chmod +x ~/.steam/sdk64/steamclient.so</span><span class="desc"># Oprava Steam oprávnění</span></div>
+<div class="cmd-row"><span class="cmd">htop</span><span class="desc"># Monitoring zdrojů v reálném čase</span></div>
+<div class="cmd-row"><span class="cmd">timedatectl</span><span class="desc"># Kontrola časové zóny</span></div>
+<div class="cmd-row"><span class="cmd">curl http://localhost:3000/health</span><span class="desc"># Test quest integračního serveru (takaro-server)</span></div>
+<div class="cmd-row"><span class="cmd">curl "https://7daystodie-servers.com/api/?object=votes&element=claim&key=nev0DEqwzjXzQC1TO7azAqdMNmGGC9vNMZO&username=USERNAME"</span><span class="desc"># Test voting API</span></div>
+        </div>
+
+        <h2>⚡ Quick Commands Summary</h2>
+        <div class="important">
+            <h3>Essential Daily Commands</h3>
+            <div class="cmd-list">
+<div class="cmd-row"><span class="cmd">pm2 list && ps aux | grep 7DaysToDieServer</span><span class="desc"># Rychlá kontrola celého stacku</span></div>
+<div class="cmd-row"><span class="cmd">~/7D2DBohemia/server-scripts/lifecycle/full_stack_start.sh</span><span class="desc"># Start celého systému (DOPORUČENO)</span></div>
+<div class="cmd-row"><span class="cmd">telnet localhost 8081</span><span class="desc"># Připojení na telnet</span></div>
+<div class="cmd-row"><span class="cmd">~/7D2DBohemia/server-scripts/lifecycle/telnet_restart_7d2d.sh restart</span><span class="desc"># Ruční restart s countdownem</span></div>
+<div class="cmd-row"><span class="cmd">tail -20 ~/restart.log</span><span class="desc"># Poslední záznamy restart logu</span></div>
+<div class="cmd-row"><span class="cmd">pm2 logs --lines 20</span><span class="desc"># Poslední logy všech PM2 procesů</span></div>
+            </div>
+        </div>
+
+        <div class="emergency">
+            <h3>🚨 Emergency Commands</h3>
+            <div class="cmd-list">
+<div class="cmd-row"><span class="cmd">pkill -f 7DaysToDieServer</span><span class="desc"># Zabít herní server</span></div>
+<div class="cmd-row"><span class="cmd">pm2 stop ecosystem.config.js</span><span class="desc"># Zastavit celý PM2 stack</span></div>
+<div class="cmd-row"><span class="cmd">sleep 5</span><span class="desc"># Krátká pauza před restartem</span></div>
+<div class="cmd-row"><span class="cmd">~/7D2DBohemia/server-scripts/lifecycle/full_stack_start.sh</span><span class="desc"># Kompletní nouzový restart celého systému</span></div>
+<div class="cmd-row"><span class="cmd">pkill -9 -f 7DaysToDieServer</span><span class="desc"># Tvrdé zabití serveru (SIGKILL)</span></div>
+<div class="cmd-row"><span class="cmd">pm2 delete all</span><span class="desc"># Odstranit všechny PM2 procesy (extrémní případ)</span></div>
+<div class="cmd-row"><span class="cmd">free -h && ps aux --sort=-%mem | head -10</span><span class="desc"># Kontrola nedostatku paměti</span></div>
+            </div>
+        </div>
+
+        <h2>📍 File Locations</h2>
+        <div class="info-box">
+            <ul>
+                <li><strong>Repo root (na serveru):</strong> <code>/home/steam/7D2DBohemia/</code></li>
+                <li><strong>Server files:</strong> <code>/home/steam/7d2d-server/</code></li>
+                <li><strong>World saves:</strong> <code>/home/steam/.local/share/7DaysToDie/Saves/</code></li>
+                <li><strong>PM2 ecosystem config:</strong> <code>server-scripts/ecosystem.config.js</code> ⭐</li>
+                <li><strong>Kompletní start skript:</strong> <code>server-scripts/lifecycle/full_stack_start.sh</code> ⭐</li>
+                <li><strong>Restart/start/stop skript:</strong> <code>server-scripts/lifecycle/telnet_restart_7d2d.sh</code></li>
+                <li><strong>Voting systém:</strong> <code>voting/voting_rewards.py</code></li>
+                <li><strong>Quest integrační server (Node):</strong> <code>quest-integration-server/working_server.js</code></li>
+                <li><strong>Game monitor (levelgain apod.):</strong> <code>integrated-game-monitor/integrated_game_monitor.py</code></li>
+                <li><strong>Quest modul (Takaro):</strong> <code>takaro_modules/quest-system/</code></li>
+                <li><strong>Server restart log:</strong> <code>/home/steam/restart.log</code></li>
+                <li><strong>Herní server logy:</strong> <code>/home/steam/logs/</code> (latest.log symlink)</li>
+                <li><strong>Dokumentace:</strong> <code>docs/</code> (CONFIG_GUIDE.md, CHANGELOG.md, README.md, tento soubor)</li>
+            </ul>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #666;">
+            <p><em>7D2D Bohemia Server Reference (91.99.236.133) | Aktualizováno na strukturu server-scripts/lifecycle + PM2 ecosystem | Srpen 2026</em></p>
+        </div>
+    </div>
+</body>
+</html>
