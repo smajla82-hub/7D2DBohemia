@@ -100,8 +100,10 @@ start_server() {
         return 1
     }
 
+    # Close FD 200 in the background child so it cannot inherit and hold the
+    # flock lock for hours, which would block all future restart invocations.
     nohup ./7DaysToDieServer.x86_64 -configfile="$CONFIG_FILE" -quit -batchmode -nographics -dedicated \
-        > "$log_file" 2>&1 &
+        200>&- > "$log_file" 2>&1 &
 
     local pid=$!
     echo "$pid" > "$PID_FILE"
