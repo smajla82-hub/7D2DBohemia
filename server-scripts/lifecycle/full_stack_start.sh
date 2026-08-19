@@ -5,15 +5,14 @@ echo "Starting 7D2D Server and All Services"
 echo "========================================"
 
 # Start 7D2D server (will do nothing if already running)
-~/telnet_restart_7d2d.sh start
+/home/steam/7D2DBohemia/server-scripts/lifecycle/telnet_restart_7d2d.sh start
 
 # Wait for server to be fully up
 echo "Waiting 45 seconds for server to initialize..."
 sleep 45
 
 # Start all PM2 services from ecosystem config
-cd /home/steam
-pm2 start ecosystem.config.js
+pm2 start /home/steam/7D2DBohemia/server-scripts/ecosystem.config.js
 
 # Save PM2 process list for autostart
 pm2 save
